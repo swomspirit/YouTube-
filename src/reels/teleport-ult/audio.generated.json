@@ -1,0 +1,168 @@
+{
+  "lines": {
+    "pip1": {
+      "speaker": "pip",
+      "file": "reels/teleport-ult/pip1.mp3",
+      "durationMs": 2326,
+      "captions": [
+        {
+          "text": "Okay",
+          "startMs": 202,
+          "endMs": 240,
+          "timestampMs": 221,
+          "confidence": 1
+        },
+        {
+          "text": " little",
+          "startMs": 286,
+          "endMs": 560,
+          "timestampMs": 423,
+          "confidence": 1
+        },
+        {
+          "text": " buddy...",
+          "startMs": 627,
+          "endMs": 1680,
+          "timestampMs": 1154,
+          "confidence": 1
+        },
+        {
+          "text": " go",
+          "startMs": 1733,
+          "endMs": 1840,
+          "timestampMs": 1787,
+          "confidence": 1
+        },
+        {
+          "text": " get",
+          "startMs": 1880,
+          "endMs": 2000,
+          "timestampMs": 1940,
+          "confidence": 1
+        },
+        {
+          "text": " 'em!",
+          "startMs": 2040,
+          "endMs": 2320,
+          "timestampMs": 2180,
+          "confidence": 1
+        }
+      ],
+      "hash": "5e79febc4006"
+    },
+    "shade1": {
+      "speaker": "shade",
+      "file": "reels/teleport-ult/shade1.mp3",
+      "durationMs": 968,
+      "captions": [
+        {
+          "text": "...hey.",
+          "startMs": 100,
+          "endMs": 560,
+          "timestampMs": 330,
+          "confidence": 1
+        }
+      ],
+      "hash": "beb634c0eb82"
+    },
+    "pip2": {
+      "speaker": "pip",
+      "file": "reels/teleport-ult/pip2.mp3",
+      "durationMs": 2404,
+      "captions": [
+        {
+          "text": "Shh!",
+          "startMs": 187,
+          "endMs": 760,
+          "timestampMs": 474,
+          "confidence": 1
+        },
+        {
+          "text": " I'm",
+          "startMs": 820,
+          "endMs": 960,
+          "timestampMs": 890,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 1013,
+          "endMs": 1120,
+          "timestampMs": 1067,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 1140,
+          "endMs": 1200,
+          "timestampMs": 1170,
+          "confidence": 1
+        },
+        {
+          "text": " zone.",
+          "startMs": 1312,
+          "endMs": 2400,
+          "timestampMs": 1856,
+          "confidence": 1
+        }
+      ],
+      "hash": "78648633701d"
+    },
+    "shade2": {
+      "speaker": "shade",
+      "file": "reels/teleport-ult/shade2.mp3",
+      "durationMs": 2561,
+      "captions": [
+        {
+          "text": "Yeah...",
+          "startMs": 368,
+          "endMs": 1680,
+          "timestampMs": 1024,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 1740,
+          "endMs": 1920,
+          "timestampMs": 1830,
+          "confidence": 1
+        },
+        {
+          "text": " are.",
+          "startMs": 2060,
+          "endMs": 2560,
+          "timestampMs": 2310,
+          "confidence": 1
+        }
+      ],
+      "hash": "7dd8c9403b38"
+    }
+  },
+  "sfx": {
+    "zoom": {
+      "file": "reels/teleport-ult/sfx-zoom.mp3",
+      "durationMs": 1020,
+      "hash": "ef6c461f0338"
+    },
+    "crickets": {
+      "file": "reels/teleport-ult/sfx-crickets.mp3",
+      "durationMs": 2012,
+      "hash": "49f0837deccf"
+    },
+    "teleport": {
+      "file": "reels/teleport-ult/sfx-teleport.mp3",
+      "durationMs": 1203,
+      "hash": "30538e102dce"
+    },
+    "bonk": {
+      "file": "reels/teleport-ult/sfx-bonk.mp3",
+      "durationMs": 706,
+      "hash": "842344b1bd2f"
+    },
+    "sadbeep": {
+      "file": "reels/teleport-ult/sfx-sadbeep.mp3",
+      "durationMs": 1621,
+      "hash": "0dd20242c477"
+    }
+  }
+}

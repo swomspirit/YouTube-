@@ -12,7 +12,9 @@
     "render:cpu": "remotion render Main3DVideo out/video.mp4 --gl=swangle",
     "render:short:cpu": "remotion render Short3DVideo out/short.mp4 --gl=swangle",
     "voiceover": "node scripts/voiceover.mjs",
-    "voices": "node scripts/voices.mjs"
+    "voices": "node scripts/voices.mjs",
+    "reel:audio": "node scripts/reel-audio.mjs",
+    "render:reel": "remotion render"
   },
   "dependencies": {
     "@react-three/drei": "10.7.9",

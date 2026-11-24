@@ -1,6 +1,7 @@
 import { CalculateMetadataFunction, Composition, staticFile } from "remotion";
 import { ALL_FORMATS, Input, UrlSource } from "mediabunny";
 import { Video, type VideoProps } from "./Video";
+import { TeleportUlt, TELEPORT_ULT_DURATION, FPS as REEL_FPS } from "./reels/teleport-ult/TeleportUlt";
 
 const FPS = 30;
 const DEFAULT_SECONDS = 12;
@@ -30,6 +31,16 @@ const calculateMetadata: CalculateMetadataFunction<VideoProps> = async ({ props 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* ---- Reels (9:16) ---- */}
+      <Composition
+        id="Reel-TeleportUlt"
+        component={TeleportUlt}
+        durationInFrames={TELEPORT_ULT_DURATION}
+        fps={REEL_FPS}
+        width={1080}
+        height={1920}
+      />
+
       {/* Landscape YouTube video */}
       <Composition
         id="Main3DVideo"

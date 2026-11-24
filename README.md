@@ -45,6 +45,23 @@ unless you run with `NODE_USE_ENV_PROXY=1` (Node 22.21+).
 Tip: write numbers and symbols the way they should be spoken ("three dot j s"), because
 the captions show the spoken words.
 
+## 2D cartoon reels (9:16)
+
+Short, joke-per-reel cartoons in a flat chibi style. Each reel has:
+
+- `reels/<name>/reel.json`: the script (who says what, which ElevenLabs voice, and sound-effect prompts)
+- `src/reels/<name>/<Reel>.tsx`: the animation timeline
+- `src/cartoon/`: reusable characters (Pip, Shade, Bolt), faces, backgrounds, captions, meme text, kill feed
+
+```bash
+npm run reel:audio -- teleport-ult        # voices + SFX via ElevenLabs (cached; --force / --only <id>)
+npx remotion render Reel-TeleportUlt out/reel-teleport-ult.mp4
+```
+
+Dialogue uses `eleven_v3`, so lines can include delivery tags like `[whispers]` or `[annoyed]`.
+These tags are removed from the captions automatically. The timeline is built from the real audio
+lengths, so you can change a line, re-run `reel:audio`, and the animation re-times itself.
+
 ## Project layout
 
 ```

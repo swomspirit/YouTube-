@@ -1,0 +1,21 @@
+{
+  "title": "Teleporting into the wrong lobby",
+  "model": "eleven_v3",
+  "voices": {
+    "pip": "TX3LPaxmHKxFdv7VOQHJ",
+    "shade": "N2lVS1w4EtoT3dr4eOWO"
+  },
+  "lines": [
+    { "id": "pip1", "speaker": "pip", "text": "[excited] Okay little buddy... go get 'em!" },
+    { "id": "shade1", "speaker": "shade", "text": "[whispers] ...hey." },
+    { "id": "pip2", "speaker": "pip", "text": "[annoyed] Shh! I'm in the zone." },
+    { "id": "shade2", "speaker": "shade", "text": "[deadpan] Yeah... you are." }
+  ],
+  "sfx": [
+    { "id": "zoom", "prompt": "tiny cartoon robot zooming away fast, quick whoosh with little motor whine", "duration": 1 },
+    { "id": "crickets", "prompt": "crickets chirping in awkward silence, comedic", "duration": 2 },
+    { "id": "teleport", "prompt": "dark magical shadow teleport, deep swirling whoosh then soft pop", "duration": 1.2 },
+    { "id": "bonk", "prompt": "cartoon bonk hit on the head, comedic hollow knock", "duration": 0.7 },
+    { "id": "sadbeep", "prompt": "small cute robot powering down, sad descending beeps boop", "duration": 1.6 }
+  ]
+}
