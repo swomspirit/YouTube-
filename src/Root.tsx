@@ -2,6 +2,7 @@ import { CalculateMetadataFunction, Composition, Still, staticFile } from "remot
 import { ALL_FORMATS, Input, UrlSource } from "mediabunny";
 import { Video, type VideoProps } from "./Video";
 import { PianoThumbnail } from "./piano/Thumbnail";
+import { DrumLevels, DRUM_LEVELS_DURATION, FPS as DRUM_FPS } from "./drums/DrumLevels";
 import { PianoLevels, PIANO_LEVELS_DURATION, FPS as PIANO_FPS } from "./piano/PianoLevels";
 import { TeleportUlt, TELEPORT_ULT_DURATION, FPS as REEL_FPS } from "./reels/teleport-ult/TeleportUlt";
 
@@ -39,6 +40,14 @@ export const RemotionRoot: React.FC = () => {
         component={PianoLevels}
         durationInFrames={PIANO_LEVELS_DURATION}
         fps={PIANO_FPS}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="DrumLevels"
+        component={DrumLevels}
+        durationInFrames={DRUM_LEVELS_DURATION}
+        fps={DRUM_FPS}
         width={1920}
         height={1080}
       />

@@ -1,0 +1,17 @@
+{
+  "title": "3 Levels of Drums",
+  "model": "eleven_multilingual_v2",
+  "voices": { "narrator": "nPczCjzI2devNBz1zQrb" },
+  "lines": [
+    { "id": "intro", "speaker": "narrator", "text": "Three levels of drums. From your first beat... to absolute chaos. Let's go." },
+    { "id": "level1", "speaker": "narrator", "text": "Level one. Easy. The basic rock beat. Hi-hat, kick, snare. Every song you know starts here." },
+    { "id": "level2", "speaker": "narrator", "text": "Level two. Medium. A funk groove. Sixteenth notes on the hi-hat, quiet ghost notes on the snare, and fills around the toms." },
+    { "id": "level3", "speaker": "narrator", "text": "Level three. Hard. One hundred and sixty eight beats per minute. Double kick, blast beats, and a drum solo. Up to twenty seven hits... every second." },
+    { "id": "outro", "speaker": "narrator", "text": "That's all three levels. Which one can you play? Tell me in the comments." }
+  ],
+  "sfx": [
+    { "id": "crowd", "prompt": "rock concert crowd cheering and whistling after a drum solo, arena", "duration": 4 },
+    { "id": "levelup", "prompt": "bright short level complete chime, video game success jingle", "duration": 1.5 },
+    { "id": "whoosh", "prompt": "cinematic deep whoosh transition with sub boom", "duration": 1.5 }
+  ]
+}

@@ -45,6 +45,21 @@ unless you run with `NODE_USE_ENV_PROXY=1` (Node 22.21+).
 Tip: write numbers and symbols the way they should be spoken ("three dot j s"), because
 the captions show the spoken words.
 
+## 3 Levels of Drums (16:9, ~4.5 min, 3D)
+
+A 3D drum kit on a concert stage (three.js via @remotion/three): animated sticks and kick
+pedals driven by every hit, wobbling cymbals, pulsing LED wall, stage beams, cinematic
+camera cuts on bar lines, and a Guitar Hero-style note lane.
+
+```bash
+python3 scripts/drums/build_drums.py           # drum tabs -> hits JSON + audio (FluidSynth GM kit)
+npm run reel:audio -- drum-levels              # narration, crowd, chime, whoosh (ElevenLabs)
+scripts/render-parallel.sh DrumLevels out/3-levels-of-drums.mp4 4 --gl=swangle
+```
+
+`render-parallel.sh` renders the video in N chunks with separate browsers (one CPU core
+each without a GPU), renders the audio once, then joins everything. ~4x faster for 3D.
+
 ## 3 Levels of Piano (16:9, ~5 min)
 
 A cartoon pianist plays three public-domain pieces of increasing difficulty, with

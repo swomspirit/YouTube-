@@ -1,0 +1,698 @@
+{
+  "lines": {
+    "intro": {
+      "speaker": "narrator",
+      "file": "reels/drum-levels/intro.mp3",
+      "durationMs": 5304,
+      "captions": [
+        {
+          "text": "Three",
+          "startMs": 0,
+          "endMs": 290,
+          "timestampMs": 145,
+          "confidence": 1
+        },
+        {
+          "text": " levels",
+          "startMs": 337,
+          "endMs": 615,
+          "timestampMs": 476,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 650,
+          "endMs": 708,
+          "timestampMs": 679,
+          "confidence": 1
+        },
+        {
+          "text": " drums.",
+          "startMs": 755,
+          "endMs": 1231,
+          "timestampMs": 993,
+          "confidence": 1
+        },
+        {
+          "text": " From",
+          "startMs": 1556,
+          "endMs": 1718,
+          "timestampMs": 1637,
+          "confidence": 1
+        },
+        {
+          "text": " your",
+          "startMs": 1765,
+          "endMs": 1869,
+          "timestampMs": 1817,
+          "confidence": 1
+        },
+        {
+          "text": " first",
+          "startMs": 1916,
+          "endMs": 2148,
+          "timestampMs": 2032,
+          "confidence": 1
+        },
+        {
+          "text": " beat...",
+          "startMs": 2218,
+          "endMs": 2635,
+          "timestampMs": 2427,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 2961,
+          "endMs": 3065,
+          "timestampMs": 3013,
+          "confidence": 1
+        },
+        {
+          "text": " absolute",
+          "startMs": 3181,
+          "endMs": 3762,
+          "timestampMs": 3472,
+          "confidence": 1
+        },
+        {
+          "text": " chaos.",
+          "startMs": 3796,
+          "endMs": 4435,
+          "timestampMs": 4116,
+          "confidence": 1
+        },
+        {
+          "text": " Let's",
+          "startMs": 4493,
+          "endMs": 4702,
+          "timestampMs": 4598,
+          "confidence": 1
+        },
+        {
+          "text": " go.",
+          "startMs": 4748,
+          "endMs": 5294,
+          "timestampMs": 5021,
+          "confidence": 1
+        }
+      ],
+      "hash": "d006b71d6799"
+    },
+    "level1": {
+      "speaker": "narrator",
+      "file": "reels/drum-levels/level1.mp3",
+      "durationMs": 7315,
+      "captions": [
+        {
+          "text": "Level",
+          "startMs": 0,
+          "endMs": 348,
+          "timestampMs": 174,
+          "confidence": 1
+        },
+        {
+          "text": " one.",
+          "startMs": 441,
+          "endMs": 685,
+          "timestampMs": 563,
+          "confidence": 1
+        },
+        {
+          "text": " Easy.",
+          "startMs": 743,
+          "endMs": 1300,
+          "timestampMs": 1022,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 1474,
+          "endMs": 1602,
+          "timestampMs": 1538,
+          "confidence": 1
+        },
+        {
+          "text": " basic",
+          "startMs": 1672,
+          "endMs": 2020,
+          "timestampMs": 1846,
+          "confidence": 1
+        },
+        {
+          "text": " rock",
+          "startMs": 2101,
+          "endMs": 2345,
+          "timestampMs": 2223,
+          "confidence": 1
+        },
+        {
+          "text": " beat.",
+          "startMs": 2415,
+          "endMs": 2786,
+          "timestampMs": 2601,
+          "confidence": 1
+        },
+        {
+          "text": " Hi-hat,",
+          "startMs": 3111,
+          "endMs": 3750,
+          "timestampMs": 3431,
+          "confidence": 1
+        },
+        {
+          "text": " kick,",
+          "startMs": 3901,
+          "endMs": 4354,
+          "timestampMs": 4127,
+          "confidence": 1
+        },
+        {
+          "text": " snare.",
+          "startMs": 4505,
+          "endMs": 5132,
+          "timestampMs": 4819,
+          "confidence": 1
+        },
+        {
+          "text": " Every",
+          "startMs": 5457,
+          "endMs": 5735,
+          "timestampMs": 5596,
+          "confidence": 1
+        },
+        {
+          "text": " song",
+          "startMs": 5782,
+          "endMs": 6002,
+          "timestampMs": 5892,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 6060,
+          "endMs": 6130,
+          "timestampMs": 6095,
+          "confidence": 1
+        },
+        {
+          "text": " know",
+          "startMs": 6177,
+          "endMs": 6316,
+          "timestampMs": 6246,
+          "confidence": 1
+        },
+        {
+          "text": " starts",
+          "startMs": 6374,
+          "endMs": 6641,
+          "timestampMs": 6508,
+          "confidence": 1
+        },
+        {
+          "text": " here.",
+          "startMs": 6687,
+          "endMs": 7291,
+          "timestampMs": 6989,
+          "confidence": 1
+        }
+      ],
+      "hash": "c7929ab5f49d"
+    },
+    "level2": {
+      "speaker": "narrator",
+      "file": "reels/drum-levels/level2.mp3",
+      "durationMs": 8883,
+      "captions": [
+        {
+          "text": "Level",
+          "startMs": 0,
+          "endMs": 325,
+          "timestampMs": 163,
+          "confidence": 1
+        },
+        {
+          "text": " two.",
+          "startMs": 383,
+          "endMs": 824,
+          "timestampMs": 603,
+          "confidence": 1
+        },
+        {
+          "text": " Medium.",
+          "startMs": 1068,
+          "endMs": 1614,
+          "timestampMs": 1341,
+          "confidence": 1
+        },
+        {
+          "text": " A",
+          "startMs": 1660,
+          "endMs": 1741,
+          "timestampMs": 1701,
+          "confidence": 1
+        },
+        {
+          "text": " funk",
+          "startMs": 1858,
+          "endMs": 2125,
+          "timestampMs": 1992,
+          "confidence": 1
+        },
+        {
+          "text": " groove.",
+          "startMs": 2159,
+          "endMs": 2670,
+          "timestampMs": 2415,
+          "confidence": 1
+        },
+        {
+          "text": " Sixteenth",
+          "startMs": 3111,
+          "endMs": 3773,
+          "timestampMs": 3442,
+          "confidence": 1
+        },
+        {
+          "text": " notes",
+          "startMs": 3843,
+          "endMs": 4052,
+          "timestampMs": 3948,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 4098,
+          "endMs": 4168,
+          "timestampMs": 4133,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 4191,
+          "endMs": 4261,
+          "timestampMs": 4226,
+          "confidence": 1
+        },
+        {
+          "text": " hi-hat,",
+          "startMs": 4307,
+          "endMs": 4934,
+          "timestampMs": 4621,
+          "confidence": 1
+        },
+        {
+          "text": " quiet",
+          "startMs": 5178,
+          "endMs": 5538,
+          "timestampMs": 5358,
+          "confidence": 1
+        },
+        {
+          "text": " ghost",
+          "startMs": 5596,
+          "endMs": 5863,
+          "timestampMs": 5730,
+          "confidence": 1
+        },
+        {
+          "text": " notes",
+          "startMs": 5921,
+          "endMs": 6153,
+          "timestampMs": 6037,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 6188,
+          "endMs": 6258,
+          "timestampMs": 6223,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 6293,
+          "endMs": 6362,
+          "timestampMs": 6328,
+          "confidence": 1
+        },
+        {
+          "text": " snare,",
+          "startMs": 6397,
+          "endMs": 6873,
+          "timestampMs": 6635,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 7198,
+          "endMs": 7361,
+          "timestampMs": 7280,
+          "confidence": 1
+        },
+        {
+          "text": " fills",
+          "startMs": 7430,
+          "endMs": 7697,
+          "timestampMs": 7563,
+          "confidence": 1
+        },
+        {
+          "text": " around",
+          "startMs": 7744,
+          "endMs": 7964,
+          "timestampMs": 7854,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 7988,
+          "endMs": 8057,
+          "timestampMs": 8023,
+          "confidence": 1
+        },
+        {
+          "text": " toms.",
+          "startMs": 8104,
+          "endMs": 8870,
+          "timestampMs": 8487,
+          "confidence": 1
+        }
+      ],
+      "hash": "6d146601f1f6"
+    },
+    "level3": {
+      "speaker": "narrator",
+      "file": "reels/drum-levels/level3.mp3",
+      "durationMs": 10737,
+      "captions": [
+        {
+          "text": "Level",
+          "startMs": 0,
+          "endMs": 337,
+          "timestampMs": 169,
+          "confidence": 1
+        },
+        {
+          "text": " three.",
+          "startMs": 406,
+          "endMs": 906,
+          "timestampMs": 656,
+          "confidence": 1
+        },
+        {
+          "text": " Hard.",
+          "startMs": 952,
+          "endMs": 1509,
+          "timestampMs": 1231,
+          "confidence": 1
+        },
+        {
+          "text": " One",
+          "startMs": 1892,
+          "endMs": 2125,
+          "timestampMs": 2008,
+          "confidence": 1
+        },
+        {
+          "text": " hundred",
+          "startMs": 2171,
+          "endMs": 2508,
+          "timestampMs": 2340,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 2554,
+          "endMs": 2647,
+          "timestampMs": 2601,
+          "confidence": 1
+        },
+        {
+          "text": " sixty",
+          "startMs": 2763,
+          "endMs": 3111,
+          "timestampMs": 2937,
+          "confidence": 1
+        },
+        {
+          "text": " eight",
+          "startMs": 3146,
+          "endMs": 3297,
+          "timestampMs": 3222,
+          "confidence": 1
+        },
+        {
+          "text": " beats",
+          "startMs": 3344,
+          "endMs": 3564,
+          "timestampMs": 3454,
+          "confidence": 1
+        },
+        {
+          "text": " per",
+          "startMs": 3611,
+          "endMs": 3738,
+          "timestampMs": 3675,
+          "confidence": 1
+        },
+        {
+          "text": " minute.",
+          "startMs": 3773,
+          "endMs": 4145,
+          "timestampMs": 3959,
+          "confidence": 1
+        },
+        {
+          "text": " Double",
+          "startMs": 4586,
+          "endMs": 4923,
+          "timestampMs": 4755,
+          "confidence": 1
+        },
+        {
+          "text": " kick,",
+          "startMs": 4981,
+          "endMs": 5422,
+          "timestampMs": 5201,
+          "confidence": 1
+        },
+        {
+          "text": " blast",
+          "startMs": 5503,
+          "endMs": 5898,
+          "timestampMs": 5701,
+          "confidence": 1
+        },
+        {
+          "text": " beats,",
+          "startMs": 5968,
+          "endMs": 6327,
+          "timestampMs": 6148,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 6362,
+          "endMs": 6513,
+          "timestampMs": 6438,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 6560,
+          "endMs": 6583,
+          "timestampMs": 6572,
+          "confidence": 1
+        },
+        {
+          "text": " drum",
+          "startMs": 6629,
+          "endMs": 6861,
+          "timestampMs": 6745,
+          "confidence": 1
+        },
+        {
+          "text": " solo.",
+          "startMs": 6943,
+          "endMs": 7465,
+          "timestampMs": 7204,
+          "confidence": 1
+        },
+        {
+          "text": " Up",
+          "startMs": 7906,
+          "endMs": 8057,
+          "timestampMs": 7982,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 8115,
+          "endMs": 8173,
+          "timestampMs": 8144,
+          "confidence": 1
+        },
+        {
+          "text": " twenty",
+          "startMs": 8243,
+          "endMs": 8533,
+          "timestampMs": 8388,
+          "confidence": 1
+        },
+        {
+          "text": " seven",
+          "startMs": 8591,
+          "endMs": 8847,
+          "timestampMs": 8719,
+          "confidence": 1
+        },
+        {
+          "text": " hits...",
+          "startMs": 8916,
+          "endMs": 9404,
+          "timestampMs": 9160,
+          "confidence": 1
+        },
+        {
+          "text": " every",
+          "startMs": 9729,
+          "endMs": 9985,
+          "timestampMs": 9857,
+          "confidence": 1
+        },
+        {
+          "text": " second.",
+          "startMs": 10054,
+          "endMs": 10728,
+          "timestampMs": 10391,
+          "confidence": 1
+        }
+      ],
+      "hash": "7c516d6bbff4"
+    },
+    "outro": {
+      "speaker": "narrator",
+      "file": "reels/drum-levels/outro.mp3",
+      "durationMs": 3632,
+      "captions": [
+        {
+          "text": "That's",
+          "startMs": 0,
+          "endMs": 267,
+          "timestampMs": 134,
+          "confidence": 1
+        },
+        {
+          "text": " all",
+          "startMs": 313,
+          "endMs": 464,
+          "timestampMs": 389,
+          "confidence": 1
+        },
+        {
+          "text": " three",
+          "startMs": 522,
+          "endMs": 731,
+          "timestampMs": 627,
+          "confidence": 1
+        },
+        {
+          "text": " levels.",
+          "startMs": 789,
+          "endMs": 1126,
+          "timestampMs": 958,
+          "confidence": 1
+        },
+        {
+          "text": " Which",
+          "startMs": 1149,
+          "endMs": 1335,
+          "timestampMs": 1242,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 1393,
+          "endMs": 1533,
+          "timestampMs": 1463,
+          "confidence": 1
+        },
+        {
+          "text": " can",
+          "startMs": 1567,
+          "endMs": 1672,
+          "timestampMs": 1620,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 1718,
+          "endMs": 1788,
+          "timestampMs": 1753,
+          "confidence": 1
+        },
+        {
+          "text": " play?",
+          "startMs": 1823,
+          "endMs": 2194,
+          "timestampMs": 2008,
+          "confidence": 1
+        },
+        {
+          "text": " Tell",
+          "startMs": 2368,
+          "endMs": 2554,
+          "timestampMs": 2461,
+          "confidence": 1
+        },
+        {
+          "text": " me",
+          "startMs": 2601,
+          "endMs": 2659,
+          "timestampMs": 2630,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 2694,
+          "endMs": 2740,
+          "timestampMs": 2717,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 2763,
+          "endMs": 2833,
+          "timestampMs": 2798,
+          "confidence": 1
+        },
+        {
+          "text": " comments.",
+          "startMs": 2868,
+          "endMs": 3622,
+          "timestampMs": 3245,
+          "confidence": 1
+        }
+      ],
+      "hash": "3b1b86f3600f"
+    }
+  },
+  "sfx": {
+    "crowd": {
+      "file": "reels/drum-levels/sfx-crowd.mp3",
+      "durationMs": 4024,
+      "hash": "6e379844b954"
+    },
+    "levelup": {
+      "file": "reels/drum-levels/sfx-levelup.mp3",
+      "durationMs": 1490,
+      "hash": "01826d9db7c5"
+    },
+    "whoosh": {
+      "file": "reels/drum-levels/sfx-whoosh.mp3",
+      "durationMs": 1490,
+      "hash": "ea44bd129fa2"
+    }
+  }
+}
