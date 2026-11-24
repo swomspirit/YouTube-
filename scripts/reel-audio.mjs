@@ -14,7 +14,7 @@
 import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
-import { audioDurationMs, loadEnv, soundEffect, tts } from "./lib/elevenlabs.mjs";
+import { audioDurationMs, loadEnv, musicTrack, soundEffect, tts } from "./lib/elevenlabs.mjs";
 
 loadEnv();
 const args = process.argv.slice(2);
@@ -33,8 +33,13 @@ const manifestPath = `src/reels/${name}/audio.generated.json`;
 fs.mkdirSync(audioDir, { recursive: true });
 fs.mkdirSync(path.dirname(manifestPath), { recursive: true });
 const old = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath, "utf8")) : { lines: {}, sfx: {} };
-const manifest = { lines: {}, sfx: {} };
-const save = () => fs.writeFileSync(manifestPath, JSON.stringify({ lines: { ...old.lines, ...manifest.lines }, sfx: { ...old.sfx, ...manifest.sfx } }, null, 2) + "\n");
+const manifest = { lines: {}, sfx: {}, music: {} };
+old.music ??= {};
+const save = () =>
+  fs.writeFileSync(
+    manifestPath,
+    JSON.stringify({ lines: { ...old.lines, ...manifest.lines }, sfx: { ...old.sfx, ...manifest.sfx }, music: { ...old.music, ...manifest.music } }, null, 2) + "\n",
+  );
 const hash = (o) => crypto.createHash("sha1").update(JSON.stringify(o)).digest("hex").slice(0, 12);
 const reuse = (kind, id, h) =>
   !force && only !== id && old[kind][id]?.hash === h && fs.existsSync(path.join("public", old[kind][id].file));
@@ -69,6 +74,21 @@ for (const s of def.sfx ?? []) {
   const file = `reels/${name}/sfx-${s.id}.mp3`;
   fs.writeFileSync(path.join("public", file), audio);
   manifest.sfx[s.id] = { file, durationMs: await audioDurationMs(audio), hash: h };
+  save();
+}
+
+for (const m of def.music ?? []) {
+  const h = hash(m);
+  if (reuse("music", m.id, h)) {
+    manifest.music[m.id] = old.music[m.id];
+    console.log(`= music ${m.id} (cached)`);
+    continue;
+  }
+  console.log(`→ music ${m.id}: ${m.prompt}`);
+  const audio = await musicTrack({ prompt: m.prompt, lengthMs: m.lengthMs });
+  const file = `reels/${name}/music-${m.id}.mp3`;
+  fs.writeFileSync(path.join("public", file), audio);
+  manifest.music[m.id] = { file, durationMs: await audioDurationMs(audio), hash: h };
   save();
 }
 

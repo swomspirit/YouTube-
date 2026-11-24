@@ -50,15 +50,14 @@ export const cardTexture = (card: string | "back") => {
     g.stroke();
     const { sym, red } = SUIT[card[1]];
     const rank = RANK[card[0]] ?? card[0];
+    // JUMBO index: huge heavy rank + suit so cards read instantly even at an angle / on a phone
     g.fillStyle = red ? "#d0172f" : "#15131b";
     g.textAlign = "center";
-    g.textBaseline = "middle";
-    g.font = "bold 92px Arial, Helvetica, sans-serif";
-    g.fillText(rank, 62, 70);
-    g.font = "78px Arial, Helvetica, sans-serif";
-    g.fillText(sym, 62, 150);
-    g.font = "200px Arial, Helvetica, sans-serif";
-    g.fillText(sym, W / 2 + 26, H / 2 + 62);
+    g.textBaseline = "alphabetic";
+    g.font = `900 ${rank.length > 1 ? 150 : 190}px "Arial Black", Arial, Helvetica, sans-serif`;
+    g.fillText(rank, W / 2, 190);
+    g.font = "150px Arial, Helvetica, sans-serif";
+    g.fillText(sym, W / 2, 330);
   }
   const tex = new THREE.CanvasTexture(cv);
   tex.colorSpace = THREE.SRGBColorSpace;

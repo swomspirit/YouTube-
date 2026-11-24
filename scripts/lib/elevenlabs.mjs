@@ -91,6 +91,12 @@ export async function soundEffect({ prompt, durationSeconds, promptInfluence = 0
   return Buffer.from(await res.arrayBuffer());
 }
 
+/** Music track from a text prompt (ElevenLabs Music). Returns Buffer (mp3). */
+export async function musicTrack({ prompt, lengthMs }) {
+  const res = await post("https://api.elevenlabs.io/v1/music?output_format=mp3_44100_128", { prompt, music_length_ms: lengthMs });
+  return Buffer.from(await res.arrayBuffer());
+}
+
 export async function audioDurationMs(buffer) {
   const input = new Input({ formats: ALL_FORMATS, source: new BufferSource(buffer) });
   return Math.round((await input.computeDuration()) * 1000);

@@ -8,11 +8,11 @@ import { HERO_CARDS, OPPONENTS, beatAt, stateAt, type Focus, type TableState } f
  * First-person poker table (three.js via @remotion/three).
  * Hero sits at +z looking across the table at the opponent (-z). Felt surface at y = FELT.
  */
-const FELT = 0.76;
+export const FELT = 0.76;
 const CARD_W = 0.063 * 1.35;
 const CARD_H = 0.088 * 1.35;
-const clamp01 = (x: number) => Math.min(1, Math.max(0, x));
-const ease = (x: number) => {
+export const clamp01 = (x: number) => Math.min(1, Math.max(0, x));
+export const ease = (x: number) => {
   const c = clamp01(x);
   return c * c * (3 - 2 * c);
 };
@@ -33,7 +33,7 @@ const glowTexture = () => {
   glowTex = new THREE.CanvasTexture(c);
   return glowTex;
 };
-const Glow: React.FC<{ color: string; size: number; amount: number; position: [number, number, number] }> = ({ color, size, amount, position }) =>
+export const Glow: React.FC<{ color: string; size: number; amount: number; position: [number, number, number] }> = ({ color, size, amount, position }) =>
   amount > 0.01 ? (
     <sprite position={position} scale={[size, size, 1]}>
       <spriteMaterial map={glowTexture()} color={color} transparent opacity={Math.min(1, amount)} blending={THREE.AdditiveBlending} depthWrite={false} toneMapped={false} />
@@ -41,7 +41,7 @@ const Glow: React.FC<{ color: string; size: number; amount: number; position: [n
   ) : null;
 
 /* ---------------- a playing card ---------------- */
-const Card: React.FC<{ card: string; pos: [number, number, number]; rotX: number; rotY?: number; rotZ?: number; scale?: number }> = ({ card, pos, rotX, rotY = 0, rotZ = 0, scale = 1 }) => {
+export const Card: React.FC<{ card: string; pos: [number, number, number]; rotX: number; rotY?: number; rotZ?: number; scale?: number }> = ({ card, pos, rotX, rotY = 0, rotZ = 0, scale = 1 }) => {
   const front = cardTexture(card);
   const back = cardTexture("back");
   return (
@@ -58,8 +58,8 @@ const Card: React.FC<{ card: string; pos: [number, number, number]; rotX: number
   );
 };
 // card lying on the felt: face up = -PI/2, face down = +PI/2 (around x)
-const FACE_UP = -Math.PI / 2;
-const FACE_DOWN = Math.PI / 2;
+export const FACE_UP = -Math.PI / 2;
+export const FACE_DOWN = Math.PI / 2;
 
 /* ---------------- chips ---------------- */
 const DENOMS = [
@@ -67,7 +67,7 @@ const DENOMS = [
   { v: 5, color: "#c8202f", edge: "#fbe9eb" },
   { v: 1, color: "#eeeae0", edge: "#3a6fd8" },
 ];
-const ChipStacks: React.FC<{ amount: number; pos: [number, number, number]; spread?: number }> = ({ amount, pos, spread = 0.05 }) => {
+export const ChipStacks: React.FC<{ amount: number; pos: [number, number, number]; spread?: number }> = ({ amount, pos, spread = 0.05 }) => {
   if (amount <= 0) return null;
   const cols: { color: string; edge: string; n: number }[] = [];
   let left = amount;
@@ -239,7 +239,7 @@ const FOCUS: Record<Focus, { pos: [number, number, number]; target: [number, num
   cards: { pos: [0, 1.12, 0.8], target: [0, 0.9, 0.5], fov: 48 },
   pot: { pos: [0, 1.15, 0.7], target: [0, FELT, -0.18], fov: 46 },
 };
-const lerp3 = (a: number[], b: number[], k: number) => a.map((v, i) => v + (b[i] - v) * k) as [number, number, number];
+export const lerp3 = (a: number[], b: number[], k: number) => a.map((v, i) => v + (b[i] - v) * k) as [number, number, number];
 
 const focusAt = (t: number): { from: Focus; to: Focus; k: number } => {
   // decide focus per beat; ease from previous focus over 0.7s
@@ -314,7 +314,7 @@ const Room: React.FC<{ t: number; accent: string }> = ({ t, accent }) => {
   );
 };
 
-const PokerTable: React.FC = () => (
+export const PokerTable: React.FC = () => (
   <group>
     {/* felt */}
     <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, FELT, 0]} scale={[1.55, 1, 1]}>
