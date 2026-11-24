@@ -34,15 +34,16 @@ type Step =
   | { k: "reveal"; voice: string }
   | { k: "win" }
   | { k: "lesson"; voice: string }
-  | { k: "outro"; voice: string };
+  | { k: "outro"; voice: string }
+  | { k: "coach"; id: string };
 export type Focus = "table" | "board" | "ivey" | "cards" | "pot";
 
 const SCRIPT: Step[] = [
   { k: "title", voice: "c_open" },
-  { k: "voice", id: "m_breathe", focus: "ivey" },
   { k: "peek", voice: "m_peek" },
   { k: "voice", id: "c_raise", focus: "ivey", acts: [{ word: "Thirty-eight", do: { a: "bet", who: "ivey", to: 38000, label: "IVEY RAISES TO 38K" } }] },
   { k: "voice", id: "m_call", acts: [{ word: "Call", do: { a: "bet", who: "hero", to: 38000, label: "YOU CALL 38K" } }, { word: "Call", do: { a: "hand", text: "Ace-Queen suited" } }] },
+  { k: "coach", id: "t_pre" },
   { k: "deal", n: 3 },
   {
     k: "voice",
@@ -56,16 +57,21 @@ const SCRIPT: Step[] = [
     ],
   },
   { k: "voice", id: "m_flop", acts: [{ word: "Aces", do: { a: "pop", text: "ACES UP 😎", color: "#3ee07a" } }] },
+  { k: "coach", id: "t_flop" },
   { k: "voice", id: "m_bet", acts: [{ word: "He", do: { a: "check", who: "ivey", label: "IVEY CHECKS" } }, { word: "fifty", do: { a: "bet", who: "hero", to: 50000, label: "YOU BET 50K" } }] },
   { k: "voice", id: "c_call", focus: "ivey", acts: [{ word: "calls", do: { a: "bet", who: "ivey", to: 50000, label: "IVEY CALLS" } }, { word: "breathing", do: { a: "pop", text: "🤖 ZERO EMOTION", color: "#9fc3ff" } }] },
   { k: "deal", n: 1 },
   { k: "voice", id: "c_turn", focus: "board", acts: [{ word: "seven", do: { a: "flip", i: 3 } }] },
   { k: "voice", id: "m_turn", acts: [{ word: "He", do: { a: "check", who: "ivey", label: "IVEY CHECKS" } }, { word: "too", do: { a: "check", who: "hero", label: "YOU CHECK" } }, { word: "Very", do: { a: "pop", text: "POT CONTROL 🧐", color: "#ffc94d" } }] },
+  { k: "coach", id: "t_turn" },
   { k: "deal", n: 1 },
   { k: "voice", id: "c_river", focus: "board", acts: [{ word: "nine", do: { a: "flip", i: 4 } }, { word: "checks", do: { a: "check", who: "ivey", label: "IVEY CHECKS… AGAIN" } }] },
+  { k: "coach", id: "t_river" },
   { k: "voice", id: "m_river", acts: [{ word: "weak", do: { a: "pop", text: "HE'S WEAK 💪", color: "#3ee07a" } }, { word: "hundred", do: { a: "bet", who: "hero", to: 125000, label: "YOU BET 125K" } }] },
   { k: "slowmo", voice: "c_raise2", acts: [{ word: "FOUR", do: { a: "bet", who: "ivey", to: 450000, label: "IVEY CHECK-RAISES TO 450K", big: true } }] },
   { k: "voice", id: "m_panic", acts: [{ word: "Wait", do: { a: "pop", text: "PANIC 😰", color: "#ff4d5e" } }] },
+  { k: "coach", id: "t_beats" },
+  { k: "coach", id: "t_odds" },
   { k: "decide" },
   { k: "voice", id: "m_decide", acts: [{ word: "call", do: { a: "bet", who: "hero", to: 450000, label: "YOU CALL 450K", big: true } }] },
   { k: "reveal", voice: "c_reveal" },
@@ -144,6 +150,10 @@ const build = () => {
       case "win":
         cues.push({ t, file: SFX.bigchips.file, vol: 0.8 });
         push(st, 1.4);
+        break;
+      case "coach":
+        cues.push({ t: t + 0.25, file: LINES[st.id].file });
+        push(st, sec(st.id) + 0.7);
         break;
       case "lesson":
         cues.push({ t: t + 0.3, file: LINES[st.voice].file });

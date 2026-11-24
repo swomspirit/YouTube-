@@ -1763,6 +1763,999 @@
         }
       ],
       "hash": "85180ecee13a"
+    },
+    "t_pre": {
+      "speaker": "caster",
+      "file": "reels/poker-ivey/t_pre.mp3",
+      "durationMs": 10894,
+      "captions": [
+        {
+          "text": "Quick",
+          "startMs": 127,
+          "endMs": 160,
+          "timestampMs": 144,
+          "confidence": 1
+        },
+        {
+          "text": " lesson.",
+          "startMs": 229,
+          "endMs": 1120,
+          "timestampMs": 675,
+          "confidence": 1
+        },
+        {
+          "text": " Ace-queen",
+          "startMs": 1240,
+          "endMs": 1920,
+          "timestampMs": 1580,
+          "confidence": 1
+        },
+        {
+          "text": " suited",
+          "startMs": 1977,
+          "endMs": 2320,
+          "timestampMs": 2149,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 2427,
+          "endMs": 2640,
+          "timestampMs": 2534,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 2680,
+          "endMs": 2800,
+          "timestampMs": 2740,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 2827,
+          "endMs": 2880,
+          "timestampMs": 2854,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 2900,
+          "endMs": 2960,
+          "timestampMs": 2930,
+          "confidence": 1
+        },
+        {
+          "text": " ten",
+          "startMs": 3040,
+          "endMs": 3280,
+          "timestampMs": 3160,
+          "confidence": 1
+        },
+        {
+          "text": " best",
+          "startMs": 3360,
+          "endMs": 3680,
+          "timestampMs": 3520,
+          "confidence": 1
+        },
+        {
+          "text": " starting",
+          "startMs": 3724,
+          "endMs": 4080,
+          "timestampMs": 3902,
+          "confidence": 1
+        },
+        {
+          "text": " hands.",
+          "startMs": 4160,
+          "endMs": 5080,
+          "timestampMs": 4620,
+          "confidence": 1
+        },
+        {
+          "text": " Against",
+          "startMs": 5145,
+          "endMs": 5600,
+          "timestampMs": 5373,
+          "confidence": 1
+        },
+        {
+          "text": " an",
+          "startMs": 5653,
+          "endMs": 5760,
+          "timestampMs": 5707,
+          "confidence": 1
+        },
+        {
+          "text": " early",
+          "startMs": 5800,
+          "endMs": 6000,
+          "timestampMs": 5900,
+          "confidence": 1
+        },
+        {
+          "text": " raise,",
+          "startMs": 6067,
+          "endMs": 6720,
+          "timestampMs": 6393,
+          "confidence": 1
+        },
+        {
+          "text": " calling",
+          "startMs": 6760,
+          "endMs": 7040,
+          "timestampMs": 6900,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 7067,
+          "endMs": 7120,
+          "timestampMs": 7094,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 7140,
+          "endMs": 7200,
+          "timestampMs": 7170,
+          "confidence": 1
+        },
+        {
+          "text": " button",
+          "startMs": 7257,
+          "endMs": 7600,
+          "timestampMs": 7429,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 7627,
+          "endMs": 7680,
+          "timestampMs": 7653,
+          "confidence": 1
+        },
+        {
+          "text": " great.",
+          "startMs": 7747,
+          "endMs": 8400,
+          "timestampMs": 8073,
+          "confidence": 1
+        },
+        {
+          "text": " A",
+          "startMs": 8560,
+          "endMs": 8720,
+          "timestampMs": 8640,
+          "confidence": 1
+        },
+        {
+          "text": " three-bet",
+          "startMs": 8760,
+          "endMs": 9200,
+          "timestampMs": 8980,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 9227,
+          "endMs": 9280,
+          "timestampMs": 9253,
+          "confidence": 1
+        },
+        {
+          "text": " fine",
+          "startMs": 9360,
+          "endMs": 9680,
+          "timestampMs": 9520,
+          "confidence": 1
+        },
+        {
+          "text": " too.",
+          "startMs": 9760,
+          "endMs": 10880,
+          "timestampMs": 10320,
+          "confidence": 1
+        }
+      ],
+      "hash": "e72d3580dcaa"
+    },
+    "t_flop": {
+      "speaker": "caster",
+      "file": "reels/poker-ivey/t_flop.mp3",
+      "durationMs": 6506,
+      "captions": [
+        {
+          "text": "On",
+          "startMs": 151,
+          "endMs": 160,
+          "timestampMs": 156,
+          "confidence": 1
+        },
+        {
+          "text": " an",
+          "startMs": 213,
+          "endMs": 320,
+          "timestampMs": 267,
+          "confidence": 1
+        },
+        {
+          "text": " eight,",
+          "startMs": 360,
+          "endMs": 640,
+          "timestampMs": 500,
+          "confidence": 1
+        },
+        {
+          "text": " eight,",
+          "startMs": 667,
+          "endMs": 960,
+          "timestampMs": 814,
+          "confidence": 1
+        },
+        {
+          "text": " ace",
+          "startMs": 1020,
+          "endMs": 1200,
+          "timestampMs": 1110,
+          "confidence": 1
+        },
+        {
+          "text": " flop,",
+          "startMs": 1280,
+          "endMs": 1920,
+          "timestampMs": 1600,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 1940,
+          "endMs": 2000,
+          "timestampMs": 1970,
+          "confidence": 1
+        },
+        {
+          "text": " have",
+          "startMs": 2048,
+          "endMs": 2240,
+          "timestampMs": 2144,
+          "confidence": 1
+        },
+        {
+          "text": " aces",
+          "startMs": 2280,
+          "endMs": 2640,
+          "timestampMs": 2460,
+          "confidence": 1
+        },
+        {
+          "text": " up.",
+          "startMs": 2720,
+          "endMs": 2960,
+          "timestampMs": 2840,
+          "confidence": 1
+        },
+        {
+          "text": " That's",
+          "startMs": 3088,
+          "endMs": 3640,
+          "timestampMs": 3364,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 3660,
+          "endMs": 3680,
+          "timestampMs": 3670,
+          "confidence": 1
+        },
+        {
+          "text": " strong",
+          "startMs": 3737,
+          "endMs": 4080,
+          "timestampMs": 3909,
+          "confidence": 1
+        },
+        {
+          "text": " hand,",
+          "startMs": 4144,
+          "endMs": 4640,
+          "timestampMs": 4392,
+          "confidence": 1
+        },
+        {
+          "text": " so",
+          "startMs": 4693,
+          "endMs": 4800,
+          "timestampMs": 4746,
+          "confidence": 1
+        },
+        {
+          "text": " betting",
+          "startMs": 4840,
+          "endMs": 5120,
+          "timestampMs": 4980,
+          "confidence": 1
+        },
+        {
+          "text": " for",
+          "startMs": 5160,
+          "endMs": 5280,
+          "timestampMs": 5220,
+          "confidence": 1
+        },
+        {
+          "text": " value",
+          "startMs": 5347,
+          "endMs": 5680,
+          "timestampMs": 5514,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 5733,
+          "endMs": 5840,
+          "timestampMs": 5787,
+          "confidence": 1
+        },
+        {
+          "text": " right.",
+          "startMs": 5893,
+          "endMs": 6480,
+          "timestampMs": 6187,
+          "confidence": 1
+        }
+      ],
+      "hash": "db432cd0e48b"
+    },
+    "t_turn": {
+      "speaker": "caster",
+      "file": "reels/poker-ivey/t_turn.mp3",
+      "durationMs": 4102,
+      "captions": [
+        {
+          "text": "Checking",
+          "startMs": 258,
+          "endMs": 400,
+          "timestampMs": 329,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 420,
+          "endMs": 480,
+          "timestampMs": 450,
+          "confidence": 1
+        },
+        {
+          "text": " turn",
+          "startMs": 544,
+          "endMs": 800,
+          "timestampMs": 672,
+          "confidence": 1
+        },
+        {
+          "text": " keeps",
+          "startMs": 853,
+          "endMs": 1120,
+          "timestampMs": 987,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 1140,
+          "endMs": 1200,
+          "timestampMs": 1170,
+          "confidence": 1
+        },
+        {
+          "text": " pot",
+          "startMs": 1280,
+          "endMs": 1520,
+          "timestampMs": 1400,
+          "confidence": 1
+        },
+        {
+          "text": " small,",
+          "startMs": 1587,
+          "endMs": 2240,
+          "timestampMs": 1914,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 2280,
+          "endMs": 2400,
+          "timestampMs": 2340,
+          "confidence": 1
+        },
+        {
+          "text": " gives",
+          "startMs": 2440,
+          "endMs": 2640,
+          "timestampMs": 2540,
+          "confidence": 1
+        },
+        {
+          "text": " Ivey",
+          "startMs": 2720,
+          "endMs": 2960,
+          "timestampMs": 2840,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 3000,
+          "endMs": 3040,
+          "timestampMs": 3020,
+          "confidence": 1
+        },
+        {
+          "text": " chance",
+          "startMs": 3086,
+          "endMs": 3360,
+          "timestampMs": 3223,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 3387,
+          "endMs": 3440,
+          "timestampMs": 3414,
+          "confidence": 1
+        },
+        {
+          "text": " bluff.",
+          "startMs": 3520,
+          "endMs": 4080,
+          "timestampMs": 3800,
+          "confidence": 1
+        }
+      ],
+      "hash": "cb4d88d0f554"
+    },
+    "t_river": {
+      "speaker": "caster",
+      "file": "reels/poker-ivey/t_river.mp3",
+      "durationMs": 7211,
+      "captions": [
+        {
+          "text": "Be",
+          "startMs": 72,
+          "endMs": 80,
+          "timestampMs": 76,
+          "confidence": 1
+        },
+        {
+          "text": " careful",
+          "startMs": 140,
+          "endMs": 560,
+          "timestampMs": 350,
+          "confidence": 1
+        },
+        {
+          "text": " though.",
+          "startMs": 583,
+          "endMs": 800,
+          "timestampMs": 692,
+          "confidence": 1
+        },
+        {
+          "text": " Three",
+          "startMs": 933,
+          "endMs": 1600,
+          "timestampMs": 1267,
+          "confidence": 1
+        },
+        {
+          "text": " checks",
+          "startMs": 1657,
+          "endMs": 2000,
+          "timestampMs": 1829,
+          "confidence": 1
+        },
+        {
+          "text": " don't",
+          "startMs": 2040,
+          "endMs": 2240,
+          "timestampMs": 2140,
+          "confidence": 1
+        },
+        {
+          "text": " always",
+          "startMs": 2297,
+          "endMs": 2640,
+          "timestampMs": 2469,
+          "confidence": 1
+        },
+        {
+          "text": " mean",
+          "startMs": 2704,
+          "endMs": 2960,
+          "timestampMs": 2832,
+          "confidence": 1
+        },
+        {
+          "text": " weak.",
+          "startMs": 3040,
+          "endMs": 3440,
+          "timestampMs": 3240,
+          "confidence": 1
+        },
+        {
+          "text": " Great",
+          "startMs": 3587,
+          "endMs": 4320,
+          "timestampMs": 3954,
+          "confidence": 1
+        },
+        {
+          "text": " players",
+          "startMs": 4380,
+          "endMs": 4800,
+          "timestampMs": 4590,
+          "confidence": 1
+        },
+        {
+          "text": " check",
+          "startMs": 4840,
+          "endMs": 5040,
+          "timestampMs": 4940,
+          "confidence": 1
+        },
+        {
+          "text": " their",
+          "startMs": 5067,
+          "endMs": 5200,
+          "timestampMs": 5134,
+          "confidence": 1
+        },
+        {
+          "text": " monsters",
+          "startMs": 5280,
+          "endMs": 5920,
+          "timestampMs": 5600,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 6000,
+          "endMs": 6160,
+          "timestampMs": 6080,
+          "confidence": 1
+        },
+        {
+          "text": " set",
+          "startMs": 6240,
+          "endMs": 6480,
+          "timestampMs": 6360,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 6520,
+          "endMs": 6560,
+          "timestampMs": 6540,
+          "confidence": 1
+        },
+        {
+          "text": " trap.",
+          "startMs": 6656,
+          "endMs": 7200,
+          "timestampMs": 6928,
+          "confidence": 1
+        }
+      ],
+      "hash": "1a0585096b36"
+    },
+    "t_beats": {
+      "speaker": "caster",
+      "file": "reels/poker-ivey/t_beats.mp3",
+      "durationMs": 14812,
+      "captions": [
+        {
+          "text": "So",
+          "startMs": 151,
+          "endMs": 160,
+          "timestampMs": 156,
+          "confidence": 1
+        },
+        {
+          "text": " what",
+          "startMs": 192,
+          "endMs": 320,
+          "timestampMs": 256,
+          "confidence": 1
+        },
+        {
+          "text": " beats",
+          "startMs": 373,
+          "endMs": 640,
+          "timestampMs": 506,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 660,
+          "endMs": 720,
+          "timestampMs": 690,
+          "confidence": 1
+        },
+        {
+          "text": " here?",
+          "startMs": 768,
+          "endMs": 1040,
+          "timestampMs": 904,
+          "confidence": 1
+        },
+        {
+          "text": " Aces.",
+          "startMs": 1400,
+          "endMs": 2600,
+          "timestampMs": 2000,
+          "confidence": 1
+        },
+        {
+          "text": " Ace-eight.",
+          "startMs": 2710,
+          "endMs": 3440,
+          "timestampMs": 3075,
+          "confidence": 1
+        },
+        {
+          "text": " Any",
+          "startMs": 3620,
+          "endMs": 4160,
+          "timestampMs": 3890,
+          "confidence": 1
+        },
+        {
+          "text": " eight.",
+          "startMs": 4213,
+          "endMs": 4800,
+          "timestampMs": 4507,
+          "confidence": 1
+        },
+        {
+          "text": " Nines",
+          "startMs": 4960,
+          "endMs": 5360,
+          "timestampMs": 5160,
+          "confidence": 1
+        },
+        {
+          "text": " or",
+          "startMs": 5413,
+          "endMs": 5520,
+          "timestampMs": 5467,
+          "confidence": 1
+        },
+        {
+          "text": " sevens",
+          "startMs": 5600,
+          "endMs": 6000,
+          "timestampMs": 5800,
+          "confidence": 1
+        },
+        {
+          "text": " full.",
+          "startMs": 6064,
+          "endMs": 6640,
+          "timestampMs": 6352,
+          "confidence": 1
+        },
+        {
+          "text": " Ace-king.",
+          "startMs": 6840,
+          "endMs": 8320,
+          "timestampMs": 7580,
+          "confidence": 1
+        },
+        {
+          "text": " Jack-ten.",
+          "startMs": 8416,
+          "endMs": 9520,
+          "timestampMs": 8968,
+          "confidence": 1
+        },
+        {
+          "text": " Ten-six.",
+          "startMs": 9660,
+          "endMs": 10640,
+          "timestampMs": 10150,
+          "confidence": 1
+        },
+        {
+          "text": " And",
+          "startMs": 10820,
+          "endMs": 11360,
+          "timestampMs": 11090,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 11400,
+          "endMs": 11440,
+          "timestampMs": 11420,
+          "confidence": 1
+        },
+        {
+          "text": " river",
+          "startMs": 11493,
+          "endMs": 11760,
+          "timestampMs": 11627,
+          "confidence": 1
+        },
+        {
+          "text": " check-raise",
+          "startMs": 11813,
+          "endMs": 12400,
+          "timestampMs": 12107,
+          "confidence": 1
+        },
+        {
+          "text": " from",
+          "startMs": 12432,
+          "endMs": 12560,
+          "timestampMs": 12496,
+          "confidence": 1
+        },
+        {
+          "text": " Ivey",
+          "startMs": 12680,
+          "endMs": 12960,
+          "timestampMs": 12820,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 13067,
+          "endMs": 13280,
+          "timestampMs": 13174,
+          "confidence": 1
+        },
+        {
+          "text": " usually",
+          "startMs": 13350,
+          "endMs": 13840,
+          "timestampMs": 13595,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 13880,
+          "endMs": 14000,
+          "timestampMs": 13940,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 14027,
+          "endMs": 14080,
+          "timestampMs": 14054,
+          "confidence": 1
+        },
+        {
+          "text": " those.",
+          "startMs": 14160,
+          "endMs": 14800,
+          "timestampMs": 14480,
+          "confidence": 1
+        }
+      ],
+      "hash": "d57e516dbe23"
+    },
+    "t_odds": {
+      "speaker": "caster",
+      "file": "reels/poker-ivey/t_odds.mp3",
+      "durationMs": 10241,
+      "captions": [
+        {
+          "text": "Now",
+          "startMs": 290,
+          "endMs": 320,
+          "timestampMs": 305,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 360,
+          "endMs": 480,
+          "timestampMs": 420,
+          "confidence": 1
+        },
+        {
+          "text": " math.",
+          "startMs": 576,
+          "endMs": 1360,
+          "timestampMs": 968,
+          "confidence": 1
+        },
+        {
+          "text": " You",
+          "startMs": 1460,
+          "endMs": 1760,
+          "timestampMs": 1610,
+          "confidence": 1
+        },
+        {
+          "text": " have",
+          "startMs": 1792,
+          "endMs": 1920,
+          "timestampMs": 1856,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 1947,
+          "endMs": 2000,
+          "timestampMs": 1974,
+          "confidence": 1
+        },
+        {
+          "text": " call",
+          "startMs": 2064,
+          "endMs": 2320,
+          "timestampMs": 2192,
+          "confidence": 1
+        },
+        {
+          "text": " three",
+          "startMs": 2360,
+          "endMs": 2560,
+          "timestampMs": 2460,
+          "confidence": 1
+        },
+        {
+          "text": " hundred",
+          "startMs": 2590,
+          "endMs": 2800,
+          "timestampMs": 2695,
+          "confidence": 1
+        },
+        {
+          "text": " twenty-five",
+          "startMs": 2857,
+          "endMs": 3440,
+          "timestampMs": 3149,
+          "confidence": 1
+        },
+        {
+          "text": " thousand",
+          "startMs": 3502,
+          "endMs": 4000,
+          "timestampMs": 3751,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 4133,
+          "endMs": 4400,
+          "timestampMs": 4267,
+          "confidence": 1
+        },
+        {
+          "text": " win",
+          "startMs": 4460,
+          "endMs": 4640,
+          "timestampMs": 4550,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 4720,
+          "endMs": 4960,
+          "timestampMs": 4840,
+          "confidence": 1
+        },
+        {
+          "text": " point",
+          "startMs": 5027,
+          "endMs": 5360,
+          "timestampMs": 5194,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 5460,
+          "endMs": 5760,
+          "timestampMs": 5610,
+          "confidence": 1
+        },
+        {
+          "text": " million.",
+          "startMs": 5820,
+          "endMs": 6720,
+          "timestampMs": 6270,
+          "confidence": 1
+        },
+        {
+          "text": " So",
+          "startMs": 6880,
+          "endMs": 7200,
+          "timestampMs": 7040,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 7240,
+          "endMs": 7360,
+          "timestampMs": 7300,
+          "confidence": 1
+        },
+        {
+          "text": " need",
+          "startMs": 7392,
+          "endMs": 7520,
+          "timestampMs": 7456,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 7573,
+          "endMs": 7680,
+          "timestampMs": 7627,
+          "confidence": 1
+        },
+        {
+          "text": " be",
+          "startMs": 7707,
+          "endMs": 7760,
+          "timestampMs": 7733,
+          "confidence": 1
+        },
+        {
+          "text": " right",
+          "startMs": 7827,
+          "endMs": 8160,
+          "timestampMs": 7994,
+          "confidence": 1
+        },
+        {
+          "text": " about",
+          "startMs": 8227,
+          "endMs": 8560,
+          "timestampMs": 8394,
+          "confidence": 1
+        },
+        {
+          "text": " thirty",
+          "startMs": 8617,
+          "endMs": 8960,
+          "timestampMs": 8789,
+          "confidence": 1
+        },
+        {
+          "text": " percent",
+          "startMs": 9010,
+          "endMs": 9360,
+          "timestampMs": 9185,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 9387,
+          "endMs": 9440,
+          "timestampMs": 9414,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 9460,
+          "endMs": 9520,
+          "timestampMs": 9490,
+          "confidence": 1
+        },
+        {
+          "text": " time.",
+          "startMs": 9600,
+          "endMs": 10240,
+          "timestampMs": 9920,
+          "confidence": 1
+        }
+      ],
+      "hash": "049af2c987dd"
     }
   },
   "sfx": {

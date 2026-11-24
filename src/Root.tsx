@@ -4,6 +4,7 @@ import { Video, type VideoProps } from "./Video";
 import { PianoThumbnail } from "./piano/Thumbnail";
 import { PokerJacks, POKER_DURATION, POKER_FPS } from "./poker/PokerJacks";
 import { PokerIvey, IVEY_DURATION, IVEY_FPS } from "./poker-ivey/PokerIvey";
+import { PokerIvey2D } from "./poker-ivey/PokerIvey2D";
 import { DrumLevels, DRUM_LEVELS_DURATION, FPS as DRUM_FPS } from "./drums/DrumLevels";
 import { DrumShort, DRUM_SHORT_DURATION } from "./drums/DrumShort";
 import { PianoLevels, PIANO_LEVELS_DURATION, FPS as PIANO_FPS } from "./piano/PianoLevels";
@@ -64,6 +65,7 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={{ look: "2d" as const }}
       />
       <Composition id="PokerJacks" component={PokerJacks} durationInFrames={POKER_DURATION} fps={POKER_FPS} width={1920} height={1080} />
+      <Composition id="PokerIvey2D" component={PokerIvey2D} durationInFrames={IVEY_DURATION} fps={IVEY_FPS} width={1920} height={1080} />
       <Composition id="PokerIvey" component={PokerIvey} durationInFrames={IVEY_DURATION} fps={IVEY_FPS} width={1920} height={1080} />
       <Still id="PianoThumbnail" component={PianoThumbnail} width={1280} height={720} />
       {/* ---- Reels (9:16) ---- */}

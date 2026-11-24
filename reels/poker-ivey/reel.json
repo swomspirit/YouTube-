@@ -110,6 +110,36 @@
       "id": "wyc",
       "speaker": "caster",
       "text": "[intense] Would YOU call?"
+    },
+    {
+      "id": "t_pre",
+      "speaker": "caster",
+      "text": "[calm, explaining] Quick lesson. Ace-queen suited is one of the ten best starting hands. Against an early raise, calling on the button is great. A three-bet is fine too."
+    },
+    {
+      "id": "t_flop",
+      "speaker": "caster",
+      "text": "[calm, explaining] On an eight, eight, ace flop, you have aces up. That's a strong hand, so betting for value is right."
+    },
+    {
+      "id": "t_turn",
+      "speaker": "caster",
+      "text": "[calm, explaining] Checking the turn keeps the pot small, and gives Ivey a chance to bluff."
+    },
+    {
+      "id": "t_river",
+      "speaker": "caster",
+      "text": "[calm, explaining] Be careful though. Three checks don't always mean weak. Great players check their monsters to set a trap."
+    },
+    {
+      "id": "t_beats",
+      "speaker": "caster",
+      "text": "[calm, explaining] So what beats you here? Aces. Ace-eight. Any eight. Nines or sevens full. Ace-king. Jack-ten. Ten-six. And a river check-raise from Ivey is usually one of those."
+    },
+    {
+      "id": "t_odds",
+      "speaker": "caster",
+      "text": "[calm, explaining] Now the math. You have to call three hundred twenty-five thousand to win one point one million. So you need to be right about thirty percent of the time."
     }
   ],
   "sfx": [
