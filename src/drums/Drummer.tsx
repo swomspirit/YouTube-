@@ -73,11 +73,11 @@ const loadRig = () => {
  * Call this OUTSIDE the <ThreeCanvas> (in the normal React tree) and only mount the canvas once it
  * returns true. That way the model is ready on the very first frame of every render chunk.
  */
-export const usePreloadDrummer = () => {
+export const usePreloadDrummer = (enabled = true) => {
   const [ready, setReady] = useState(!!rigCache);
-  const [handle] = useState(() => (rigCache ? null : delayRender("Preloading drummer model")));
+  const [handle] = useState(() => (rigCache || !enabled ? null : delayRender("Preloading drummer model")));
   useEffect(() => {
-    if (ready) return;
+    if (ready || !enabled) return;
     loadRig()
       .then((r) => {
         rigCache = r;
@@ -85,7 +85,7 @@ export const usePreloadDrummer = () => {
         if (handle !== null) continueRender(handle);
       })
       .catch((e) => cancelRender(e));
-  }, [ready, handle]);
+  }, [ready, handle, enabled]);
   return ready;
 };
 

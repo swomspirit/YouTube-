@@ -52,9 +52,19 @@ export const RemotionRoot: React.FC = () => {
         width={1920}
         height={1080}
       />
+      <Composition
+        id="DrumLevels2D"
+        component={DrumLevels}
+        durationInFrames={DRUM_LEVELS_DURATION}
+        fps={DRUM_FPS}
+        width={1920}
+        height={1080}
+        defaultProps={{ look: "2d" as const }}
+      />
       <Still id="PianoThumbnail" component={PianoThumbnail} width={1280} height={720} />
       {/* ---- Reels (9:16) ---- */}
       <Composition id="Short-RobotDrummer" component={DrumShort} durationInFrames={DRUM_SHORT_DURATION} fps={DRUM_FPS} width={1080} height={1920} />
+      <Composition id="Short-CartoonDrummer" component={DrumShort} durationInFrames={DRUM_SHORT_DURATION} fps={DRUM_FPS} width={1080} height={1920} defaultProps={{ look: "2d" as const }} />
       <Composition
         id="Reel-TeleportUlt"
         component={TeleportUlt}

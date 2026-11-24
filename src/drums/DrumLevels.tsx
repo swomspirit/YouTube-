@@ -8,6 +8,8 @@ import { hitsPerSecond, impulse, preparePerformance, type Performance } from "./
 import { DrumStage } from "./Stage3D";
 import { CameraDirector, shotForBar, type ShotName } from "./CameraDirector";
 import { Highway } from "./Highway";
+import { DrumScene2D, type Mood } from "../drums2d/Scene2D";
+import { SHOTS2D, cameraTransform, shot2dForBar } from "../drums2d/Camera2D";
 
 export const FPS = 30;
 const lines = narration.lines as Record<string, { file: string; durationMs: number }>;
@@ -52,7 +54,7 @@ const Stars: React.FC<{ n: number; color: string; size: number }> = ({ n, color,
   </div>
 );
 
-export const DrumLevels: React.FC = () => {
+export const DrumLevels: React.FC<{ look?: "3d" | "2d" }> = ({ look = "3d" }) => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
   const t = frame / fps;
@@ -104,10 +106,37 @@ export const DrumLevels: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#05040a" }}>
-      <ThreeCanvas width={width} height={height} camera={{ fov: 42, position: [0, 1.5, 3.7], near: 0.05, far: 60 }}>
-        <CameraDirector shot={shot} u={u} shake={shake} seed={frame} />
-        <DrumStage perf={perf} now={now} accent={accent} energy={energy} t={t} />
-      </ThreeCanvas>
+      {look === "3d" ? (
+        <ThreeCanvas width={width} height={height} camera={{ fov: 42, position: [0, 1.5, 3.7], near: 0.05, far: 60 }}>
+          <CameraDirector shot={shot} u={u} shake={shake} seed={frame} />
+          <DrumStage perf={perf} now={now} accent={accent} energy={energy} t={t} />
+        </ThreeCanvas>
+      ) : (
+        (() => {
+          let s2 = SHOTS2D.wide;
+          let drift = 0;
+          if (playing) {
+            const bar = Math.floor((now - playing.perf.countIn) / playing.perf.barLen);
+            s2 = bar < 0 ? SHOTS2D.mid : shot2dForBar(playing.n, bar);
+            drift = Math.min(1, Math.max(0, u / (playing.perf.barLen * (playing.n === 3 ? 2 : 4))));
+          } else if (current && frame < current.play.start) {
+            s2 = SHOTS2D.mid;
+            drift = (frame - current.card.start) / (current.card.end - current.card.start);
+          } else if (frame >= TL.outro.start || (current && frame >= current.clear.start)) {
+            s2 = SHOTS2D.crowd;
+          }
+          const mood: Mood = playing ? (["chill", "focus", "beast"] as Mood[])[playing.n - 1] : current && frame >= current.play.end ? "victory" : frame >= TL.outro.start ? "victory" : "idle";
+          const hype = playing ? playing.n / 3 : current && frame >= current.play.end ? 1 : frame >= TL.outro.start ? 1 : 0.25;
+          const shakePx = shake * 900;
+          return (
+            <svg viewBox={`0 0 ${width} ${height}`} width={width} height={height} style={{ position: "absolute", inset: 0 }}>
+              <g transform={cameraTransform(s2, width, 430, 1.1, drift, crashImp, Math.sin(frame * 7.1) * shakePx, Math.cos(frame * 5.3) * shakePx)}>
+                <DrumScene2D perf={perf} now={now} t={t} accent={accent} mood={mood} crowdHype={hype} />
+              </g>
+            </svg>
+          );
+        })()
+      )}
 
       <AbsoluteFill style={{ backgroundColor: "white", opacity: flashWhite, mixBlendMode: "overlay" }} />
 

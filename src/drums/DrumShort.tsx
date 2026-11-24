@@ -7,6 +7,8 @@ import { DrumStage } from "./Stage3D";
 import { CameraDirector, type ShotName } from "./CameraDirector";
 import { Highway } from "./Highway";
 import { usePreloadDrummer } from "./Drummer";
+import { DrumScene2D } from "../drums2d/Scene2D";
+import { SHOTS2D, cameraTransform, shot2dForBar } from "../drums2d/Camera2D";
 
 /*
  * SHORT (9:16): robot drummer plays an original groove-metal intro
@@ -22,10 +24,10 @@ const ACCENT = "#ff3b5c";
 const PLAN: ShotName[] = ["wide", "face", "hero", "toms", "kick", "side", "overhead", "face", "hats", "wide"];
 const FONT = "Inter, Helvetica, Arial, sans-serif";
 
-export const DrumShort: React.FC = () => {
+export const DrumShort: React.FC<{ look?: "3d" | "2d" }> = ({ look = "3d" }) => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
-  const drummerReady = usePreloadDrummer();
+  const drummerReady = usePreloadDrummer(look === "3d");
   const now = (frame - LEAD) / fps;
   const t = frame / fps;
   const active = now >= 0 && now < perf.duration ? perf : null;
@@ -52,7 +54,31 @@ export const DrumShort: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#05040a" }}>
-      {drummerReady ? (
+      {look === "2d" ? (
+        <svg viewBox={`0 0 ${width} ${height}`} width={width} height={height} style={{ position: "absolute", inset: 0 }}>
+          <g
+            transform={cameraTransform(
+              now < perf.countIn ? SHOTS2D.mid : now >= perf.duration ? SHOTS2D.crowd : shot2dForBar(3, bar),
+              width,
+              780,
+              1.0,
+              active && now > perf.countIn ? (((now - perf.countIn) / (perf.barLen * 2)) % 1) : 0,
+              crash,
+              Math.sin(frame * 7.1) * shake * 900,
+              Math.cos(frame * 5.3) * shake * 900,
+            )}
+          >
+            <DrumScene2D
+              perf={active ? perf : null}
+              now={now}
+              t={t}
+              accent={ACCENT}
+              mood={now >= perf.duration - 1.5 ? "victory" : active && now > perf.countIn ? "beast" : "focus"}
+              crowdHype={active && now > perf.countIn ? 1 : 0.4}
+            />
+          </g>
+        </svg>
+      ) : drummerReady ? (
         <ThreeCanvas width={width} height={height} camera={{ fov: 42, position: [0, 1.5, 3.7], near: 0.05, far: 60 }}>
           <CameraDirector shot={shot} u={now - shotStart} shake={shake} seed={frame} portrait />
           <DrumStage perf={active ? perf : null} now={now} accent={ACCENT} energy={active && now > perf.countIn ? 1 : 0.2} t={t} drummer pyro />
@@ -76,7 +102,15 @@ export const DrumShort: React.FC = () => {
             padding: "0 40px",
           }}
         >
-          Robot drummer vs <span style={{ color: ACCENT }}>GROOVE METAL</span> 🤘
+          {look === "2d" ? (
+            <>
+              When the drummer goes <span style={{ color: ACCENT }}>BEAST MODE</span> 🤘
+            </>
+          ) : (
+            <>
+              Robot drummer vs <span style={{ color: ACCENT }}>GROOVE METAL</span> 🤘
+            </>
+          )}
         </div>
       </AbsoluteFill>
 
