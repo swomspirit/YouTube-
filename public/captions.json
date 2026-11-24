@@ -1,0 +1,142 @@
+[
+  {
+    "text": "Welcome",
+    "startMs": 4000,
+    "endMs": 4400,
+    "timestampMs": 4000,
+    "confidence": 1
+  },
+  {
+    "text": " to",
+    "startMs": 4400,
+    "endMs": 4600,
+    "timestampMs": 4400,
+    "confidence": 1
+  },
+  {
+    "text": " this",
+    "startMs": 4600,
+    "endMs": 4900,
+    "timestampMs": 4600,
+    "confidence": 1
+  },
+  {
+    "text": " 3D",
+    "startMs": 4900,
+    "endMs": 5300,
+    "timestampMs": 4900,
+    "confidence": 1
+  },
+  {
+    "text": " animated",
+    "startMs": 5300,
+    "endMs": 5800,
+    "timestampMs": 5300,
+    "confidence": 1
+  },
+  {
+    "text": " video.",
+    "startMs": 5800,
+    "endMs": 6800,
+    "timestampMs": 5800,
+    "confidence": 1
+  },
+  {
+    "text": " Every",
+    "startMs": 6800,
+    "endMs": 7100,
+    "timestampMs": 6800,
+    "confidence": 1
+  },
+  {
+    "text": " frame",
+    "startMs": 7100,
+    "endMs": 7400,
+    "timestampMs": 7100,
+    "confidence": 1
+  },
+  {
+    "text": " is",
+    "startMs": 7400,
+    "endMs": 7600,
+    "timestampMs": 7400,
+    "confidence": 1
+  },
+  {
+    "text": " rendered",
+    "startMs": 7600,
+    "endMs": 8000,
+    "timestampMs": 7600,
+    "confidence": 1
+  },
+  {
+    "text": " with",
+    "startMs": 8000,
+    "endMs": 8300,
+    "timestampMs": 8000,
+    "confidence": 1
+  },
+  {
+    "text": " three.js",
+    "startMs": 8300,
+    "endMs": 9000,
+    "timestampMs": 8300,
+    "confidence": 1
+  },
+  {
+    "text": " and",
+    "startMs": 9000,
+    "endMs": 9300,
+    "timestampMs": 9000,
+    "confidence": 1
+  },
+  {
+    "text": " captions,",
+    "startMs": 9300,
+    "endMs": 9900,
+    "timestampMs": 9300,
+    "confidence": 1
+  },
+  {
+    "text": " audio",
+    "startMs": 9900,
+    "endMs": 10300,
+    "timestampMs": 9900,
+    "confidence": 1
+  },
+  {
+    "text": " and",
+    "startMs": 10300,
+    "endMs": 10500,
+    "timestampMs": 10300,
+    "confidence": 1
+  },
+  {
+    "text": " export",
+    "startMs": 10500,
+    "endMs": 10900,
+    "timestampMs": 10500,
+    "confidence": 1
+  },
+  {
+    "text": " come",
+    "startMs": 10900,
+    "endMs": 11200,
+    "timestampMs": 10900,
+    "confidence": 1
+  },
+  {
+    "text": " from",
+    "startMs": 11200,
+    "endMs": 11400,
+    "timestampMs": 11200,
+    "confidence": 1
+  },
+  {
+    "text": " Remotion.",
+    "startMs": 11400,
+    "endMs": 11900,
+    "timestampMs": 11400,
+    "confidence": 1
+  }
+]

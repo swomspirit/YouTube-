@@ -1,0 +1,32 @@
+{
+  "name": "youtube-3d-videos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "3D animated videos with three.js (react-three-fiber) + Remotion for captions, audio and rendering",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Main3DVideo out/video.mp4",
+    "render:short": "remotion render Short3DVideo out/short.mp4",
+    "still": "remotion still Main3DVideo out/thumbnail.png --frame=60",
+    "typecheck": "tsc --noEmit",
+    "render:cpu": "remotion render Main3DVideo out/video.mp4 --gl=swangle",
+    "render:short:cpu": "remotion render Short3DVideo out/short.mp4 --gl=swangle"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "@remotion/captions": "4.0.546",
+    "@remotion/cli": "4.0.546",
+    "@remotion/media-utils": "4.0.546",
+    "@remotion/three": "4.0.546",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.546",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "typescript": "^7.0.2"
+  }
+}
