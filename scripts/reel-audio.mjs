@@ -34,6 +34,7 @@ fs.mkdirSync(audioDir, { recursive: true });
 fs.mkdirSync(path.dirname(manifestPath), { recursive: true });
 const old = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath, "utf8")) : { lines: {}, sfx: {} };
 const manifest = { lines: {}, sfx: {} };
+const save = () => fs.writeFileSync(manifestPath, JSON.stringify({ lines: { ...old.lines, ...manifest.lines }, sfx: { ...old.sfx, ...manifest.sfx } }, null, 2) + "\n");
 const hash = (o) => crypto.createHash("sha1").update(JSON.stringify(o)).digest("hex").slice(0, 12);
 const reuse = (kind, id, h) =>
   !force && only !== id && old[kind][id]?.hash === h && fs.existsSync(path.join("public", old[kind][id].file));
@@ -53,6 +54,7 @@ for (const line of def.lines) {
   const file = `reels/${name}/${line.id}.mp3`;
   fs.writeFileSync(path.join("public", file), audio);
   manifest.lines[line.id] = { speaker: line.speaker, file, durationMs: await audioDurationMs(audio), captions, hash: h };
+  save(); // keep progress if a later item fails
 }
 
 for (const s of def.sfx ?? []) {
@@ -67,6 +69,7 @@ for (const s of def.sfx ?? []) {
   const file = `reels/${name}/sfx-${s.id}.mp3`;
   fs.writeFileSync(path.join("public", file), audio);
   manifest.sfx[s.id] = { file, durationMs: await audioDurationMs(audio), hash: h };
+  save();
 }
 
 fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "\n");

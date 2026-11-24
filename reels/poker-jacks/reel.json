@@ -1,0 +1,242 @@
+{
+  "title": "You Look Down at Jacks",
+  "model": "eleven_multilingual_v2",
+  "voices": {
+    "you": "nPczCjzI2devNBz1zQrb",
+    "dealer": "Xb7hH8MSUJpSbSDYk0k2"
+  },
+  "lines": [
+    {
+      "id": "intro1",
+      "speaker": "you",
+      "text": "You look down... and see two Jacks."
+    },
+    {
+      "id": "intro2",
+      "speaker": "you",
+      "text": "Pocket Jacks. A great hand... and one of the easiest hands to lose a fortune with. Because how you play them depends on who is sitting across from you."
+    },
+    {
+      "id": "intro3",
+      "speaker": "you",
+      "text": "So let's play the same hand against three very different players."
+    },
+    {
+      "id": "wyd",
+      "speaker": "you",
+      "text": "What would you do?"
+    },
+    {
+      "id": "s1_intro",
+      "speaker": "you",
+      "text": "Opponent one. The Rock. He has played two hands in the last hour. When he puts money in, he has it."
+    },
+    {
+      "id": "s1_open",
+      "speaker": "you",
+      "text": "You raise to six dollars... and The Rock re-raises to twenty."
+    },
+    {
+      "id": "s1_a1",
+      "speaker": "you",
+      "text": "Call. His range is queens, kings, aces, or ace-king, so you are behind. Never four-bet into that. But you are deep, so you call, and see a flop."
+    },
+    {
+      "id": "s1_flop",
+      "speaker": "you",
+      "text": "King, eight, three. And he bets twenty-eight."
+    },
+    {
+      "id": "s1_a2",
+      "speaker": "you",
+      "text": "Fold. He only bets here with ace-king, kings, or aces. Your jacks are crushed. Lay them down."
+    },
+    {
+      "id": "s1_reveal",
+      "speaker": "you",
+      "text": "He shows ace-king. That fold just saved your stack."
+    },
+    {
+      "id": "s1_lesson",
+      "speaker": "you",
+      "text": "Lesson one. Against a rock, respect the raise."
+    },
+    {
+      "id": "s2_intro",
+      "speaker": "you",
+      "text": "Opponent two. The Maniac. He has raised every single hand tonight. Twice without even looking at his cards."
+    },
+    {
+      "id": "s2_open",
+      "speaker": "you",
+      "text": "The Maniac raises to eight. It's on you."
+    },
+    {
+      "id": "s2_a1",
+      "speaker": "you",
+      "text": "Three-bet. Against his huge range, jacks are a monster. Make him pay to play. You raise to twenty-six, and he calls."
+    },
+    {
+      "id": "s2_flop",
+      "speaker": "you",
+      "text": "Queen, seven, two. You bet twenty... and he instantly raises to sixty-five."
+    },
+    {
+      "id": "s2_a2",
+      "speaker": "you",
+      "text": "Just call. He would do this with any two cards. Don't scare him away. Let him keep bluffing."
+    },
+    {
+      "id": "s2_turn",
+      "speaker": "you",
+      "text": "The four. And he shoves... all in."
+    },
+    {
+      "id": "s2_a3",
+      "speaker": "you",
+      "text": "Snap call. Against his range, your jacks are miles ahead."
+    },
+    {
+      "id": "s2_reveal",
+      "speaker": "you",
+      "text": "Nine-eight. Total air. Your jacks hold, and you double up."
+    },
+    {
+      "id": "s2_lesson",
+      "speaker": "you",
+      "text": "Lesson two. Against a maniac, let him hang himself."
+    },
+    {
+      "id": "s3_intro",
+      "speaker": "you",
+      "text": "Opponent three. The Calling Station. He never folds. Any pair, any draw, any reason at all."
+    },
+    {
+      "id": "s3_open",
+      "speaker": "you",
+      "text": "You raise to six. He calls. Of course he does."
+    },
+    {
+      "id": "s3_flop",
+      "speaker": "you",
+      "text": "Eight, six, three. He checks to you."
+    },
+    {
+      "id": "s3_a1",
+      "speaker": "you",
+      "text": "Bet. Never slow-play against someone who calls everything. You bet ten. He calls."
+    },
+    {
+      "id": "s3_turn",
+      "speaker": "you",
+      "text": "The deuce. He checks again."
+    },
+    {
+      "id": "s3_a2",
+      "speaker": "you",
+      "text": "Bet bigger. He is calling with any eight or six, and you beat all of those. Twenty-four. Called."
+    },
+    {
+      "id": "s3_river",
+      "speaker": "you",
+      "text": "And the river... a jack. You just made a set."
+    },
+    {
+      "id": "s3_a3",
+      "speaker": "you",
+      "text": "Go big. He can't fold top pair, and you have a set. Sixty dollars. He calls instantly."
+    },
+    {
+      "id": "s3_reveal",
+      "speaker": "you",
+      "text": "Nine-eight. Top pair. You scoop a monster pot."
+    },
+    {
+      "id": "s3_lesson",
+      "speaker": "you",
+      "text": "Lesson three. Against a calling station, never bluff. Just bet... and bet... and bet."
+    },
+    {
+      "id": "outro",
+      "speaker": "you",
+      "text": "Same hand. Three opponents. Three completely different plays. Which ones did you get right? Tell me in the comments."
+    },
+    {
+      "id": "d_flop",
+      "speaker": "dealer",
+      "text": "Flop."
+    },
+    {
+      "id": "d_turn",
+      "speaker": "dealer",
+      "text": "Turn."
+    },
+    {
+      "id": "d_river",
+      "speaker": "dealer",
+      "text": "River."
+    },
+    {
+      "id": "d_show",
+      "speaker": "dealer",
+      "text": "Showdown."
+    }
+  ],
+  "sfx": [
+    {
+      "id": "chips",
+      "prompt": "poker chips being pushed onto a felt table, clay chips clicking",
+      "duration": 0.9
+    },
+    {
+      "id": "collect",
+      "prompt": "large pile of poker chips being raked and stacked, satisfying",
+      "duration": 1.4
+    },
+    {
+      "id": "deal",
+      "prompt": "playing card sliding quickly across felt table",
+      "duration": 0.5
+    },
+    {
+      "id": "flip",
+      "prompt": "playing card flipped over onto table, crisp snap",
+      "duration": 0.5
+    },
+    {
+      "id": "heartbeat",
+      "prompt": "tense slow heartbeat, deep thump",
+      "duration": 4
+    },
+    {
+      "id": "tick",
+      "prompt": "single clock tick, sharp and dry",
+      "duration": 0.5
+    },
+    {
+      "id": "correct",
+      "prompt": "game show correct answer ding, bright",
+      "duration": 1
+    },
+    {
+      "id": "whoosh",
+      "prompt": "cinematic whoosh transition",
+      "duration": 1.2
+    },
+    {
+      "id": "allin",
+      "prompt": "dramatic deep cinematic boom hit with reverb tail",
+      "duration": 2
+    },
+    {
+      "id": "ambience",
+      "prompt": "quiet casino poker room ambience, distant murmurs, chips clicking softly, no music",
+      "duration": 20
+    },
+    {
+      "id": "ooh",
+      "prompt": "small crowd reacting ooh surprised",
+      "duration": 1.5
+    }
+  ]
+}

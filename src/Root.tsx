@@ -2,6 +2,7 @@ import { CalculateMetadataFunction, Composition, Still, staticFile } from "remot
 import { ALL_FORMATS, Input, UrlSource } from "mediabunny";
 import { Video, type VideoProps } from "./Video";
 import { PianoThumbnail } from "./piano/Thumbnail";
+import { PokerJacks, POKER_DURATION, POKER_FPS } from "./poker/PokerJacks";
 import { DrumLevels, DRUM_LEVELS_DURATION, FPS as DRUM_FPS } from "./drums/DrumLevels";
 import { DrumShort, DRUM_SHORT_DURATION } from "./drums/DrumShort";
 import { PianoLevels, PIANO_LEVELS_DURATION, FPS as PIANO_FPS } from "./piano/PianoLevels";
@@ -61,6 +62,7 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
         defaultProps={{ look: "2d" as const }}
       />
+      <Composition id="PokerJacks" component={PokerJacks} durationInFrames={POKER_DURATION} fps={POKER_FPS} width={1920} height={1080} />
       <Still id="PianoThumbnail" component={PianoThumbnail} width={1280} height={720} />
       {/* ---- Reels (9:16) ---- */}
       <Composition id="Short-RobotDrummer" component={DrumShort} durationInFrames={DRUM_SHORT_DURATION} fps={DRUM_FPS} width={1080} height={1920} />

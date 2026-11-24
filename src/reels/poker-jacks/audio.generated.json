@@ -1,0 +1,3183 @@
+{
+  "lines": {
+    "intro1": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/intro1.mp3",
+      "durationMs": 2613,
+      "captions": [
+        {
+          "text": "You",
+          "startMs": 0,
+          "endMs": 163,
+          "timestampMs": 82,
+          "confidence": 1
+        },
+        {
+          "text": " look",
+          "startMs": 221,
+          "endMs": 383,
+          "timestampMs": 302,
+          "confidence": 1
+        },
+        {
+          "text": " down...",
+          "startMs": 441,
+          "endMs": 813,
+          "timestampMs": 627,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 1138,
+          "endMs": 1300,
+          "timestampMs": 1219,
+          "confidence": 1
+        },
+        {
+          "text": " see",
+          "startMs": 1358,
+          "endMs": 1533,
+          "timestampMs": 1446,
+          "confidence": 1
+        },
+        {
+          "text": " two",
+          "startMs": 1579,
+          "endMs": 1765,
+          "timestampMs": 1672,
+          "confidence": 1
+        },
+        {
+          "text": " Jacks.",
+          "startMs": 1834,
+          "endMs": 2601,
+          "timestampMs": 2218,
+          "confidence": 1
+        }
+      ],
+      "hash": "460592aec1b4"
+    },
+    "intro2": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/intro2.mp3",
+      "durationMs": 9170,
+      "captions": [
+        {
+          "text": "Pocket",
+          "startMs": 0,
+          "endMs": 453,
+          "timestampMs": 227,
+          "confidence": 1
+        },
+        {
+          "text": " Jacks.",
+          "startMs": 499,
+          "endMs": 1161,
+          "timestampMs": 830,
+          "confidence": 1
+        },
+        {
+          "text": " A",
+          "startMs": 1486,
+          "endMs": 1567,
+          "timestampMs": 1527,
+          "confidence": 1
+        },
+        {
+          "text": " great",
+          "startMs": 1649,
+          "endMs": 1869,
+          "timestampMs": 1759,
+          "confidence": 1
+        },
+        {
+          "text": " hand...",
+          "startMs": 1927,
+          "endMs": 2473,
+          "timestampMs": 2200,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 2856,
+          "endMs": 3007,
+          "timestampMs": 2932,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 3077,
+          "endMs": 3204,
+          "timestampMs": 3141,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 3228,
+          "endMs": 3274,
+          "timestampMs": 3251,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 3309,
+          "endMs": 3379,
+          "timestampMs": 3344,
+          "confidence": 1
+        },
+        {
+          "text": " easiest",
+          "startMs": 3460,
+          "endMs": 3878,
+          "timestampMs": 3669,
+          "confidence": 1
+        },
+        {
+          "text": " hands",
+          "startMs": 3924,
+          "endMs": 4203,
+          "timestampMs": 4064,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 4249,
+          "endMs": 4307,
+          "timestampMs": 4278,
+          "confidence": 1
+        },
+        {
+          "text": " lose",
+          "startMs": 4365,
+          "endMs": 4540,
+          "timestampMs": 4453,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 4563,
+          "endMs": 4586,
+          "timestampMs": 4575,
+          "confidence": 1
+        },
+        {
+          "text": " fortune",
+          "startMs": 4644,
+          "endMs": 4992,
+          "timestampMs": 4818,
+          "confidence": 1
+        },
+        {
+          "text": " with.",
+          "startMs": 5016,
+          "endMs": 5317,
+          "timestampMs": 5167,
+          "confidence": 1
+        },
+        {
+          "text": " Because",
+          "startMs": 5759,
+          "endMs": 6049,
+          "timestampMs": 5904,
+          "confidence": 1
+        },
+        {
+          "text": " how",
+          "startMs": 6095,
+          "endMs": 6246,
+          "timestampMs": 6171,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 6327,
+          "endMs": 6409,
+          "timestampMs": 6368,
+          "confidence": 1
+        },
+        {
+          "text": " play",
+          "startMs": 6478,
+          "endMs": 6676,
+          "timestampMs": 6577,
+          "confidence": 1
+        },
+        {
+          "text": " them",
+          "startMs": 6734,
+          "endMs": 6896,
+          "timestampMs": 6815,
+          "confidence": 1
+        },
+        {
+          "text": " depends",
+          "startMs": 6978,
+          "endMs": 7349,
+          "timestampMs": 7164,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 7396,
+          "endMs": 7488,
+          "timestampMs": 7442,
+          "confidence": 1
+        },
+        {
+          "text": " who",
+          "startMs": 7546,
+          "endMs": 7674,
+          "timestampMs": 7610,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 7744,
+          "endMs": 7825,
+          "timestampMs": 7784,
+          "confidence": 1
+        },
+        {
+          "text": " sitting",
+          "startMs": 7860,
+          "endMs": 8104,
+          "timestampMs": 7982,
+          "confidence": 1
+        },
+        {
+          "text": " across",
+          "startMs": 8139,
+          "endMs": 8452,
+          "timestampMs": 8296,
+          "confidence": 1
+        },
+        {
+          "text": " from",
+          "startMs": 8487,
+          "endMs": 8603,
+          "timestampMs": 8545,
+          "confidence": 1
+        },
+        {
+          "text": " you.",
+          "startMs": 8661,
+          "endMs": 9149,
+          "timestampMs": 8905,
+          "confidence": 1
+        }
+      ],
+      "hash": "8130923eb6c2"
+    },
+    "intro3": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/intro3.mp3",
+      "durationMs": 3266,
+      "captions": [
+        {
+          "text": "So",
+          "startMs": 0,
+          "endMs": 174,
+          "timestampMs": 87,
+          "confidence": 1
+        },
+        {
+          "text": " let's",
+          "startMs": 232,
+          "endMs": 406,
+          "timestampMs": 319,
+          "confidence": 1
+        },
+        {
+          "text": " play",
+          "startMs": 453,
+          "endMs": 639,
+          "timestampMs": 546,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 708,
+          "endMs": 789,
+          "timestampMs": 749,
+          "confidence": 1
+        },
+        {
+          "text": " same",
+          "startMs": 871,
+          "endMs": 1207,
+          "timestampMs": 1039,
+          "confidence": 1
+        },
+        {
+          "text": " hand",
+          "startMs": 1254,
+          "endMs": 1451,
+          "timestampMs": 1353,
+          "confidence": 1
+        },
+        {
+          "text": " against",
+          "startMs": 1509,
+          "endMs": 1765,
+          "timestampMs": 1637,
+          "confidence": 1
+        },
+        {
+          "text": " three",
+          "startMs": 1800,
+          "endMs": 2020,
+          "timestampMs": 1910,
+          "confidence": 1
+        },
+        {
+          "text": " very",
+          "startMs": 2067,
+          "endMs": 2252,
+          "timestampMs": 2160,
+          "confidence": 1
+        },
+        {
+          "text": " different",
+          "startMs": 2287,
+          "endMs": 2531,
+          "timestampMs": 2409,
+          "confidence": 1
+        },
+        {
+          "text": " players.",
+          "startMs": 2554,
+          "endMs": 3251,
+          "timestampMs": 2903,
+          "confidence": 1
+        }
+      ],
+      "hash": "61685c1e69a5"
+    },
+    "wyd": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/wyd.mp3",
+      "durationMs": 1124,
+      "captions": [
+        {
+          "text": "What",
+          "startMs": 0,
+          "endMs": 174,
+          "timestampMs": 87,
+          "confidence": 1
+        },
+        {
+          "text": " would",
+          "startMs": 209,
+          "endMs": 337,
+          "timestampMs": 273,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 372,
+          "endMs": 441,
+          "timestampMs": 407,
+          "confidence": 1
+        },
+        {
+          "text": " do?",
+          "startMs": 499,
+          "endMs": 1115,
+          "timestampMs": 807,
+          "confidence": 1
+        }
+      ],
+      "hash": "c8639f2c29fc"
+    },
+    "s1_intro": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s1_intro.mp3",
+      "durationMs": 6088,
+      "captions": [
+        {
+          "text": "Opponent",
+          "startMs": 0,
+          "endMs": 430,
+          "timestampMs": 215,
+          "confidence": 1
+        },
+        {
+          "text": " one.",
+          "startMs": 488,
+          "endMs": 824,
+          "timestampMs": 656,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 1149,
+          "endMs": 1277,
+          "timestampMs": 1213,
+          "confidence": 1
+        },
+        {
+          "text": " Rock.",
+          "startMs": 1370,
+          "endMs": 1823,
+          "timestampMs": 1597,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 1892,
+          "endMs": 1997,
+          "timestampMs": 1945,
+          "confidence": 1
+        },
+        {
+          "text": " has",
+          "startMs": 2043,
+          "endMs": 2125,
+          "timestampMs": 2084,
+          "confidence": 1
+        },
+        {
+          "text": " played",
+          "startMs": 2183,
+          "endMs": 2403,
+          "timestampMs": 2293,
+          "confidence": 1
+        },
+        {
+          "text": " two",
+          "startMs": 2426,
+          "endMs": 2601,
+          "timestampMs": 2514,
+          "confidence": 1
+        },
+        {
+          "text": " hands",
+          "startMs": 2682,
+          "endMs": 2914,
+          "timestampMs": 2798,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 2949,
+          "endMs": 2995,
+          "timestampMs": 2972,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 3019,
+          "endMs": 3088,
+          "timestampMs": 3054,
+          "confidence": 1
+        },
+        {
+          "text": " last",
+          "startMs": 3123,
+          "endMs": 3332,
+          "timestampMs": 3228,
+          "confidence": 1
+        },
+        {
+          "text": " hour.",
+          "startMs": 3367,
+          "endMs": 3750,
+          "timestampMs": 3559,
+          "confidence": 1
+        },
+        {
+          "text": " When",
+          "startMs": 4075,
+          "endMs": 4249,
+          "timestampMs": 4162,
+          "confidence": 1
+        },
+        {
+          "text": " he",
+          "startMs": 4272,
+          "endMs": 4319,
+          "timestampMs": 4296,
+          "confidence": 1
+        },
+        {
+          "text": " puts",
+          "startMs": 4365,
+          "endMs": 4563,
+          "timestampMs": 4464,
+          "confidence": 1
+        },
+        {
+          "text": " money",
+          "startMs": 4632,
+          "endMs": 4841,
+          "timestampMs": 4736,
+          "confidence": 1
+        },
+        {
+          "text": " in,",
+          "startMs": 4899,
+          "endMs": 5143,
+          "timestampMs": 5021,
+          "confidence": 1
+        },
+        {
+          "text": " he",
+          "startMs": 5201,
+          "endMs": 5294,
+          "timestampMs": 5248,
+          "confidence": 1
+        },
+        {
+          "text": " has",
+          "startMs": 5364,
+          "endMs": 5584,
+          "timestampMs": 5474,
+          "confidence": 1
+        },
+        {
+          "text": " it.",
+          "startMs": 5654,
+          "endMs": 6084,
+          "timestampMs": 5869,
+          "confidence": 1
+        }
+      ],
+      "hash": "232e695dc2aa"
+    },
+    "s1_open": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s1_open.mp3",
+      "durationMs": 3580,
+      "captions": [
+        {
+          "text": "You",
+          "startMs": 0,
+          "endMs": 163,
+          "timestampMs": 82,
+          "confidence": 1
+        },
+        {
+          "text": " raise",
+          "startMs": 244,
+          "endMs": 441,
+          "timestampMs": 343,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 476,
+          "endMs": 534,
+          "timestampMs": 505,
+          "confidence": 1
+        },
+        {
+          "text": " six",
+          "startMs": 604,
+          "endMs": 801,
+          "timestampMs": 703,
+          "confidence": 1
+        },
+        {
+          "text": " dollars...",
+          "startMs": 859,
+          "endMs": 1393,
+          "timestampMs": 1126,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 1718,
+          "endMs": 1846,
+          "timestampMs": 1782,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 1892,
+          "endMs": 1962,
+          "timestampMs": 1927,
+          "confidence": 1
+        },
+        {
+          "text": " Rock",
+          "startMs": 2009,
+          "endMs": 2206,
+          "timestampMs": 2108,
+          "confidence": 1
+        },
+        {
+          "text": " re-raises",
+          "startMs": 2276,
+          "endMs": 2752,
+          "timestampMs": 2514,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 2798,
+          "endMs": 2856,
+          "timestampMs": 2827,
+          "confidence": 1
+        },
+        {
+          "text": " twenty.",
+          "startMs": 2902,
+          "endMs": 3576,
+          "timestampMs": 3239,
+          "confidence": 1
+        }
+      ],
+      "hash": "a445ea4be2b7"
+    },
+    "s1_a1": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s1_a1.mp3",
+      "durationMs": 10737,
+      "captions": [
+        {
+          "text": "Call.",
+          "startMs": 0,
+          "endMs": 627,
+          "timestampMs": 314,
+          "confidence": 1
+        },
+        {
+          "text": " His",
+          "startMs": 836,
+          "endMs": 1010,
+          "timestampMs": 923,
+          "confidence": 1
+        },
+        {
+          "text": " range",
+          "startMs": 1126,
+          "endMs": 1498,
+          "timestampMs": 1312,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 1533,
+          "endMs": 1614,
+          "timestampMs": 1574,
+          "confidence": 1
+        },
+        {
+          "text": " queens,",
+          "startMs": 1695,
+          "endMs": 2159,
+          "timestampMs": 1927,
+          "confidence": 1
+        },
+        {
+          "text": " kings,",
+          "startMs": 2218,
+          "endMs": 2705,
+          "timestampMs": 2462,
+          "confidence": 1
+        },
+        {
+          "text": " aces,",
+          "startMs": 2752,
+          "endMs": 3193,
+          "timestampMs": 2973,
+          "confidence": 1
+        },
+        {
+          "text": " or",
+          "startMs": 3228,
+          "endMs": 3309,
+          "timestampMs": 3269,
+          "confidence": 1
+        },
+        {
+          "text": " ace-king,",
+          "startMs": 3379,
+          "endMs": 4063,
+          "timestampMs": 3721,
+          "confidence": 1
+        },
+        {
+          "text": " so",
+          "startMs": 4389,
+          "endMs": 4540,
+          "timestampMs": 4465,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 4621,
+          "endMs": 4714,
+          "timestampMs": 4668,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 4772,
+          "endMs": 4888,
+          "timestampMs": 4830,
+          "confidence": 1
+        },
+        {
+          "text": " behind.",
+          "startMs": 4934,
+          "endMs": 5550,
+          "timestampMs": 5242,
+          "confidence": 1
+        },
+        {
+          "text": " Never",
+          "startMs": 5933,
+          "endMs": 6188,
+          "timestampMs": 6060,
+          "confidence": 1
+        },
+        {
+          "text": " four-bet",
+          "startMs": 6246,
+          "endMs": 6618,
+          "timestampMs": 6432,
+          "confidence": 1
+        },
+        {
+          "text": " into",
+          "startMs": 6664,
+          "endMs": 6838,
+          "timestampMs": 6751,
+          "confidence": 1
+        },
+        {
+          "text": " that.",
+          "startMs": 6896,
+          "endMs": 7291,
+          "timestampMs": 7094,
+          "confidence": 1
+        },
+        {
+          "text": " But",
+          "startMs": 7616,
+          "endMs": 7779,
+          "timestampMs": 7698,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 7848,
+          "endMs": 7953,
+          "timestampMs": 7901,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 8034,
+          "endMs": 8173,
+          "timestampMs": 8104,
+          "confidence": 1
+        },
+        {
+          "text": " deep,",
+          "startMs": 8243,
+          "endMs": 8557,
+          "timestampMs": 8400,
+          "confidence": 1
+        },
+        {
+          "text": " so",
+          "startMs": 8591,
+          "endMs": 8707,
+          "timestampMs": 8649,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 8789,
+          "endMs": 8905,
+          "timestampMs": 8847,
+          "confidence": 1
+        },
+        {
+          "text": " call,",
+          "startMs": 8998,
+          "endMs": 9532,
+          "timestampMs": 9265,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 9601,
+          "endMs": 9752,
+          "timestampMs": 9677,
+          "confidence": 1
+        },
+        {
+          "text": " see",
+          "startMs": 9810,
+          "endMs": 9950,
+          "timestampMs": 9880,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 9985,
+          "endMs": 10008,
+          "timestampMs": 9997,
+          "confidence": 1
+        },
+        {
+          "text": " flop.",
+          "startMs": 10054,
+          "endMs": 10728,
+          "timestampMs": 10391,
+          "confidence": 1
+        }
+      ],
+      "hash": "ece974561539"
+    },
+    "s1_flop": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s1_flop.mp3",
+      "durationMs": 3084,
+      "captions": [
+        {
+          "text": "King,",
+          "startMs": 0,
+          "endMs": 522,
+          "timestampMs": 261,
+          "confidence": 1
+        },
+        {
+          "text": " eight,",
+          "startMs": 639,
+          "endMs": 952,
+          "timestampMs": 796,
+          "confidence": 1
+        },
+        {
+          "text": " three.",
+          "startMs": 1022,
+          "endMs": 1486,
+          "timestampMs": 1254,
+          "confidence": 1
+        },
+        {
+          "text": " And",
+          "startMs": 1730,
+          "endMs": 1869,
+          "timestampMs": 1800,
+          "confidence": 1
+        },
+        {
+          "text": " he",
+          "startMs": 1916,
+          "endMs": 1962,
+          "timestampMs": 1939,
+          "confidence": 1
+        },
+        {
+          "text": " bets",
+          "startMs": 2009,
+          "endMs": 2194,
+          "timestampMs": 2101,
+          "confidence": 1
+        },
+        {
+          "text": " twenty-eight.",
+          "startMs": 2241,
+          "endMs": 3065,
+          "timestampMs": 2653,
+          "confidence": 1
+        }
+      ],
+      "hash": "229b2be9bbea"
+    },
+    "s1_a2": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s1_a2.mp3",
+      "durationMs": 6610,
+      "captions": [
+        {
+          "text": "Fold.",
+          "startMs": 0,
+          "endMs": 615,
+          "timestampMs": 308,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 998,
+          "endMs": 1126,
+          "timestampMs": 1062,
+          "confidence": 1
+        },
+        {
+          "text": " only",
+          "startMs": 1196,
+          "endMs": 1370,
+          "timestampMs": 1283,
+          "confidence": 1
+        },
+        {
+          "text": " bets",
+          "startMs": 1416,
+          "endMs": 1614,
+          "timestampMs": 1515,
+          "confidence": 1
+        },
+        {
+          "text": " here",
+          "startMs": 1660,
+          "endMs": 1811,
+          "timestampMs": 1736,
+          "confidence": 1
+        },
+        {
+          "text": " with",
+          "startMs": 1846,
+          "endMs": 1985,
+          "timestampMs": 1916,
+          "confidence": 1
+        },
+        {
+          "text": " ace-king,",
+          "startMs": 2055,
+          "endMs": 2740,
+          "timestampMs": 2398,
+          "confidence": 1
+        },
+        {
+          "text": " kings,",
+          "startMs": 2856,
+          "endMs": 3274,
+          "timestampMs": 3065,
+          "confidence": 1
+        },
+        {
+          "text": " or",
+          "startMs": 3309,
+          "endMs": 3402,
+          "timestampMs": 3356,
+          "confidence": 1
+        },
+        {
+          "text": " aces.",
+          "startMs": 3471,
+          "endMs": 4029,
+          "timestampMs": 3750,
+          "confidence": 1
+        },
+        {
+          "text": " Your",
+          "startMs": 4354,
+          "endMs": 4528,
+          "timestampMs": 4441,
+          "confidence": 1
+        },
+        {
+          "text": " jacks",
+          "startMs": 4586,
+          "endMs": 4888,
+          "timestampMs": 4737,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 4923,
+          "endMs": 5027,
+          "timestampMs": 4975,
+          "confidence": 1
+        },
+        {
+          "text": " crushed.",
+          "startMs": 5062,
+          "endMs": 5561,
+          "timestampMs": 5312,
+          "confidence": 1
+        },
+        {
+          "text": " Lay",
+          "startMs": 5631,
+          "endMs": 5782,
+          "timestampMs": 5707,
+          "confidence": 1
+        },
+        {
+          "text": " them",
+          "startMs": 5828,
+          "endMs": 5944,
+          "timestampMs": 5886,
+          "confidence": 1
+        },
+        {
+          "text": " down.",
+          "startMs": 5991,
+          "endMs": 6594,
+          "timestampMs": 6293,
+          "confidence": 1
+        }
+      ],
+      "hash": "17943b826617"
+    },
+    "s1_reveal": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s1_reveal.mp3",
+      "durationMs": 3266,
+      "captions": [
+        {
+          "text": "He",
+          "startMs": 0,
+          "endMs": 163,
+          "timestampMs": 82,
+          "confidence": 1
+        },
+        {
+          "text": " shows",
+          "startMs": 209,
+          "endMs": 453,
+          "timestampMs": 331,
+          "confidence": 1
+        },
+        {
+          "text": " ace-king.",
+          "startMs": 511,
+          "endMs": 1126,
+          "timestampMs": 819,
+          "confidence": 1
+        },
+        {
+          "text": " That",
+          "startMs": 1509,
+          "endMs": 1672,
+          "timestampMs": 1591,
+          "confidence": 1
+        },
+        {
+          "text": " fold",
+          "startMs": 1730,
+          "endMs": 1950,
+          "timestampMs": 1840,
+          "confidence": 1
+        },
+        {
+          "text": " just",
+          "startMs": 1974,
+          "endMs": 2125,
+          "timestampMs": 2050,
+          "confidence": 1
+        },
+        {
+          "text": " saved",
+          "startMs": 2148,
+          "endMs": 2380,
+          "timestampMs": 2264,
+          "confidence": 1
+        },
+        {
+          "text": " your",
+          "startMs": 2403,
+          "endMs": 2496,
+          "timestampMs": 2450,
+          "confidence": 1
+        },
+        {
+          "text": " stack.",
+          "startMs": 2531,
+          "endMs": 3251,
+          "timestampMs": 2891,
+          "confidence": 1
+        }
+      ],
+      "hash": "a1bb50ac8076"
+    },
+    "s1_lesson": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s1_lesson.mp3",
+      "durationMs": 3162,
+      "captions": [
+        {
+          "text": "Lesson",
+          "startMs": 0,
+          "endMs": 372,
+          "timestampMs": 186,
+          "confidence": 1
+        },
+        {
+          "text": " one.",
+          "startMs": 453,
+          "endMs": 789,
+          "timestampMs": 621,
+          "confidence": 1
+        },
+        {
+          "text": " Against",
+          "startMs": 1173,
+          "endMs": 1556,
+          "timestampMs": 1365,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 1614,
+          "endMs": 1649,
+          "timestampMs": 1632,
+          "confidence": 1
+        },
+        {
+          "text": " rock,",
+          "startMs": 1718,
+          "endMs": 1985,
+          "timestampMs": 1852,
+          "confidence": 1
+        },
+        {
+          "text": " respect",
+          "startMs": 2009,
+          "endMs": 2345,
+          "timestampMs": 2177,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 2380,
+          "endMs": 2450,
+          "timestampMs": 2415,
+          "confidence": 1
+        },
+        {
+          "text": " raise.",
+          "startMs": 2496,
+          "endMs": 3158,
+          "timestampMs": 2827,
+          "confidence": 1
+        }
+      ],
+      "hash": "2e32b109d5da"
+    },
+    "s2_intro": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s2_intro.mp3",
+      "durationMs": 7263,
+      "captions": [
+        {
+          "text": "Opponent",
+          "startMs": 0,
+          "endMs": 441,
+          "timestampMs": 221,
+          "confidence": 1
+        },
+        {
+          "text": " two.",
+          "startMs": 476,
+          "endMs": 906,
+          "timestampMs": 691,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 1231,
+          "endMs": 1358,
+          "timestampMs": 1295,
+          "confidence": 1
+        },
+        {
+          "text": " Maniac.",
+          "startMs": 1451,
+          "endMs": 2125,
+          "timestampMs": 1788,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 2450,
+          "endMs": 2543,
+          "timestampMs": 2497,
+          "confidence": 1
+        },
+        {
+          "text": " has",
+          "startMs": 2589,
+          "endMs": 2694,
+          "timestampMs": 2641,
+          "confidence": 1
+        },
+        {
+          "text": " raised",
+          "startMs": 2775,
+          "endMs": 3053,
+          "timestampMs": 2914,
+          "confidence": 1
+        },
+        {
+          "text": " every",
+          "startMs": 3146,
+          "endMs": 3437,
+          "timestampMs": 3292,
+          "confidence": 1
+        },
+        {
+          "text": " single",
+          "startMs": 3483,
+          "endMs": 3773,
+          "timestampMs": 3628,
+          "confidence": 1
+        },
+        {
+          "text": " hand",
+          "startMs": 3808,
+          "endMs": 4005,
+          "timestampMs": 3907,
+          "confidence": 1
+        },
+        {
+          "text": " tonight.",
+          "startMs": 4052,
+          "endMs": 4447,
+          "timestampMs": 4249,
+          "confidence": 1
+        },
+        {
+          "text": " Twice",
+          "startMs": 4830,
+          "endMs": 5259,
+          "timestampMs": 5045,
+          "confidence": 1
+        },
+        {
+          "text": " without",
+          "startMs": 5294,
+          "endMs": 5608,
+          "timestampMs": 5451,
+          "confidence": 1
+        },
+        {
+          "text": " even",
+          "startMs": 5666,
+          "endMs": 5875,
+          "timestampMs": 5771,
+          "confidence": 1
+        },
+        {
+          "text": " looking",
+          "startMs": 5944,
+          "endMs": 6223,
+          "timestampMs": 6084,
+          "confidence": 1
+        },
+        {
+          "text": " at",
+          "startMs": 6269,
+          "endMs": 6339,
+          "timestampMs": 6304,
+          "confidence": 1
+        },
+        {
+          "text": " his",
+          "startMs": 6374,
+          "endMs": 6455,
+          "timestampMs": 6415,
+          "confidence": 1
+        },
+        {
+          "text": " cards.",
+          "startMs": 6502,
+          "endMs": 7245,
+          "timestampMs": 6874,
+          "confidence": 1
+        }
+      ],
+      "hash": "eaf0756fd0ce"
+    },
+    "s2_open": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s2_open.mp3",
+      "durationMs": 2430,
+      "captions": [
+        {
+          "text": "The",
+          "startMs": 0,
+          "endMs": 139,
+          "timestampMs": 70,
+          "confidence": 1
+        },
+        {
+          "text": " Maniac",
+          "startMs": 197,
+          "endMs": 534,
+          "timestampMs": 366,
+          "confidence": 1
+        },
+        {
+          "text": " raises",
+          "startMs": 604,
+          "endMs": 894,
+          "timestampMs": 749,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 929,
+          "endMs": 987,
+          "timestampMs": 958,
+          "confidence": 1
+        },
+        {
+          "text": " eight.",
+          "startMs": 1057,
+          "endMs": 1370,
+          "timestampMs": 1214,
+          "confidence": 1
+        },
+        {
+          "text": " It's",
+          "startMs": 1405,
+          "endMs": 1591,
+          "timestampMs": 1498,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 1649,
+          "endMs": 1776,
+          "timestampMs": 1713,
+          "confidence": 1
+        },
+        {
+          "text": " you.",
+          "startMs": 1858,
+          "endMs": 2415,
+          "timestampMs": 2137,
+          "confidence": 1
+        }
+      ],
+      "hash": "b19b17e381fd"
+    },
+    "s2_a1": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s2_a1.mp3",
+      "durationMs": 6897,
+      "captions": [
+        {
+          "text": "Three-bet.",
+          "startMs": 0,
+          "endMs": 673,
+          "timestampMs": 337,
+          "confidence": 1
+        },
+        {
+          "text": " Against",
+          "startMs": 1057,
+          "endMs": 1416,
+          "timestampMs": 1237,
+          "confidence": 1
+        },
+        {
+          "text": " his",
+          "startMs": 1451,
+          "endMs": 1544,
+          "timestampMs": 1498,
+          "confidence": 1
+        },
+        {
+          "text": " huge",
+          "startMs": 1591,
+          "endMs": 1869,
+          "timestampMs": 1730,
+          "confidence": 1
+        },
+        {
+          "text": " range,",
+          "startMs": 1927,
+          "endMs": 2241,
+          "timestampMs": 2084,
+          "confidence": 1
+        },
+        {
+          "text": " jacks",
+          "startMs": 2276,
+          "endMs": 2543,
+          "timestampMs": 2410,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 2566,
+          "endMs": 2670,
+          "timestampMs": 2618,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2694,
+          "endMs": 2717,
+          "timestampMs": 2706,
+          "confidence": 1
+        },
+        {
+          "text": " monster.",
+          "startMs": 2775,
+          "endMs": 3286,
+          "timestampMs": 3031,
+          "confidence": 1
+        },
+        {
+          "text": " Make",
+          "startMs": 3437,
+          "endMs": 3646,
+          "timestampMs": 3542,
+          "confidence": 1
+        },
+        {
+          "text": " him",
+          "startMs": 3680,
+          "endMs": 3773,
+          "timestampMs": 3727,
+          "confidence": 1
+        },
+        {
+          "text": " pay",
+          "startMs": 3831,
+          "endMs": 3959,
+          "timestampMs": 3895,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 4005,
+          "endMs": 4063,
+          "timestampMs": 4034,
+          "confidence": 1
+        },
+        {
+          "text": " play.",
+          "startMs": 4122,
+          "endMs": 4574,
+          "timestampMs": 4348,
+          "confidence": 1
+        },
+        {
+          "text": " You",
+          "startMs": 4899,
+          "endMs": 5016,
+          "timestampMs": 4958,
+          "confidence": 1
+        },
+        {
+          "text": " raise",
+          "startMs": 5085,
+          "endMs": 5259,
+          "timestampMs": 5172,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 5283,
+          "endMs": 5341,
+          "timestampMs": 5312,
+          "confidence": 1
+        },
+        {
+          "text": " twenty-six,",
+          "startMs": 5387,
+          "endMs": 5875,
+          "timestampMs": 5631,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 5898,
+          "endMs": 5968,
+          "timestampMs": 5933,
+          "confidence": 1
+        },
+        {
+          "text": " he",
+          "startMs": 6002,
+          "endMs": 6060,
+          "timestampMs": 6031,
+          "confidence": 1
+        },
+        {
+          "text": " calls.",
+          "startMs": 6107,
+          "endMs": 6873,
+          "timestampMs": 6490,
+          "confidence": 1
+        }
+      ],
+      "hash": "55110bf8087e"
+    },
+    "s2_flop": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s2_flop.mp3",
+      "durationMs": 5644,
+      "captions": [
+        {
+          "text": "Queen,",
+          "startMs": 0,
+          "endMs": 604,
+          "timestampMs": 302,
+          "confidence": 1
+        },
+        {
+          "text": " seven,",
+          "startMs": 755,
+          "endMs": 1289,
+          "timestampMs": 1022,
+          "confidence": 1
+        },
+        {
+          "text": " two.",
+          "startMs": 1358,
+          "endMs": 1858,
+          "timestampMs": 1608,
+          "confidence": 1
+        },
+        {
+          "text": " You",
+          "startMs": 2136,
+          "endMs": 2264,
+          "timestampMs": 2200,
+          "confidence": 1
+        },
+        {
+          "text": " bet",
+          "startMs": 2334,
+          "endMs": 2473,
+          "timestampMs": 2404,
+          "confidence": 1
+        },
+        {
+          "text": " twenty...",
+          "startMs": 2508,
+          "endMs": 2984,
+          "timestampMs": 2746,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 3262,
+          "endMs": 3413,
+          "timestampMs": 3338,
+          "confidence": 1
+        },
+        {
+          "text": " he",
+          "startMs": 3460,
+          "endMs": 3529,
+          "timestampMs": 3495,
+          "confidence": 1
+        },
+        {
+          "text": " instantly",
+          "startMs": 3611,
+          "endMs": 4052,
+          "timestampMs": 3832,
+          "confidence": 1
+        },
+        {
+          "text": " raises",
+          "startMs": 4122,
+          "endMs": 4435,
+          "timestampMs": 4278,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 4481,
+          "endMs": 4540,
+          "timestampMs": 4511,
+          "confidence": 1
+        },
+        {
+          "text": " sixty-five.",
+          "startMs": 4598,
+          "endMs": 5619,
+          "timestampMs": 5108,
+          "confidence": 1
+        }
+      ],
+      "hash": "3cffb5d3eb2a"
+    },
+    "s2_a2": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s2_a2.mp3",
+      "durationMs": 5435,
+      "captions": [
+        {
+          "text": "Just",
+          "startMs": 0,
+          "endMs": 290,
+          "timestampMs": 145,
+          "confidence": 1
+        },
+        {
+          "text": " call.",
+          "startMs": 348,
+          "endMs": 836,
+          "timestampMs": 592,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 1161,
+          "endMs": 1265,
+          "timestampMs": 1213,
+          "confidence": 1
+        },
+        {
+          "text": " would",
+          "startMs": 1300,
+          "endMs": 1451,
+          "timestampMs": 1376,
+          "confidence": 1
+        },
+        {
+          "text": " do",
+          "startMs": 1486,
+          "endMs": 1556,
+          "timestampMs": 1521,
+          "confidence": 1
+        },
+        {
+          "text": " this",
+          "startMs": 1614,
+          "endMs": 1730,
+          "timestampMs": 1672,
+          "confidence": 1
+        },
+        {
+          "text": " with",
+          "startMs": 1765,
+          "endMs": 1892,
+          "timestampMs": 1829,
+          "confidence": 1
+        },
+        {
+          "text": " any",
+          "startMs": 1927,
+          "endMs": 2067,
+          "timestampMs": 1997,
+          "confidence": 1
+        },
+        {
+          "text": " two",
+          "startMs": 2113,
+          "endMs": 2276,
+          "timestampMs": 2194,
+          "confidence": 1
+        },
+        {
+          "text": " cards.",
+          "startMs": 2345,
+          "endMs": 2717,
+          "timestampMs": 2531,
+          "confidence": 1
+        },
+        {
+          "text": " Don't",
+          "startMs": 2752,
+          "endMs": 2937,
+          "timestampMs": 2845,
+          "confidence": 1
+        },
+        {
+          "text": " scare",
+          "startMs": 2995,
+          "endMs": 3251,
+          "timestampMs": 3123,
+          "confidence": 1
+        },
+        {
+          "text": " him",
+          "startMs": 3286,
+          "endMs": 3367,
+          "timestampMs": 3327,
+          "confidence": 1
+        },
+        {
+          "text": " away.",
+          "startMs": 3413,
+          "endMs": 3878,
+          "timestampMs": 3646,
+          "confidence": 1
+        },
+        {
+          "text": " Let",
+          "startMs": 4122,
+          "endMs": 4284,
+          "timestampMs": 4203,
+          "confidence": 1
+        },
+        {
+          "text": " him",
+          "startMs": 4319,
+          "endMs": 4400,
+          "timestampMs": 4360,
+          "confidence": 1
+        },
+        {
+          "text": " keep",
+          "startMs": 4447,
+          "endMs": 4621,
+          "timestampMs": 4534,
+          "confidence": 1
+        },
+        {
+          "text": " bluffing.",
+          "startMs": 4679,
+          "endMs": 5433,
+          "timestampMs": 5056,
+          "confidence": 1
+        }
+      ],
+      "hash": "c4440da43c7e"
+    },
+    "s2_turn": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s2_turn.mp3",
+      "durationMs": 2378,
+      "captions": [
+        {
+          "text": "The",
+          "startMs": 0,
+          "endMs": 163,
+          "timestampMs": 82,
+          "confidence": 1
+        },
+        {
+          "text": " four.",
+          "startMs": 221,
+          "endMs": 557,
+          "timestampMs": 389,
+          "confidence": 1
+        },
+        {
+          "text": " And",
+          "startMs": 580,
+          "endMs": 708,
+          "timestampMs": 644,
+          "confidence": 1
+        },
+        {
+          "text": " he",
+          "startMs": 755,
+          "endMs": 813,
+          "timestampMs": 784,
+          "confidence": 1
+        },
+        {
+          "text": " shoves...",
+          "startMs": 871,
+          "endMs": 1405,
+          "timestampMs": 1138,
+          "confidence": 1
+        },
+        {
+          "text": " all",
+          "startMs": 1498,
+          "endMs": 1765,
+          "timestampMs": 1632,
+          "confidence": 1
+        },
+        {
+          "text": " in.",
+          "startMs": 1846,
+          "endMs": 2368,
+          "timestampMs": 2107,
+          "confidence": 1
+        }
+      ],
+      "hash": "8600b01a7318"
+    },
+    "s2_a3": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s2_a3.mp3",
+      "durationMs": 3580,
+      "captions": [
+        {
+          "text": "Snap",
+          "startMs": 0,
+          "endMs": 348,
+          "timestampMs": 174,
+          "confidence": 1
+        },
+        {
+          "text": " call.",
+          "startMs": 418,
+          "endMs": 824,
+          "timestampMs": 621,
+          "confidence": 1
+        },
+        {
+          "text": " Against",
+          "startMs": 1103,
+          "endMs": 1428,
+          "timestampMs": 1265,
+          "confidence": 1
+        },
+        {
+          "text": " his",
+          "startMs": 1463,
+          "endMs": 1567,
+          "timestampMs": 1515,
+          "confidence": 1
+        },
+        {
+          "text": " range,",
+          "startMs": 1637,
+          "endMs": 1939,
+          "timestampMs": 1788,
+          "confidence": 1
+        },
+        {
+          "text": " your",
+          "startMs": 1962,
+          "endMs": 2078,
+          "timestampMs": 2020,
+          "confidence": 1
+        },
+        {
+          "text": " jacks",
+          "startMs": 2125,
+          "endMs": 2380,
+          "timestampMs": 2253,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 2415,
+          "endMs": 2519,
+          "timestampMs": 2467,
+          "confidence": 1
+        },
+        {
+          "text": " miles",
+          "startMs": 2577,
+          "endMs": 2868,
+          "timestampMs": 2723,
+          "confidence": 1
+        },
+        {
+          "text": " ahead.",
+          "startMs": 2914,
+          "endMs": 3576,
+          "timestampMs": 3245,
+          "confidence": 1
+        }
+      ],
+      "hash": "9fb7895c6dcc"
+    },
+    "s2_reveal": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s2_reveal.mp3",
+      "durationMs": 3449,
+      "captions": [
+        {
+          "text": "Nine-eight.",
+          "startMs": 0,
+          "endMs": 534,
+          "timestampMs": 267,
+          "confidence": 1
+        },
+        {
+          "text": " Total",
+          "startMs": 592,
+          "endMs": 940,
+          "timestampMs": 766,
+          "confidence": 1
+        },
+        {
+          "text": " air.",
+          "startMs": 1010,
+          "endMs": 1277,
+          "timestampMs": 1144,
+          "confidence": 1
+        },
+        {
+          "text": " Your",
+          "startMs": 1451,
+          "endMs": 1614,
+          "timestampMs": 1533,
+          "confidence": 1
+        },
+        {
+          "text": " jacks",
+          "startMs": 1683,
+          "endMs": 2009,
+          "timestampMs": 1846,
+          "confidence": 1
+        },
+        {
+          "text": " hold,",
+          "startMs": 2055,
+          "endMs": 2310,
+          "timestampMs": 2183,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 2334,
+          "endMs": 2403,
+          "timestampMs": 2369,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 2450,
+          "endMs": 2531,
+          "timestampMs": 2491,
+          "confidence": 1
+        },
+        {
+          "text": " double",
+          "startMs": 2624,
+          "endMs": 2914,
+          "timestampMs": 2769,
+          "confidence": 1
+        },
+        {
+          "text": " up.",
+          "startMs": 2961,
+          "endMs": 3437,
+          "timestampMs": 3199,
+          "confidence": 1
+        }
+      ],
+      "hash": "377a5805db8e"
+    },
+    "s2_lesson": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s2_lesson.mp3",
+      "durationMs": 3266,
+      "captions": [
+        {
+          "text": "Lesson",
+          "startMs": 0,
+          "endMs": 337,
+          "timestampMs": 169,
+          "confidence": 1
+        },
+        {
+          "text": " two.",
+          "startMs": 383,
+          "endMs": 778,
+          "timestampMs": 581,
+          "confidence": 1
+        },
+        {
+          "text": " Against",
+          "startMs": 987,
+          "endMs": 1312,
+          "timestampMs": 1150,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 1358,
+          "endMs": 1393,
+          "timestampMs": 1376,
+          "confidence": 1
+        },
+        {
+          "text": " maniac,",
+          "startMs": 1463,
+          "endMs": 1950,
+          "timestampMs": 1707,
+          "confidence": 1
+        },
+        {
+          "text": " let",
+          "startMs": 1985,
+          "endMs": 2101,
+          "timestampMs": 2043,
+          "confidence": 1
+        },
+        {
+          "text": " him",
+          "startMs": 2136,
+          "endMs": 2206,
+          "timestampMs": 2171,
+          "confidence": 1
+        },
+        {
+          "text": " hang",
+          "startMs": 2264,
+          "endMs": 2415,
+          "timestampMs": 2340,
+          "confidence": 1
+        },
+        {
+          "text": " himself.",
+          "startMs": 2461,
+          "endMs": 3251,
+          "timestampMs": 2856,
+          "confidence": 1
+        }
+      ],
+      "hash": "a730a2f70e38"
+    },
+    "s3_intro": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s3_intro.mp3",
+      "durationMs": 6479,
+      "captions": [
+        {
+          "text": "Opponent",
+          "startMs": 0,
+          "endMs": 499,
+          "timestampMs": 250,
+          "confidence": 1
+        },
+        {
+          "text": " three.",
+          "startMs": 546,
+          "endMs": 987,
+          "timestampMs": 767,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 1068,
+          "endMs": 1184,
+          "timestampMs": 1126,
+          "confidence": 1
+        },
+        {
+          "text": " Calling",
+          "startMs": 1242,
+          "endMs": 1556,
+          "timestampMs": 1399,
+          "confidence": 1
+        },
+        {
+          "text": " Station.",
+          "startMs": 1614,
+          "endMs": 2136,
+          "timestampMs": 1875,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 2287,
+          "endMs": 2415,
+          "timestampMs": 2351,
+          "confidence": 1
+        },
+        {
+          "text": " never",
+          "startMs": 2485,
+          "endMs": 2694,
+          "timestampMs": 2590,
+          "confidence": 1
+        },
+        {
+          "text": " folds.",
+          "startMs": 2763,
+          "endMs": 3262,
+          "timestampMs": 3013,
+          "confidence": 1
+        },
+        {
+          "text": " Any",
+          "startMs": 3587,
+          "endMs": 3820,
+          "timestampMs": 3704,
+          "confidence": 1
+        },
+        {
+          "text": " pair,",
+          "startMs": 3878,
+          "endMs": 4272,
+          "timestampMs": 4075,
+          "confidence": 1
+        },
+        {
+          "text": " any",
+          "startMs": 4423,
+          "endMs": 4690,
+          "timestampMs": 4557,
+          "confidence": 1
+        },
+        {
+          "text": " draw,",
+          "startMs": 4748,
+          "endMs": 5224,
+          "timestampMs": 4986,
+          "confidence": 1
+        },
+        {
+          "text": " any",
+          "startMs": 5271,
+          "endMs": 5468,
+          "timestampMs": 5370,
+          "confidence": 1
+        },
+        {
+          "text": " reason",
+          "startMs": 5538,
+          "endMs": 5793,
+          "timestampMs": 5666,
+          "confidence": 1
+        },
+        {
+          "text": " at",
+          "startMs": 5840,
+          "endMs": 5898,
+          "timestampMs": 5869,
+          "confidence": 1
+        },
+        {
+          "text": " all.",
+          "startMs": 5944,
+          "endMs": 6455,
+          "timestampMs": 6200,
+          "confidence": 1
+        }
+      ],
+      "hash": "7fd50d64643a"
+    },
+    "s3_open": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s3_open.mp3",
+      "durationMs": 2901,
+      "captions": [
+        {
+          "text": "You",
+          "startMs": 0,
+          "endMs": 163,
+          "timestampMs": 82,
+          "confidence": 1
+        },
+        {
+          "text": " raise",
+          "startMs": 244,
+          "endMs": 453,
+          "timestampMs": 349,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 488,
+          "endMs": 546,
+          "timestampMs": 517,
+          "confidence": 1
+        },
+        {
+          "text": " six.",
+          "startMs": 627,
+          "endMs": 1103,
+          "timestampMs": 865,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 1161,
+          "endMs": 1265,
+          "timestampMs": 1213,
+          "confidence": 1
+        },
+        {
+          "text": " calls.",
+          "startMs": 1324,
+          "endMs": 1765,
+          "timestampMs": 1545,
+          "confidence": 1
+        },
+        {
+          "text": " Of",
+          "startMs": 1811,
+          "endMs": 1916,
+          "timestampMs": 1864,
+          "confidence": 1
+        },
+        {
+          "text": " course",
+          "startMs": 1974,
+          "endMs": 2183,
+          "timestampMs": 2079,
+          "confidence": 1
+        },
+        {
+          "text": " he",
+          "startMs": 2218,
+          "endMs": 2264,
+          "timestampMs": 2241,
+          "confidence": 1
+        },
+        {
+          "text": " does.",
+          "startMs": 2310,
+          "endMs": 2879,
+          "timestampMs": 2595,
+          "confidence": 1
+        }
+      ],
+      "hash": "c575a912077b"
+    },
+    "s3_flop": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s3_flop.mp3",
+      "durationMs": 2300,
+      "captions": [
+        {
+          "text": "Eight,",
+          "startMs": 0,
+          "endMs": 302,
+          "timestampMs": 151,
+          "confidence": 1
+        },
+        {
+          "text": " six,",
+          "startMs": 325,
+          "endMs": 627,
+          "timestampMs": 476,
+          "confidence": 1
+        },
+        {
+          "text": " three.",
+          "startMs": 650,
+          "endMs": 1045,
+          "timestampMs": 847,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 1126,
+          "endMs": 1242,
+          "timestampMs": 1184,
+          "confidence": 1
+        },
+        {
+          "text": " checks",
+          "startMs": 1300,
+          "endMs": 1556,
+          "timestampMs": 1428,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 1591,
+          "endMs": 1649,
+          "timestampMs": 1620,
+          "confidence": 1
+        },
+        {
+          "text": " you.",
+          "startMs": 1718,
+          "endMs": 2276,
+          "timestampMs": 1997,
+          "confidence": 1
+        }
+      ],
+      "hash": "2d16a7b13dac"
+    },
+    "s3_a1": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s3_a1.mp3",
+      "durationMs": 5226,
+      "captions": [
+        {
+          "text": "Bet.",
+          "startMs": 0,
+          "endMs": 453,
+          "timestampMs": 227,
+          "confidence": 1
+        },
+        {
+          "text": " Never",
+          "startMs": 836,
+          "endMs": 1080,
+          "timestampMs": 958,
+          "confidence": 1
+        },
+        {
+          "text": " slow-play",
+          "startMs": 1138,
+          "endMs": 1614,
+          "timestampMs": 1376,
+          "confidence": 1
+        },
+        {
+          "text": " against",
+          "startMs": 1672,
+          "endMs": 1904,
+          "timestampMs": 1788,
+          "confidence": 1
+        },
+        {
+          "text": " someone",
+          "startMs": 1927,
+          "endMs": 2183,
+          "timestampMs": 2055,
+          "confidence": 1
+        },
+        {
+          "text": " who",
+          "startMs": 2206,
+          "endMs": 2299,
+          "timestampMs": 2253,
+          "confidence": 1
+        },
+        {
+          "text": " calls",
+          "startMs": 2345,
+          "endMs": 2577,
+          "timestampMs": 2461,
+          "confidence": 1
+        },
+        {
+          "text": " everything.",
+          "startMs": 2635,
+          "endMs": 3100,
+          "timestampMs": 2867,
+          "confidence": 1
+        },
+        {
+          "text": " You",
+          "startMs": 3274,
+          "endMs": 3390,
+          "timestampMs": 3332,
+          "confidence": 1
+        },
+        {
+          "text": " bet",
+          "startMs": 3471,
+          "endMs": 3634,
+          "timestampMs": 3553,
+          "confidence": 1
+        },
+        {
+          "text": " ten.",
+          "startMs": 3669,
+          "endMs": 4156,
+          "timestampMs": 3912,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 4331,
+          "endMs": 4458,
+          "timestampMs": 4395,
+          "confidence": 1
+        },
+        {
+          "text": " calls.",
+          "startMs": 4516,
+          "endMs": 5201,
+          "timestampMs": 4858,
+          "confidence": 1
+        }
+      ],
+      "hash": "291a51ad6888"
+    },
+    "s3_turn": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s3_turn.mp3",
+      "durationMs": 1647,
+      "captions": [
+        {
+          "text": "The",
+          "startMs": 0,
+          "endMs": 163,
+          "timestampMs": 82,
+          "confidence": 1
+        },
+        {
+          "text": " deuce.",
+          "startMs": 221,
+          "endMs": 580,
+          "timestampMs": 400,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 615,
+          "endMs": 720,
+          "timestampMs": 668,
+          "confidence": 1
+        },
+        {
+          "text": " checks",
+          "startMs": 766,
+          "endMs": 998,
+          "timestampMs": 882,
+          "confidence": 1
+        },
+        {
+          "text": " again.",
+          "startMs": 1033,
+          "endMs": 1625,
+          "timestampMs": 1329,
+          "confidence": 1
+        }
+      ],
+      "hash": "c865eeef5b6a"
+    },
+    "s3_a2": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s3_a2.mp3",
+      "durationMs": 5852,
+      "captions": [
+        {
+          "text": "Bet",
+          "startMs": 0,
+          "endMs": 267,
+          "timestampMs": 134,
+          "confidence": 1
+        },
+        {
+          "text": " bigger.",
+          "startMs": 348,
+          "endMs": 836,
+          "timestampMs": 592,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 1010,
+          "endMs": 1138,
+          "timestampMs": 1074,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 1184,
+          "endMs": 1265,
+          "timestampMs": 1225,
+          "confidence": 1
+        },
+        {
+          "text": " calling",
+          "startMs": 1324,
+          "endMs": 1625,
+          "timestampMs": 1475,
+          "confidence": 1
+        },
+        {
+          "text": " with",
+          "startMs": 1660,
+          "endMs": 1776,
+          "timestampMs": 1718,
+          "confidence": 1
+        },
+        {
+          "text": " any",
+          "startMs": 1823,
+          "endMs": 1974,
+          "timestampMs": 1898,
+          "confidence": 1
+        },
+        {
+          "text": " eight",
+          "startMs": 2020,
+          "endMs": 2159,
+          "timestampMs": 2090,
+          "confidence": 1
+        },
+        {
+          "text": " or",
+          "startMs": 2194,
+          "endMs": 2264,
+          "timestampMs": 2229,
+          "confidence": 1
+        },
+        {
+          "text": " six,",
+          "startMs": 2322,
+          "endMs": 2601,
+          "timestampMs": 2462,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 2624,
+          "endMs": 2705,
+          "timestampMs": 2665,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 2775,
+          "endMs": 2879,
+          "timestampMs": 2827,
+          "confidence": 1
+        },
+        {
+          "text": " beat",
+          "startMs": 2949,
+          "endMs": 3111,
+          "timestampMs": 3030,
+          "confidence": 1
+        },
+        {
+          "text": " all",
+          "startMs": 3146,
+          "endMs": 3262,
+          "timestampMs": 3204,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 3320,
+          "endMs": 3367,
+          "timestampMs": 3343,
+          "confidence": 1
+        },
+        {
+          "text": " those.",
+          "startMs": 3413,
+          "endMs": 3831,
+          "timestampMs": 3622,
+          "confidence": 1
+        },
+        {
+          "text": " Twenty-four.",
+          "startMs": 4272,
+          "endMs": 4957,
+          "timestampMs": 4615,
+          "confidence": 1
+        },
+        {
+          "text": " Called.",
+          "startMs": 5132,
+          "endMs": 5851,
+          "timestampMs": 5492,
+          "confidence": 1
+        }
+      ],
+      "hash": "ed6685d8b82a"
+    },
+    "s3_river": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s3_river.mp3",
+      "durationMs": 3162,
+      "captions": [
+        {
+          "text": "And",
+          "startMs": 0,
+          "endMs": 151,
+          "timestampMs": 76,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 197,
+          "endMs": 267,
+          "timestampMs": 232,
+          "confidence": 1
+        },
+        {
+          "text": " river...",
+          "startMs": 348,
+          "endMs": 813,
+          "timestampMs": 581,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 1022,
+          "endMs": 1103,
+          "timestampMs": 1063,
+          "confidence": 1
+        },
+        {
+          "text": " jack.",
+          "startMs": 1219,
+          "endMs": 1695,
+          "timestampMs": 1457,
+          "confidence": 1
+        },
+        {
+          "text": " You",
+          "startMs": 2020,
+          "endMs": 2125,
+          "timestampMs": 2073,
+          "confidence": 1
+        },
+        {
+          "text": " just",
+          "startMs": 2194,
+          "endMs": 2322,
+          "timestampMs": 2258,
+          "confidence": 1
+        },
+        {
+          "text": " made",
+          "startMs": 2357,
+          "endMs": 2485,
+          "timestampMs": 2421,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2508,
+          "endMs": 2543,
+          "timestampMs": 2526,
+          "confidence": 1
+        },
+        {
+          "text": " set.",
+          "startMs": 2577,
+          "endMs": 3158,
+          "timestampMs": 2867,
+          "confidence": 1
+        }
+      ],
+      "hash": "378362675098"
+    },
+    "s3_a3": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s3_a3.mp3",
+      "durationMs": 4990,
+      "captions": [
+        {
+          "text": "Go",
+          "startMs": 0,
+          "endMs": 197,
+          "timestampMs": 99,
+          "confidence": 1
+        },
+        {
+          "text": " big.",
+          "startMs": 267,
+          "endMs": 627,
+          "timestampMs": 447,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 801,
+          "endMs": 906,
+          "timestampMs": 854,
+          "confidence": 1
+        },
+        {
+          "text": " can't",
+          "startMs": 952,
+          "endMs": 1149,
+          "timestampMs": 1051,
+          "confidence": 1
+        },
+        {
+          "text": " fold",
+          "startMs": 1184,
+          "endMs": 1358,
+          "timestampMs": 1271,
+          "confidence": 1
+        },
+        {
+          "text": " top",
+          "startMs": 1393,
+          "endMs": 1567,
+          "timestampMs": 1480,
+          "confidence": 1
+        },
+        {
+          "text": " pair,",
+          "startMs": 1625,
+          "endMs": 2032,
+          "timestampMs": 1829,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 2090,
+          "endMs": 2229,
+          "timestampMs": 2160,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 2276,
+          "endMs": 2345,
+          "timestampMs": 2311,
+          "confidence": 1
+        },
+        {
+          "text": " have",
+          "startMs": 2403,
+          "endMs": 2519,
+          "timestampMs": 2461,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2543,
+          "endMs": 2566,
+          "timestampMs": 2555,
+          "confidence": 1
+        },
+        {
+          "text": " set.",
+          "startMs": 2612,
+          "endMs": 2926,
+          "timestampMs": 2769,
+          "confidence": 1
+        },
+        {
+          "text": " Sixty",
+          "startMs": 3100,
+          "endMs": 3413,
+          "timestampMs": 3257,
+          "confidence": 1
+        },
+        {
+          "text": " dollars.",
+          "startMs": 3460,
+          "endMs": 3808,
+          "timestampMs": 3634,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 3855,
+          "endMs": 3936,
+          "timestampMs": 3896,
+          "confidence": 1
+        },
+        {
+          "text": " calls",
+          "startMs": 3982,
+          "endMs": 4191,
+          "timestampMs": 4087,
+          "confidence": 1
+        },
+        {
+          "text": " instantly.",
+          "startMs": 4238,
+          "endMs": 4969,
+          "timestampMs": 4604,
+          "confidence": 1
+        }
+      ],
+      "hash": "60aa4a83108f"
+    },
+    "s3_reveal": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s3_reveal.mp3",
+      "durationMs": 2718,
+      "captions": [
+        {
+          "text": "Nine-eight.",
+          "startMs": 0,
+          "endMs": 534,
+          "timestampMs": 267,
+          "confidence": 1
+        },
+        {
+          "text": " Top",
+          "startMs": 580,
+          "endMs": 848,
+          "timestampMs": 714,
+          "confidence": 1
+        },
+        {
+          "text": " pair.",
+          "startMs": 906,
+          "endMs": 1207,
+          "timestampMs": 1057,
+          "confidence": 1
+        },
+        {
+          "text": " You",
+          "startMs": 1289,
+          "endMs": 1405,
+          "timestampMs": 1347,
+          "confidence": 1
+        },
+        {
+          "text": " scoop",
+          "startMs": 1451,
+          "endMs": 1672,
+          "timestampMs": 1562,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 1730,
+          "endMs": 1753,
+          "timestampMs": 1741,
+          "confidence": 1
+        },
+        {
+          "text": " monster",
+          "startMs": 1811,
+          "endMs": 2101,
+          "timestampMs": 1956,
+          "confidence": 1
+        },
+        {
+          "text": " pot.",
+          "startMs": 2136,
+          "endMs": 2694,
+          "timestampMs": 2415,
+          "confidence": 1
+        }
+      ],
+      "hash": "90a1a7a019eb"
+    },
+    "s3_lesson": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/s3_lesson.mp3",
+      "durationMs": 6192,
+      "captions": [
+        {
+          "text": "Lesson",
+          "startMs": 0,
+          "endMs": 348,
+          "timestampMs": 174,
+          "confidence": 1
+        },
+        {
+          "text": " three.",
+          "startMs": 406,
+          "endMs": 859,
+          "timestampMs": 633,
+          "confidence": 1
+        },
+        {
+          "text": " Against",
+          "startMs": 1068,
+          "endMs": 1428,
+          "timestampMs": 1248,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 1474,
+          "endMs": 1498,
+          "timestampMs": 1486,
+          "confidence": 1
+        },
+        {
+          "text": " calling",
+          "startMs": 1544,
+          "endMs": 1811,
+          "timestampMs": 1678,
+          "confidence": 1
+        },
+        {
+          "text": " station,",
+          "startMs": 1858,
+          "endMs": 2299,
+          "timestampMs": 2079,
+          "confidence": 1
+        },
+        {
+          "text": " never",
+          "startMs": 2415,
+          "endMs": 2670,
+          "timestampMs": 2543,
+          "confidence": 1
+        },
+        {
+          "text": " bluff.",
+          "startMs": 2717,
+          "endMs": 3170,
+          "timestampMs": 2944,
+          "confidence": 1
+        },
+        {
+          "text": " Just",
+          "startMs": 3495,
+          "endMs": 3680,
+          "timestampMs": 3588,
+          "confidence": 1
+        },
+        {
+          "text": " bet...",
+          "startMs": 3750,
+          "endMs": 4180,
+          "timestampMs": 3965,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 4389,
+          "endMs": 4551,
+          "timestampMs": 4470,
+          "confidence": 1
+        },
+        {
+          "text": " bet...",
+          "startMs": 4621,
+          "endMs": 4981,
+          "timestampMs": 4801,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 5306,
+          "endMs": 5480,
+          "timestampMs": 5393,
+          "confidence": 1
+        },
+        {
+          "text": " bet.",
+          "startMs": 5550,
+          "endMs": 6177,
+          "timestampMs": 5864,
+          "confidence": 1
+        }
+      ],
+      "hash": "60fb196f2a5c"
+    },
+    "outro": {
+      "speaker": "you",
+      "file": "reels/poker-jacks/outro.mp3",
+      "durationMs": 7080,
+      "captions": [
+        {
+          "text": "Same",
+          "startMs": 0,
+          "endMs": 337,
+          "timestampMs": 169,
+          "confidence": 1
+        },
+        {
+          "text": " hand.",
+          "startMs": 383,
+          "endMs": 801,
+          "timestampMs": 592,
+          "confidence": 1
+        },
+        {
+          "text": " Three",
+          "startMs": 1010,
+          "endMs": 1231,
+          "timestampMs": 1121,
+          "confidence": 1
+        },
+        {
+          "text": " opponents.",
+          "startMs": 1265,
+          "endMs": 1834,
+          "timestampMs": 1550,
+          "confidence": 1
+        },
+        {
+          "text": " Three",
+          "startMs": 2159,
+          "endMs": 2426,
+          "timestampMs": 2293,
+          "confidence": 1
+        },
+        {
+          "text": " completely",
+          "startMs": 2473,
+          "endMs": 2995,
+          "timestampMs": 2734,
+          "confidence": 1
+        },
+        {
+          "text": " different",
+          "startMs": 3030,
+          "endMs": 3297,
+          "timestampMs": 3164,
+          "confidence": 1
+        },
+        {
+          "text": " plays.",
+          "startMs": 3320,
+          "endMs": 3843,
+          "timestampMs": 3582,
+          "confidence": 1
+        },
+        {
+          "text": " Which",
+          "startMs": 4354,
+          "endMs": 4574,
+          "timestampMs": 4464,
+          "confidence": 1
+        },
+        {
+          "text": " ones",
+          "startMs": 4632,
+          "endMs": 4795,
+          "timestampMs": 4714,
+          "confidence": 1
+        },
+        {
+          "text": " did",
+          "startMs": 4830,
+          "endMs": 4946,
+          "timestampMs": 4888,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 4981,
+          "endMs": 5050,
+          "timestampMs": 5015,
+          "confidence": 1
+        },
+        {
+          "text": " get",
+          "startMs": 5097,
+          "endMs": 5213,
+          "timestampMs": 5155,
+          "confidence": 1
+        },
+        {
+          "text": " right?",
+          "startMs": 5271,
+          "endMs": 5596,
+          "timestampMs": 5434,
+          "confidence": 1
+        },
+        {
+          "text": " Tell",
+          "startMs": 5875,
+          "endMs": 6049,
+          "timestampMs": 5962,
+          "confidence": 1
+        },
+        {
+          "text": " me",
+          "startMs": 6095,
+          "endMs": 6142,
+          "timestampMs": 6119,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 6177,
+          "endMs": 6223,
+          "timestampMs": 6200,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 6246,
+          "endMs": 6316,
+          "timestampMs": 6281,
+          "confidence": 1
+        },
+        {
+          "text": " comments.",
+          "startMs": 6351,
+          "endMs": 7059,
+          "timestampMs": 6705,
+          "confidence": 1
+        }
+      ],
+      "hash": "0ec504cedbf0"
+    },
+    "d_flop": {
+      "speaker": "dealer",
+      "file": "reels/poker-jacks/d_flop.mp3",
+      "durationMs": 837,
+      "captions": [
+        {
+          "text": "Flop.",
+          "startMs": 0,
+          "endMs": 836,
+          "timestampMs": 418,
+          "confidence": 1
+        }
+      ],
+      "hash": "29d23c79c282"
+    },
+    "d_turn": {
+      "speaker": "dealer",
+      "file": "reels/poker-jacks/d_turn.mp3",
+      "durationMs": 759,
+      "captions": [
+        {
+          "text": "Turn.",
+          "startMs": 0,
+          "endMs": 743,
+          "timestampMs": 372,
+          "confidence": 1
+        }
+      ],
+      "hash": "0a64a6728a35"
+    },
+    "d_river": {
+      "speaker": "dealer",
+      "file": "reels/poker-jacks/d_river.mp3",
+      "durationMs": 706,
+      "captions": [
+        {
+          "text": "River.",
+          "startMs": 0,
+          "endMs": 697,
+          "timestampMs": 349,
+          "confidence": 1
+        }
+      ],
+      "hash": "bf34ba3b22d7"
+    },
+    "d_show": {
+      "speaker": "dealer",
+      "file": "reels/poker-jacks/d_show.mp3",
+      "durationMs": 889,
+      "captions": [
+        {
+          "text": "Showdown.",
+          "startMs": 0,
+          "endMs": 882,
+          "timestampMs": 441,
+          "confidence": 1
+        }
+      ],
+      "hash": "72fe754d91c1"
+    }
+  },
+  "sfx": {
+    "chips": {
+      "file": "reels/poker-jacks/sfx-chips.mp3",
+      "durationMs": 889,
+      "hash": "24c1b2b49e15"
+    },
+    "collect": {
+      "file": "reels/poker-jacks/sfx-collect.mp3",
+      "durationMs": 1386,
+      "hash": "99101b64fe77"
+    },
+    "deal": {
+      "file": "reels/poker-jacks/sfx-deal.mp3",
+      "durationMs": 497,
+      "hash": "f18eb13d7319"
+    },
+    "flip": {
+      "file": "reels/poker-jacks/sfx-flip.mp3",
+      "durationMs": 497,
+      "hash": "91be3f9d1412"
+    },
+    "heartbeat": {
+      "file": "reels/poker-jacks/sfx-heartbeat.mp3",
+      "durationMs": 4024,
+      "hash": "4b5a9c200303"
+    },
+    "tick": {
+      "file": "reels/poker-jacks/sfx-tick.mp3",
+      "durationMs": 497,
+      "hash": "cfe9d0bae858"
+    },
+    "correct": {
+      "file": "reels/poker-jacks/sfx-correct.mp3",
+      "durationMs": 1020,
+      "hash": "e8f7b9841eff"
+    },
+    "whoosh": {
+      "file": "reels/poker-jacks/sfx-whoosh.mp3",
+      "durationMs": 1203,
+      "hash": "ad879b0ae164"
+    },
+    "allin": {
+      "file": "reels/poker-jacks/sfx-allin.mp3",
+      "durationMs": 2012,
+      "hash": "c4a9d1323000"
+    },
+    "ambience": {
+      "file": "reels/poker-jacks/sfx-ambience.mp3",
+      "durationMs": 20011,
+      "hash": "0a6f525d8138"
+    },
+    "ooh": {
+      "file": "reels/poker-jacks/sfx-ooh.mp3",
+      "durationMs": 1490,
+      "hash": "53a18e5460e9"
+    }
+  }
+}

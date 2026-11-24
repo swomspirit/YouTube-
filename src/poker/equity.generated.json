@@ -1,0 +1,13 @@
+{
+  "s1_pre": 37,
+  "s1_flop": 7,
+  "s1_actual": 9,
+  "s2_pre": 77,
+  "s2_flop": 77,
+  "s2_turn": 78,
+  "s2_actual": 100,
+  "s3_flop": 74,
+  "s3_turn": 79,
+  "s3_river": 98,
+  "s3_actual": 100
+}
