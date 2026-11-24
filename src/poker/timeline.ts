@@ -215,7 +215,7 @@ export type TableState = {
 };
 
 export const stateAt = (t: number): TableState => {
-  const beat = TL.beats.find((b) => t >= b.start && t < b.end) ?? TL.beats[TL.beats.length - 1];
+  const beat = TL.beats.find((b) => t >= b.start && t < b.end) ?? (t < TL.beats[0].start ? TL.beats[0] : TL.beats[TL.beats.length - 1]);
   const scene = beat.scene;
   const s: TableState = {
     scene, heroBet: 0, villBet: 0, pot: 1, heroStack: 200, villStack: 200, board: [], heroFolded: null, revealedAt: null, winner: null, winAt: 0,
