@@ -1,0 +1,2 @@
+Welcome to this 3D animated video.
+Every frame you see is rendered with three dot j s, while the voice, captions and final export are handled by Remotion.

@@ -10,7 +10,9 @@
     "still": "remotion still Main3DVideo out/thumbnail.png --frame=60",
     "typecheck": "tsc --noEmit",
     "render:cpu": "remotion render Main3DVideo out/video.mp4 --gl=swangle",
-    "render:short:cpu": "remotion render Short3DVideo out/short.mp4 --gl=swangle"
+    "render:short:cpu": "remotion render Short3DVideo out/short.mp4 --gl=swangle",
+    "voiceover": "node scripts/voiceover.mjs",
+    "voices": "node scripts/voices.mjs"
   },
   "dependencies": {
     "@react-three/drei": "10.7.9",
@@ -19,6 +21,7 @@
     "@remotion/cli": "4.0.546",
     "@remotion/media-utils": "4.0.546",
     "@remotion/three": "4.0.546",
+    "mediabunny": "1.66.3",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "remotion": "4.0.546",
