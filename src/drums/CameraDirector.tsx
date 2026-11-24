@@ -13,6 +13,8 @@ const SHOTS: Record<string, Shot> = {
   pov: (u) => ({ pos: [0.05, 1.65, -1.2], target: [0.05 + Math.sin(u * 0.3) * 0.1, 0.62, 0.4], fov: 58 }),
   kick: (u) => ({ pos: [0.45, 0.55, 1.4 - u * 0.02], target: [0, 0.3, 0], fov: 40 }),
   ride: (u) => ({ pos: [-1.7, 1.55, 1.0], target: [-0.5, 0.85, -0.15], fov: 42 }),
+  face: (u) => ({ pos: [0.12 + Math.sin(u * 0.4) * 0.15, 1.32, 1.45 - u * 0.03], target: [0, 1.02, -0.6], fov: 40 }),
+  side: (u) => ({ pos: [-2.0, 1.25, -0.3 + u * 0.04], target: [0, 0.85, -0.4], fov: 40 }),
   orbit: (u) => {
     const a = u * 0.22;
     return { pos: [Math.sin(a) * 3.2, 1.6, Math.cos(a) * 3.2], target: [0, 0.65, -0.1], fov: 44 };
@@ -22,12 +24,17 @@ export type ShotName = keyof typeof SHOTS;
 
 const v1 = new THREE.Vector3();
 
-export const CameraDirector: React.FC<{ shot: ShotName; u: number; shake: number; seed: number }> = ({ shot, u, shake, seed }) => {
+export const CameraDirector: React.FC<{ shot: ShotName; u: number; shake: number; seed: number; portrait?: boolean }> = ({ shot, u, shake, seed, portrait = false }) => {
   const camera = useThree((s) => s.camera) as THREE.PerspectiveCamera;
   const s = SHOTS[shot](u);
   const sx = Math.sin(seed * 12.9898 + u * 61) * shake;
   const sy = Math.cos(seed * 78.233 + u * 47) * shake;
-  camera.position.set(s.pos[0] + sx, s.pos[1] + sy, s.pos[2]);
+  // in 9:16 the frame is narrow: back the camera off along its view direction
+  const k = portrait ? 1.55 : 1;
+  const px = s.target[0] + (s.pos[0] - s.target[0]) * k;
+  const py = s.target[1] + (s.pos[1] - s.target[1]) * k;
+  const pz = s.target[2] + (s.pos[2] - s.target[2]) * k;
+  camera.position.set(px + sx, py + sy, pz);
   camera.lookAt(v1.set(...s.target));
   if (camera.fov !== s.fov) {
     camera.fov = s.fov;

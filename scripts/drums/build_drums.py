@@ -190,6 +190,30 @@ def level3():
     return double_kick(hits), t + 2.5, 168
 
 # ---------------------------------------------------------------------------
+# SHORT: original groove-metal intro in a Gojira-like style (tom-driven,
+# syncopated stabs, double-kick bursts). Not a transcription of any song.
+# ---------------------------------------------------------------------------
+def groove_metal_intro():
+    tom_groove = bar(floor="O-o-O-o-O-o-O-o-", snare="----O-------O---", kick="O--O--O-O--O--O-", china="O---------------")
+    tom_groove2 = bar(floor="O-o-O-o-O-o-----", tom2="------------O-o-", snare="----O-------O---", kick="O--O--O-O--O--O-", crash="O---------------")
+    stabs = bar(crash="O--O--O-----O---", kick="O--O--O-OOOOO---", snare="------------O-O-", tom1="--------------O-")
+    stabs2 = bar(china="O--O--O---O-----", kick="O--O--O---OOOOOO", snare="-------O----O---")
+    gallop = bar(crash="O-----------------------", china="------O-----O-----O-----", snare="------O-----------O-----", kick="O-OO-OO-OO-OO-OO-OO-OO-O")
+    cascade = bar(snare="OoOo--------------------", tom1="----OoOo----------------", tom2="--------OoOo------------", floor="------------OoOoOoOo----",
+                  kick="O-----O-----O-----OOOOOO")
+    blast = bar(ride="o-o-o-o-o-o-o-o-", snare="-O-O-O-O-O-O-O-O", kick="O-O-O-O-O-O-O-O-", crash="O---------------")
+    end = bar(crash="O---------------", crash2="O---------------", china="O---------------", kick="O---------------", floor="O---------------")
+    bars = ([tom_groove, tom_groove, tom_groove, tom_groove2]
+            + [stabs, stabs2, stabs, cascade]
+            + [gallop, gallop, gallop, cascade]
+            + [tom_groove, tom_groove2, blast, blast]
+            + [stabs, stabs2, stabs, cascade]
+            + [end])
+    hits, t = build(bars, 176, 4)
+    hits = assign_limbs(hits)
+    return double_kick(hits), t + 2.0, 176
+
+# ---------------------------------------------------------------------------
 def write(sid, hits, duration, bpm):
     tpb = 960
     to_ticks = lambda s: int(round(s / 0.5 * tpb))
@@ -228,3 +252,4 @@ if __name__ == "__main__":
     write("level1-rock", *level1())
     write("level2-funk", *level2())
     write("level3-metal", *level3())
+    write("short-groove-metal", *groove_metal_intro())

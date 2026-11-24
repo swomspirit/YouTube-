@@ -3,6 +3,7 @@ import { ALL_FORMATS, Input, UrlSource } from "mediabunny";
 import { Video, type VideoProps } from "./Video";
 import { PianoThumbnail } from "./piano/Thumbnail";
 import { DrumLevels, DRUM_LEVELS_DURATION, FPS as DRUM_FPS } from "./drums/DrumLevels";
+import { DrumShort, DRUM_SHORT_DURATION } from "./drums/DrumShort";
 import { PianoLevels, PIANO_LEVELS_DURATION, FPS as PIANO_FPS } from "./piano/PianoLevels";
 import { TeleportUlt, TELEPORT_ULT_DURATION, FPS as REEL_FPS } from "./reels/teleport-ult/TeleportUlt";
 
@@ -53,6 +54,7 @@ export const RemotionRoot: React.FC = () => {
       />
       <Still id="PianoThumbnail" component={PianoThumbnail} width={1280} height={720} />
       {/* ---- Reels (9:16) ---- */}
+      <Composition id="Short-RobotDrummer" component={DrumShort} durationInFrames={DRUM_SHORT_DURATION} fps={DRUM_FPS} width={1080} height={1920} />
       <Composition
         id="Reel-TeleportUlt"
         component={TeleportUlt}

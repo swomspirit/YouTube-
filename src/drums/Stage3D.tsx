@@ -4,12 +4,13 @@ import { Environment, Lightformer } from "@react-three/drei";
 import { impulse, lastHit, type Piece, type PreparedPerformance } from "./hits";
 import { KIT, PIECE_COLOR, type CymbalDef, type DrumDef } from "./kit";
 import { beaterAngle, stickPose } from "./sticks";
+import { Drummer } from "./Drummer";
 
 const SHELL = "#7a1424";
 const CHROME = { color: "#d8dde3", metalness: 1, roughness: 0.18 } as const;
 const BRONZE = { color: "#d9b25a", metalness: 0.85, roughness: 0.3, envMapIntensity: 2.2 } as const;
 
-type Props = { perf: PreparedPerformance | null; now: number; accent: string; energy: number; t: number };
+type Props = { perf: PreparedPerformance | null; now: number; accent: string; energy: number; t: number; drummer?: boolean; pyro?: boolean };
 
 /* ------------------------------------------------------------------ */
 let glowTex: THREE.Texture | null = null;
@@ -296,7 +297,79 @@ const Beams: React.FC<{ accent: string; t: number; flash: number; energy: number
 );
 
 /* ------------------------------------------------------------------ */
-export const DrumStage: React.FC<Props> = ({ perf, now, accent, energy, t }) => {
+const gripOf = (perf: PreparedPerformance | null, hand: "R" | "L", now: number) => {
+  const p = stickPose(perf, hand, now);
+  const dir = p.mid.clone().sub(p.tip).normalize();
+  return p.tip.clone().add(dir.multiplyScalar(p.len * 0.8));
+};
+
+const DrummerOnKit: React.FC<{ perf: PreparedPerformance | null; now: number; energy: number }> = ({ perf, now, energy }) => {
+  const beat = perf ? 60 / perf.bpm : 0.6;
+  const fast = perf && perf.bpm > 140;
+  const period = fast ? beat * 2 : beat; // headbang on half notes when it's fast
+  const phase = perf ? (((now - perf.countIn) / period) % 1 + 1) % 1 : (now * 0.5) % 1;
+  const playingNow = !!perf && now >= perf.countIn && now < perf.duration - 2;
+  const intensity = playingNow ? 0.35 + energy * 0.65 : 0.12;
+  const bang = intensity * Math.pow(Math.cos(Math.PI * phase), 2);
+  const crash = perf ? Math.max(impulse(perf.byPiece.crash, now, 0.3), impulse(perf.byPiece.china, now, 0.3)) : 0;
+  const press = (f: "RF" | "LF") => 1 - beaterAngle(perf, f, now) / -0.75;
+  return (
+    <Drummer
+      pose={{
+        gripR: gripOf(perf, "R", now),
+        gripL: gripOf(perf, "L", now),
+        bang,
+        sway: Math.sin(now * 1.3) * (playingNow ? 0.6 : 0.3),
+        angry: playingNow ? Math.min(1, energy * 0.9 + crash * 0.3) : 0,
+        surprised: perf && now < perf.countIn ? 0.6 : crash * 0.4,
+        footR: press("RF"),
+        footL: press("LF"),
+      }}
+    />
+  );
+};
+
+/** Flame jets at the stage edges on big crash hits, plus sparks. */
+const Pyro: React.FC<{ perf: PreparedPerformance | null; now: number }> = ({ perf, now }) => {
+  if (!perf) return null;
+  const h = lastHit(perf.byPiece.crash, now) ?? lastHit(perf.byPiece.china, now);
+  const c2 = lastHit(perf.byPiece.china, now);
+  const hit = h && c2 ? (h.t > c2.t ? h : c2) : h ?? c2;
+  if (!hit || hit.v < 110) return null;
+  const dt = now - hit.t;
+  if (dt > 0.9) return null;
+  const life = dt / 0.9;
+  const jets = [-1.9, 1.9];
+  return (
+    <group>
+      {jets.map((x) => (
+        <group key={x} position={[x, 0, -0.9]}>
+          <mesh position={[0, 0.08, 0]}>
+            <cylinderGeometry args={[0.12, 0.16, 0.16, 16]} />
+            <meshStandardMaterial color="#1b1b20" metalness={0.6} roughness={0.4} />
+          </mesh>
+          {Array.from({ length: 9 }, (_, i) => {
+            const k = i / 9;
+            const y = 0.2 + k * 2.6 * Math.min(1, dt * 6);
+            const size = (0.5 + k * 0.9) * (1 - life * 0.6);
+            const col = k < 0.3 ? "#fff1a8" : k < 0.65 ? "#ff9a2e" : "#ff3d1f";
+            return <Glow key={i} color={col} size={size} amount={(1 - life) * (1 - k * 0.5)} position={[Math.sin(i * 2.1 + now * 20) * 0.05, y, 0]} />;
+          })}
+        </group>
+      ))}
+      {Array.from({ length: 24 }, (_, i) => {
+        const a = (i / 24) * Math.PI * 2 + i;
+        const sp = 1.2 + (i % 5) * 0.35;
+        const x = (i % 2 ? 1.9 : -1.9) + Math.cos(a) * sp * dt;
+        const y = 2.0 + Math.abs(Math.sin(a)) * sp * dt * 1.6 - 4.9 * dt * dt;
+        return y > 0 ? <Glow key={`s${i}`} color="#ffd27a" size={0.09} amount={1 - life} position={[x, y, -0.9 + Math.sin(a) * dt]} /> : null;
+      })}
+    </group>
+  );
+};
+
+/* ------------------------------------------------------------------ */
+export const DrumStage: React.FC<Props> = ({ perf, now, accent, energy, t, drummer = false, pyro = false }) => {
   const kickImp = perf ? impulse(perf.byPiece.kick, now, 0.12) : 0;
   const crashImp = perf
     ? Math.max(impulse(perf.byPiece.crash, now, 0.35), impulse(perf.byPiece.crash2, now, 0.35), impulse(perf.byPiece.china, now, 0.35))
@@ -376,6 +449,8 @@ export const DrumStage: React.FC<Props> = ({ perf, now, accent, energy, t }) => 
       <Cymbal def={KIT.china as CymbalDef} piece="china" perf={perf} now={now} />
       <Stick perf={perf} hand="R" now={now} />
       <Stick perf={perf} hand="L" now={now} />
+      {drummer ? <DrummerOnKit perf={perf} now={now} energy={energy} /> : null}
+      {pyro ? <Pyro perf={perf} now={now} /> : null}
 
     </>
   );

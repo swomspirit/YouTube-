@@ -14,10 +14,9 @@ const LANES: { label: string; pieces: Piece[]; color: string }[] = [
 const laneOf = (p: Piece) => LANES.findIndex((l) => l.pieces.includes(p));
 
 /** Scrolling note lane at the bottom of the screen. Hits travel right -> left into the hit line. */
-export const Highway: React.FC<{ perf: PreparedPerformance | null; now: number; accent: string; ahead: number }> = ({ perf, now, accent, ahead }) => {
-  const W = 1920;
-  const top = 838;
-  const laneH = 26;
+export const Highway: React.FC<{ perf: PreparedPerformance | null; now: number; accent: string; ahead: number; W?: number; H0?: number; top?: number; laneH?: number }> = ({
+  perf, now, accent, ahead, W = 1920, H0 = 1080, top = 838, laneH = 26,
+}) => {
   const labelW = 150;
   const hitX = 250;
   const pps = (W - hitX - 40) / ahead;
@@ -61,7 +60,7 @@ export const Highway: React.FC<{ perf: PreparedPerformance | null; now: number; 
   }
 
   return (
-    <svg width={W} height={1080} viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0 }}>
+    <svg width={W} height={H0} viewBox={`0 0 ${W} ${H0}`} style={{ position: "absolute", inset: 0 }}>
       <defs>
         <linearGradient id="hw-bg" x1="0" y1="0" x2="1" y2="0">
           <stop offset="0" stopColor="#07060c" stopOpacity="0.92" />

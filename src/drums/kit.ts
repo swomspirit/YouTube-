@@ -23,7 +23,7 @@ export const KIT: Record<Piece, KitPiece> = {
 };
 
 export const DRUMMER = new THREE.Vector3(0, 1.05, -0.85);
-export const HAND_BASE = { R: new THREE.Vector3(-0.22, 1.08, -0.7), L: new THREE.Vector3(0.24, 1.08, -0.7) };
+export const HAND_BASE = { R: new THREE.Vector3(-0.2, 0.95, -0.62), L: new THREE.Vector3(0.22, 0.95, -0.62) };
 export const STICK_REST = { R: new THREE.Vector3(0.1, 0.92, -0.32), L: new THREE.Vector3(0.36, 0.9, -0.36) };
 
 const up = new THREE.Vector3(0, 1, 0);
