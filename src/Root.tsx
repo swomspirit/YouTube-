@@ -1,6 +1,7 @@
-import { CalculateMetadataFunction, Composition, staticFile } from "remotion";
+import { CalculateMetadataFunction, Composition, Still, staticFile } from "remotion";
 import { ALL_FORMATS, Input, UrlSource } from "mediabunny";
 import { Video, type VideoProps } from "./Video";
+import { PianoThumbnail } from "./piano/Thumbnail";
 import { PianoLevels, PIANO_LEVELS_DURATION, FPS as PIANO_FPS } from "./piano/PianoLevels";
 import { TeleportUlt, TELEPORT_ULT_DURATION, FPS as REEL_FPS } from "./reels/teleport-ult/TeleportUlt";
 
@@ -41,6 +42,7 @@ export const RemotionRoot: React.FC = () => {
         width={1920}
         height={1080}
       />
+      <Still id="PianoThumbnail" component={PianoThumbnail} width={1280} height={720} />
       {/* ---- Reels (9:16) ---- */}
       <Composition
         id="Reel-TeleportUlt"
