@@ -45,6 +45,27 @@ unless you run with `NODE_USE_ENV_PROXY=1` (Node 22.21+).
 Tip: write numbers and symbols the way they should be spoken ("three dot j s"), because
 the captions show the spoken words.
 
+## 3 Levels of Piano (16:9, ~5 min)
+
+A cartoon pianist plays three public-domain pieces of increasing difficulty, with
+Synthesia-style falling notes on an 88-key keyboard and ElevenLabs narration.
+
+| Level | Piece | Source |
+|---|---|---|
+| Easy | Ode to Joy (Beethoven) | written in `scripts/piano/build_songs.py` |
+| Medium | Für Elise (Beethoven) | written in `scripts/piano/build_songs.py` |
+| Hard | Maple Leaf Rag (Joplin) | music21 corpus, repeats expanded |
+
+```bash
+sudo apt-get install -y fluidsynth fluid-soundfont-gm && pip install music21 mido
+python3 scripts/piano/build_songs.py          # notes JSON + piano audio (FluidSynth)
+npm run reel:audio -- piano-levels            # narration + applause/chime (ElevenLabs)
+npx remotion render PianoLevels out/3-levels-of-piano.mp4
+```
+
+The piano audio is rendered from the notes, so the falling notes and the sound always line up,
+and there are no copyrighted recordings.
+
 ## 2D cartoon reels (9:16)
 
 Short, joke-per-reel cartoons in a flat chibi style. Each reel has:

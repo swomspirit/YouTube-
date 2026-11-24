@@ -1,0 +1,728 @@
+{
+  "lines": {
+    "intro": {
+      "speaker": "narrator",
+      "file": "reels/piano-levels/intro.mp3",
+      "durationMs": 5826,
+      "captions": [
+        {
+          "text": "Three",
+          "startMs": 0,
+          "endMs": 267,
+          "timestampMs": 134,
+          "confidence": 1
+        },
+        {
+          "text": " levels",
+          "startMs": 313,
+          "endMs": 569,
+          "timestampMs": 441,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 615,
+          "endMs": 662,
+          "timestampMs": 639,
+          "confidence": 1
+        },
+        {
+          "text": " piano.",
+          "startMs": 708,
+          "endMs": 1254,
+          "timestampMs": 981,
+          "confidence": 1
+        },
+        {
+          "text": " Easy...",
+          "startMs": 1405,
+          "endMs": 1985,
+          "timestampMs": 1695,
+          "confidence": 1
+        },
+        {
+          "text": " medium...",
+          "startMs": 2264,
+          "endMs": 2775,
+          "timestampMs": 2520,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 3053,
+          "endMs": 3228,
+          "timestampMs": 3141,
+          "confidence": 1
+        },
+        {
+          "text": " hard.",
+          "startMs": 3297,
+          "endMs": 3704,
+          "timestampMs": 3501,
+          "confidence": 1
+        },
+        {
+          "text": " Let's",
+          "startMs": 4214,
+          "endMs": 4423,
+          "timestampMs": 4319,
+          "confidence": 1
+        },
+        {
+          "text": " see",
+          "startMs": 4447,
+          "endMs": 4563,
+          "timestampMs": 4505,
+          "confidence": 1
+        },
+        {
+          "text": " how",
+          "startMs": 4598,
+          "endMs": 4702,
+          "timestampMs": 4650,
+          "confidence": 1
+        },
+        {
+          "text": " far",
+          "startMs": 4772,
+          "endMs": 4934,
+          "timestampMs": 4853,
+          "confidence": 1
+        },
+        {
+          "text": " he",
+          "startMs": 4992,
+          "endMs": 5062,
+          "timestampMs": 5027,
+          "confidence": 1
+        },
+        {
+          "text": " gets.",
+          "startMs": 5132,
+          "endMs": 5805,
+          "timestampMs": 5469,
+          "confidence": 1
+        }
+      ],
+      "hash": "d6b887b6b48d"
+    },
+    "level1": {
+      "speaker": "narrator",
+      "file": "reels/piano-levels/level1.mp3",
+      "durationMs": 6976,
+      "captions": [
+        {
+          "text": "Level",
+          "startMs": 0,
+          "endMs": 325,
+          "timestampMs": 163,
+          "confidence": 1
+        },
+        {
+          "text": " one.",
+          "startMs": 395,
+          "endMs": 604,
+          "timestampMs": 500,
+          "confidence": 1
+        },
+        {
+          "text": " Easy.",
+          "startMs": 650,
+          "endMs": 1184,
+          "timestampMs": 917,
+          "confidence": 1
+        },
+        {
+          "text": " Ode",
+          "startMs": 1312,
+          "endMs": 1579,
+          "timestampMs": 1446,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 1614,
+          "endMs": 1707,
+          "timestampMs": 1661,
+          "confidence": 1
+        },
+        {
+          "text": " Joy,",
+          "startMs": 1788,
+          "endMs": 2194,
+          "timestampMs": 1991,
+          "confidence": 1
+        },
+        {
+          "text": " by",
+          "startMs": 2241,
+          "endMs": 2334,
+          "timestampMs": 2288,
+          "confidence": 1
+        },
+        {
+          "text": " Beethoven.",
+          "startMs": 2392,
+          "endMs": 2972,
+          "timestampMs": 2682,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 3413,
+          "endMs": 3529,
+          "timestampMs": 3471,
+          "confidence": 1
+        },
+        {
+          "text": " right",
+          "startMs": 3599,
+          "endMs": 3785,
+          "timestampMs": 3692,
+          "confidence": 1
+        },
+        {
+          "text": " hand",
+          "startMs": 3808,
+          "endMs": 3994,
+          "timestampMs": 3901,
+          "confidence": 1
+        },
+        {
+          "text": " plays",
+          "startMs": 4052,
+          "endMs": 4296,
+          "timestampMs": 4174,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 4342,
+          "endMs": 4412,
+          "timestampMs": 4377,
+          "confidence": 1
+        },
+        {
+          "text": " melody,",
+          "startMs": 4458,
+          "endMs": 4923,
+          "timestampMs": 4691,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 4992,
+          "endMs": 5132,
+          "timestampMs": 5062,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 5178,
+          "endMs": 5248,
+          "timestampMs": 5213,
+          "confidence": 1
+        },
+        {
+          "text": " left",
+          "startMs": 5283,
+          "endMs": 5468,
+          "timestampMs": 5376,
+          "confidence": 1
+        },
+        {
+          "text": " hand",
+          "startMs": 5503,
+          "endMs": 5724,
+          "timestampMs": 5614,
+          "confidence": 1
+        },
+        {
+          "text": " just",
+          "startMs": 5793,
+          "endMs": 5956,
+          "timestampMs": 5875,
+          "confidence": 1
+        },
+        {
+          "text": " keeps",
+          "startMs": 6002,
+          "endMs": 6235,
+          "timestampMs": 6119,
+          "confidence": 1
+        },
+        {
+          "text": " time.",
+          "startMs": 6281,
+          "endMs": 6966,
+          "timestampMs": 6624,
+          "confidence": 1
+        }
+      ],
+      "hash": "16dccdb83013"
+    },
+    "level2": {
+      "speaker": "narrator",
+      "file": "reels/piano-levels/level2.mp3",
+      "durationMs": 7080,
+      "captions": [
+        {
+          "text": "Level",
+          "startMs": 0,
+          "endMs": 313,
+          "timestampMs": 157,
+          "confidence": 1
+        },
+        {
+          "text": " two.",
+          "startMs": 360,
+          "endMs": 743,
+          "timestampMs": 552,
+          "confidence": 1
+        },
+        {
+          "text": " Medium.",
+          "startMs": 917,
+          "endMs": 1451,
+          "timestampMs": 1184,
+          "confidence": 1
+        },
+        {
+          "text": " Für",
+          "startMs": 1776,
+          "endMs": 1974,
+          "timestampMs": 1875,
+          "confidence": 1
+        },
+        {
+          "text": " Elise,",
+          "startMs": 1997,
+          "endMs": 2415,
+          "timestampMs": 2206,
+          "confidence": 1
+        },
+        {
+          "text": " also",
+          "startMs": 2438,
+          "endMs": 2647,
+          "timestampMs": 2543,
+          "confidence": 1
+        },
+        {
+          "text": " by",
+          "startMs": 2705,
+          "endMs": 2786,
+          "timestampMs": 2746,
+          "confidence": 1
+        },
+        {
+          "text": " Beethoven.",
+          "startMs": 2844,
+          "endMs": 3413,
+          "timestampMs": 3129,
+          "confidence": 1
+        },
+        {
+          "text": " Now",
+          "startMs": 3855,
+          "endMs": 4017,
+          "timestampMs": 3936,
+          "confidence": 1
+        },
+        {
+          "text": " both",
+          "startMs": 4098,
+          "endMs": 4319,
+          "timestampMs": 4209,
+          "confidence": 1
+        },
+        {
+          "text": " hands",
+          "startMs": 4365,
+          "endMs": 4598,
+          "timestampMs": 4482,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 4621,
+          "endMs": 4725,
+          "timestampMs": 4673,
+          "confidence": 1
+        },
+        {
+          "text": " moving,",
+          "startMs": 4772,
+          "endMs": 5166,
+          "timestampMs": 4969,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 5213,
+          "endMs": 5352,
+          "timestampMs": 5283,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 5387,
+          "endMs": 5457,
+          "timestampMs": 5422,
+          "confidence": 1
+        },
+        {
+          "text": " melody",
+          "startMs": 5492,
+          "endMs": 5759,
+          "timestampMs": 5626,
+          "confidence": 1
+        },
+        {
+          "text": " gets",
+          "startMs": 5817,
+          "endMs": 5991,
+          "timestampMs": 5904,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 6026,
+          "endMs": 6049,
+          "timestampMs": 6038,
+          "confidence": 1
+        },
+        {
+          "text": " lot",
+          "startMs": 6107,
+          "endMs": 6281,
+          "timestampMs": 6194,
+          "confidence": 1
+        },
+        {
+          "text": " faster.",
+          "startMs": 6327,
+          "endMs": 7059,
+          "timestampMs": 6693,
+          "confidence": 1
+        }
+      ],
+      "hash": "2f153ce20300"
+    },
+    "level3": {
+      "speaker": "narrator",
+      "file": "reels/piano-levels/level3.mp3",
+      "durationMs": 9823,
+      "captions": [
+        {
+          "text": "Level",
+          "startMs": 0,
+          "endMs": 325,
+          "timestampMs": 163,
+          "confidence": 1
+        },
+        {
+          "text": " three.",
+          "startMs": 383,
+          "endMs": 859,
+          "timestampMs": 621,
+          "confidence": 1
+        },
+        {
+          "text": " Hard.",
+          "startMs": 917,
+          "endMs": 1463,
+          "timestampMs": 1190,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 1846,
+          "endMs": 1974,
+          "timestampMs": 1910,
+          "confidence": 1
+        },
+        {
+          "text": " Maple",
+          "startMs": 2055,
+          "endMs": 2345,
+          "timestampMs": 2200,
+          "confidence": 1
+        },
+        {
+          "text": " Leaf",
+          "startMs": 2380,
+          "endMs": 2577,
+          "timestampMs": 2479,
+          "confidence": 1
+        },
+        {
+          "text": " Rag,",
+          "startMs": 2659,
+          "endMs": 3135,
+          "timestampMs": 2897,
+          "confidence": 1
+        },
+        {
+          "text": " by",
+          "startMs": 3286,
+          "endMs": 3425,
+          "timestampMs": 3356,
+          "confidence": 1
+        },
+        {
+          "text": " Scott",
+          "startMs": 3495,
+          "endMs": 3831,
+          "timestampMs": 3663,
+          "confidence": 1
+        },
+        {
+          "text": " Joplin.",
+          "startMs": 3889,
+          "endMs": 4493,
+          "timestampMs": 4191,
+          "confidence": 1
+        },
+        {
+          "text": " A",
+          "startMs": 4876,
+          "endMs": 4957,
+          "timestampMs": 4917,
+          "confidence": 1
+        },
+        {
+          "text": " jumping",
+          "startMs": 5085,
+          "endMs": 5433,
+          "timestampMs": 5259,
+          "confidence": 1
+        },
+        {
+          "text": " left",
+          "startMs": 5492,
+          "endMs": 5689,
+          "timestampMs": 5591,
+          "confidence": 1
+        },
+        {
+          "text": " hand,",
+          "startMs": 5735,
+          "endMs": 6188,
+          "timestampMs": 5962,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 6432,
+          "endMs": 6502,
+          "timestampMs": 6467,
+          "confidence": 1
+        },
+        {
+          "text": " syncopated",
+          "startMs": 6629,
+          "endMs": 7303,
+          "timestampMs": 6966,
+          "confidence": 1
+        },
+        {
+          "text": " right",
+          "startMs": 7361,
+          "endMs": 7546,
+          "timestampMs": 7454,
+          "confidence": 1
+        },
+        {
+          "text": " hand,",
+          "startMs": 7593,
+          "endMs": 7964,
+          "timestampMs": 7779,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 8173,
+          "endMs": 8324,
+          "timestampMs": 8249,
+          "confidence": 1
+        },
+        {
+          "text": " almost",
+          "startMs": 8371,
+          "endMs": 8638,
+          "timestampMs": 8505,
+          "confidence": 1
+        },
+        {
+          "text": " no",
+          "startMs": 8696,
+          "endMs": 8800,
+          "timestampMs": 8748,
+          "confidence": 1
+        },
+        {
+          "text": " time",
+          "startMs": 8858,
+          "endMs": 9056,
+          "timestampMs": 8957,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 9079,
+          "endMs": 9125,
+          "timestampMs": 9102,
+          "confidence": 1
+        },
+        {
+          "text": " breathe.",
+          "startMs": 9172,
+          "endMs": 9799,
+          "timestampMs": 9486,
+          "confidence": 1
+        }
+      ],
+      "hash": "d0da8feb43cf"
+    },
+    "outro": {
+      "speaker": "narrator",
+      "file": "reels/piano-levels/outro.mp3",
+      "durationMs": 4050,
+      "captions": [
+        {
+          "text": "He",
+          "startMs": 0,
+          "endMs": 151,
+          "timestampMs": 76,
+          "confidence": 1
+        },
+        {
+          "text": " made",
+          "startMs": 221,
+          "endMs": 383,
+          "timestampMs": 302,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 406,
+          "endMs": 464,
+          "timestampMs": 435,
+          "confidence": 1
+        },
+        {
+          "text": " through",
+          "startMs": 488,
+          "endMs": 685,
+          "timestampMs": 587,
+          "confidence": 1
+        },
+        {
+          "text": " all",
+          "startMs": 720,
+          "endMs": 836,
+          "timestampMs": 778,
+          "confidence": 1
+        },
+        {
+          "text": " three",
+          "startMs": 882,
+          "endMs": 1068,
+          "timestampMs": 975,
+          "confidence": 1
+        },
+        {
+          "text": " levels.",
+          "startMs": 1115,
+          "endMs": 1579,
+          "timestampMs": 1347,
+          "confidence": 1
+        },
+        {
+          "text": " Which",
+          "startMs": 1788,
+          "endMs": 1997,
+          "timestampMs": 1893,
+          "confidence": 1
+        },
+        {
+          "text": " level",
+          "startMs": 2067,
+          "endMs": 2299,
+          "timestampMs": 2183,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 2334,
+          "endMs": 2415,
+          "timestampMs": 2375,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 2450,
+          "endMs": 2531,
+          "timestampMs": 2491,
+          "confidence": 1
+        },
+        {
+          "text": " on?",
+          "startMs": 2647,
+          "endMs": 2868,
+          "timestampMs": 2758,
+          "confidence": 1
+        },
+        {
+          "text": " Tell",
+          "startMs": 2902,
+          "endMs": 3077,
+          "timestampMs": 2990,
+          "confidence": 1
+        },
+        {
+          "text": " me",
+          "startMs": 3111,
+          "endMs": 3158,
+          "timestampMs": 3135,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 3181,
+          "endMs": 3228,
+          "timestampMs": 3205,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 3251,
+          "endMs": 3320,
+          "timestampMs": 3286,
+          "confidence": 1
+        },
+        {
+          "text": " comments.",
+          "startMs": 3355,
+          "endMs": 4040,
+          "timestampMs": 3698,
+          "confidence": 1
+        }
+      ],
+      "hash": "d7754cb9db4d"
+    }
+  },
+  "sfx": {
+    "applause": {
+      "file": "reels/piano-levels/sfx-applause.mp3",
+      "durationMs": 3501,
+      "hash": "2c10ffe2222c"
+    },
+    "levelup": {
+      "file": "reels/piano-levels/sfx-levelup.mp3",
+      "durationMs": 1490,
+      "hash": "01826d9db7c5"
+    }
+  }
+}

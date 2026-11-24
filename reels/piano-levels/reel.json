@@ -1,0 +1,46 @@
+{
+  "title": "3 Levels of Piano",
+  "model": "eleven_multilingual_v2",
+  "voices": {
+    "narrator": "nPczCjzI2devNBz1zQrb"
+  },
+  "lines": [
+    {
+      "id": "intro",
+      "speaker": "narrator",
+      "text": "Three levels of piano. Easy... medium... and hard. Let's see how far he gets."
+    },
+    {
+      "id": "level1",
+      "speaker": "narrator",
+      "text": "Level one. Easy. Ode to Joy, by Beethoven. The right hand plays the melody, and the left hand just keeps time."
+    },
+    {
+      "id": "level2",
+      "speaker": "narrator",
+      "text": "Level two. Medium. F\u00fcr Elise, also by Beethoven. Now both hands are moving, and the melody gets a lot faster."
+    },
+    {
+      "id": "level3",
+      "speaker": "narrator",
+      "text": "Level three. Hard. The Maple Leaf Rag, by Scott Joplin. A jumping left hand, a syncopated right hand, and almost no time to breathe."
+    },
+    {
+      "id": "outro",
+      "speaker": "narrator",
+      "text": "He made it through all three levels. Which level are you on? Tell me in the comments."
+    }
+  ],
+  "sfx": [
+    {
+      "id": "applause",
+      "prompt": "small audience applause and light cheering in a concert hall",
+      "duration": 3.5
+    },
+    {
+      "id": "levelup",
+      "prompt": "bright short level complete chime, video game success jingle",
+      "duration": 1.5
+    }
+  ]
+}

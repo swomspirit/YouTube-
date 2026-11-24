@@ -1,6 +1,7 @@
 import { CalculateMetadataFunction, Composition, staticFile } from "remotion";
 import { ALL_FORMATS, Input, UrlSource } from "mediabunny";
 import { Video, type VideoProps } from "./Video";
+import { PianoLevels, PIANO_LEVELS_DURATION, FPS as PIANO_FPS } from "./piano/PianoLevels";
 import { TeleportUlt, TELEPORT_ULT_DURATION, FPS as REEL_FPS } from "./reels/teleport-ult/TeleportUlt";
 
 const FPS = 30;
@@ -31,6 +32,15 @@ const calculateMetadata: CalculateMetadataFunction<VideoProps> = async ({ props 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* ---- YouTube videos (16:9) ---- */}
+      <Composition
+        id="PianoLevels"
+        component={PianoLevels}
+        durationInFrames={PIANO_LEVELS_DURATION}
+        fps={PIANO_FPS}
+        width={1920}
+        height={1080}
+      />
       {/* ---- Reels (9:16) ---- */}
       <Composition
         id="Reel-TeleportUlt"
