@@ -7,7 +7,7 @@ import { DrumStage } from "./Stage3D";
 import { CameraDirector, type ShotName } from "./CameraDirector";
 import { Highway } from "./Highway";
 import { usePreloadDrummer } from "./Drummer";
-import { DrumScene2D } from "../drums2d/Scene2D";
+import { DrumScene2D, type Gags } from "../drums2d/Scene2D";
 import { SHOTS2D, cameraTransform, shot2dForBar } from "../drums2d/Camera2D";
 
 /*
@@ -23,6 +23,26 @@ export const DRUM_SHORT_DURATION = LEAD + Math.round(perf.duration * FPS) + OUTR
 const ACCENT = "#ff3b5c";
 const PLAN: ShotName[] = ["wide", "face", "hero", "toms", "kick", "side", "overhead", "face", "hats", "wide"];
 const FONT = "Inter, Helvetica, Arial, sans-serif";
+const lines = narration.lines as Record<string, { file: string; durationMs: number }>;
+
+// cartoon gags (times relative to the music)
+const bar = (k: number) => perf.countIn + k * perf.barLen;
+const GAGS: Gags & { impacts: number[] } = {
+  hype: [0, perf.countIn + 0.25],
+  speedLines: [bar(12), bar(16)],
+  ripAt: bar(16) + 0.02,
+  cymbalFlyAt: bar(20) + 0.02,
+  throneBreakAt: bar(20) + 0.8,
+  impacts: [0, 4, 8, 12, 16, 20].map(bar),
+};
+const GAG_AUDIO: { at: number; file: string; vol?: number }[] = [
+  { at: 0.05, file: lines.d_hype.file },
+  { at: bar(12), file: sfx.impact.file, vol: 0.7 },
+  { at: bar(16), file: sfx.rip.file, vol: 0.9 },
+  { at: bar(20) + 0.05, file: sfx.clang.file, vol: 0.8 },
+  { at: bar(20) + 0.8, file: sfx.crashfall.file, vol: 0.9 },
+  { at: bar(20) + 1.9, file: lines.d_worth.file },
+];
 
 export const DrumShort: React.FC<{ look?: "3d" | "2d" }> = ({ look = "3d" }) => {
   const frame = useCurrentFrame();
@@ -55,10 +75,21 @@ export const DrumShort: React.FC<{ look?: "3d" | "2d" }> = ({ look = "3d" }) => 
   return (
     <AbsoluteFill style={{ backgroundColor: "#05040a" }}>
       {look === "2d" ? (
-        <svg viewBox={`0 0 ${width} ${height}`} width={width} height={height} style={{ position: "absolute", inset: 0 }}>
+        <svg
+          viewBox={`0 0 ${width} ${height}`}
+          width={width}
+          height={height}
+          style={{ position: "absolute", inset: 0, filter: GAGS.impacts.some((x) => now >= x && now < x + 0.07) ? "invert(1) grayscale(1) contrast(3)" : undefined }}
+        >
           <g
             transform={cameraTransform(
-              now < perf.countIn ? SHOTS2D.mid : now >= perf.duration ? SHOTS2D.crowd : shot2dForBar(3, bar),
+              now < perf.countIn
+                ? SHOTS2D.mid
+                : now >= GAGS.cymbalFlyAt!
+                  ? { cx: 500, cy: 520, z: 1.05 }
+                  : now >= GAGS.ripAt! && now < GAGS.ripAt! + perf.barLen
+                    ? { cx: 620, cy: 520, z: 2 }
+                    : shot2dForBar(3, bar),
               width,
               780,
               1.0,
@@ -69,7 +100,8 @@ export const DrumShort: React.FC<{ look?: "3d" | "2d" }> = ({ look = "3d" }) => 
             )}
           >
             <DrumScene2D
-              perf={active ? perf : null}
+              gags={GAGS}
+              perf={now >= 0 ? perf : null}
               now={now}
               t={t}
               accent={ACCENT}
@@ -153,6 +185,13 @@ export const DrumShort: React.FC<{ look?: "3d" | "2d" }> = ({ look = "3d" }) => 
       <Sequence from={0} layout="none">
         <Audio src={staticFile(sfx.whoosh.file)} volume={0.6} />
       </Sequence>
+      {look === "2d"
+        ? GAG_AUDIO.map((g, i) => (
+            <Sequence key={i} from={LEAD + Math.round(g.at * FPS)} layout="none">
+              <Audio src={staticFile(g.file)} volume={g.vol ?? 1} />
+            </Sequence>
+          ))
+        : null}
       <Sequence from={DRUM_SHORT_DURATION - OUTRO - 30} layout="none">
         <Audio src={staticFile(sfx.crowd.file)} volume={0.6} />
       </Sequence>

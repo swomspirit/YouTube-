@@ -676,6 +676,144 @@
         }
       ],
       "hash": "3b1b86f3600f"
+    },
+    "d_yawn": {
+      "speaker": "drummer",
+      "file": "reels/drum-levels/d_yawn.mp3",
+      "durationMs": 2248,
+      "captions": [
+        {
+          "text": "Ahhh...",
+          "startMs": 391,
+          "endMs": 1200,
+          "timestampMs": 796,
+          "confidence": 1
+        },
+        {
+          "text": " this",
+          "startMs": 1232,
+          "endMs": 1360,
+          "timestampMs": 1296,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 1413,
+          "endMs": 1520,
+          "timestampMs": 1467,
+          "confidence": 1
+        },
+        {
+          "text": " too",
+          "startMs": 1580,
+          "endMs": 1760,
+          "timestampMs": 1670,
+          "confidence": 1
+        },
+        {
+          "text": " easy.",
+          "startMs": 1824,
+          "endMs": 2240,
+          "timestampMs": 2032,
+          "confidence": 1
+        }
+      ],
+      "hash": "ab1baf332024"
+    },
+    "d_smug": {
+      "speaker": "drummer",
+      "file": "reels/drum-levels/d_smug.mp3",
+      "durationMs": 1621,
+      "captions": [
+        {
+          "text": "Too",
+          "startMs": 985,
+          "endMs": 1120,
+          "timestampMs": 1053,
+          "confidence": 1
+        },
+        {
+          "text": " easy.",
+          "startMs": 1200,
+          "endMs": 1600,
+          "timestampMs": 1400,
+          "confidence": 1
+        }
+      ],
+      "hash": "838d2519394e"
+    },
+    "d_ow": {
+      "speaker": "drummer",
+      "file": "reels/drum-levels/d_ow.mp3",
+      "durationMs": 2169,
+      "captions": [
+        {
+          "text": "Ow!",
+          "startMs": 467,
+          "endMs": 640,
+          "timestampMs": 554,
+          "confidence": 1
+        },
+        {
+          "text": " My",
+          "startMs": 853,
+          "endMs": 1280,
+          "timestampMs": 1067,
+          "confidence": 1
+        },
+        {
+          "text": " head...",
+          "startMs": 1440,
+          "endMs": 2160,
+          "timestampMs": 1800,
+          "confidence": 1
+        }
+      ],
+      "hash": "4eef35deb1ae"
+    },
+    "d_hype": {
+      "speaker": "drummer",
+      "file": "reels/drum-levels/d_hype.mp3",
+      "durationMs": 2248,
+      "captions": [
+        {
+          "text": "LET'S",
+          "startMs": 220,
+          "endMs": 560,
+          "timestampMs": 390,
+          "confidence": 1
+        },
+        {
+          "text": " GOOOO!",
+          "startMs": 720,
+          "endMs": 2240,
+          "timestampMs": 1480,
+          "confidence": 1
+        }
+      ],
+      "hash": "f058bc19c26c"
+    },
+    "d_worth": {
+      "speaker": "drummer",
+      "file": "reels/drum-levels/d_worth.mp3",
+      "durationMs": 3057,
+      "captions": [
+        {
+          "text": "...worth",
+          "startMs": 1780,
+          "endMs": 2560,
+          "timestampMs": 2170,
+          "confidence": 1
+        },
+        {
+          "text": " it.",
+          "startMs": 2693,
+          "endMs": 3040,
+          "timestampMs": 2867,
+          "confidence": 1
+        }
+      ],
+      "hash": "d86463c4e873"
     }
   },
   "sfx": {
@@ -693,6 +831,36 @@
       "file": "reels/drum-levels/sfx-whoosh.mp3",
       "durationMs": 1490,
       "hash": "ea44bd129fa2"
+    },
+    "bonk": {
+      "file": "reels/drum-levels/sfx-bonk.mp3",
+      "durationMs": 811,
+      "hash": "3685c476d001"
+    },
+    "twinkle": {
+      "file": "reels/drum-levels/sfx-twinkle.mp3",
+      "durationMs": 811,
+      "hash": "bcae14b340b4"
+    },
+    "rip": {
+      "file": "reels/drum-levels/sfx-rip.mp3",
+      "durationMs": 811,
+      "hash": "4196e77ba8e8"
+    },
+    "clang": {
+      "file": "reels/drum-levels/sfx-clang.mp3",
+      "durationMs": 1490,
+      "hash": "d1d59ce89e88"
+    },
+    "crashfall": {
+      "file": "reels/drum-levels/sfx-crashfall.mp3",
+      "durationMs": 1490,
+      "hash": "6ba5712db81c"
+    },
+    "impact": {
+      "file": "reels/drum-levels/sfx-impact.mp3",
+      "durationMs": 811,
+      "hash": "544a5fb73437"
     }
   }
 }

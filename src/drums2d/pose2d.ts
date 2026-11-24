@@ -27,7 +27,10 @@ export const tip2d = (p: PreparedPerformance | null, hand: "R" | "L", now: numbe
   const u = Math.min(1, Math.max(0, (now - t0) / gap));
   const tr2 = Math.min(1, Math.max(0, (u - 0.12) / 0.76));
   const e = tr2 * tr2 * (3 - 2 * tr2);
-  const lift = Math.min(95, Math.max(12, gap * 220)) * Math.pow(Math.sin(Math.PI * u), 0.75);
+  // Stroke shape: quick rebound up (ease-out), short hang at the top, then accelerate down into the hit.
+  const peak = 0.38;
+  const h = u < peak ? Math.sin((Math.PI / 2) * (u / peak)) : 1 - Math.pow((u - peak) / (1 - peak), 2.4);
+  const lift = Math.min(105, Math.max(12, gap * 230)) * Math.max(0, h);
   return { x: from.x + (to.x - from.x) * e, y: from.y + (to.y - from.y) * e - lift, lift };
 };
 

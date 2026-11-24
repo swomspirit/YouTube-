@@ -8,7 +8,7 @@ import { hitsPerSecond, impulse, preparePerformance, type Performance } from "./
 import { DrumStage } from "./Stage3D";
 import { CameraDirector, shotForBar, type ShotName } from "./CameraDirector";
 import { Highway } from "./Highway";
-import { DrumScene2D, type Mood } from "../drums2d/Scene2D";
+import { DrumScene2D, type Gags, type Mood } from "../drums2d/Scene2D";
 import { SHOTS2D, cameraTransform, shot2dForBar } from "../drums2d/Camera2D";
 
 export const FPS = 30;
@@ -21,6 +21,38 @@ const LEVELS = [
   { n: 3, name: "HARD", color: "#ff3b5c", stars: 3, title: "Metal + Drum Solo", file: "drums/level3-metal.mp3", perf: preparePerformance(perf3 as Performance), voice: "level3", ahead: 1.4 },
 ];
 const f = (sec: number) => Math.round(sec * FPS);
+
+/** Scripted gags for the cartoon version (times relative to each level's music). */
+const gagPlan = (n: number, perf: (typeof LEVELS)[number]["perf"]) => {
+  const bar = (k: number) => perf.countIn + k * perf.barLen;
+  const lastT = perf.hits[perf.hits.length - 1].t;
+  const g: Gags & { impacts: number[]; sfx: { at: number; id: string; vol?: number; voice?: boolean }[] } = { impacts: [], sfx: [] };
+  if (n === 1) {
+    g.yawn = [bar(9), bar(11)];
+    g.twirlAt = lastT + 0.35;
+    g.sfx.push({ at: bar(9) + 0.15, id: "d_yawn", voice: true }, { at: lastT + 0.45, id: "twinkle", vol: 0.6 }, { at: lastT + 0.6, id: "d_smug", voice: true });
+  } else if (n === 2) {
+    g.tossAt = lastT + 0.3;
+    g.sfx.push({ at: lastT + 1.3, id: "bonk", vol: 0.9 }, { at: lastT + 1.45, id: "d_ow", voice: true });
+  } else {
+    g.hype = [0, perf.countIn + 0.25];
+    g.speedLines = [bar(32), bar(48)];
+    g.ripAt = bar(48) + 0.02;
+    g.cymbalFlyAt = bar(56) + 0.02;
+    g.throneBreakAt = bar(56) + 0.8;
+    g.impacts = [0, 8, 16, 24, 32, 40, 48, 56].map((k) => bar(k));
+    g.sfx.push(
+      { at: 0.05, id: "d_hype", voice: true },
+      { at: bar(32), id: "impact", vol: 0.7 },
+      { at: bar(48), id: "rip", vol: 0.9 },
+      { at: bar(56) + 0.05, id: "clang", vol: 0.8 },
+      { at: bar(56) + 0.8, id: "crashfall", vol: 0.9 },
+      { at: bar(56) + 1.9, id: "d_worth", voice: true },
+    );
+  }
+  return g;
+};
+const GAGS = LEVELS.map((l) => gagPlan(l.n, l.perf));
 
 const buildTimeline = () => {
   let t = 0;
@@ -113,6 +145,10 @@ export const DrumLevels: React.FC<{ look?: "3d" | "2d" }> = ({ look = "3d" }) =>
         </ThreeCanvas>
       ) : (
         (() => {
+          // keep the scene running through LEVEL CLEAR so the gags can land
+          const sceneNow = current && frame >= current.play.start ? (frame - current.play.start) / fps : -10;
+          const scenePerf = current && frame >= current.play.start ? current.perf : null;
+          const gags = current ? GAGS[current.n - 1] : undefined;
           let s2 = SHOTS2D.wide;
           let drift = 0;
           if (playing) {
@@ -122,16 +158,32 @@ export const DrumLevels: React.FC<{ look?: "3d" | "2d" }> = ({ look = "3d" }) =>
           } else if (current && frame < current.play.start) {
             s2 = SHOTS2D.mid;
             drift = (frame - current.card.start) / (current.card.end - current.card.start);
-          } else if (frame >= TL.outro.start || (current && frame >= current.clear.start)) {
+          } else if (frame >= TL.outro.start) {
             s2 = SHOTS2D.crowd;
+          } else if (current && frame >= current.play.end) {
+            s2 = { cx: 500, cy: 470, z: 1.08 };
+          }
+          // gag camera overrides
+          if (gags && scenePerf) {
+            if (gags.yawn && sceneNow >= gags.yawn[0] && sceneNow < gags.yawn[1]) s2 = SHOTS2D.face;
+            if (gags.twirlAt !== undefined && sceneNow >= gags.twirlAt) s2 = SHOTS2D.mid;
+            if (gags.tossAt !== undefined && sceneNow >= gags.tossAt) s2 = { cx: 500, cy: 330, z: 1.25 };
+            if (gags.ripAt !== undefined && sceneNow >= gags.ripAt && sceneNow < gags.ripAt + scenePerf.barLen) s2 = { cx: 620, cy: 520, z: 2 };
+            if (gags.cymbalFlyAt !== undefined && sceneNow >= gags.cymbalFlyAt) s2 = { cx: 470, cy: 470, z: 1.05 };
           }
           const mood: Mood = playing ? (["chill", "focus", "beast"] as Mood[])[playing.n - 1] : current && frame >= current.play.end ? "victory" : frame >= TL.outro.start ? "victory" : "idle";
+          const impact = gags && scenePerf ? gags.impacts.some((x) => sceneNow >= x && sceneNow < x + 0.07) : false;
           const hype = playing ? playing.n / 3 : current && frame >= current.play.end ? 1 : frame >= TL.outro.start ? 1 : 0.25;
           const shakePx = shake * 900;
           return (
-            <svg viewBox={`0 0 ${width} ${height}`} width={width} height={height} style={{ position: "absolute", inset: 0 }}>
+            <svg
+              viewBox={`0 0 ${width} ${height}`}
+              width={width}
+              height={height}
+              style={{ position: "absolute", inset: 0, filter: impact ? "invert(1) grayscale(1) contrast(3)" : undefined }}
+            >
               <g transform={cameraTransform(s2, width, 430, 1.1, drift, crashImp, Math.sin(frame * 7.1) * shakePx, Math.cos(frame * 5.3) * shakePx)}>
-                <DrumScene2D perf={perf} now={now} t={t} accent={accent} mood={mood} crowdHype={hype} />
+                <DrumScene2D perf={scenePerf} now={sceneNow} t={t} accent={accent} mood={mood} crowdHype={hype} gags={gags} />
               </g>
             </svg>
           );
@@ -298,6 +350,15 @@ export const DrumLevels: React.FC<{ look?: "3d" | "2d" }> = ({ look = "3d" }) =>
       <Sequence from={TL.outro.start} layout="none">
         <Audio src={staticFile(lines.outro.file)} />
       </Sequence>
+      {look === "2d"
+        ? TL.levels.flatMap((l) =>
+            GAGS[l.n - 1].sfx.map((g, i) => (
+              <Sequence key={`g${l.n}-${i}`} from={l.play.start + f(g.at)} layout="none">
+                <Audio src={staticFile(g.voice ? lines[g.id].file : sfx[g.id].file)} volume={g.vol ?? 1} />
+              </Sequence>
+            )),
+          )
+        : null}
     </AbsoluteFill>
   );
 };
