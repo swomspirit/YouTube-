@@ -115,7 +115,7 @@ export const DrumShort: React.FC<{ look?: "3d" | "2d" }> = ({ look = "3d" }) => 
       </AbsoluteFill>
 
       {/* meter */}
-      {active && now > perf.countIn ? (
+      {active && frame > LEAD + 75 ? (
         <div style={{ position: "absolute", top: 180, right: 50, textAlign: "right", fontFamily: FONT, color: "white" }}>
           <div style={{ fontSize: 26, letterSpacing: 4, opacity: 0.7 }}>HITS / SEC</div>
           <div style={{ fontSize: 110, fontWeight: 900, lineHeight: 1, color: hps >= 18 ? ACCENT : "white", textShadow: "0 6px 30px rgba(0,0,0,0.6)" }}>{hps}</div>
