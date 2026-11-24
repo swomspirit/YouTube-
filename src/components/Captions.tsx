@@ -75,16 +75,21 @@ const CaptionPage: React.FC<{ page: TikTokPage; accentColor: string }> = ({ page
       >
         {page.tokens.map((token, i) => {
           const active = token.fromMs <= nowMs && token.toMs > nowMs;
+          // Keep the leading space outside the inline-block, or it gets swallowed.
+          const space = token.text.match(/^\s*/)?.[0] ?? "";
           return (
-            <span
-              key={i}
-              style={{
-                color: active ? accentColor : "white",
-                display: "inline-block",
-                transform: active ? "scale(1.08)" : "scale(1)",
-              }}
-            >
-              {token.text}
+            <span key={i}>
+              {space}
+              <span
+                style={{
+                  color: active ? accentColor : "white",
+                  display: "inline-block",
+                  margin: "0 0.06em",
+                  transform: active ? "scale(1.08)" : "scale(1)",
+                }}
+              >
+                {token.text.trimStart()}
+              </span>
             </span>
           );
         })}

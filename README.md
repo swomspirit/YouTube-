@@ -39,6 +39,9 @@ One command turns a text script into narration **and** word-perfect captions:
    The video length now follows the narration automatically (plus 1.5s), and the
    background music drops under the voice.
 
+If you're behind an HTTPS proxy (e.g. a cloud dev box), Node's `fetch` ignores `HTTPS_PROXY`
+unless you run with `NODE_USE_ENV_PROXY=1` (Node 22.21+).
+
 Tip: write numbers and symbols the way they should be spoken ("three dot j s"), because
 the captions show the spoken words.
 

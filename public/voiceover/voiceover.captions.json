@@ -1,0 +1,198 @@
+[
+  {
+    "text": "Welcome",
+    "startMs": 0,
+    "endMs": 441,
+    "timestampMs": 221,
+    "confidence": 1
+  },
+  {
+    "text": " to",
+    "startMs": 476,
+    "endMs": 522,
+    "timestampMs": 499,
+    "confidence": 1
+  },
+  {
+    "text": " this",
+    "startMs": 580,
+    "endMs": 731,
+    "timestampMs": 656,
+    "confidence": 1
+  },
+  {
+    "text": " 3D",
+    "startMs": 824,
+    "endMs": 1149,
+    "timestampMs": 986,
+    "confidence": 1
+  },
+  {
+    "text": " animated",
+    "startMs": 1324,
+    "endMs": 1788,
+    "timestampMs": 1556,
+    "confidence": 1
+  },
+  {
+    "text": " video.",
+    "startMs": 1834,
+    "endMs": 2380,
+    "timestampMs": 2107,
+    "confidence": 1
+  },
+  {
+    "text": " Every",
+    "startMs": 2624,
+    "endMs": 2914,
+    "timestampMs": 2769,
+    "confidence": 1
+  },
+  {
+    "text": " frame",
+    "startMs": 2972,
+    "endMs": 3228,
+    "timestampMs": 3100,
+    "confidence": 1
+  },
+  {
+    "text": " you",
+    "startMs": 3262,
+    "endMs": 3344,
+    "timestampMs": 3303,
+    "confidence": 1
+  },
+  {
+    "text": " see",
+    "startMs": 3425,
+    "endMs": 3634,
+    "timestampMs": 3529,
+    "confidence": 1
+  },
+  {
+    "text": " is",
+    "startMs": 3692,
+    "endMs": 3773,
+    "timestampMs": 3733,
+    "confidence": 1
+  },
+  {
+    "text": " rendered",
+    "startMs": 3855,
+    "endMs": 4156,
+    "timestampMs": 4005,
+    "confidence": 1
+  },
+  {
+    "text": " with",
+    "startMs": 4191,
+    "endMs": 4319,
+    "timestampMs": 4255,
+    "confidence": 1
+  },
+  {
+    "text": " three",
+    "startMs": 4365,
+    "endMs": 4656,
+    "timestampMs": 4511,
+    "confidence": 1
+  },
+  {
+    "text": " dot",
+    "startMs": 4714,
+    "endMs": 4946,
+    "timestampMs": 4830,
+    "confidence": 1
+  },
+  {
+    "text": " j",
+    "startMs": 5027,
+    "endMs": 5352,
+    "timestampMs": 5190,
+    "confidence": 1
+  },
+  {
+    "text": " s,",
+    "startMs": 5375,
+    "endMs": 5747,
+    "timestampMs": 5561,
+    "confidence": 1
+  },
+  {
+    "text": " while",
+    "startMs": 5991,
+    "endMs": 6223,
+    "timestampMs": 6107,
+    "confidence": 1
+  },
+  {
+    "text": " the",
+    "startMs": 6258,
+    "endMs": 6327,
+    "timestampMs": 6293,
+    "confidence": 1
+  },
+  {
+    "text": " voice,",
+    "startMs": 6385,
+    "endMs": 6699,
+    "timestampMs": 6542,
+    "confidence": 1
+  },
+  {
+    "text": " captions",
+    "startMs": 6780,
+    "endMs": 7303,
+    "timestampMs": 7042,
+    "confidence": 1
+  },
+  {
+    "text": " and",
+    "startMs": 7349,
+    "endMs": 7442,
+    "timestampMs": 7396,
+    "confidence": 1
+  },
+  {
+    "text": " final",
+    "startMs": 7512,
+    "endMs": 7825,
+    "timestampMs": 7669,
+    "confidence": 1
+  },
+  {
+    "text": " export",
+    "startMs": 7895,
+    "endMs": 8406,
+    "timestampMs": 8151,
+    "confidence": 1
+  },
+  {
+    "text": " are",
+    "startMs": 8533,
+    "endMs": 8731,
+    "timestampMs": 8632,
+    "confidence": 1
+  },
+  {
+    "text": " handled",
+    "startMs": 8766,
+    "endMs": 9102,
+    "timestampMs": 8934,
+    "confidence": 1
+  },
+  {
+    "text": " by",
+    "startMs": 9149,
+    "endMs": 9253,
+    "timestampMs": 9201,
+    "confidence": 1
+  },
+  {
+    "text": " Remotion.",
+    "startMs": 9334,
+    "endMs": 10217,
+    "timestampMs": 9776,
+    "confidence": 1
+  }
+]
