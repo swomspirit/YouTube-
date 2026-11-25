@@ -2,7 +2,6 @@ import { useMemo } from "react";
 import { random } from "remotion";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
-import { Starfield } from "../components/Starfield";
 import { glowTexture } from "../astatine/space";
 import { TL, W, beatOf, vis } from "./timeline";
 
@@ -203,7 +202,6 @@ export const EinsteinScene3D: React.FC<{ t: number }> = ({ t }) => {
       <ambientLight intensity={0.5} />
       <directionalLight position={[4, 5, 6]} intensity={2.2} />
       <pointLight position={[-5, 2, 4]} intensity={25} color="#9fc8ff" />
-      <Starfield count={1400} radius={60} seed="einstein" />
       <Lab t={t} k={vis("lab", t, 0.5, 0.45)} tex={tex} />
     </>
   );

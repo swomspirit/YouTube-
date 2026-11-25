@@ -46,7 +46,7 @@ const Subtitles: React.FC<{ t: number }> = ({ t }) => {
   if (i < 0) return null;
   return (
     <div style={{ position: "absolute", left: 0, right: 0, bottom: 42, display: "flex", justifyContent: "center" }}>
-      <div style={{ maxWidth: 1600, textAlign: "center" }}>
+      <div style={{ maxWidth: 1280, textAlign: "center" }}>
         {CHUNKS[i].map((w, k) => (
           <span key={k} style={{ display: "inline-block", margin: "0 9px", fontSize: 50, fontWeight: 900, fontFamily: FONT, color: t >= w.s ? (t < w.e + 0.05 ? GOLD : "white") : "rgba(255,255,255,0.5)", WebkitTextStroke: `8px ${INK}`, paintOrder: "stroke" }}>
             {w.text.replace(/[,.…]+$/, "")}
@@ -370,7 +370,7 @@ export const Overlays: React.FC<{ t: number; fps: number }> = ({ t, fps }) => {
 
       {/* ---- equation ---- */}
       {V("equation") > 0 ? (
-        <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: V("equation"), background: "rgba(5,3,15,0.55)" }}>
+        <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: V("equation"), paddingBottom: 140 }}>
           <div style={{ display: "flex", gap: 70, alignItems: "flex-start" }}>
             {[
               { s: "K", col: CYAN, lab: "electron's energy", at: W("e13", "electron's") },

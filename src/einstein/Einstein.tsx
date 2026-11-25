@@ -2,6 +2,7 @@ import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, useCurrentFrame
 import { ThreeCanvas } from "@remotion/three";
 import { EinsteinScene3D } from "./Scene3D";
 import { Overlays } from "./Overlays";
+import { Backdrops, Host } from "./Art";
 import { FPS, LINES, MUSIC, TL } from "./timeline";
 
 export { DURATION as EINSTEIN_DURATION, FPS as EINSTEIN_FPS } from "./timeline";
@@ -19,10 +20,12 @@ export const Einstein: React.FC = () => {
   const { width, height, durationInFrames } = useVideoConfig();
   const t = frame / FPS;
   return (
-    <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 40%, #121a33 0%, #04050f 70%)" }}>
+    <AbsoluteFill style={{ background: "#04050f" }}>
+      <Backdrops t={t} />
       <ThreeCanvas width={width} height={height} camera={{ fov: 45, position: [0, 0, 9] }}>
         <EinsteinScene3D t={t} />
       </ThreeCanvas>
+      <Host t={t} fps={FPS} />
       <Overlays t={t} fps={FPS} />
       <Audio src={staticFile(MUSIC.score.file)} volume={(f) => scoreVolume(f / FPS) * interpolate(f, [durationInFrames - 60, durationInFrames - 2], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />
       {TL.cues.map((c, i) => (
