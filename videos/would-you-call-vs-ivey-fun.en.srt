@@ -1,0 +1,295 @@
+1
+00:00:01,196 --> 00:00:02,731
+Welcome to the Shark Cage!
+
+2
+00:00:02,600 --> 00:00:04,810
+A million dollars on the line...
+
+3
+00:00:04,600 --> 00:00:07,210
+and across the table sits the most feared
+
+4
+00:00:07,040 --> 00:00:08,250
+man in poker.
+
+5
+00:00:09,123 --> 00:00:10,650
+Phil. Ivey.
+
+6
+00:00:11,854 --> 00:00:15,124
+Ace-queen. Suited. Ooh, that's pretty.
+
+7
+00:00:15,385 --> 00:00:17,315
+Ivey raises from under the gun.
+
+8
+00:00:17,168 --> 00:00:18,915
+Thirty-eight thousand.
+
+9
+00:00:19,131 --> 00:00:21,017
+Ace-queen suited, on the button?
+
+10
+00:00:21,007 --> 00:00:22,857
+I'm not folding this.
+
+11
+00:00:22,687 --> 00:00:23,337
+Call.
+
+12
+00:00:23,735 --> 00:00:26,818
+Quick lesson. Ace-queen suited is one of the
+
+13
+00:00:26,648 --> 00:00:28,938
+ten best starting hands.
+
+14
+00:00:28,753 --> 00:00:31,458
+Against an early raise, calling on the button
+
+15
+00:00:31,235 --> 00:00:34,738
+is great. A three-bet is fine too.
+
+16
+00:00:35,880 --> 00:00:38,222
+The flop! Eight...
+
+17
+00:00:38,012 --> 00:00:39,822
+eight... ACE!
+
+18
+00:00:39,969 --> 00:00:42,555
+Aces up! Two pair, queen kicker.
+
+19
+00:00:42,625 --> 00:00:45,435
+I'm basically a genius.
+
+20
+00:00:45,858 --> 00:00:48,197
+On an eight, eight, ace flop, you have
+
+21
+00:00:47,987 --> 00:00:51,077
+aces up. That's a strong hand, so betting
+
+22
+00:00:50,867 --> 00:00:52,437
+for value is right.
+
+23
+00:00:52,663 --> 00:00:55,633
+He checks. Let's bet fifty thousand.
+
+24
+00:00:55,657 --> 00:00:57,987
+And Ivey... calls.
+
+25
+00:00:57,977 --> 00:01:00,227
+No emotion. None.
+
+26
+00:01:01,164 --> 00:01:02,787
+Is he even breathing?
+
+27
+00:01:03,424 --> 00:01:05,994
+The turn. A seven.
+
+28
+00:01:06,000 --> 00:01:07,130
+He checks again.
+
+29
+00:01:07,160 --> 00:01:08,650
+I'll check too.
+
+30
+00:01:08,560 --> 00:01:12,170
+Pot control. Very professional.
+
+31
+00:01:12,689 --> 00:01:15,081
+Checking the turn keeps the pot small, and
+
+32
+00:01:14,871 --> 00:01:16,761
+gives Ivey a chance to bluff.
+
+33
+00:01:17,603 --> 00:01:19,773
+The river... a nine.
+
+34
+00:01:19,663 --> 00:01:21,373
+And Ivey checks.
+
+35
+00:01:21,263 --> 00:01:23,693
+For the third time.
+
+36
+00:01:24,027 --> 00:01:25,005
+Be careful though.
+
+37
+00:01:24,888 --> 00:01:27,645
+Three checks don't always mean weak.
+
+38
+00:01:27,542 --> 00:01:30,765
+Great players check their monsters to set a
+
+39
+00:01:30,611 --> 00:01:31,405
+trap.
+
+40
+00:01:31,749 --> 00:01:33,706
+Three checks. He's weak.
+
+41
+00:01:33,536 --> 00:01:35,386
+He HAS to be weak.
+
+42
+00:01:35,296 --> 00:01:38,106
+A hundred and twenty-five thousand.
+
+43
+00:01:38,653 --> 00:01:41,080
+And Phil Ivey...
+
+44
+00:01:40,897 --> 00:01:47,480
+check-raises... to FOUR HUNDRED AND FIFTY THOUSAND!
+
+45
+00:01:48,108 --> 00:01:50,246
+Wait. What. WHY.
+
+46
+00:01:50,103 --> 00:01:51,926
+He checked three times!
+
+47
+00:01:51,852 --> 00:01:54,406
+Okay, think. What beats me?
+
+48
+00:01:54,556 --> 00:01:59,286
+Aces... ace-eight... any eight...
+
+49
+00:01:59,084 --> 00:02:00,406
+jack-ten...
+
+50
+00:02:00,818 --> 00:02:01,957
+So what beats you here?
+
+51
+00:02:02,067 --> 00:02:05,717
+Aces. Ace-eight. Any eight.
+
+52
+00:02:05,627 --> 00:02:07,557
+Nines or sevens full.
+
+53
+00:02:07,507 --> 00:02:11,557
+Ace-king. Jack-ten. Ten-six.
+
+54
+00:02:11,487 --> 00:02:14,757
+And a river check-raise from Ivey is usually
+
+55
+00:02:14,547 --> 00:02:15,717
+one of those.
+
+56
+00:02:16,469 --> 00:02:17,789
+Now the math.
+
+57
+00:02:17,639 --> 00:02:20,429
+You have to call three hundred twenty-five thousand
+
+58
+00:02:20,312 --> 00:02:23,149
+to win one point one million.
+
+59
+00:02:23,059 --> 00:02:25,389
+So you need to be right about thirty
+
+60
+00:02:25,189 --> 00:02:26,669
+percent of the time.
+
+61
+00:02:27,223 --> 00:02:28,500
+Would YOU call?
+
+62
+00:02:31,490 --> 00:02:32,820
+I've come this far.
+
+63
+00:02:33,010 --> 00:02:35,140
+I... call.
+
+64
+00:02:36,656 --> 00:02:39,898
+ACES! Phil Ivey has ACES FULL!
+
+65
+00:02:39,755 --> 00:02:42,378
+He trapped her the ENTIRE hand!
+
+66
+00:02:42,847 --> 00:02:44,374
+Cool. Cool cool cool.
+
+67
+00:02:46,643 --> 00:02:50,013
+The lesson? Ace-queen is a great hand.
+
+68
+00:02:49,863 --> 00:02:52,333
+But against a player like Ivey, you're not
+
+69
+00:02:52,123 --> 00:02:54,013
+getting three streets of value.
+
+70
+00:02:53,863 --> 00:02:56,812
+And when he check-raises the river...
+
+71
+00:02:56,624 --> 00:02:58,501
+he usually has it.
+
+72
+00:02:59,469 --> 00:03:00,879
+Would YOU have called?
+
+73
+00:03:00,805 --> 00:03:02,799
+Tell me in the comments.
+
+74
+00:03:02,609 --> 00:03:06,719
+And subscribe... or Ivey will check-raise you too.
