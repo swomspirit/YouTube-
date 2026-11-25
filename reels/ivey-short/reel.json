@@ -1,0 +1,35 @@
+{
+  "title": "He Checked Three Times. Then This Happened.",
+  "model": "eleven_v3",
+  "voices": { "n": "nPczCjzI2devNBz1zQrb" },
+  "lines": [
+    { "id": "n1", "speaker": "n", "text": "[slow, storytelling] Phil Ivey checked to her... three times." },
+    { "id": "n2", "speaker": "n", "text": "She had aces up. So she bet a hundred and twenty-five thousand." },
+    { "id": "n3", "speaker": "n", "text": "[dramatic] And then... Ivey did this." },
+    { "id": "n4", "speaker": "n", "text": "Let's rewind." },
+    { "id": "n5", "speaker": "n", "text": "Ivey raises first to act. She calls on the button... with ace-queen suited." },
+    { "id": "n6", "speaker": "n", "text": "The flop. Eight. Eight. Ace. Two pair. She bets fifty thousand... and Ivey just calls." },
+    { "id": "n7", "speaker": "n", "text": "Turn. A seven. Check. Check." },
+    { "id": "n8", "speaker": "n", "text": "River. A nine. And Ivey checks... again." },
+    { "id": "n9", "speaker": "n", "text": "Three checks. He has to be weak... right? She bets a hundred and twenty-five thousand." },
+    { "id": "n10", "speaker": "n", "text": "[dramatic] And Ivey check-raises... to four hundred and fifty thousand." },
+    { "id": "n11", "speaker": "n", "text": "She uses three time-bank chips. She only needs to be right twenty-nine percent of the time." },
+    { "id": "n12", "speaker": "n", "text": "She calls." },
+    { "id": "n13", "speaker": "n", "text": "[slow] Pocket aces. Ivey flopped a full house... and checked it three times." },
+    { "id": "n14", "speaker": "n", "text": "When a great player goes quiet... then explodes on the river... believe him." },
+    { "id": "n15", "speaker": "n", "text": "Would you have called?" }
+  ],
+  "sfx": [
+    { "id": "chips", "prompt": "poker chips being pushed onto a felt table, clay chips clicking", "duration": 0.9 },
+    { "id": "bigchips", "prompt": "huge stack of poker chips pushed forward, heavy clattering", "duration": 1.5 },
+    { "id": "flip", "prompt": "playing card flipped over onto table, crisp snap", "duration": 0.5 },
+    { "id": "deal", "prompt": "playing card sliding quickly across felt table", "duration": 0.5 },
+    { "id": "knock", "prompt": "two knuckle knocks on a wooden poker table, check", "duration": 0.6 },
+    { "id": "rewind", "prompt": "tape rewind sound, fast reverse whir", "duration": 1.2 },
+    { "id": "gasp", "prompt": "small crowd at a poker table gasps in shock", "duration": 2 },
+    { "id": "room", "prompt": "busy casino poker room ambience, murmurs and chips, no music", "duration": 22 }
+  ],
+  "music": [
+    { "id": "bed", "prompt": "minimal suspenseful documentary underscore, soft pulsing synth and light percussion, builds tension slowly, no vocals", "lengthMs": 75000 }
+  ]
+}

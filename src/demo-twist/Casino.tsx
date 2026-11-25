@@ -6,7 +6,7 @@ import { characterTexture, randomLook, type Expr, type Look } from "./chars";
 
 /* ---------------- textures ---------------- */
 let carpetTex: THREE.Texture | null = null;
-const carpet = () => {
+export const carpet = () => {
   if (carpetTex) return carpetTex;
   const c = document.createElement("canvas");
   c.width = c.height = 512;
@@ -34,7 +34,7 @@ const carpet = () => {
   return carpetTex;
 };
 const signTex = new Map<string, THREE.Texture>();
-const sign = (text: string) => {
+export const sign = (text: string) => {
   const hit = signTex.get(text);
   if (hit) return hit;
   const c = document.createElement("canvas");
@@ -55,7 +55,7 @@ const sign = (text: string) => {
 };
 
 /* ---------------- props ---------------- */
-const Table: React.FC<{ pos: [number, number, number]; s?: number }> = ({ pos, s = 1 }) => (
+export const Table: React.FC<{ pos: [number, number, number]; s?: number }> = ({ pos, s = 1 }) => (
   <group position={pos} scale={s}>
     <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, FELT, 0]} scale={[1.5, 1, 1]}>
       <circleGeometry args={[0.9, 64]} />
@@ -76,7 +76,7 @@ const Table: React.FC<{ pos: [number, number, number]; s?: number }> = ({ pos, s
   </group>
 );
 
-const Lamp: React.FC<{ pos: [number, number, number] }> = ({ pos }) => (
+export const Lamp: React.FC<{ pos: [number, number, number] }> = ({ pos }) => (
   <group position={pos}>
     <mesh>
       <boxGeometry args={[1.6, 0.22, 0.9]} />
@@ -96,7 +96,7 @@ const Lamp: React.FC<{ pos: [number, number, number] }> = ({ pos }) => (
   </group>
 );
 
-const Rope: React.FC<{ from: [number, number]; to: [number, number]; z?: number }> = ({ from, to }) => {
+export const Rope: React.FC<{ from: [number, number]; to: [number, number]; z?: number }> = ({ from, to }) => {
   const curve = useMemo(() => {
     const pts: THREE.Vector3[] = [];
     for (let i = 0; i <= 20; i++) {
@@ -132,7 +132,7 @@ const Rope: React.FC<{ from: [number, number]; to: [number, number]; z?: number 
 };
 
 /** A 2D character standing in the 3D world (camera-facing sprite). */
-const Person: React.FC<{ look: Look; expr?: Expr; pos: [number, number, number]; h?: number; blur?: number; bob?: number }> = ({ look, expr = "neutral", pos, h = 0.78, blur = 0, bob = 0 }) => (
+export const Person: React.FC<{ look: Look; expr?: Expr; pos: [number, number, number]; h?: number; blur?: number; bob?: number }> = ({ look, expr = "neutral", pos, h = 0.78, blur = 0, bob = 0 }) => (
   <sprite position={[pos[0], pos[1] + bob, pos[2]]} scale={[h * 0.8, h, 1]}>
     <spriteMaterial map={characterTexture(look, expr, blur)} transparent />
   </sprite>

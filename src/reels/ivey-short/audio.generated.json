@@ -1,0 +1,1132 @@
+{
+  "lines": {
+    "n1": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n1.mp3",
+      "durationMs": 2901,
+      "captions": [
+        {
+          "text": "Phil",
+          "startMs": 176,
+          "endMs": 240,
+          "timestampMs": 208,
+          "confidence": 1
+        },
+        {
+          "text": " Ivey",
+          "startMs": 360,
+          "endMs": 720,
+          "timestampMs": 540,
+          "confidence": 1
+        },
+        {
+          "text": " checked",
+          "startMs": 760,
+          "endMs": 1040,
+          "timestampMs": 900,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 1067,
+          "endMs": 1120,
+          "timestampMs": 1094,
+          "confidence": 1
+        },
+        {
+          "text": " her...",
+          "startMs": 1220,
+          "endMs": 2000,
+          "timestampMs": 1610,
+          "confidence": 1
+        },
+        {
+          "text": " three",
+          "startMs": 2040,
+          "endMs": 2240,
+          "timestampMs": 2140,
+          "confidence": 1
+        },
+        {
+          "text": " times.",
+          "startMs": 2333,
+          "endMs": 2880,
+          "timestampMs": 2607,
+          "confidence": 1
+        }
+      ],
+      "hash": "802bd3209e4e"
+    },
+    "n2": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n2.mp3",
+      "durationMs": 4259,
+      "captions": [
+        {
+          "text": "She",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " had",
+          "startMs": 220,
+          "endMs": 400,
+          "timestampMs": 310,
+          "confidence": 1
+        },
+        {
+          "text": " aces",
+          "startMs": 520,
+          "endMs": 960,
+          "timestampMs": 740,
+          "confidence": 1
+        },
+        {
+          "text": " up.",
+          "startMs": 1040,
+          "endMs": 1280,
+          "timestampMs": 1160,
+          "confidence": 1
+        },
+        {
+          "text": " So",
+          "startMs": 1547,
+          "endMs": 2080,
+          "timestampMs": 1814,
+          "confidence": 1
+        },
+        {
+          "text": " she",
+          "startMs": 2120,
+          "endMs": 2240,
+          "timestampMs": 2180,
+          "confidence": 1
+        },
+        {
+          "text": " bet",
+          "startMs": 2280,
+          "endMs": 2400,
+          "timestampMs": 2340,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2480,
+          "endMs": 2560,
+          "timestampMs": 2520,
+          "confidence": 1
+        },
+        {
+          "text": " hundred",
+          "startMs": 2600,
+          "endMs": 2880,
+          "timestampMs": 2740,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 2940,
+          "endMs": 3120,
+          "timestampMs": 3030,
+          "confidence": 1
+        },
+        {
+          "text": " twenty-five",
+          "startMs": 3154,
+          "endMs": 3600,
+          "timestampMs": 3377,
+          "confidence": 1
+        },
+        {
+          "text": " thousand.",
+          "startMs": 3653,
+          "endMs": 4240,
+          "timestampMs": 3947,
+          "confidence": 1
+        }
+      ],
+      "hash": "1804d3b34d8a"
+    },
+    "n3": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n3.mp3",
+      "durationMs": 2248,
+      "captions": [
+        {
+          "text": "And",
+          "startMs": 136,
+          "endMs": 160,
+          "timestampMs": 148,
+          "confidence": 1
+        },
+        {
+          "text": " then...",
+          "startMs": 240,
+          "endMs": 1200,
+          "timestampMs": 720,
+          "confidence": 1
+        },
+        {
+          "text": " Ivey",
+          "startMs": 1280,
+          "endMs": 1520,
+          "timestampMs": 1400,
+          "confidence": 1
+        },
+        {
+          "text": " did",
+          "startMs": 1580,
+          "endMs": 1760,
+          "timestampMs": 1670,
+          "confidence": 1
+        },
+        {
+          "text": " this.",
+          "startMs": 1824,
+          "endMs": 2240,
+          "timestampMs": 2032,
+          "confidence": 1
+        }
+      ],
+      "hash": "d4757084bbd7"
+    },
+    "n4": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n4.mp3",
+      "durationMs": 1046,
+      "captions": [
+        {
+          "text": "Let's",
+          "startMs": 0,
+          "endMs": 440,
+          "timestampMs": 220,
+          "confidence": 1
+        },
+        {
+          "text": " rewind.",
+          "startMs": 480,
+          "endMs": 1040,
+          "timestampMs": 760,
+          "confidence": 1
+        }
+      ],
+      "hash": "6ecd9454c54b"
+    },
+    "n5": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n5.mp3",
+      "durationMs": 5774,
+      "captions": [
+        {
+          "text": "Ivey",
+          "startMs": 0,
+          "endMs": 320,
+          "timestampMs": 160,
+          "confidence": 1
+        },
+        {
+          "text": " raises",
+          "startMs": 389,
+          "endMs": 800,
+          "timestampMs": 595,
+          "confidence": 1
+        },
+        {
+          "text": " first",
+          "startMs": 853,
+          "endMs": 1120,
+          "timestampMs": 987,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 1147,
+          "endMs": 1200,
+          "timestampMs": 1174,
+          "confidence": 1
+        },
+        {
+          "text": " act.",
+          "startMs": 1300,
+          "endMs": 1680,
+          "timestampMs": 1490,
+          "confidence": 1
+        },
+        {
+          "text": " She",
+          "startMs": 1820,
+          "endMs": 2240,
+          "timestampMs": 2030,
+          "confidence": 1
+        },
+        {
+          "text": " calls",
+          "startMs": 2293,
+          "endMs": 2560,
+          "timestampMs": 2427,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 2587,
+          "endMs": 2640,
+          "timestampMs": 2614,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 2660,
+          "endMs": 2720,
+          "timestampMs": 2690,
+          "confidence": 1
+        },
+        {
+          "text": " button...",
+          "startMs": 2789,
+          "endMs": 3920,
+          "timestampMs": 3355,
+          "confidence": 1
+        },
+        {
+          "text": " with",
+          "startMs": 3952,
+          "endMs": 4080,
+          "timestampMs": 4016,
+          "confidence": 1
+        },
+        {
+          "text": " ace-queen",
+          "startMs": 4180,
+          "endMs": 4960,
+          "timestampMs": 4570,
+          "confidence": 1
+        },
+        {
+          "text": " suited.",
+          "startMs": 5029,
+          "endMs": 5760,
+          "timestampMs": 5395,
+          "confidence": 1
+        }
+      ],
+      "hash": "f64b3d6831d3"
+    },
+    "n6": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n6.mp3",
+      "durationMs": 8961,
+      "captions": [
+        {
+          "text": "The",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " flop.",
+          "startMs": 192,
+          "endMs": 1080,
+          "timestampMs": 636,
+          "confidence": 1
+        },
+        {
+          "text": " Eight.",
+          "startMs": 1153,
+          "endMs": 2040,
+          "timestampMs": 1597,
+          "confidence": 1
+        },
+        {
+          "text": " Eight.",
+          "startMs": 2127,
+          "endMs": 2640,
+          "timestampMs": 2383,
+          "confidence": 1
+        },
+        {
+          "text": " Ace.",
+          "startMs": 2920,
+          "endMs": 4120,
+          "timestampMs": 3520,
+          "confidence": 1
+        },
+        {
+          "text": " Two",
+          "startMs": 4210,
+          "endMs": 4480,
+          "timestampMs": 4345,
+          "confidence": 1
+        },
+        {
+          "text": " pair.",
+          "startMs": 4576,
+          "endMs": 5280,
+          "timestampMs": 4928,
+          "confidence": 1
+        },
+        {
+          "text": " She",
+          "startMs": 5360,
+          "endMs": 5600,
+          "timestampMs": 5480,
+          "confidence": 1
+        },
+        {
+          "text": " bets",
+          "startMs": 5664,
+          "endMs": 5920,
+          "timestampMs": 5792,
+          "confidence": 1
+        },
+        {
+          "text": " fifty",
+          "startMs": 5987,
+          "endMs": 6320,
+          "timestampMs": 6154,
+          "confidence": 1
+        },
+        {
+          "text": " thousand...",
+          "startMs": 6391,
+          "endMs": 7440,
+          "timestampMs": 6916,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 7480,
+          "endMs": 7600,
+          "timestampMs": 7540,
+          "confidence": 1
+        },
+        {
+          "text": " Ivey",
+          "startMs": 7760,
+          "endMs": 8000,
+          "timestampMs": 7880,
+          "confidence": 1
+        },
+        {
+          "text": " just",
+          "startMs": 8064,
+          "endMs": 8320,
+          "timestampMs": 8192,
+          "confidence": 1
+        },
+        {
+          "text": " calls.",
+          "startMs": 8400,
+          "endMs": 8960,
+          "timestampMs": 8680,
+          "confidence": 1
+        }
+      ],
+      "hash": "a18883b3d55b"
+    },
+    "n7": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n7.mp3",
+      "durationMs": 3214,
+      "captions": [
+        {
+          "text": "Turn.",
+          "startMs": 0,
+          "endMs": 720,
+          "timestampMs": 360,
+          "confidence": 1
+        },
+        {
+          "text": " A",
+          "startMs": 840,
+          "endMs": 960,
+          "timestampMs": 900,
+          "confidence": 1
+        },
+        {
+          "text": " seven.",
+          "startMs": 1053,
+          "endMs": 1600,
+          "timestampMs": 1327,
+          "confidence": 1
+        },
+        {
+          "text": " Check.",
+          "startMs": 1720,
+          "endMs": 2720,
+          "timestampMs": 2220,
+          "confidence": 1
+        },
+        {
+          "text": " Check.",
+          "startMs": 2787,
+          "endMs": 3200,
+          "timestampMs": 2994,
+          "confidence": 1
+        }
+      ],
+      "hash": "f3a89fc47c13"
+    },
+    "n8": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n8.mp3",
+      "durationMs": 4259,
+      "captions": [
+        {
+          "text": "River.",
+          "startMs": 0,
+          "endMs": 640,
+          "timestampMs": 320,
+          "confidence": 1
+        },
+        {
+          "text": " A",
+          "startMs": 800,
+          "endMs": 960,
+          "timestampMs": 880,
+          "confidence": 1
+        },
+        {
+          "text": " nine.",
+          "startMs": 1072,
+          "endMs": 1840,
+          "timestampMs": 1456,
+          "confidence": 1
+        },
+        {
+          "text": " And",
+          "startMs": 1920,
+          "endMs": 2160,
+          "timestampMs": 2040,
+          "confidence": 1
+        },
+        {
+          "text": " Ivey",
+          "startMs": 2280,
+          "endMs": 2560,
+          "timestampMs": 2420,
+          "confidence": 1
+        },
+        {
+          "text": " checks...",
+          "startMs": 2629,
+          "endMs": 3600,
+          "timestampMs": 3115,
+          "confidence": 1
+        },
+        {
+          "text": " again.",
+          "startMs": 3680,
+          "endMs": 4240,
+          "timestampMs": 3960,
+          "confidence": 1
+        }
+      ],
+      "hash": "e8bb661ceb0d"
+    },
+    "n9": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n9.mp3",
+      "durationMs": 6088,
+      "captions": [
+        {
+          "text": "Three",
+          "startMs": 0,
+          "endMs": 320,
+          "timestampMs": 160,
+          "confidence": 1
+        },
+        {
+          "text": " checks.",
+          "startMs": 400,
+          "endMs": 1200,
+          "timestampMs": 800,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 1307,
+          "endMs": 1520,
+          "timestampMs": 1414,
+          "confidence": 1
+        },
+        {
+          "text": " has",
+          "startMs": 1580,
+          "endMs": 1760,
+          "timestampMs": 1670,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 1813,
+          "endMs": 1920,
+          "timestampMs": 1866,
+          "confidence": 1
+        },
+        {
+          "text": " be",
+          "startMs": 1973,
+          "endMs": 2080,
+          "timestampMs": 2027,
+          "confidence": 1
+        },
+        {
+          "text": " weak...",
+          "startMs": 2160,
+          "endMs": 2880,
+          "timestampMs": 2520,
+          "confidence": 1
+        },
+        {
+          "text": " right?",
+          "startMs": 2920,
+          "endMs": 3280,
+          "timestampMs": 3100,
+          "confidence": 1
+        },
+        {
+          "text": " She",
+          "startMs": 3460,
+          "endMs": 4000,
+          "timestampMs": 3730,
+          "confidence": 1
+        },
+        {
+          "text": " bets",
+          "startMs": 4048,
+          "endMs": 4240,
+          "timestampMs": 4144,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 4320,
+          "endMs": 4400,
+          "timestampMs": 4360,
+          "confidence": 1
+        },
+        {
+          "text": " hundred",
+          "startMs": 4440,
+          "endMs": 4720,
+          "timestampMs": 4580,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 4760,
+          "endMs": 4880,
+          "timestampMs": 4820,
+          "confidence": 1
+        },
+        {
+          "text": " twenty-five",
+          "startMs": 4914,
+          "endMs": 5360,
+          "timestampMs": 5137,
+          "confidence": 1
+        },
+        {
+          "text": " thousand.",
+          "startMs": 5422,
+          "endMs": 6080,
+          "timestampMs": 5751,
+          "confidence": 1
+        }
+      ],
+      "hash": "b09e3586bd8f"
+    },
+    "n10": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n10.mp3",
+      "durationMs": 3946,
+      "captions": [
+        {
+          "text": "And",
+          "startMs": 136,
+          "endMs": 160,
+          "timestampMs": 148,
+          "confidence": 1
+        },
+        {
+          "text": " Ivey",
+          "startMs": 280,
+          "endMs": 560,
+          "timestampMs": 420,
+          "confidence": 1
+        },
+        {
+          "text": " check-raises...",
+          "startMs": 613,
+          "endMs": 1920,
+          "timestampMs": 1267,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 1947,
+          "endMs": 2000,
+          "timestampMs": 1974,
+          "confidence": 1
+        },
+        {
+          "text": " four",
+          "startMs": 2064,
+          "endMs": 2320,
+          "timestampMs": 2192,
+          "confidence": 1
+        },
+        {
+          "text": " hundred",
+          "startMs": 2360,
+          "endMs": 2640,
+          "timestampMs": 2500,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 2740,
+          "endMs": 3040,
+          "timestampMs": 2890,
+          "confidence": 1
+        },
+        {
+          "text": " fifty",
+          "startMs": 3080,
+          "endMs": 3280,
+          "timestampMs": 3180,
+          "confidence": 1
+        },
+        {
+          "text": " thousand.",
+          "startMs": 3342,
+          "endMs": 3920,
+          "timestampMs": 3631,
+          "confidence": 1
+        }
+      ],
+      "hash": "830c3a44a451"
+    },
+    "n11": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n11.mp3",
+      "durationMs": 6244,
+      "captions": [
+        {
+          "text": "She",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " uses",
+          "startMs": 240,
+          "endMs": 560,
+          "timestampMs": 400,
+          "confidence": 1
+        },
+        {
+          "text": " three",
+          "startMs": 627,
+          "endMs": 960,
+          "timestampMs": 794,
+          "confidence": 1
+        },
+        {
+          "text": " time-bank",
+          "startMs": 1072,
+          "endMs": 1840,
+          "timestampMs": 1456,
+          "confidence": 1
+        },
+        {
+          "text": " chips.",
+          "startMs": 1907,
+          "endMs": 2400,
+          "timestampMs": 2154,
+          "confidence": 1
+        },
+        {
+          "text": " She",
+          "startMs": 2540,
+          "endMs": 2960,
+          "timestampMs": 2750,
+          "confidence": 1
+        },
+        {
+          "text": " only",
+          "startMs": 3008,
+          "endMs": 3200,
+          "timestampMs": 3104,
+          "confidence": 1
+        },
+        {
+          "text": " needs",
+          "startMs": 3240,
+          "endMs": 3440,
+          "timestampMs": 3340,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 3467,
+          "endMs": 3520,
+          "timestampMs": 3494,
+          "confidence": 1
+        },
+        {
+          "text": " be",
+          "startMs": 3573,
+          "endMs": 3680,
+          "timestampMs": 3627,
+          "confidence": 1
+        },
+        {
+          "text": " right",
+          "startMs": 3733,
+          "endMs": 4000,
+          "timestampMs": 3867,
+          "confidence": 1
+        },
+        {
+          "text": " twenty-nine",
+          "startMs": 4080,
+          "endMs": 4720,
+          "timestampMs": 4400,
+          "confidence": 1
+        },
+        {
+          "text": " percent",
+          "startMs": 4770,
+          "endMs": 5120,
+          "timestampMs": 4945,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 5173,
+          "endMs": 5280,
+          "timestampMs": 5227,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 5300,
+          "endMs": 5360,
+          "timestampMs": 5330,
+          "confidence": 1
+        },
+        {
+          "text": " time.",
+          "startMs": 5440,
+          "endMs": 6240,
+          "timestampMs": 5840,
+          "confidence": 1
+        }
+      ],
+      "hash": "288c5ea86f2d"
+    },
+    "n12": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n12.mp3",
+      "durationMs": 1281,
+      "captions": [
+        {
+          "text": "She",
+          "startMs": 0,
+          "endMs": 320,
+          "timestampMs": 160,
+          "confidence": 1
+        },
+        {
+          "text": " calls.",
+          "startMs": 413,
+          "endMs": 1280,
+          "timestampMs": 847,
+          "confidence": 1
+        }
+      ],
+      "hash": "98ddb627bf0f"
+    },
+    "n13": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n13.mp3",
+      "durationMs": 4886,
+      "captions": [
+        {
+          "text": "Pocket",
+          "startMs": 314,
+          "endMs": 400,
+          "timestampMs": 357,
+          "confidence": 1
+        },
+        {
+          "text": " aces.",
+          "startMs": 520,
+          "endMs": 1120,
+          "timestampMs": 820,
+          "confidence": 1
+        },
+        {
+          "text": " Ivey",
+          "startMs": 1320,
+          "endMs": 1680,
+          "timestampMs": 1500,
+          "confidence": 1
+        },
+        {
+          "text": " flopped",
+          "startMs": 1740,
+          "endMs": 2080,
+          "timestampMs": 1910,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2120,
+          "endMs": 2160,
+          "timestampMs": 2140,
+          "confidence": 1
+        },
+        {
+          "text": " full",
+          "startMs": 2208,
+          "endMs": 2400,
+          "timestampMs": 2304,
+          "confidence": 1
+        },
+        {
+          "text": " house...",
+          "startMs": 2480,
+          "endMs": 3440,
+          "timestampMs": 2960,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 3480,
+          "endMs": 3600,
+          "timestampMs": 3540,
+          "confidence": 1
+        },
+        {
+          "text": " checked",
+          "startMs": 3640,
+          "endMs": 3920,
+          "timestampMs": 3780,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 3973,
+          "endMs": 4080,
+          "timestampMs": 4027,
+          "confidence": 1
+        },
+        {
+          "text": " three",
+          "startMs": 4120,
+          "endMs": 4320,
+          "timestampMs": 4220,
+          "confidence": 1
+        },
+        {
+          "text": " times.",
+          "startMs": 4400,
+          "endMs": 4880,
+          "timestampMs": 4640,
+          "confidence": 1
+        }
+      ],
+      "hash": "5eec8cbcf27e"
+    },
+    "n14": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n14.mp3",
+      "durationMs": 4964,
+      "captions": [
+        {
+          "text": "When",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 120,
+          "endMs": 160,
+          "timestampMs": 140,
+          "confidence": 1
+        },
+        {
+          "text": " great",
+          "startMs": 227,
+          "endMs": 560,
+          "timestampMs": 394,
+          "confidence": 1
+        },
+        {
+          "text": " player",
+          "startMs": 606,
+          "endMs": 880,
+          "timestampMs": 743,
+          "confidence": 1
+        },
+        {
+          "text": " goes",
+          "startMs": 928,
+          "endMs": 1120,
+          "timestampMs": 1024,
+          "confidence": 1
+        },
+        {
+          "text": " quiet...",
+          "startMs": 1200,
+          "endMs": 2320,
+          "timestampMs": 1760,
+          "confidence": 1
+        },
+        {
+          "text": " then",
+          "startMs": 2352,
+          "endMs": 2480,
+          "timestampMs": 2416,
+          "confidence": 1
+        },
+        {
+          "text": " explodes",
+          "startMs": 2542,
+          "endMs": 3040,
+          "timestampMs": 2791,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 3093,
+          "endMs": 3200,
+          "timestampMs": 3147,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 3220,
+          "endMs": 3280,
+          "timestampMs": 3250,
+          "confidence": 1
+        },
+        {
+          "text": " river...",
+          "startMs": 3333,
+          "endMs": 4240,
+          "timestampMs": 3787,
+          "confidence": 1
+        },
+        {
+          "text": " believe",
+          "startMs": 4280,
+          "endMs": 4560,
+          "timestampMs": 4420,
+          "confidence": 1
+        },
+        {
+          "text": " him.",
+          "startMs": 4620,
+          "endMs": 4960,
+          "timestampMs": 4790,
+          "confidence": 1
+        }
+      ],
+      "hash": "3fa09899244e"
+    },
+    "n15": {
+      "speaker": "n",
+      "file": "reels/ivey-short/n15.mp3",
+      "durationMs": 1124,
+      "captions": [
+        {
+          "text": "Would",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 180,
+          "endMs": 240,
+          "timestampMs": 210,
+          "confidence": 1
+        },
+        {
+          "text": " have",
+          "startMs": 272,
+          "endMs": 400,
+          "timestampMs": 336,
+          "confidence": 1
+        },
+        {
+          "text": " called?",
+          "startMs": 457,
+          "endMs": 1120,
+          "timestampMs": 789,
+          "confidence": 1
+        }
+      ],
+      "hash": "4ac775a1d783"
+    }
+  },
+  "sfx": {
+    "chips": {
+      "file": "reels/ivey-short/sfx-chips.mp3",
+      "durationMs": 889,
+      "hash": "24c1b2b49e15"
+    },
+    "bigchips": {
+      "file": "reels/ivey-short/sfx-bigchips.mp3",
+      "durationMs": 1490,
+      "hash": "9948cd82f041"
+    },
+    "flip": {
+      "file": "reels/ivey-short/sfx-flip.mp3",
+      "durationMs": 497,
+      "hash": "91be3f9d1412"
+    },
+    "deal": {
+      "file": "reels/ivey-short/sfx-deal.mp3",
+      "durationMs": 497,
+      "hash": "f18eb13d7319"
+    },
+    "knock": {
+      "file": "reels/ivey-short/sfx-knock.mp3",
+      "durationMs": 602,
+      "hash": "74f0bc877281"
+    },
+    "rewind": {
+      "file": "reels/ivey-short/sfx-rewind.mp3",
+      "durationMs": 1203,
+      "hash": "9f6780fb390a"
+    },
+    "gasp": {
+      "file": "reels/ivey-short/sfx-gasp.mp3",
+      "durationMs": 2012,
+      "hash": "6bbb5fe55f4b"
+    },
+    "room": {
+      "file": "reels/ivey-short/sfx-room.mp3",
+      "durationMs": 22022,
+      "hash": "3ce23974ea29"
+    }
+  },
+  "music": {
+    "bed": {
+      "file": "reels/ivey-short/music-bed.mp3",
+      "durationMs": 75050,
+      "hash": "629d10414bb3"
+    }
+  }
+}
