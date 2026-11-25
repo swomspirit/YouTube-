@@ -1,0 +1,3484 @@
+{
+  "lines": {
+    "e01": {
+      "speaker": "nar",
+      "file": "reels/einstein/e01.mp3",
+      "durationMs": 7681,
+      "captions": [
+        {
+          "text": "Albert",
+          "startMs": 0,
+          "endMs": 240,
+          "timestampMs": 120,
+          "confidence": 1
+        },
+        {
+          "text": " Einstein",
+          "startMs": 302,
+          "endMs": 800,
+          "timestampMs": 551,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 853,
+          "endMs": 960,
+          "timestampMs": 907,
+          "confidence": 1
+        },
+        {
+          "text": " famous",
+          "startMs": 1017,
+          "endMs": 1360,
+          "timestampMs": 1189,
+          "confidence": 1
+        },
+        {
+          "text": " for",
+          "startMs": 1420,
+          "endMs": 1600,
+          "timestampMs": 1510,
+          "confidence": 1
+        },
+        {
+          "text": " relativity...",
+          "startMs": 1660,
+          "endMs": 2720,
+          "timestampMs": 2190,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 2800,
+          "endMs": 3040,
+          "timestampMs": 2920,
+          "confidence": 1
+        },
+        {
+          "text": " E",
+          "startMs": 3200,
+          "endMs": 3360,
+          "timestampMs": 3280,
+          "confidence": 1
+        },
+        {
+          "text": " equals",
+          "startMs": 3417,
+          "endMs": 3760,
+          "timestampMs": 3589,
+          "confidence": 1
+        },
+        {
+          "text": " m",
+          "startMs": 3840,
+          "endMs": 3920,
+          "timestampMs": 3880,
+          "confidence": 1
+        },
+        {
+          "text": " c",
+          "startMs": 4040,
+          "endMs": 4160,
+          "timestampMs": 4100,
+          "confidence": 1
+        },
+        {
+          "text": " squared.",
+          "startMs": 4230,
+          "endMs": 4920,
+          "timestampMs": 4575,
+          "confidence": 1
+        },
+        {
+          "text": " But",
+          "startMs": 4970,
+          "endMs": 5120,
+          "timestampMs": 5045,
+          "confidence": 1
+        },
+        {
+          "text": " his",
+          "startMs": 5180,
+          "endMs": 5360,
+          "timestampMs": 5270,
+          "confidence": 1
+        },
+        {
+          "text": " Nobel",
+          "startMs": 5427,
+          "endMs": 5760,
+          "timestampMs": 5594,
+          "confidence": 1
+        },
+        {
+          "text": " Prize",
+          "startMs": 5840,
+          "endMs": 6240,
+          "timestampMs": 6040,
+          "confidence": 1
+        },
+        {
+          "text": " wasn't",
+          "startMs": 6288,
+          "endMs": 6560,
+          "timestampMs": 6424,
+          "confidence": 1
+        },
+        {
+          "text": " for",
+          "startMs": 6620,
+          "endMs": 6800,
+          "timestampMs": 6710,
+          "confidence": 1
+        },
+        {
+          "text": " either",
+          "startMs": 6834,
+          "endMs": 7040,
+          "timestampMs": 6937,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 7093,
+          "endMs": 7200,
+          "timestampMs": 7147,
+          "confidence": 1
+        },
+        {
+          "text": " them.",
+          "startMs": 7232,
+          "endMs": 7680,
+          "timestampMs": 7456,
+          "confidence": 1
+        }
+      ],
+      "hash": "de9de25e8703"
+    },
+    "e02": {
+      "speaker": "nar",
+      "file": "reels/einstein/e02.mp3",
+      "durationMs": 5382,
+      "captions": [
+        {
+          "text": "It",
+          "startMs": 253,
+          "endMs": 280,
+          "timestampMs": 267,
+          "confidence": 1
+        },
+        {
+          "text": " was",
+          "startMs": 290,
+          "endMs": 320,
+          "timestampMs": 305,
+          "confidence": 1
+        },
+        {
+          "text": " for",
+          "startMs": 360,
+          "endMs": 480,
+          "timestampMs": 420,
+          "confidence": 1
+        },
+        {
+          "text": " something",
+          "startMs": 520,
+          "endMs": 880,
+          "timestampMs": 700,
+          "confidence": 1
+        },
+        {
+          "text": " smaller.",
+          "startMs": 940,
+          "endMs": 1440,
+          "timestampMs": 1190,
+          "confidence": 1
+        },
+        {
+          "text": " Something",
+          "startMs": 1512,
+          "endMs": 2160,
+          "timestampMs": 1836,
+          "confidence": 1
+        },
+        {
+          "text": " that",
+          "startMs": 2176,
+          "endMs": 2240,
+          "timestampMs": 2208,
+          "confidence": 1
+        },
+        {
+          "text": " changed",
+          "startMs": 2310,
+          "endMs": 2800,
+          "timestampMs": 2555,
+          "confidence": 1
+        },
+        {
+          "text": " what",
+          "startMs": 2848,
+          "endMs": 3040,
+          "timestampMs": 2944,
+          "confidence": 1
+        },
+        {
+          "text": " we",
+          "startMs": 3147,
+          "endMs": 3360,
+          "timestampMs": 3254,
+          "confidence": 1
+        },
+        {
+          "text": " think",
+          "startMs": 3400,
+          "endMs": 3600,
+          "timestampMs": 3500,
+          "confidence": 1
+        },
+        {
+          "text": " light",
+          "startMs": 3693,
+          "endMs": 4160,
+          "timestampMs": 3927,
+          "confidence": 1
+        },
+        {
+          "text": " actually",
+          "startMs": 4240,
+          "endMs": 4880,
+          "timestampMs": 4560,
+          "confidence": 1
+        },
+        {
+          "text": " is.",
+          "startMs": 5013,
+          "endMs": 5360,
+          "timestampMs": 5187,
+          "confidence": 1
+        }
+      ],
+      "hash": "3da9fe2b5b50"
+    },
+    "e03": {
+      "speaker": "nar",
+      "file": "reels/einstein/e03.mp3",
+      "durationMs": 13062,
+      "captions": [
+        {
+          "text": "In",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " nineteen",
+          "startMs": 124,
+          "endMs": 480,
+          "timestampMs": 302,
+          "confidence": 1
+        },
+        {
+          "text": " oh",
+          "startMs": 533,
+          "endMs": 640,
+          "timestampMs": 587,
+          "confidence": 1
+        },
+        {
+          "text": " five,",
+          "startMs": 704,
+          "endMs": 1120,
+          "timestampMs": 912,
+          "confidence": 1
+        },
+        {
+          "text": " Einstein",
+          "startMs": 1200,
+          "endMs": 1840,
+          "timestampMs": 1520,
+          "confidence": 1
+        },
+        {
+          "text": " was",
+          "startMs": 1880,
+          "endMs": 2000,
+          "timestampMs": 1940,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2080,
+          "endMs": 2160,
+          "timestampMs": 2120,
+          "confidence": 1
+        },
+        {
+          "text": " twenty-six-year-old",
+          "startMs": 2194,
+          "endMs": 3120,
+          "timestampMs": 2657,
+          "confidence": 1
+        },
+        {
+          "text": " patent",
+          "startMs": 3177,
+          "endMs": 3520,
+          "timestampMs": 3349,
+          "confidence": 1
+        },
+        {
+          "text": " clerk",
+          "startMs": 3587,
+          "endMs": 3920,
+          "timestampMs": 3754,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 3947,
+          "endMs": 4000,
+          "timestampMs": 3974,
+          "confidence": 1
+        },
+        {
+          "text": " Switzerland.",
+          "startMs": 4053,
+          "endMs": 5040,
+          "timestampMs": 4547,
+          "confidence": 1
+        },
+        {
+          "text": " That",
+          "startMs": 5088,
+          "endMs": 5280,
+          "timestampMs": 5184,
+          "confidence": 1
+        },
+        {
+          "text": " year,",
+          "startMs": 5344,
+          "endMs": 5680,
+          "timestampMs": 5512,
+          "confidence": 1
+        },
+        {
+          "text": " he",
+          "startMs": 5733,
+          "endMs": 5840,
+          "timestampMs": 5787,
+          "confidence": 1
+        },
+        {
+          "text": " published",
+          "startMs": 5888,
+          "endMs": 6320,
+          "timestampMs": 6104,
+          "confidence": 1
+        },
+        {
+          "text": " four",
+          "startMs": 6368,
+          "endMs": 6560,
+          "timestampMs": 6464,
+          "confidence": 1
+        },
+        {
+          "text": " papers",
+          "startMs": 6629,
+          "endMs": 7040,
+          "timestampMs": 6835,
+          "confidence": 1
+        },
+        {
+          "text": " that",
+          "startMs": 7072,
+          "endMs": 7200,
+          "timestampMs": 7136,
+          "confidence": 1
+        },
+        {
+          "text": " would",
+          "startMs": 7240,
+          "endMs": 7440,
+          "timestampMs": 7340,
+          "confidence": 1
+        },
+        {
+          "text": " reshape",
+          "startMs": 7510,
+          "endMs": 8000,
+          "timestampMs": 7755,
+          "confidence": 1
+        },
+        {
+          "text": " physics.",
+          "startMs": 8070,
+          "endMs": 8640,
+          "timestampMs": 8355,
+          "confidence": 1
+        },
+        {
+          "text": " One",
+          "startMs": 8720,
+          "endMs": 8960,
+          "timestampMs": 8840,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 9013,
+          "endMs": 9120,
+          "timestampMs": 9067,
+          "confidence": 1
+        },
+        {
+          "text": " them",
+          "startMs": 9152,
+          "endMs": 9280,
+          "timestampMs": 9216,
+          "confidence": 1
+        },
+        {
+          "text": " explained",
+          "startMs": 9328,
+          "endMs": 9760,
+          "timestampMs": 9544,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 9800,
+          "endMs": 9840,
+          "timestampMs": 9820,
+          "confidence": 1
+        },
+        {
+          "text": " strange",
+          "startMs": 9900,
+          "endMs": 10320,
+          "timestampMs": 10110,
+          "confidence": 1
+        },
+        {
+          "text": " little",
+          "startMs": 10343,
+          "endMs": 10480,
+          "timestampMs": 10412,
+          "confidence": 1
+        },
+        {
+          "text": " puzzle",
+          "startMs": 10560,
+          "endMs": 11040,
+          "timestampMs": 10800,
+          "confidence": 1
+        },
+        {
+          "text": " called",
+          "startMs": 11086,
+          "endMs": 11360,
+          "timestampMs": 11223,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 11420,
+          "endMs": 11600,
+          "timestampMs": 11510,
+          "confidence": 1
+        },
+        {
+          "text": " photoelectric",
+          "startMs": 11680,
+          "endMs": 12480,
+          "timestampMs": 12080,
+          "confidence": 1
+        },
+        {
+          "text": " effect.",
+          "startMs": 12537,
+          "endMs": 13040,
+          "timestampMs": 12789,
+          "confidence": 1
+        }
+      ],
+      "hash": "ee536e7bfc94"
+    },
+    "e04": {
+      "speaker": "nar",
+      "file": "reels/einstein/e04.mp3",
+      "durationMs": 5461,
+      "captions": [
+        {
+          "text": "Here's",
+          "startMs": 0,
+          "endMs": 320,
+          "timestampMs": 160,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 340,
+          "endMs": 400,
+          "timestampMs": 370,
+          "confidence": 1
+        },
+        {
+          "text": " puzzle.",
+          "startMs": 457,
+          "endMs": 880,
+          "timestampMs": 669,
+          "confidence": 1
+        },
+        {
+          "text": " Shine",
+          "startMs": 1000,
+          "endMs": 1600,
+          "timestampMs": 1300,
+          "confidence": 1
+        },
+        {
+          "text": " light",
+          "startMs": 1653,
+          "endMs": 1920,
+          "timestampMs": 1787,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 1947,
+          "endMs": 2000,
+          "timestampMs": 1974,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2040,
+          "endMs": 2080,
+          "timestampMs": 2060,
+          "confidence": 1
+        },
+        {
+          "text": " metal,",
+          "startMs": 2147,
+          "endMs": 2560,
+          "timestampMs": 2354,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 2600,
+          "endMs": 2720,
+          "timestampMs": 2660,
+          "confidence": 1
+        },
+        {
+          "text": " sometimes",
+          "startMs": 2784,
+          "endMs": 3360,
+          "timestampMs": 3072,
+          "confidence": 1
+        },
+        {
+          "text": " electrons",
+          "startMs": 3424,
+          "endMs": 4000,
+          "timestampMs": 3712,
+          "confidence": 1
+        },
+        {
+          "text": " come",
+          "startMs": 4048,
+          "endMs": 4240,
+          "timestampMs": 4144,
+          "confidence": 1
+        },
+        {
+          "text": " flying",
+          "startMs": 4309,
+          "endMs": 4720,
+          "timestampMs": 4515,
+          "confidence": 1
+        },
+        {
+          "text": " out",
+          "startMs": 4760,
+          "endMs": 4880,
+          "timestampMs": 4820,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 4907,
+          "endMs": 4960,
+          "timestampMs": 4934,
+          "confidence": 1
+        },
+        {
+          "text": " it.",
+          "startMs": 5013,
+          "endMs": 5440,
+          "timestampMs": 5227,
+          "confidence": 1
+        }
+      ],
+      "hash": "6c365828e5d9"
+    },
+    "e05": {
+      "speaker": "nar",
+      "file": "reels/einstein/e05.mp3",
+      "durationMs": 9692,
+      "captions": [
+        {
+          "text": "At",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 120,
+          "endMs": 240,
+          "timestampMs": 180,
+          "confidence": 1
+        },
+        {
+          "text": " time,",
+          "startMs": 304,
+          "endMs": 640,
+          "timestampMs": 472,
+          "confidence": 1
+        },
+        {
+          "text": " everyone",
+          "startMs": 684,
+          "endMs": 1040,
+          "timestampMs": 862,
+          "confidence": 1
+        },
+        {
+          "text": " agreed",
+          "startMs": 1109,
+          "endMs": 1520,
+          "timestampMs": 1315,
+          "confidence": 1
+        },
+        {
+          "text": " light",
+          "startMs": 1573,
+          "endMs": 1840,
+          "timestampMs": 1707,
+          "confidence": 1
+        },
+        {
+          "text": " was",
+          "startMs": 1880,
+          "endMs": 2000,
+          "timestampMs": 1940,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2040,
+          "endMs": 2080,
+          "timestampMs": 2060,
+          "confidence": 1
+        },
+        {
+          "text": " wave.",
+          "startMs": 2176,
+          "endMs": 2800,
+          "timestampMs": 2488,
+          "confidence": 1
+        },
+        {
+          "text": " So",
+          "startMs": 2853,
+          "endMs": 2960,
+          "timestampMs": 2907,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 2980,
+          "endMs": 3040,
+          "timestampMs": 3010,
+          "confidence": 1
+        },
+        {
+          "text": " obvious",
+          "startMs": 3100,
+          "endMs": 3520,
+          "timestampMs": 3310,
+          "confidence": 1
+        },
+        {
+          "text": " prediction",
+          "startMs": 3571,
+          "endMs": 4080,
+          "timestampMs": 3826,
+          "confidence": 1
+        },
+        {
+          "text": " was:",
+          "startMs": 4180,
+          "endMs": 4640,
+          "timestampMs": 4410,
+          "confidence": 1
+        },
+        {
+          "text": " brighter",
+          "startMs": 4684,
+          "endMs": 5040,
+          "timestampMs": 4862,
+          "confidence": 1
+        },
+        {
+          "text": " light",
+          "startMs": 5107,
+          "endMs": 5440,
+          "timestampMs": 5274,
+          "confidence": 1
+        },
+        {
+          "text": " means",
+          "startMs": 5493,
+          "endMs": 5760,
+          "timestampMs": 5627,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 5800,
+          "endMs": 5840,
+          "timestampMs": 5820,
+          "confidence": 1
+        },
+        {
+          "text": " stronger",
+          "startMs": 5902,
+          "endMs": 6400,
+          "timestampMs": 6151,
+          "confidence": 1
+        },
+        {
+          "text": " wave,",
+          "startMs": 6496,
+          "endMs": 7040,
+          "timestampMs": 6768,
+          "confidence": 1
+        },
+        {
+          "text": " which",
+          "startMs": 7080,
+          "endMs": 7280,
+          "timestampMs": 7180,
+          "confidence": 1
+        },
+        {
+          "text": " should",
+          "startMs": 7314,
+          "endMs": 7520,
+          "timestampMs": 7417,
+          "confidence": 1
+        },
+        {
+          "text": " knock",
+          "startMs": 7560,
+          "endMs": 7760,
+          "timestampMs": 7660,
+          "confidence": 1
+        },
+        {
+          "text": " electrons",
+          "startMs": 7832,
+          "endMs": 8480,
+          "timestampMs": 8156,
+          "confidence": 1
+        },
+        {
+          "text": " out",
+          "startMs": 8540,
+          "endMs": 8720,
+          "timestampMs": 8630,
+          "confidence": 1
+        },
+        {
+          "text": " with",
+          "startMs": 8752,
+          "endMs": 8880,
+          "timestampMs": 8816,
+          "confidence": 1
+        },
+        {
+          "text": " more",
+          "startMs": 8928,
+          "endMs": 9120,
+          "timestampMs": 9024,
+          "confidence": 1
+        },
+        {
+          "text": " energy.",
+          "startMs": 9189,
+          "endMs": 9680,
+          "timestampMs": 9435,
+          "confidence": 1
+        }
+      ],
+      "hash": "7aa77871cf3f"
+    },
+    "e06": {
+      "speaker": "nar",
+      "file": "reels/einstein/e06.mp3",
+      "durationMs": 8256,
+      "captions": [
+        {
+          "text": "But",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " that's",
+          "startMs": 112,
+          "endMs": 320,
+          "timestampMs": 216,
+          "confidence": 1
+        },
+        {
+          "text": " not",
+          "startMs": 380,
+          "endMs": 560,
+          "timestampMs": 470,
+          "confidence": 1
+        },
+        {
+          "text": " what",
+          "startMs": 592,
+          "endMs": 720,
+          "timestampMs": 656,
+          "confidence": 1
+        },
+        {
+          "text": " happened.",
+          "startMs": 773,
+          "endMs": 1600,
+          "timestampMs": 1187,
+          "confidence": 1
+        },
+        {
+          "text": " Blast",
+          "startMs": 1667,
+          "endMs": 2000,
+          "timestampMs": 1834,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 2040,
+          "endMs": 2160,
+          "timestampMs": 2100,
+          "confidence": 1
+        },
+        {
+          "text": " metal",
+          "startMs": 2200,
+          "endMs": 2400,
+          "timestampMs": 2300,
+          "confidence": 1
+        },
+        {
+          "text": " with",
+          "startMs": 2448,
+          "endMs": 2640,
+          "timestampMs": 2544,
+          "confidence": 1
+        },
+        {
+          "text": " bright",
+          "startMs": 2697,
+          "endMs": 3040,
+          "timestampMs": 2869,
+          "confidence": 1
+        },
+        {
+          "text": " red",
+          "startMs": 3120,
+          "endMs": 3360,
+          "timestampMs": 3240,
+          "confidence": 1
+        },
+        {
+          "text": " light...",
+          "startMs": 3427,
+          "endMs": 4640,
+          "timestampMs": 4034,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 4820,
+          "endMs": 5360,
+          "timestampMs": 5090,
+          "confidence": 1
+        },
+        {
+          "text": " nothing.",
+          "startMs": 5430,
+          "endMs": 6000,
+          "timestampMs": 5715,
+          "confidence": 1
+        },
+        {
+          "text": " Not",
+          "startMs": 6200,
+          "endMs": 6800,
+          "timestampMs": 6500,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 6840,
+          "endMs": 6880,
+          "timestampMs": 6860,
+          "confidence": 1
+        },
+        {
+          "text": " single",
+          "startMs": 6949,
+          "endMs": 7360,
+          "timestampMs": 7155,
+          "confidence": 1
+        },
+        {
+          "text": " electron.",
+          "startMs": 7440,
+          "endMs": 8240,
+          "timestampMs": 7840,
+          "confidence": 1
+        }
+      ],
+      "hash": "af7fe493dfd3"
+    },
+    "e07": {
+      "speaker": "nar",
+      "file": "reels/einstein/e07.mp3",
+      "durationMs": 4651,
+      "captions": [
+        {
+          "text": "Now",
+          "startMs": 0,
+          "endMs": 240,
+          "timestampMs": 120,
+          "confidence": 1
+        },
+        {
+          "text": " shine",
+          "startMs": 293,
+          "endMs": 560,
+          "timestampMs": 427,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 600,
+          "endMs": 640,
+          "timestampMs": 620,
+          "confidence": 1
+        },
+        {
+          "text": " dim",
+          "startMs": 720,
+          "endMs": 960,
+          "timestampMs": 840,
+          "confidence": 1
+        },
+        {
+          "text": " violet",
+          "startMs": 1017,
+          "endMs": 1360,
+          "timestampMs": 1189,
+          "confidence": 1
+        },
+        {
+          "text": " light.",
+          "startMs": 1427,
+          "endMs": 2120,
+          "timestampMs": 1774,
+          "confidence": 1
+        },
+        {
+          "text": " Electrons",
+          "startMs": 2772,
+          "endMs": 3123,
+          "timestampMs": 2948,
+          "confidence": 1
+        },
+        {
+          "text": " pop",
+          "startMs": 3203,
+          "endMs": 3443,
+          "timestampMs": 3323,
+          "confidence": 1
+        },
+        {
+          "text": " out",
+          "startMs": 3503,
+          "endMs": 3683,
+          "timestampMs": 3593,
+          "confidence": 1
+        },
+        {
+          "text": " instantly.",
+          "startMs": 3747,
+          "endMs": 4643,
+          "timestampMs": 4195,
+          "confidence": 1
+        }
+      ],
+      "hash": "3994e7239823"
+    },
+    "e08": {
+      "speaker": "nar",
+      "file": "reels/einstein/e08.mp3",
+      "durationMs": 11521,
+      "captions": [
+        {
+          "text": "Make",
+          "startMs": 0,
+          "endMs": 240,
+          "timestampMs": 120,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 260,
+          "endMs": 320,
+          "timestampMs": 290,
+          "confidence": 1
+        },
+        {
+          "text": " violet",
+          "startMs": 377,
+          "endMs": 720,
+          "timestampMs": 549,
+          "confidence": 1
+        },
+        {
+          "text": " light",
+          "startMs": 760,
+          "endMs": 960,
+          "timestampMs": 860,
+          "confidence": 1
+        },
+        {
+          "text": " brighter,",
+          "startMs": 1013,
+          "endMs": 1520,
+          "timestampMs": 1267,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 1560,
+          "endMs": 1680,
+          "timestampMs": 1620,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 1700,
+          "endMs": 1760,
+          "timestampMs": 1730,
+          "confidence": 1
+        },
+        {
+          "text": " get",
+          "startMs": 1800,
+          "endMs": 1920,
+          "timestampMs": 1860,
+          "confidence": 1
+        },
+        {
+          "text": " more",
+          "startMs": 1968,
+          "endMs": 2160,
+          "timestampMs": 2064,
+          "confidence": 1
+        },
+        {
+          "text": " electrons...",
+          "startMs": 2232,
+          "endMs": 3200,
+          "timestampMs": 2716,
+          "confidence": 1
+        },
+        {
+          "text": " but",
+          "startMs": 3220,
+          "endMs": 3280,
+          "timestampMs": 3250,
+          "confidence": 1
+        },
+        {
+          "text": " each",
+          "startMs": 3344,
+          "endMs": 3600,
+          "timestampMs": 3472,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 3660,
+          "endMs": 3840,
+          "timestampMs": 3750,
+          "confidence": 1
+        },
+        {
+          "text": " has",
+          "startMs": 3900,
+          "endMs": 4080,
+          "timestampMs": 3990,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 4120,
+          "endMs": 4240,
+          "timestampMs": 4180,
+          "confidence": 1
+        },
+        {
+          "text": " same",
+          "startMs": 4304,
+          "endMs": 4560,
+          "timestampMs": 4432,
+          "confidence": 1
+        },
+        {
+          "text": " energy.",
+          "startMs": 4629,
+          "endMs": 5360,
+          "timestampMs": 4995,
+          "confidence": 1
+        },
+        {
+          "text": " Only",
+          "startMs": 5488,
+          "endMs": 6000,
+          "timestampMs": 5744,
+          "confidence": 1
+        },
+        {
+          "text": " changing",
+          "startMs": 6062,
+          "endMs": 6560,
+          "timestampMs": 6311,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 6580,
+          "endMs": 6640,
+          "timestampMs": 6610,
+          "confidence": 1
+        },
+        {
+          "text": " color",
+          "startMs": 6720,
+          "endMs": 7120,
+          "timestampMs": 6920,
+          "confidence": 1
+        },
+        {
+          "text": " changes",
+          "startMs": 7190,
+          "endMs": 7680,
+          "timestampMs": 7435,
+          "confidence": 1
+        },
+        {
+          "text": " their",
+          "startMs": 7707,
+          "endMs": 7840,
+          "timestampMs": 7774,
+          "confidence": 1
+        },
+        {
+          "text": " speed.",
+          "startMs": 7933,
+          "endMs": 8720,
+          "timestampMs": 8327,
+          "confidence": 1
+        },
+        {
+          "text": " Waves",
+          "startMs": 8867,
+          "endMs": 9600,
+          "timestampMs": 9234,
+          "confidence": 1
+        },
+        {
+          "text": " couldn't",
+          "startMs": 9646,
+          "endMs": 10200,
+          "timestampMs": 9923,
+          "confidence": 1
+        },
+        {
+          "text": " explain",
+          "startMs": 10235,
+          "endMs": 10480,
+          "timestampMs": 10358,
+          "confidence": 1
+        },
+        {
+          "text": " any",
+          "startMs": 10540,
+          "endMs": 10720,
+          "timestampMs": 10630,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 10773,
+          "endMs": 10880,
+          "timestampMs": 10827,
+          "confidence": 1
+        },
+        {
+          "text": " this.",
+          "startMs": 10944,
+          "endMs": 11520,
+          "timestampMs": 11232,
+          "confidence": 1
+        }
+      ],
+      "hash": "dc17e432a28c"
+    },
+    "e09": {
+      "speaker": "nar",
+      "file": "reels/einstein/e09.mp3",
+      "durationMs": 9379,
+      "captions": [
+        {
+          "text": "Einstein's",
+          "startMs": 0,
+          "endMs": 640,
+          "timestampMs": 320,
+          "confidence": 1
+        },
+        {
+          "text": " answer",
+          "startMs": 709,
+          "endMs": 1120,
+          "timestampMs": 915,
+          "confidence": 1
+        },
+        {
+          "text": " was",
+          "startMs": 1180,
+          "endMs": 1360,
+          "timestampMs": 1270,
+          "confidence": 1
+        },
+        {
+          "text": " radical.",
+          "startMs": 1440,
+          "endMs": 2160,
+          "timestampMs": 1800,
+          "confidence": 1
+        },
+        {
+          "text": " Light",
+          "startMs": 2280,
+          "endMs": 2880,
+          "timestampMs": 2580,
+          "confidence": 1
+        },
+        {
+          "text": " isn't",
+          "startMs": 2940,
+          "endMs": 3200,
+          "timestampMs": 3070,
+          "confidence": 1
+        },
+        {
+          "text": " just",
+          "startMs": 3248,
+          "endMs": 3440,
+          "timestampMs": 3344,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 3480,
+          "endMs": 3520,
+          "timestampMs": 3500,
+          "confidence": 1
+        },
+        {
+          "text": " smooth",
+          "startMs": 3600,
+          "endMs": 4080,
+          "timestampMs": 3840,
+          "confidence": 1
+        },
+        {
+          "text": " wave.",
+          "startMs": 4176,
+          "endMs": 4640,
+          "timestampMs": 4408,
+          "confidence": 1
+        },
+        {
+          "text": " It",
+          "startMs": 4747,
+          "endMs": 4960,
+          "timestampMs": 4854,
+          "confidence": 1
+        },
+        {
+          "text": " comes",
+          "startMs": 5027,
+          "endMs": 5360,
+          "timestampMs": 5194,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 5413,
+          "endMs": 5520,
+          "timestampMs": 5467,
+          "confidence": 1
+        },
+        {
+          "text": " tiny",
+          "startMs": 5600,
+          "endMs": 5920,
+          "timestampMs": 5760,
+          "confidence": 1
+        },
+        {
+          "text": " packets",
+          "startMs": 5980,
+          "endMs": 6400,
+          "timestampMs": 6190,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 6427,
+          "endMs": 6480,
+          "timestampMs": 6454,
+          "confidence": 1
+        },
+        {
+          "text": " energy.",
+          "startMs": 6549,
+          "endMs": 7040,
+          "timestampMs": 6795,
+          "confidence": 1
+        },
+        {
+          "text": " Today,",
+          "startMs": 7147,
+          "endMs": 7760,
+          "timestampMs": 7454,
+          "confidence": 1
+        },
+        {
+          "text": " we",
+          "startMs": 7813,
+          "endMs": 7920,
+          "timestampMs": 7867,
+          "confidence": 1
+        },
+        {
+          "text": " call",
+          "startMs": 7968,
+          "endMs": 8160,
+          "timestampMs": 8064,
+          "confidence": 1
+        },
+        {
+          "text": " them",
+          "startMs": 8208,
+          "endMs": 8400,
+          "timestampMs": 8304,
+          "confidence": 1
+        },
+        {
+          "text": " photons.",
+          "startMs": 8500,
+          "endMs": 9360,
+          "timestampMs": 8930,
+          "confidence": 1
+        }
+      ],
+      "hash": "98264dc35df2"
+    },
+    "e10": {
+      "speaker": "nar",
+      "file": "reels/einstein/e10.mp3",
+      "durationMs": 7211,
+      "captions": [
+        {
+          "text": "And",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 120,
+          "endMs": 240,
+          "timestampMs": 180,
+          "confidence": 1
+        },
+        {
+          "text": " energy",
+          "startMs": 297,
+          "endMs": 640,
+          "timestampMs": 469,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 667,
+          "endMs": 720,
+          "timestampMs": 694,
+          "confidence": 1
+        },
+        {
+          "text": " each",
+          "startMs": 768,
+          "endMs": 960,
+          "timestampMs": 864,
+          "confidence": 1
+        },
+        {
+          "text": " packet",
+          "startMs": 1017,
+          "endMs": 1360,
+          "timestampMs": 1189,
+          "confidence": 1
+        },
+        {
+          "text": " depends",
+          "startMs": 1410,
+          "endMs": 1760,
+          "timestampMs": 1585,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 1787,
+          "endMs": 1840,
+          "timestampMs": 1814,
+          "confidence": 1
+        },
+        {
+          "text": " its",
+          "startMs": 1880,
+          "endMs": 2000,
+          "timestampMs": 1940,
+          "confidence": 1
+        },
+        {
+          "text": " color.",
+          "startMs": 2067,
+          "endMs": 2680,
+          "timestampMs": 2374,
+          "confidence": 1
+        },
+        {
+          "text": " Red",
+          "startMs": 2750,
+          "endMs": 2960,
+          "timestampMs": 2855,
+          "confidence": 1
+        },
+        {
+          "text": " photons",
+          "startMs": 3030,
+          "endMs": 3520,
+          "timestampMs": 3275,
+          "confidence": 1
+        },
+        {
+          "text": " carry",
+          "startMs": 3587,
+          "endMs": 3920,
+          "timestampMs": 3754,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 3960,
+          "endMs": 4000,
+          "timestampMs": 3980,
+          "confidence": 1
+        },
+        {
+          "text": " little",
+          "startMs": 4034,
+          "endMs": 4240,
+          "timestampMs": 4137,
+          "confidence": 1
+        },
+        {
+          "text": " energy.",
+          "startMs": 4309,
+          "endMs": 5120,
+          "timestampMs": 4715,
+          "confidence": 1
+        },
+        {
+          "text": " Violet",
+          "startMs": 5177,
+          "endMs": 5520,
+          "timestampMs": 5349,
+          "confidence": 1
+        },
+        {
+          "text": " photons",
+          "startMs": 5590,
+          "endMs": 6080,
+          "timestampMs": 5835,
+          "confidence": 1
+        },
+        {
+          "text": " carry",
+          "startMs": 6133,
+          "endMs": 6400,
+          "timestampMs": 6267,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 6440,
+          "endMs": 6480,
+          "timestampMs": 6460,
+          "confidence": 1
+        },
+        {
+          "text": " lot.",
+          "startMs": 6580,
+          "endMs": 7200,
+          "timestampMs": 6890,
+          "confidence": 1
+        }
+      ],
+      "hash": "291c6e64baa0"
+    },
+    "e11": {
+      "speaker": "nar",
+      "file": "reels/einstein/e11.mp3",
+      "durationMs": 8177,
+      "captions": [
+        {
+          "text": "Think",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 187,
+          "endMs": 240,
+          "timestampMs": 214,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 267,
+          "endMs": 320,
+          "timestampMs": 294,
+          "confidence": 1
+        },
+        {
+          "text": " like",
+          "startMs": 368,
+          "endMs": 560,
+          "timestampMs": 464,
+          "confidence": 1
+        },
+        {
+          "text": " trying",
+          "startMs": 606,
+          "endMs": 880,
+          "timestampMs": 743,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 907,
+          "endMs": 960,
+          "timestampMs": 934,
+          "confidence": 1
+        },
+        {
+          "text": " break",
+          "startMs": 1000,
+          "endMs": 1200,
+          "timestampMs": 1100,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 1240,
+          "endMs": 1280,
+          "timestampMs": 1260,
+          "confidence": 1
+        },
+        {
+          "text": " window.",
+          "startMs": 1349,
+          "endMs": 1840,
+          "timestampMs": 1595,
+          "confidence": 1
+        },
+        {
+          "text": " Throw",
+          "startMs": 1947,
+          "endMs": 2480,
+          "timestampMs": 2214,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2520,
+          "endMs": 2560,
+          "timestampMs": 2540,
+          "confidence": 1
+        },
+        {
+          "text": " million",
+          "startMs": 2630,
+          "endMs": 3120,
+          "timestampMs": 2875,
+          "confidence": 1
+        },
+        {
+          "text": " ping-pong",
+          "startMs": 3168,
+          "endMs": 3680,
+          "timestampMs": 3424,
+          "confidence": 1
+        },
+        {
+          "text": " balls,",
+          "startMs": 3747,
+          "endMs": 4080,
+          "timestampMs": 3914,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 4120,
+          "endMs": 4240,
+          "timestampMs": 4180,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 4260,
+          "endMs": 4320,
+          "timestampMs": 4290,
+          "confidence": 1
+        },
+        {
+          "text": " glass",
+          "startMs": 4387,
+          "endMs": 4720,
+          "timestampMs": 4554,
+          "confidence": 1
+        },
+        {
+          "text": " survives.",
+          "startMs": 4791,
+          "endMs": 5440,
+          "timestampMs": 5116,
+          "confidence": 1
+        },
+        {
+          "text": " Throw",
+          "startMs": 5533,
+          "endMs": 6000,
+          "timestampMs": 5767,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 6060,
+          "endMs": 6240,
+          "timestampMs": 6150,
+          "confidence": 1
+        },
+        {
+          "text": " baseball,",
+          "startMs": 6320,
+          "endMs": 7120,
+          "timestampMs": 6720,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 7160,
+          "endMs": 7280,
+          "timestampMs": 7220,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 7307,
+          "endMs": 7360,
+          "timestampMs": 7334,
+          "confidence": 1
+        },
+        {
+          "text": " shatters.",
+          "startMs": 7413,
+          "endMs": 8160,
+          "timestampMs": 7787,
+          "confidence": 1
+        }
+      ],
+      "hash": "d10d82b321f3"
+    },
+    "e12": {
+      "speaker": "nar",
+      "file": "reels/einstein/e12.mp3",
+      "durationMs": 10241,
+      "captions": [
+        {
+          "text": "One",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " photon",
+          "startMs": 240,
+          "endMs": 720,
+          "timestampMs": 480,
+          "confidence": 1
+        },
+        {
+          "text": " hits",
+          "startMs": 784,
+          "endMs": 1040,
+          "timestampMs": 912,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 1100,
+          "endMs": 1280,
+          "timestampMs": 1190,
+          "confidence": 1
+        },
+        {
+          "text": " electron.",
+          "startMs": 1360,
+          "endMs": 2280,
+          "timestampMs": 1820,
+          "confidence": 1
+        },
+        {
+          "text": " If",
+          "startMs": 2373,
+          "endMs": 2560,
+          "timestampMs": 2467,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 2580,
+          "endMs": 2640,
+          "timestampMs": 2610,
+          "confidence": 1
+        },
+        {
+          "text": " photon",
+          "startMs": 2720,
+          "endMs": 3200,
+          "timestampMs": 2960,
+          "confidence": 1
+        },
+        {
+          "text": " has",
+          "startMs": 3240,
+          "endMs": 3360,
+          "timestampMs": 3300,
+          "confidence": 1
+        },
+        {
+          "text": " enough",
+          "startMs": 3406,
+          "endMs": 3680,
+          "timestampMs": 3543,
+          "confidence": 1
+        },
+        {
+          "text": " energy",
+          "startMs": 3726,
+          "endMs": 4000,
+          "timestampMs": 3863,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 4027,
+          "endMs": 4080,
+          "timestampMs": 4053,
+          "confidence": 1
+        },
+        {
+          "text": " pay",
+          "startMs": 4160,
+          "endMs": 4400,
+          "timestampMs": 4280,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 4440,
+          "endMs": 4560,
+          "timestampMs": 4500,
+          "confidence": 1
+        },
+        {
+          "text": " exit",
+          "startMs": 4640,
+          "endMs": 4960,
+          "timestampMs": 4800,
+          "confidence": 1
+        },
+        {
+          "text": " fee,",
+          "startMs": 5040,
+          "endMs": 5440,
+          "timestampMs": 5240,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 5480,
+          "endMs": 5600,
+          "timestampMs": 5540,
+          "confidence": 1
+        },
+        {
+          "text": " electron",
+          "startMs": 5662,
+          "endMs": 6160,
+          "timestampMs": 5911,
+          "confidence": 1
+        },
+        {
+          "text": " escapes.",
+          "startMs": 6230,
+          "endMs": 6800,
+          "timestampMs": 6515,
+          "confidence": 1
+        },
+        {
+          "text": " If",
+          "startMs": 6960,
+          "endMs": 7280,
+          "timestampMs": 7120,
+          "confidence": 1
+        },
+        {
+          "text": " not,",
+          "startMs": 7360,
+          "endMs": 7920,
+          "timestampMs": 7640,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 7947,
+          "endMs": 8000,
+          "timestampMs": 7974,
+          "confidence": 1
+        },
+        {
+          "text": " doesn't",
+          "startMs": 8040,
+          "endMs": 8320,
+          "timestampMs": 8180,
+          "confidence": 1
+        },
+        {
+          "text": " matter",
+          "startMs": 8354,
+          "endMs": 8560,
+          "timestampMs": 8457,
+          "confidence": 1
+        },
+        {
+          "text": " how",
+          "startMs": 8620,
+          "endMs": 8800,
+          "timestampMs": 8710,
+          "confidence": 1
+        },
+        {
+          "text": " many",
+          "startMs": 8832,
+          "endMs": 8960,
+          "timestampMs": 8896,
+          "confidence": 1
+        },
+        {
+          "text": " photons",
+          "startMs": 9020,
+          "endMs": 9440,
+          "timestampMs": 9230,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 9480,
+          "endMs": 9600,
+          "timestampMs": 9540,
+          "confidence": 1
+        },
+        {
+          "text": " send.",
+          "startMs": 9680,
+          "endMs": 10240,
+          "timestampMs": 9960,
+          "confidence": 1
+        }
+      ],
+      "hash": "6452207d73b0"
+    },
+    "e13": {
+      "speaker": "nar",
+      "file": "reels/einstein/e13.mp3",
+      "durationMs": 7603,
+      "captions": [
+        {
+          "text": "Einstein",
+          "startMs": 0,
+          "endMs": 560,
+          "timestampMs": 280,
+          "confidence": 1
+        },
+        {
+          "text": " wrote",
+          "startMs": 587,
+          "endMs": 720,
+          "timestampMs": 654,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 773,
+          "endMs": 880,
+          "timestampMs": 827,
+          "confidence": 1
+        },
+        {
+          "text": " as",
+          "startMs": 933,
+          "endMs": 1040,
+          "timestampMs": 987,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 1100,
+          "endMs": 1280,
+          "timestampMs": 1190,
+          "confidence": 1
+        },
+        {
+          "text": " simple",
+          "startMs": 1337,
+          "endMs": 1680,
+          "timestampMs": 1509,
+          "confidence": 1
+        },
+        {
+          "text": " equation.",
+          "startMs": 1751,
+          "endMs": 2520,
+          "timestampMs": 2136,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 2570,
+          "endMs": 2720,
+          "timestampMs": 2645,
+          "confidence": 1
+        },
+        {
+          "text": " electron's",
+          "startMs": 2782,
+          "endMs": 3360,
+          "timestampMs": 3071,
+          "confidence": 1
+        },
+        {
+          "text": " energy",
+          "startMs": 3417,
+          "endMs": 3760,
+          "timestampMs": 3589,
+          "confidence": 1
+        },
+        {
+          "text": " equals",
+          "startMs": 3817,
+          "endMs": 4160,
+          "timestampMs": 3989,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 4180,
+          "endMs": 4240,
+          "timestampMs": 4210,
+          "confidence": 1
+        },
+        {
+          "text": " photon's",
+          "startMs": 4320,
+          "endMs": 4880,
+          "timestampMs": 4600,
+          "confidence": 1
+        },
+        {
+          "text": " energy,",
+          "startMs": 4937,
+          "endMs": 5560,
+          "timestampMs": 5249,
+          "confidence": 1
+        },
+        {
+          "text": " minus",
+          "startMs": 5607,
+          "endMs": 5840,
+          "timestampMs": 5724,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 5880,
+          "endMs": 6000,
+          "timestampMs": 5940,
+          "confidence": 1
+        },
+        {
+          "text": " cost",
+          "startMs": 6080,
+          "endMs": 6400,
+          "timestampMs": 6240,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 6453,
+          "endMs": 6560,
+          "timestampMs": 6507,
+          "confidence": 1
+        },
+        {
+          "text": " escaping",
+          "startMs": 6613,
+          "endMs": 7040,
+          "timestampMs": 6827,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 7060,
+          "endMs": 7120,
+          "timestampMs": 7090,
+          "confidence": 1
+        },
+        {
+          "text": " metal.",
+          "startMs": 7187,
+          "endMs": 7600,
+          "timestampMs": 7393,
+          "confidence": 1
+        }
+      ],
+      "hash": "84029210ddf4"
+    },
+    "e14": {
+      "speaker": "nar",
+      "file": "reels/einstein/e14.mp3",
+      "durationMs": 12096,
+      "captions": [
+        {
+          "text": "Plenty",
+          "startMs": 0,
+          "endMs": 240,
+          "timestampMs": 120,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 267,
+          "endMs": 320,
+          "timestampMs": 294,
+          "confidence": 1
+        },
+        {
+          "text": " physicists",
+          "startMs": 378,
+          "endMs": 960,
+          "timestampMs": 669,
+          "confidence": 1
+        },
+        {
+          "text": " didn't",
+          "startMs": 1008,
+          "endMs": 1360,
+          "timestampMs": 1184,
+          "confidence": 1
+        },
+        {
+          "text": " buy",
+          "startMs": 1400,
+          "endMs": 1520,
+          "timestampMs": 1460,
+          "confidence": 1
+        },
+        {
+          "text": " it.",
+          "startMs": 1573,
+          "endMs": 2000,
+          "timestampMs": 1787,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 2080,
+          "endMs": 2320,
+          "timestampMs": 2200,
+          "confidence": 1
+        },
+        {
+          "text": " American",
+          "startMs": 2373,
+          "endMs": 2800,
+          "timestampMs": 2587,
+          "confidence": 1
+        },
+        {
+          "text": " physicist",
+          "startMs": 2848,
+          "endMs": 3280,
+          "timestampMs": 3064,
+          "confidence": 1
+        },
+        {
+          "text": " Robert",
+          "startMs": 3337,
+          "endMs": 3680,
+          "timestampMs": 3509,
+          "confidence": 1
+        },
+        {
+          "text": " Millikan",
+          "startMs": 3728,
+          "endMs": 4240,
+          "timestampMs": 3984,
+          "confidence": 1
+        },
+        {
+          "text": " spent",
+          "startMs": 4280,
+          "endMs": 4480,
+          "timestampMs": 4380,
+          "confidence": 1
+        },
+        {
+          "text": " about",
+          "startMs": 4507,
+          "endMs": 4640,
+          "timestampMs": 4573,
+          "confidence": 1
+        },
+        {
+          "text": " ten",
+          "startMs": 4760,
+          "endMs": 5120,
+          "timestampMs": 4940,
+          "confidence": 1
+        },
+        {
+          "text": " years",
+          "startMs": 5187,
+          "endMs": 5520,
+          "timestampMs": 5354,
+          "confidence": 1
+        },
+        {
+          "text": " testing",
+          "startMs": 5570,
+          "endMs": 5920,
+          "timestampMs": 5745,
+          "confidence": 1
+        },
+        {
+          "text": " it,",
+          "startMs": 5973,
+          "endMs": 6400,
+          "timestampMs": 6187,
+          "confidence": 1
+        },
+        {
+          "text": " fully",
+          "startMs": 6453,
+          "endMs": 6720,
+          "timestampMs": 6587,
+          "confidence": 1
+        },
+        {
+          "text": " expecting",
+          "startMs": 6768,
+          "endMs": 7200,
+          "timestampMs": 6984,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 7227,
+          "endMs": 7280,
+          "timestampMs": 7254,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 7333,
+          "endMs": 7440,
+          "timestampMs": 7387,
+          "confidence": 1
+        },
+        {
+          "text": " fail.",
+          "startMs": 7520,
+          "endMs": 8160,
+          "timestampMs": 7840,
+          "confidence": 1
+        },
+        {
+          "text": " It",
+          "startMs": 8667,
+          "endMs": 8720,
+          "timestampMs": 8694,
+          "confidence": 1
+        },
+        {
+          "text": " didn't.",
+          "startMs": 8768,
+          "endMs": 9120,
+          "timestampMs": 8944,
+          "confidence": 1
+        },
+        {
+          "text": " His",
+          "startMs": 9280,
+          "endMs": 9760,
+          "timestampMs": 9520,
+          "confidence": 1
+        },
+        {
+          "text": " measurements",
+          "startMs": 9797,
+          "endMs": 10240,
+          "timestampMs": 10019,
+          "confidence": 1
+        },
+        {
+          "text": " matched",
+          "startMs": 10290,
+          "endMs": 10640,
+          "timestampMs": 10465,
+          "confidence": 1
+        },
+        {
+          "text": " Einstein's",
+          "startMs": 10711,
+          "endMs": 11360,
+          "timestampMs": 11035,
+          "confidence": 1
+        },
+        {
+          "text": " equation.",
+          "startMs": 11422,
+          "endMs": 12080,
+          "timestampMs": 11751,
+          "confidence": 1
+        }
+      ],
+      "hash": "60610df1f47c"
+    },
+    "e15": {
+      "speaker": "nar",
+      "file": "reels/einstein/e15.mp3",
+      "durationMs": 12409,
+      "captions": [
+        {
+          "text": "So",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 133,
+          "endMs": 240,
+          "timestampMs": 187,
+          "confidence": 1
+        },
+        {
+          "text": " nineteen",
+          "startMs": 276,
+          "endMs": 560,
+          "timestampMs": 418,
+          "confidence": 1
+        },
+        {
+          "text": " twenty-two,",
+          "startMs": 629,
+          "endMs": 1520,
+          "timestampMs": 1075,
+          "confidence": 1
+        },
+        {
+          "text": " Einstein",
+          "startMs": 1582,
+          "endMs": 2080,
+          "timestampMs": 1831,
+          "confidence": 1
+        },
+        {
+          "text": " received",
+          "startMs": 2124,
+          "endMs": 2480,
+          "timestampMs": 2302,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 2520,
+          "endMs": 2640,
+          "timestampMs": 2580,
+          "confidence": 1
+        },
+        {
+          "text": " nineteen",
+          "startMs": 2684,
+          "endMs": 3040,
+          "timestampMs": 2862,
+          "confidence": 1
+        },
+        {
+          "text": " twenty-one",
+          "startMs": 3086,
+          "endMs": 3760,
+          "timestampMs": 3423,
+          "confidence": 1
+        },
+        {
+          "text": " Nobel",
+          "startMs": 3827,
+          "endMs": 4160,
+          "timestampMs": 3994,
+          "confidence": 1
+        },
+        {
+          "text": " Prize",
+          "startMs": 4240,
+          "endMs": 4640,
+          "timestampMs": 4440,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 4667,
+          "endMs": 4720,
+          "timestampMs": 4694,
+          "confidence": 1
+        },
+        {
+          "text": " Physics,",
+          "startMs": 4780,
+          "endMs": 5440,
+          "timestampMs": 5110,
+          "confidence": 1
+        },
+        {
+          "text": " especially",
+          "startMs": 5498,
+          "endMs": 6080,
+          "timestampMs": 5789,
+          "confidence": 1
+        },
+        {
+          "text": " for",
+          "startMs": 6120,
+          "endMs": 6240,
+          "timestampMs": 6180,
+          "confidence": 1
+        },
+        {
+          "text": " his",
+          "startMs": 6280,
+          "endMs": 6400,
+          "timestampMs": 6340,
+          "confidence": 1
+        },
+        {
+          "text": " discovery",
+          "startMs": 6464,
+          "endMs": 7040,
+          "timestampMs": 6752,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 7067,
+          "endMs": 7120,
+          "timestampMs": 7094,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 7140,
+          "endMs": 7200,
+          "timestampMs": 7170,
+          "confidence": 1
+        },
+        {
+          "text": " law",
+          "startMs": 7300,
+          "endMs": 7600,
+          "timestampMs": 7450,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 7627,
+          "endMs": 7680,
+          "timestampMs": 7653,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 7700,
+          "endMs": 7760,
+          "timestampMs": 7730,
+          "confidence": 1
+        },
+        {
+          "text": " photoelectric",
+          "startMs": 7840,
+          "endMs": 8640,
+          "timestampMs": 8240,
+          "confidence": 1
+        },
+        {
+          "text": " effect.",
+          "startMs": 8697,
+          "endMs": 9520,
+          "timestampMs": 9109,
+          "confidence": 1
+        },
+        {
+          "text": " Relativity",
+          "startMs": 9580,
+          "endMs": 10160,
+          "timestampMs": 9870,
+          "confidence": 1
+        },
+        {
+          "text": " was",
+          "startMs": 10200,
+          "endMs": 10320,
+          "timestampMs": 10260,
+          "confidence": 1
+        },
+        {
+          "text": " still",
+          "startMs": 10360,
+          "endMs": 10560,
+          "timestampMs": 10460,
+          "confidence": 1
+        },
+        {
+          "text": " considered",
+          "startMs": 10611,
+          "endMs": 11120,
+          "timestampMs": 10866,
+          "confidence": 1
+        },
+        {
+          "text": " too",
+          "startMs": 11200,
+          "endMs": 11440,
+          "timestampMs": 11320,
+          "confidence": 1
+        },
+        {
+          "text": " controversial.",
+          "startMs": 11503,
+          "endMs": 12400,
+          "timestampMs": 11952,
+          "confidence": 1
+        }
+      ],
+      "hash": "6193328737c9"
+    },
+    "e16": {
+      "speaker": "nar",
+      "file": "reels/einstein/e16.mp3",
+      "durationMs": 9692,
+      "captions": [
+        {
+          "text": "Two",
+          "startMs": 136,
+          "endMs": 160,
+          "timestampMs": 148,
+          "confidence": 1
+        },
+        {
+          "text": " fun",
+          "startMs": 240,
+          "endMs": 480,
+          "timestampMs": 360,
+          "confidence": 1
+        },
+        {
+          "text": " details.",
+          "startMs": 560,
+          "endMs": 1320,
+          "timestampMs": 940,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 1370,
+          "endMs": 1520,
+          "timestampMs": 1445,
+          "confidence": 1
+        },
+        {
+          "text": " prize",
+          "startMs": 1573,
+          "endMs": 1840,
+          "timestampMs": 1707,
+          "confidence": 1
+        },
+        {
+          "text": " money",
+          "startMs": 1893,
+          "endMs": 2160,
+          "timestampMs": 2027,
+          "confidence": 1
+        },
+        {
+          "text": " went",
+          "startMs": 2192,
+          "endMs": 2320,
+          "timestampMs": 2256,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 2373,
+          "endMs": 2480,
+          "timestampMs": 2427,
+          "confidence": 1
+        },
+        {
+          "text": " his",
+          "startMs": 2520,
+          "endMs": 2640,
+          "timestampMs": 2580,
+          "confidence": 1
+        },
+        {
+          "text": " ex-wife,",
+          "startMs": 2747,
+          "endMs": 3440,
+          "timestampMs": 3093,
+          "confidence": 1
+        },
+        {
+          "text": " Mileva,",
+          "startMs": 3472,
+          "endMs": 3920,
+          "timestampMs": 3696,
+          "confidence": 1
+        },
+        {
+          "text": " as",
+          "startMs": 3973,
+          "endMs": 4080,
+          "timestampMs": 4027,
+          "confidence": 1
+        },
+        {
+          "text": " agreed",
+          "startMs": 4137,
+          "endMs": 4480,
+          "timestampMs": 4309,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 4507,
+          "endMs": 4560,
+          "timestampMs": 4534,
+          "confidence": 1
+        },
+        {
+          "text": " their",
+          "startMs": 4587,
+          "endMs": 4720,
+          "timestampMs": 4653,
+          "confidence": 1
+        },
+        {
+          "text": " divorce.",
+          "startMs": 4780,
+          "endMs": 5600,
+          "timestampMs": 5190,
+          "confidence": 1
+        },
+        {
+          "text": " And",
+          "startMs": 5620,
+          "endMs": 5680,
+          "timestampMs": 5650,
+          "confidence": 1
+        },
+        {
+          "text": " when",
+          "startMs": 5712,
+          "endMs": 5840,
+          "timestampMs": 5776,
+          "confidence": 1
+        },
+        {
+          "text": " he",
+          "startMs": 5867,
+          "endMs": 5920,
+          "timestampMs": 5893,
+          "confidence": 1
+        },
+        {
+          "text": " gave",
+          "startMs": 5984,
+          "endMs": 6240,
+          "timestampMs": 6112,
+          "confidence": 1
+        },
+        {
+          "text": " his",
+          "startMs": 6280,
+          "endMs": 6400,
+          "timestampMs": 6340,
+          "confidence": 1
+        },
+        {
+          "text": " Nobel",
+          "startMs": 6480,
+          "endMs": 6880,
+          "timestampMs": 6680,
+          "confidence": 1
+        },
+        {
+          "text": " lecture...",
+          "startMs": 6930,
+          "endMs": 7840,
+          "timestampMs": 7385,
+          "confidence": 1
+        },
+        {
+          "text": " he",
+          "startMs": 7867,
+          "endMs": 7920,
+          "timestampMs": 7893,
+          "confidence": 1
+        },
+        {
+          "text": " talked",
+          "startMs": 7966,
+          "endMs": 8240,
+          "timestampMs": 8103,
+          "confidence": 1
+        },
+        {
+          "text": " about",
+          "startMs": 8267,
+          "endMs": 8400,
+          "timestampMs": 8334,
+          "confidence": 1
+        },
+        {
+          "text": " relativity",
+          "startMs": 8460,
+          "endMs": 9040,
+          "timestampMs": 8750,
+          "confidence": 1
+        },
+        {
+          "text": " anyway.",
+          "startMs": 9109,
+          "endMs": 9680,
+          "timestampMs": 9395,
+          "confidence": 1
+        }
+      ],
+      "hash": "5d506d08928f"
+    },
+    "e17": {
+      "speaker": "nar",
+      "file": "reels/einstein/e17.mp3",
+      "durationMs": 8883,
+      "captions": [
+        {
+          "text": "But",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 180,
+          "endMs": 240,
+          "timestampMs": 210,
+          "confidence": 1
+        },
+        {
+          "text": " real",
+          "startMs": 320,
+          "endMs": 640,
+          "timestampMs": 480,
+          "confidence": 1
+        },
+        {
+          "text": " prize",
+          "startMs": 733,
+          "endMs": 1200,
+          "timestampMs": 966,
+          "confidence": 1
+        },
+        {
+          "text": " was",
+          "startMs": 1280,
+          "endMs": 1520,
+          "timestampMs": 1400,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 1560,
+          "endMs": 1680,
+          "timestampMs": 1620,
+          "confidence": 1
+        },
+        {
+          "text": " idea.",
+          "startMs": 1808,
+          "endMs": 2480,
+          "timestampMs": 2144,
+          "confidence": 1
+        },
+        {
+          "text": " Light",
+          "startMs": 2613,
+          "endMs": 3280,
+          "timestampMs": 2947,
+          "confidence": 1
+        },
+        {
+          "text": " behaving",
+          "startMs": 3333,
+          "endMs": 3760,
+          "timestampMs": 3547,
+          "confidence": 1
+        },
+        {
+          "text": " as",
+          "startMs": 3787,
+          "endMs": 3840,
+          "timestampMs": 3814,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 3880,
+          "endMs": 3920,
+          "timestampMs": 3900,
+          "confidence": 1
+        },
+        {
+          "text": " particle",
+          "startMs": 3982,
+          "endMs": 4480,
+          "timestampMs": 4231,
+          "confidence": 1
+        },
+        {
+          "text": " helped",
+          "startMs": 4537,
+          "endMs": 4880,
+          "timestampMs": 4709,
+          "confidence": 1
+        },
+        {
+          "text": " launch",
+          "startMs": 4926,
+          "endMs": 5200,
+          "timestampMs": 5063,
+          "confidence": 1
+        },
+        {
+          "text": " quantum",
+          "startMs": 5260,
+          "endMs": 5680,
+          "timestampMs": 5470,
+          "confidence": 1
+        },
+        {
+          "text": " physics,",
+          "startMs": 5750,
+          "endMs": 6440,
+          "timestampMs": 6095,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 6490,
+          "endMs": 6640,
+          "timestampMs": 6565,
+          "confidence": 1
+        },
+        {
+          "text": " strange",
+          "startMs": 6710,
+          "endMs": 7200,
+          "timestampMs": 6955,
+          "confidence": 1
+        },
+        {
+          "text": " rules",
+          "startMs": 7293,
+          "endMs": 7760,
+          "timestampMs": 7527,
+          "confidence": 1
+        },
+        {
+          "text": " that",
+          "startMs": 7792,
+          "endMs": 7920,
+          "timestampMs": 7856,
+          "confidence": 1
+        },
+        {
+          "text": " govern",
+          "startMs": 7977,
+          "endMs": 8320,
+          "timestampMs": 8149,
+          "confidence": 1
+        },
+        {
+          "text": " atoms.",
+          "startMs": 8400,
+          "endMs": 8880,
+          "timestampMs": 8640,
+          "confidence": 1
+        }
+      ],
+      "hash": "6641fe106e40"
+    },
+    "e18": {
+      "speaker": "nar",
+      "file": "reels/einstein/e18.mp3",
+      "durationMs": 9066,
+      "captions": [
+        {
+          "text": "And",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " it's",
+          "startMs": 107,
+          "endMs": 240,
+          "timestampMs": 174,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 267,
+          "endMs": 320,
+          "timestampMs": 294,
+          "confidence": 1
+        },
+        {
+          "text": " your",
+          "startMs": 368,
+          "endMs": 560,
+          "timestampMs": 464,
+          "confidence": 1
+        },
+        {
+          "text": " life",
+          "startMs": 624,
+          "endMs": 880,
+          "timestampMs": 752,
+          "confidence": 1
+        },
+        {
+          "text": " every",
+          "startMs": 947,
+          "endMs": 1280,
+          "timestampMs": 1114,
+          "confidence": 1
+        },
+        {
+          "text": " day.",
+          "startMs": 1380,
+          "endMs": 1760,
+          "timestampMs": 1570,
+          "confidence": 1
+        },
+        {
+          "text": " Camera",
+          "startMs": 1851,
+          "endMs": 2400,
+          "timestampMs": 2125,
+          "confidence": 1
+        },
+        {
+          "text": " sensors,",
+          "startMs": 2460,
+          "endMs": 3040,
+          "timestampMs": 2750,
+          "confidence": 1
+        },
+        {
+          "text": " light",
+          "startMs": 3093,
+          "endMs": 3360,
+          "timestampMs": 3226,
+          "confidence": 1
+        },
+        {
+          "text": " sensors,",
+          "startMs": 3410,
+          "endMs": 3840,
+          "timestampMs": 3625,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 3860,
+          "endMs": 3920,
+          "timestampMs": 3890,
+          "confidence": 1
+        },
+        {
+          "text": " solar",
+          "startMs": 3973,
+          "endMs": 4240,
+          "timestampMs": 4107,
+          "confidence": 1
+        },
+        {
+          "text": " panels",
+          "startMs": 4309,
+          "endMs": 4720,
+          "timestampMs": 4515,
+          "confidence": 1
+        },
+        {
+          "text": " all",
+          "startMs": 4780,
+          "endMs": 4960,
+          "timestampMs": 4870,
+          "confidence": 1
+        },
+        {
+          "text": " rely",
+          "startMs": 5040,
+          "endMs": 5360,
+          "timestampMs": 5200,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 5413,
+          "endMs": 5520,
+          "timestampMs": 5467,
+          "confidence": 1
+        },
+        {
+          "text": " light",
+          "startMs": 5573,
+          "endMs": 5840,
+          "timestampMs": 5707,
+          "confidence": 1
+        },
+        {
+          "text": " knocking",
+          "startMs": 5893,
+          "endMs": 6320,
+          "timestampMs": 6107,
+          "confidence": 1
+        },
+        {
+          "text": " electrons",
+          "startMs": 6384,
+          "endMs": 6960,
+          "timestampMs": 6672,
+          "confidence": 1
+        },
+        {
+          "text": " loose,",
+          "startMs": 7027,
+          "endMs": 7520,
+          "timestampMs": 7274,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 7580,
+          "endMs": 7760,
+          "timestampMs": 7670,
+          "confidence": 1
+        },
+        {
+          "text": " photon",
+          "startMs": 7840,
+          "endMs": 8320,
+          "timestampMs": 8080,
+          "confidence": 1
+        },
+        {
+          "text": " at",
+          "startMs": 8373,
+          "endMs": 8480,
+          "timestampMs": 8427,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 8600,
+          "endMs": 8720,
+          "timestampMs": 8660,
+          "confidence": 1
+        },
+        {
+          "text": " time.",
+          "startMs": 8768,
+          "endMs": 9040,
+          "timestampMs": 8904,
+          "confidence": 1
+        }
+      ],
+      "hash": "0b6e6e3456b7"
+    },
+    "e19": {
+      "speaker": "nar",
+      "file": "reels/einstein/e19.mp3",
+      "durationMs": 7681,
+      "captions": [
+        {
+          "text": "Einstein's",
+          "startMs": 436,
+          "endMs": 720,
+          "timestampMs": 578,
+          "confidence": 1
+        },
+        {
+          "text": " most",
+          "startMs": 784,
+          "endMs": 1040,
+          "timestampMs": 912,
+          "confidence": 1
+        },
+        {
+          "text": " famous",
+          "startMs": 1086,
+          "endMs": 1360,
+          "timestampMs": 1223,
+          "confidence": 1
+        },
+        {
+          "text": " ideas",
+          "startMs": 1480,
+          "endMs": 2080,
+          "timestampMs": 1780,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 2100,
+          "endMs": 2160,
+          "timestampMs": 2130,
+          "confidence": 1
+        },
+        {
+          "text": " about",
+          "startMs": 2213,
+          "endMs": 2480,
+          "timestampMs": 2347,
+          "confidence": 1
+        },
+        {
+          "text": " space",
+          "startMs": 2560,
+          "endMs": 2960,
+          "timestampMs": 2760,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 3020,
+          "endMs": 3200,
+          "timestampMs": 3110,
+          "confidence": 1
+        },
+        {
+          "text": " time.",
+          "startMs": 3312,
+          "endMs": 4000,
+          "timestampMs": 3656,
+          "confidence": 1
+        },
+        {
+          "text": " But",
+          "startMs": 4020,
+          "endMs": 4080,
+          "timestampMs": 4050,
+          "confidence": 1
+        },
+        {
+          "text": " his",
+          "startMs": 4140,
+          "endMs": 4320,
+          "timestampMs": 4230,
+          "confidence": 1
+        },
+        {
+          "text": " Nobel",
+          "startMs": 4387,
+          "endMs": 4720,
+          "timestampMs": 4554,
+          "confidence": 1
+        },
+        {
+          "text": " Prize",
+          "startMs": 4813,
+          "endMs": 5280,
+          "timestampMs": 5047,
+          "confidence": 1
+        },
+        {
+          "text": " was",
+          "startMs": 5340,
+          "endMs": 5520,
+          "timestampMs": 5430,
+          "confidence": 1
+        },
+        {
+          "text": " for",
+          "startMs": 5540,
+          "endMs": 5600,
+          "timestampMs": 5570,
+          "confidence": 1
+        },
+        {
+          "text": " showing",
+          "startMs": 5650,
+          "endMs": 6000,
+          "timestampMs": 5825,
+          "confidence": 1
+        },
+        {
+          "text": " us",
+          "startMs": 6080,
+          "endMs": 6240,
+          "timestampMs": 6160,
+          "confidence": 1
+        },
+        {
+          "text": " what",
+          "startMs": 6288,
+          "endMs": 6480,
+          "timestampMs": 6384,
+          "confidence": 1
+        },
+        {
+          "text": " light",
+          "startMs": 6547,
+          "endMs": 6880,
+          "timestampMs": 6714,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 6933,
+          "endMs": 7040,
+          "timestampMs": 6986,
+          "confidence": 1
+        },
+        {
+          "text": " made",
+          "startMs": 7088,
+          "endMs": 7280,
+          "timestampMs": 7184,
+          "confidence": 1
+        },
+        {
+          "text": " of.",
+          "startMs": 7387,
+          "endMs": 7680,
+          "timestampMs": 7534,
+          "confidence": 1
+        }
+      ],
+      "hash": "6e7ef0c19d16"
+    },
+    "e20": {
+      "speaker": "nar",
+      "file": "reels/einstein/e20.mp3",
+      "durationMs": 6323,
+      "captions": [
+        {
+          "text": "If",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 180,
+          "endMs": 240,
+          "timestampMs": 210,
+          "confidence": 1
+        },
+        {
+          "text": " learned",
+          "startMs": 280,
+          "endMs": 560,
+          "timestampMs": 420,
+          "confidence": 1
+        },
+        {
+          "text": " something,",
+          "startMs": 600,
+          "endMs": 1040,
+          "timestampMs": 820,
+          "confidence": 1
+        },
+        {
+          "text": " subscribe.",
+          "startMs": 1112,
+          "endMs": 1880,
+          "timestampMs": 1496,
+          "confidence": 1
+        },
+        {
+          "text": " And",
+          "startMs": 1910,
+          "endMs": 2000,
+          "timestampMs": 1955,
+          "confidence": 1
+        },
+        {
+          "text": " tell",
+          "startMs": 2032,
+          "endMs": 2160,
+          "timestampMs": 2096,
+          "confidence": 1
+        },
+        {
+          "text": " me",
+          "startMs": 2213,
+          "endMs": 2320,
+          "timestampMs": 2266,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 2347,
+          "endMs": 2400,
+          "timestampMs": 2374,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 2420,
+          "endMs": 2480,
+          "timestampMs": 2450,
+          "confidence": 1
+        },
+        {
+          "text": " comments:",
+          "startMs": 2533,
+          "endMs": 3200,
+          "timestampMs": 2867,
+          "confidence": 1
+        },
+        {
+          "text": " which",
+          "startMs": 3240,
+          "endMs": 3440,
+          "timestampMs": 3340,
+          "confidence": 1
+        },
+        {
+          "text": " famous",
+          "startMs": 3497,
+          "endMs": 3840,
+          "timestampMs": 3669,
+          "confidence": 1
+        },
+        {
+          "text": " discovery",
+          "startMs": 3896,
+          "endMs": 4400,
+          "timestampMs": 4148,
+          "confidence": 1
+        },
+        {
+          "text": " should",
+          "startMs": 4434,
+          "endMs": 4640,
+          "timestampMs": 4537,
+          "confidence": 1
+        },
+        {
+          "text": " we",
+          "startMs": 4693,
+          "endMs": 4800,
+          "timestampMs": 4746,
+          "confidence": 1
+        },
+        {
+          "text": " visualize",
+          "startMs": 4872,
+          "endMs": 5520,
+          "timestampMs": 5196,
+          "confidence": 1
+        },
+        {
+          "text": " next?",
+          "startMs": 5616,
+          "endMs": 6320,
+          "timestampMs": 5968,
+          "confidence": 1
+        }
+      ],
+      "hash": "31c1a3703492"
+    }
+  },
+  "sfx": {
+    "whoosh": {
+      "file": "reels/einstein/sfx-whoosh.mp3",
+      "durationMs": 1020,
+      "hash": "0fe3a72f2cc9"
+    },
+    "pop": {
+      "file": "reels/einstein/sfx-pop.mp3",
+      "durationMs": 497,
+      "hash": "ae8bf38e9421"
+    },
+    "ding": {
+      "file": "reels/einstein/sfx-ding.mp3",
+      "durationMs": 811,
+      "hash": "39e4d6061937"
+    },
+    "stamp": {
+      "file": "reels/einstein/sfx-stamp.mp3",
+      "durationMs": 602,
+      "hash": "e504498a3848"
+    },
+    "boom": {
+      "file": "reels/einstein/sfx-boom.mp3",
+      "durationMs": 2012,
+      "hash": "404844a786bc"
+    },
+    "zap": {
+      "file": "reels/einstein/sfx-zap.mp3",
+      "durationMs": 602,
+      "hash": "71b458ef3056"
+    },
+    "hum": {
+      "file": "reels/einstein/sfx-hum.mp3",
+      "durationMs": 2012,
+      "hash": "6b8e70e2f65d"
+    },
+    "shatter": {
+      "file": "reels/einstein/sfx-shatter.mp3",
+      "durationMs": 1490,
+      "hash": "536b78ac1507"
+    },
+    "pingpong": {
+      "file": "reels/einstein/sfx-pingpong.mp3",
+      "durationMs": 2012,
+      "hash": "99838361ac8f"
+    },
+    "typewriter": {
+      "file": "reels/einstein/sfx-typewriter.mp3",
+      "durationMs": 2483,
+      "hash": "c7e65e98dca8"
+    },
+    "applause": {
+      "file": "reels/einstein/sfx-applause.mp3",
+      "durationMs": 3005,
+      "hash": "7691db7a0aa3"
+    },
+    "shimmer": {
+      "file": "reels/einstein/sfx-shimmer.mp3",
+      "durationMs": 2012,
+      "hash": "eb0bf7023519"
+    },
+    "riser": {
+      "file": "reels/einstein/sfx-riser.mp3",
+      "durationMs": 3005,
+      "hash": "ac927ba64eea"
+    },
+    "buzzer": {
+      "file": "reels/einstein/sfx-buzzer.mp3",
+      "durationMs": 811,
+      "hash": "b332b8fe4d01"
+    }
+  },
+  "music": {
+    "score": {
+      "file": "reels/einstein/music-score.mp3",
+      "durationMs": 193123,
+      "hash": "9e7cafcfd590"
+    }
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "title": "Einstein's Nobel Prize, Visualized",
+  "model": "eleven_v3",
+  "voices": {
+    "nar": "rSLmFOTRq9g87aTxSUr6"
+  },
+  "lines": [
+    {
+      "id": "e01",
+      "speaker": "nar",
+      "text": "Albert Einstein is famous for relativity... and E equals m c squared. But his Nobel Prize wasn't for either of them."
+    },
+    {
+      "id": "e02",
+      "speaker": "nar",
+      "text": "[intrigued] It was for something smaller. Something that changed what we think light actually is."
+    },
+    {
+      "id": "e03",
+      "speaker": "nar",
+      "text": "In nineteen oh five, Einstein was a twenty-six-year-old patent clerk in Switzerland. That year, he published four papers that would reshape physics. One of them explained a strange little puzzle called the photoelectric effect."
+    },
+    {
+      "id": "e04",
+      "speaker": "nar",
+      "text": "Here's the puzzle. Shine light on a metal, and sometimes electrons come flying out of it."
+    },
+    {
+      "id": "e05",
+      "speaker": "nar",
+      "text": "At the time, everyone agreed light was a wave. So the obvious prediction was: brighter light means a stronger wave, which should knock electrons out with more energy."
+    },
+    {
+      "id": "e06",
+      "speaker": "nar",
+      "text": "But that's not what happened. Blast the metal with bright red light... and nothing. Not a single electron."
+    },
+    {
+      "id": "e07",
+      "speaker": "nar",
+      "text": "Now shine a dim violet light. [surprised] Electrons pop out instantly."
+    },
+    {
+      "id": "e08",
+      "speaker": "nar",
+      "text": "Make the violet light brighter, and you get more electrons... but each one has the same energy. Only changing the color changes their speed. Waves couldn't explain any of this."
+    },
+    {
+      "id": "e09",
+      "speaker": "nar",
+      "text": "Einstein's answer was radical. Light isn't just a smooth wave. It comes in tiny packets of energy. Today, we call them photons."
+    },
+    {
+      "id": "e10",
+      "speaker": "nar",
+      "text": "And the energy of each packet depends on its color. Red photons carry a little energy. Violet photons carry a lot."
+    },
+    {
+      "id": "e11",
+      "speaker": "nar",
+      "text": "Think of it like trying to break a window. Throw a million ping-pong balls, and the glass survives. Throw one baseball, and it shatters."
+    },
+    {
+      "id": "e12",
+      "speaker": "nar",
+      "text": "One photon hits one electron. If the photon has enough energy to pay the exit fee, the electron escapes. If not, it doesn't matter how many photons you send."
+    },
+    {
+      "id": "e13",
+      "speaker": "nar",
+      "text": "Einstein wrote it as one simple equation. The electron's energy equals the photon's energy, minus the cost of escaping the metal."
+    },
+    {
+      "id": "e14",
+      "speaker": "nar",
+      "text": "Plenty of physicists didn't buy it. The American physicist Robert Millikan spent about ten years testing it, fully expecting it to fail. [beat] It didn't. His measurements matched Einstein's equation."
+    },
+    {
+      "id": "e15",
+      "speaker": "nar",
+      "text": "So in nineteen twenty-two, Einstein received the nineteen twenty-one Nobel Prize in Physics, especially for his discovery of the law of the photoelectric effect. Relativity was still considered too controversial."
+    },
+    {
+      "id": "e16",
+      "speaker": "nar",
+      "text": "[amused] Two fun details. The prize money went to his ex-wife, Mileva, as agreed in their divorce. And when he gave his Nobel lecture... he talked about relativity anyway."
+    },
+    {
+      "id": "e17",
+      "speaker": "nar",
+      "text": "But the real prize was the idea. Light behaving as a particle helped launch quantum physics, the strange rules that govern atoms."
+    },
+    {
+      "id": "e18",
+      "speaker": "nar",
+      "text": "And it's in your life every day. Camera sensors, light sensors, and solar panels all rely on light knocking electrons loose, one photon at a time."
+    },
+    {
+      "id": "e19",
+      "speaker": "nar",
+      "text": "[warm] Einstein's most famous ideas are about space and time. But his Nobel Prize was for showing us what light is made of."
+    },
+    {
+      "id": "e20",
+      "speaker": "nar",
+      "text": "If you learned something, subscribe. And tell me in the comments: which famous discovery should we visualize next?"
+    }
+  ],
+  "sfx": [
+    {
+      "id": "whoosh",
+      "prompt": "soft cinematic whoosh transition",
+      "duration": 1
+    },
+    {
+      "id": "pop",
+      "prompt": "short soft UI pop, clean",
+      "duration": 0.5
+    },
+    {
+      "id": "ding",
+      "prompt": "bright clean notification ding",
+      "duration": 0.8
+    },
+    {
+      "id": "stamp",
+      "prompt": "rubber stamp thud on paper",
+      "duration": 0.6
+    },
+    {
+      "id": "boom",
+      "prompt": "deep cinematic low boom hit for a title card",
+      "duration": 2
+    },
+    {
+      "id": "zap",
+      "prompt": "small electric zap, electron ejected, sci-fi blip",
+      "duration": 0.6
+    },
+    {
+      "id": "hum",
+      "prompt": "lamp turning on, electrical hum swell",
+      "duration": 2
+    },
+    {
+      "id": "shatter",
+      "prompt": "glass window shattering from a baseball",
+      "duration": 1.5
+    },
+    {
+      "id": "pingpong",
+      "prompt": "many ping pong balls bouncing off glass, rapid tapping",
+      "duration": 2
+    },
+    {
+      "id": "typewriter",
+      "prompt": "old typewriter typing then carriage return bell",
+      "duration": 2.5
+    },
+    {
+      "id": "applause",
+      "prompt": "polite formal applause in a grand hall",
+      "duration": 3
+    },
+    {
+      "id": "shimmer",
+      "prompt": "magical sparkling shimmer, airy and bright",
+      "duration": 2
+    },
+    {
+      "id": "riser",
+      "prompt": "cinematic riser building tension into a hit",
+      "duration": 3
+    },
+    {
+      "id": "buzzer",
+      "prompt": "short wrong-answer buzzer, gentle comedic",
+      "duration": 0.8
+    }
+  ],
+  "music": [
+    {
+      "id": "score",
+      "plan": {
+        "positive_global_styles": [
+          "cinematic documentary score",
+          "hybrid orchestra with subtle synths",
+          "science and discovery",
+          "high production value",
+          "instrumental"
+        ],
+        "negative_global_styles": [
+          "vocals",
+          "lyrics",
+          "spoken word",
+          "EDM drop",
+          "lo-fi"
+        ],
+        "sections": [
+          {
+            "section_name": "Hook",
+            "positive_local_styles": [
+              "mysterious and intriguing",
+              "soft pulsing synth",
+              "light celesta",
+              "curious"
+            ],
+            "negative_local_styles": [
+              "drums",
+              "epic"
+            ],
+            "duration_ms": 8731,
+            "lines": []
+          },
+          {
+            "section_name": "Spark of Light",
+            "positive_local_styles": [
+              "sense of wonder",
+              "shimmering pads",
+              "gentle rising swell"
+            ],
+            "negative_local_styles": [
+              "drums"
+            ],
+            "duration_ms": 5832,
+            "lines": []
+          },
+          {
+            "section_name": "Title Impact",
+            "positive_local_styles": [
+              "big orchestral hit with timpani on the downbeat",
+              "resonant sustain fading"
+            ],
+            "negative_local_styles": [
+              "melody"
+            ],
+            "duration_ms": 3850,
+            "lines": []
+          },
+          {
+            "section_name": "Miracle Year",
+            "positive_local_styles": [
+              "warm and nostalgic",
+              "early 1900s feel",
+              "solo piano with soft strings"
+            ],
+            "negative_local_styles": [
+              "synths",
+              "drums"
+            ],
+            "duration_ms": 13512,
+            "lines": []
+          },
+          {
+            "section_name": "The Puzzle",
+            "positive_local_styles": [
+              "curious and light",
+              "plucked strings and soft mallets",
+              "inquisitive",
+              "building slightly"
+            ],
+            "negative_local_styles": [
+              "heavy drums"
+            ],
+            "duration_ms": 16053,
+            "lines": []
+          },
+          {
+            "section_name": "Contradiction",
+            "positive_local_styles": [
+              "tense and quirky suspense",
+              "staccato low strings",
+              "ticking percussion",
+              "something doesn't add up"
+            ],
+            "negative_local_styles": [
+              "triumphant",
+              "major resolution"
+            ],
+            "duration_ms": 25778,
+            "lines": []
+          },
+          {
+            "section_name": "Breakthrough",
+            "positive_local_styles": [
+              "revelation and wonder",
+              "rising strings",
+              "bright shimmering textures",
+              "lightbulb moment"
+            ],
+            "negative_local_styles": [
+              "dark"
+            ],
+            "duration_ms": 17790,
+            "lines": []
+          },
+          {
+            "section_name": "Analogy",
+            "positive_local_styles": [
+              "playful pizzicato",
+              "light and cheeky",
+              "bouncy"
+            ],
+            "negative_local_styles": [
+              "epic",
+              "heavy"
+            ],
+            "duration_ms": 8627,
+            "lines": []
+          },
+          {
+            "section_name": "One Photon",
+            "positive_local_styles": [
+              "focused and clean",
+              "steady modern pulses",
+              "precise and intelligent",
+              "light piano motif"
+            ],
+            "negative_local_styles": [
+              "chaotic"
+            ],
+            "duration_ms": 18744,
+            "lines": []
+          },
+          {
+            "section_name": "Doubt to Proof",
+            "positive_local_styles": [
+              "determined and building",
+              "strings and timpani growing",
+              "resolves into a triumphant moment"
+            ],
+            "negative_local_styles": [
+              "sad"
+            ],
+            "duration_ms": 12546,
+            "lines": []
+          },
+          {
+            "section_name": "The Prize",
+            "positive_local_styles": [
+              "grand and ceremonial",
+              "full orchestra",
+              "brass fanfare",
+              "prestigious"
+            ],
+            "negative_local_styles": [
+              "electronic"
+            ],
+            "duration_ms": 12859,
+            "lines": []
+          },
+          {
+            "section_name": "Fun Facts",
+            "positive_local_styles": [
+              "light and playful",
+              "woodwinds and pizzicato",
+              "a wink of humor"
+            ],
+            "negative_local_styles": [
+              "epic"
+            ],
+            "duration_ms": 10142,
+            "lines": []
+          },
+          {
+            "section_name": "Quantum Legacy",
+            "positive_local_styles": [
+              "expansive and inspiring",
+              "modern hybrid orchestra with soft synth arpeggios",
+              "future-facing"
+            ],
+            "negative_local_styles": [
+              "sad"
+            ],
+            "duration_ms": 18849,
+            "lines": []
+          },
+          {
+            "section_name": "Finale",
+            "positive_local_styles": [
+              "emotional peak",
+              "soaring strings and gentle choir",
+              "awe"
+            ],
+            "negative_local_styles": [
+              "quiet"
+            ],
+            "duration_ms": 9131,
+            "lines": []
+          },
+          {
+            "section_name": "Outro",
+            "positive_local_styles": [
+              "soft resolution",
+              "warm pads and piano",
+              "fade to silence"
+            ],
+            "negative_local_styles": [
+              "drums",
+              "build"
+            ],
+            "duration_ms": 10573,
+            "lines": []
+          }
+        ]
+      }
+    }
+  ]
+}
