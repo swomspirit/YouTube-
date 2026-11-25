@@ -5,6 +5,7 @@ import { PianoThumbnail } from "./piano/Thumbnail";
 import { PokerJacks, POKER_DURATION, POKER_FPS } from "./poker/PokerJacks";
 import { PokerIvey, IVEY_DURATION, IVEY_FPS } from "./poker-ivey/PokerIvey";
 import { PokerIvey2D } from "./poker-ivey/PokerIvey2D";
+import { PokerIveyFunny, IVEY_FUNNY_DURATION, IVEY_FUNNY_FPS } from "./poker-ivey-funny/PokerIveyFunny";
 import { TwistDemo, DEMO_DURATION } from "./demo-twist/Demo";
 import { IveyShort, SHORT_DURATION } from "./ivey-short/Short";
 import { DrumLevels, DRUM_LEVELS_DURATION, FPS as DRUM_FPS } from "./drums/DrumLevels";
@@ -70,6 +71,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="IveyShort" component={IveyShort} durationInFrames={SHORT_DURATION} fps={30} width={1080} height={1920} />
       <Composition id="TwistDemo" component={TwistDemo} durationInFrames={DEMO_DURATION} fps={30} width={1080} height={1920} />
       <Composition id="PokerIvey2D" component={PokerIvey2D} durationInFrames={IVEY_DURATION} fps={IVEY_FPS} width={1920} height={1080} />
+      <Composition id="PokerIveyFunny" component={PokerIveyFunny} durationInFrames={IVEY_FUNNY_DURATION} fps={IVEY_FUNNY_FPS} width={1920} height={1080} />
       <Composition id="PokerIvey" component={PokerIvey} durationInFrames={IVEY_DURATION} fps={IVEY_FPS} width={1920} height={1080} />
       <Still id="PianoThumbnail" component={PianoThumbnail} width={1280} height={720} />
       {/* ---- Reels (9:16) ---- */}

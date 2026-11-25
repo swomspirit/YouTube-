@@ -1,0 +1,290 @@
+{
+  "title": "He Checked Three Times (funny cut)",
+  "model": "eleven_v3",
+  "voices": {
+    "caster": "IKne3meq5aSn9XLyUdCD",
+    "me": "EXAVITQu4vr4xnSDxMaL",
+    "mom": "hpp4J3VqNfWAUOO0d1Us"
+  },
+  "lines": [
+    {
+      "id": "c_open",
+      "speaker": "caster",
+      "text": "[excited] Welcome to the Shark Cage! A million dollars on the line... and across the table sits the most feared man in poker. [dramatic] Phil. Ivey."
+    },
+    {
+      "id": "m_breathe",
+      "speaker": "me",
+      "text": "[nervous] Okay. Deep breath. It's just a card game. Against... the final boss."
+    },
+    {
+      "id": "m_peek",
+      "speaker": "me",
+      "text": "[delighted] Ace-queen. Suited. Ooh, that's pretty."
+    },
+    {
+      "id": "c_raise",
+      "speaker": "caster",
+      "text": "Ivey raises from under the gun. Thirty-eight thousand."
+    },
+    {
+      "id": "m_call",
+      "speaker": "me",
+      "text": "[confident] Ace-queen suited, on the button? I'm not folding this. Call."
+    },
+    {
+      "id": "c_flop",
+      "speaker": "caster",
+      "text": "[excited] The flop! Eight... eight... ACE!"
+    },
+    {
+      "id": "m_flop",
+      "speaker": "me",
+      "text": "[smug] Aces up! Two pair, queen kicker. I'm basically a genius."
+    },
+    {
+      "id": "m_bet",
+      "speaker": "me",
+      "text": "He checks. Let's bet fifty thousand."
+    },
+    {
+      "id": "c_call",
+      "speaker": "caster",
+      "text": "And Ivey... calls. No emotion. None. [whispers] Is he even breathing?"
+    },
+    {
+      "id": "c_turn",
+      "speaker": "caster",
+      "text": "The turn. A seven."
+    },
+    {
+      "id": "m_turn",
+      "speaker": "me",
+      "text": "He checks again. I'll check too. Pot control. [proud] Very professional."
+    },
+    {
+      "id": "c_river",
+      "speaker": "caster",
+      "text": "The river... a nine. And Ivey checks. For the third time."
+    },
+    {
+      "id": "m_river",
+      "speaker": "me",
+      "text": "[confident] Three checks. He's weak. He HAS to be weak. A hundred and twenty-five thousand."
+    },
+    {
+      "id": "c_raise2",
+      "speaker": "caster",
+      "text": "[slowly, dramatic] And Phil Ivey... check-raises... to FOUR HUNDRED AND FIFTY THOUSAND!"
+    },
+    {
+      "id": "m_panic",
+      "speaker": "me",
+      "text": "[panicking] Wait. What. WHY. He checked three times! Okay, think. What beats me? Aces... ace-eight... any eight... jack-ten..."
+    },
+    {
+      "id": "m_decide",
+      "speaker": "me",
+      "text": "[nervous] I've come this far. I... call."
+    },
+    {
+      "id": "c_reveal",
+      "speaker": "caster",
+      "text": "[shouting] ACES! Phil Ivey has ACES FULL! He trapped her the ENTIRE hand!"
+    },
+    {
+      "id": "m_cool",
+      "speaker": "me",
+      "text": "[deadpan] Cool. Cool cool cool."
+    },
+    {
+      "id": "c_outro",
+      "speaker": "caster",
+      "text": "[excited] Would YOU have called? Tell me in the comments. And subscribe... or Ivey will check-raise you too."
+    },
+    {
+      "id": "wyc",
+      "speaker": "caster",
+      "text": "[intense] Would YOU call?"
+    },
+    {
+      "id": "m_cold",
+      "speaker": "me",
+      "text": "[deadpan] Yep. That is me. Leaving my own body. [sighs] You are probably wondering how I got here."
+    },
+    {
+      "id": "c_stats",
+      "speaker": "caster",
+      "text": "[sports announcer] Phil Ivey. Heart rate: twelve. Emotions: not found. Hobbies: [whispers] ruining your day."
+    },
+    {
+      "id": "m_yacht",
+      "speaker": "me",
+      "text": "[dreamy] And just like that... I am spending the money. A yacht. A second yacht. [giggles] A tiny little yacht... for my yacht."
+    },
+    {
+      "id": "c_brain",
+      "speaker": "caster",
+      "text": "[whispers] Meanwhile... deep inside Phil Ivey's brain..."
+    },
+    {
+      "id": "c_brain2",
+      "speaker": "caster",
+      "text": "[deadpan] ...he is thinking about a sandwich."
+    },
+    {
+      "id": "m_phone",
+      "speaker": "me",
+      "text": "[whispering, panicking] Okay. Okay. Phone a friend. [pause] Mom? Should I call?"
+    },
+    {
+      "id": "mom_phone",
+      "speaker": "mom",
+      "text": "[sighs] Honey... is this the poker again? Your father said you would do this."
+    },
+    {
+      "id": "m_phone2",
+      "speaker": "me",
+      "text": "[whispering] ...Thanks, Mom."
+    },
+    {
+      "id": "m_learned",
+      "speaker": "me",
+      "text": "[deadpan] Things I learned today. One: when Phil Ivey checks, it means nothing. Two: when Phil Ivey checks, it means everything. Three... [sighs] I am going home."
+    }
+  ],
+  "sfx": [
+    {
+      "id": "chips",
+      "prompt": "poker chips being pushed onto a felt table, clay chips clicking",
+      "duration": 0.9
+    },
+    {
+      "id": "bigchips",
+      "prompt": "huge stack of poker chips pushed forward, heavy clattering",
+      "duration": 1.5
+    },
+    {
+      "id": "deal",
+      "prompt": "playing card sliding quickly across felt table",
+      "duration": 0.5
+    },
+    {
+      "id": "flip",
+      "prompt": "playing card flipped over onto table, crisp snap",
+      "duration": 0.5
+    },
+    {
+      "id": "knock",
+      "prompt": "two knuckle knocks on a wooden poker table, check",
+      "duration": 0.6
+    },
+    {
+      "id": "heartbeat",
+      "prompt": "tense slow heartbeat, deep thump",
+      "duration": 4
+    },
+    {
+      "id": "tick",
+      "prompt": "single clock tick, sharp and dry",
+      "duration": 0.5
+    },
+    {
+      "id": "boom",
+      "prompt": "massive cinematic braam hit, deep and dramatic, trailer style",
+      "duration": 2.5
+    },
+    {
+      "id": "slowmo",
+      "prompt": "time slowing down whoosh, reverse swell into slow motion",
+      "duration": 1.5
+    },
+    {
+      "id": "crowd",
+      "prompt": "studio audience gasps then roars in shock, poker tv show",
+      "duration": 3
+    },
+    {
+      "id": "record",
+      "prompt": "comedic record scratch",
+      "duration": 0.8
+    },
+    {
+      "id": "stamp",
+      "prompt": "heavy stamp impact with metallic ring",
+      "duration": 0.8
+    },
+    {
+      "id": "whoosh",
+      "prompt": "cinematic whoosh transition",
+      "duration": 1.2
+    },
+    {
+      "id": "crickets",
+      "prompt": "crickets chirping in awkward silence, comedic",
+      "duration": 2.2
+    },
+    {
+      "id": "dundun",
+      "prompt": "dramatic comedic dun dun dun sting, orchestral",
+      "duration": 2
+    },
+    {
+      "id": "gulp",
+      "prompt": "cartoon nervous gulp swallow sound",
+      "duration": 0.8
+    },
+    {
+      "id": "register",
+      "prompt": "cash register cha-ching",
+      "duration": 1
+    },
+    {
+      "id": "trombone",
+      "prompt": "sad trombone wah wah wah waaah, comedic fail",
+      "duration": 2.5
+    },
+    {
+      "id": "ghost",
+      "prompt": "cartoon ghost spirit floating away, airy whoosh with soft wail",
+      "duration": 2
+    },
+    {
+      "id": "pop",
+      "prompt": "short cartoon pop bubble sound",
+      "duration": 0.5
+    },
+    {
+      "id": "chiptoss",
+      "prompt": "poker chips tossed and landing on felt with a little bounce",
+      "duration": 0.8
+    },
+    {
+      "id": "rewind",
+      "prompt": "VHS tape rewinding fast, comedic, with tape whir",
+      "duration": 1.6
+    },
+    {
+      "id": "phone",
+      "prompt": "old cell phone ringing twice, comedic",
+      "duration": 1.6
+    },
+    {
+      "id": "tally",
+      "prompt": "cartoon ding bell, single bright counter tick",
+      "duration": 0.5
+    }
+  ],
+  "music": [
+    {
+      "id": "tension",
+      "prompt": "tense cinematic poker underscore, pulsing low bass and ticking percussion, builds slowly, suspenseful, sleek and modern, no vocals",
+      "lengthMs": 95000
+    },
+    {
+      "id": "reveal",
+      "prompt": "epic dramatic orchestral hit followed by a heroic but tragic brass theme, trailer style, no vocals",
+      "lengthMs": 22000
+    }
+  ]
+}
