@@ -182,9 +182,9 @@ const Arm: React.FC<{ sx: number; sy: number; hx: number; hy: number; side: 1 | 
   );
 };
 
-type CharProps = { face: Face; look: number; blink: boolean; breathe: number; talk: number; handL: { x: number; y: number }; handR: { x: number; y: number }; part?: "body" | "arms" };
+type CharProps = { face: Face; look: number; blink: boolean; breathe: number; talk: number; handL: { x: number; y: number }; handR: { x: number; y: number }; part?: "body" | "arms"; sweat?: number; t?: number };
 
-const HeroChar: React.FC<CharProps> = ({ face, look, blink, breathe, talk, handL, handR, part = "body" }) => {
+const HeroChar: React.FC<CharProps> = ({ face, look, blink, breathe, talk, handL, handR, part = "body", sweat = 0, t = 0 }) => {
   const SKIN = "#f3c6a0";
   const SH = "#d9a07c";
   const HOOD = "#1fb5a6";
@@ -221,7 +221,11 @@ const HeroChar: React.FC<CharProps> = ({ face, look, blink, breathe, talk, handL
         <path d="M-104 -6 Q-110 -110 0 -112 Q110 -110 104 -6 Q90 -50 54 -60 Q20 -30 -10 -62 Q-40 -34 -74 -54 Q-96 -40 -104 -6Z" fill="#3a2418" {...o} />
         <path d="M-40 -96 Q0 -108 40 -98" fill="none" stroke="#6b4530" strokeWidth={6} strokeLinecap="round" />
         <circle cx={-98} cy={40} r={7} fill="none" stroke="#f2c95b" strokeWidth={4} />
-        {face === "panic" || face === "nervous" ? <path d="M70 -40 q-8 14 0 20 q8 -6 0 -20z" fill="#9fe3ff" stroke={INK} strokeWidth={3} /> : null}
+        {Array.from({ length: sweat }, (_, i) => {
+          const p = (t * (0.9 + i * 0.25) + i * 0.37) % 1;
+          const sx = [74, -86, 92, -70][i % 4];
+          return <path key={i} d={`M${sx} ${-50 + p * 70} q-9 15 0 22 q9 -7 0 -22z`} fill="#9fe3ff" stroke={INK} strokeWidth={3} opacity={1 - p * 0.8} />;
+        })}
       </g>
     </g>
   );
@@ -315,6 +319,111 @@ const Table: React.FC = () => (
   </g>
 );
 
+/* ---------------- comedy + life ---------------- */
+/** Cartoon thought bubble with an emoji "picture" and a caption. */
+const Thought: React.FC<{ x: number; y: number; t0: number; t: number; emoji: string; text: string; flip?: boolean }> = ({ x, y, t0, t, emoji, text, flip }) => {
+  const k = ease((t - t0) / 0.35);
+  const bob = Math.sin(t * 3) * 4;
+  const d = flip ? -1 : 1;
+  return (
+    <g transform={`translate(${x} ${y + bob}) scale(${k})`} opacity={k}>
+      <circle cx={-60 * d} cy={130} r={10} fill="white" stroke={INK} strokeWidth={4} />
+      <circle cx={-34 * d} cy={98} r={16} fill="white" stroke={INK} strokeWidth={4} />
+      <path d="M-150 0 Q-160 -70 -90 -80 Q-60 -130 0 -110 Q60 -135 100 -85 Q165 -75 150 0 Q160 70 90 70 Q40 105 -10 80 Q-70 105 -110 65 Q-165 60 -150 0Z" fill="white" stroke={INK} strokeWidth={5} />
+      <text x={0} y={8} textAnchor="middle" fontSize={78}>
+        {emoji}
+      </text>
+      <text x={0} y={60} textAnchor="middle" fontSize={26} fontWeight={900} fill={INK} fontFamily="Inter, Arial">
+        {text}
+      </text>
+    </g>
+  );
+};
+
+/** Spectators behind the rail: lean in with tension, jump at the reveal. */
+const Rail: React.FC<{ t: number; lean: number; jump: number }> = ({ t, lean, jump }) => (
+  <g>
+    {[
+      { x: 120, c: "#2a2230" },
+      { x: 300, c: "#2f2533" },
+      { x: 860, c: "#2b2231" },
+      { x: 1060, c: "#30263a" },
+      { x: 1620, c: "#2a2230" },
+      { x: 1800, c: "#2f2533" },
+    ].map((p, i) => {
+      const hop = jump * Math.abs(Math.sin(t * 9 + i)) * 30;
+      const toward = (960 - p.x) / 960;
+      const tilt = lean * 10 * toward;
+      return (
+        <g key={i} transform={`translate(${p.x} ${560 - hop}) rotate(${tilt})`}>
+          <path d="M-70 0 Q-70 -120 0 -126 Q70 -120 70 0Z" fill={p.c} />
+          <circle cx={0} cy={-170} r={46} fill={p.c} />
+          {jump > 0.2 ? (
+            <g stroke={p.c} strokeWidth={22} strokeLinecap="round">
+              <line x1={-50} y1={-100} x2={-80} y2={-200} />
+              <line x1={50} y1={-100} x2={80} y2={-200} />
+            </g>
+          ) : null}
+        </g>
+      );
+    })}
+  </g>
+);
+
+/** Comic "impact" burst behind a character. */
+const Burst: React.FC<{ x: number; y: number; k: number; t: number }> = ({ x, y, k, t }) =>
+  k > 0 ? (
+    <g transform={`translate(${x} ${y}) scale(${0.6 + k * 0.6}) rotate(${t * 20})`} opacity={Math.min(1, k * 1.5)}>
+      <path
+        d={Array.from({ length: 24 }, (_, i) => {
+          const a = (i / 24) * Math.PI * 2;
+          const r = i % 2 ? 260 : 380;
+          return `${i ? "L" : "M"}${Math.cos(a) * r} ${Math.sin(a) * r}`;
+        }).join(" ") + "Z"}
+        fill="#ffd34d"
+        stroke={INK}
+        strokeWidth={6}
+      />
+      <path
+        d={Array.from({ length: 24 }, (_, i) => {
+          const a = (i / 24) * Math.PI * 2 + 0.13;
+          const r = i % 2 ? 180 : 270;
+          return `${i ? "L" : "M"}${Math.cos(a) * r} ${Math.sin(a) * r}`;
+        }).join(" ") + "Z"}
+        fill="#ff7a2e"
+      />
+    </g>
+  ) : null;
+
+/** The classic "soul leaving the body" gag. */
+const Ghost: React.FC<{ x: number; y: number; k: number; t: number }> = ({ x, y, k, t }) =>
+  k > 0 && k < 1 ? (
+    <g transform={`translate(${x + Math.sin(t * 5) * 18} ${y - k * 520})`} opacity={0.85 * (1 - k * 0.6)}>
+      <path d="M-70 0 Q-80 -130 0 -140 Q80 -130 70 0 Q50 30 35 0 Q18 35 0 0 Q-18 35 -35 0 Q-50 30 -70 0Z" fill="#e9f3ff" stroke="#9fb6d6" strokeWidth={5} />
+      <path d="M-34 -70 Q-24 -80 -14 -70 M14 -70 Q24 -80 34 -70" stroke="#5f7394" strokeWidth={5} fill="none" strokeLinecap="round" />
+      <ellipse cx={0} cy={-40} rx={10} ry={6} fill="#5f7394" />
+    </g>
+  ) : null;
+
+/** Ivey idly riffling two little chip stacks in his hand. */
+const ChipTrick: React.FC<{ x: number; y: number; t: number }> = ({ x, y, t }) => {
+  const ph = (t * 1.4) % 1;
+  const a = Math.round(4 + 3 * Math.sin(ph * Math.PI * 2));
+  const b = 8 - a;
+  const stack = (cx: number, n: number, c: string) =>
+    Array.from({ length: n }, (_, j) => (
+      <g key={j} transform={`translate(${cx} ${-j * 5})`}>
+        <ellipse cx={0} cy={0} rx={12} ry={5} fill={c} stroke={INK} strokeWidth={2} />
+      </g>
+    ));
+  return (
+    <g transform={`translate(${x} ${y})`}>
+      {stack(-13, a, "#c8202f")}
+      {stack(13, b, "#1f8a4c")}
+    </g>
+  );
+};
+
 /* ---------------- scene ---------------- */
 const lastActBefore = (who: Who, t: number) => {
   let best: { t: number; kind: "bet" | "check" } | null = null;
@@ -355,6 +464,30 @@ export const PokerScene2D: React.FC<{ t: number }> = ({ t }) => {
   if (b.step.k === "slowmo" && t - slow.start > 4) iveyFace = "cold";
   if (t >= reveal.start + 1.1) iveyFace = "smirk";
 
+  const beatOf = (k: string, idv: string) => TL.beats.find((x) => x.step.k === k && (x.step as { id?: string }).id === idv);
+  const raiseAct = TL.acts.find((a) => a.act.a === "bet" && a.act.who === "ivey" && a.act.to === 450000)!;
+  const riverB = beatOf("voice", "m_river")!;
+  const sweat = t >= reveal.start ? 3 : t >= decide.start - 30 && t >= raiseAct.t ? 3 : t >= riverB.start ? 1 : 0;
+  const railLean = t >= raiseAct.t ? 1 : t >= riverB.start ? 0.5 : 0;
+  const railJump = t >= reveal.start + 1.2 && t < reveal.end + 3 ? 1 : 0;
+  const burstK = t >= raiseAct.t && t < raiseAct.t + 2.6 ? Math.min(ease((t - raiseAct.t) / 0.25), 1 - ease((t - raiseAct.t - 2.1) / 0.5)) : 0;
+  const coolB = beatOf("voice", "m_cool")!;
+  const ghostK = t >= coolB.start ? clamp01((t - coolB.start) / 3.2) : 0;
+
+  // thought bubbles
+  type Bub = { b: string; k?: string; emoji: string; text: string; who: Who };
+  const BUBBLES: Bub[] = [
+    { b: "m_flop", emoji: "👑", text: "GENIUS", who: "hero" },
+    { b: "m_turn", emoji: "🧐", text: "SO PRO", who: "hero" },
+    { b: "c_call", emoji: "😐", text: "...", who: "ivey" },
+    { b: "m_river", emoji: "💪", text: "EZ MONEY", who: "hero" },
+    { b: "m_panic", emoji: "🌀", text: "?!?!?!", who: "hero" },
+    { b: "t_beats", emoji: "🥪", text: "lunch?", who: "ivey" },
+    { b: "t_odds", emoji: "🧮", text: "30%...?", who: "hero" },
+    { b: "", k: "decide", emoji: "⚖️", text: "FOLD / CALL", who: "hero" },
+  ];
+  const bubble = BUBBLES.find((x) => (x.k ? b.step.k === x.k : id === x.b));
+
   const blink = (seed: number) => (t * 1.0 + seed) % 3.7 < 0.12;
   const breathe = (seed: number) => Math.sin(t * 1.6 + seed) * 3;
 
@@ -386,10 +519,16 @@ export const PokerScene2D: React.FC<{ t: number }> = ({ t }) => {
   // chips: bets slide from stack to bet spot; pot to winner
   const slide = (who: Who) => (s.lastBet && s.lastBet.who === who ? ease((t - s.lastBet.t) / (s.lastBet.big ? 0.9 : 0.4)) : 1);
   const k = (x: number) => Math.round(x / 1000);
-  const heroBetPos = { x: lerp(STACK.hero.x, BET.hero.x, slide("hero")), y: lerp(STACK.hero.y, BET.hero.y, slide("hero")) };
-  const iveyBetPos = { x: lerp(STACK.ivey.x, BET.ivey.x, slide("ivey")), y: lerp(STACK.ivey.y, BET.ivey.y, slide("ivey")) };
+  const arc = (k2: number) => -Math.sin(Math.PI * k2) * 90 + (k2 >= 1 ? 0 : 0);
+  const bounce = (who: Who) => {
+    if (!s.lastBet || s.lastBet.who !== who) return 0;
+    const d = t - s.lastBet.t - (s.lastBet.big ? 0.9 : 0.4);
+    return d > 0 && d < 0.35 ? -Math.abs(Math.sin(d * 18)) * 14 * (1 - d / 0.35) : 0;
+  };
+  const heroBetPos = { x: lerp(STACK.hero.x, BET.hero.x, slide("hero")), y: lerp(STACK.hero.y, BET.hero.y, slide("hero")) + arc(slide("hero")) + bounce("hero") };
+  const iveyBetPos = { x: lerp(STACK.ivey.x, BET.ivey.x, slide("ivey")), y: lerp(STACK.ivey.y, BET.ivey.y, slide("ivey")) + arc(slide("ivey")) + bounce("ivey") };
   const win = s.winAt !== null ? ease((t - s.winAt) / 0.9) : 0;
-  const potPos = { x: lerp(POT.x, STACK.ivey.x, win), y: lerp(POT.y, STACK.ivey.y, win) };
+  const potPos = { x: lerp(POT.x, STACK.ivey.x, win), y: lerp(POT.y, STACK.ivey.y, win) - Math.sin(Math.PI * win) * 120 };
 
   // hole cards
   const peekB = findBeat("peek");
@@ -399,8 +538,10 @@ export const PokerScene2D: React.FC<{ t: number }> = ({ t }) => {
   return (
     <g>
       <Room t={t} />
+      <Rail t={t} lean={railLean} jump={railJump} />
+      <Burst x={SEAT.ivey.x} y={360} k={burstK} t={t} />
       <g transform={`translate(${SEAT.hero.x} 640) scale(1.18) translate(${-SEAT.hero.x} -640)`}>
-        <HeroChar face={heroFace} look={heroFace === "smug" ? 1 : 0.4} blink={blink(0)} breathe={breathe(0)} talk={talkingNow(t, "m_")} handL={hH.L} handR={hH.R} />
+        <HeroChar face={heroFace} look={heroFace === "smug" ? 1 : 0.4} blink={blink(0)} breathe={breathe(0)} talk={talkingNow(t, "m_")} handL={hH.L} handR={hH.R} sweat={sweat} t={t} />
       </g>
       <g transform={`translate(${SEAT.ivey.x} 640) scale(1.18) translate(${-SEAT.ivey.x} -640)`}>
         <IveyChar face={iveyFace} look={-0.5} blink={blink(1.7)} breathe={breathe(1.3)} talk={0} handL={hI.L} handR={hI.R} />
@@ -442,6 +583,37 @@ export const PokerScene2D: React.FC<{ t: number }> = ({ t }) => {
         const flip = ease((t - s.flips[i]) / 0.3);
         return <Card2D key={c} c={c} x={lerp(1600, 720 + i * 120, slideIn)} y={835} w={100} faceUp={flip} />;
       })}
+      {/* Ivey's idle chip trick (when his right hand isn't busy) */}
+      {!(s.lastBet && s.lastBet.who === "ivey" && t - s.lastBet.t < 1.2) ? <ChipTrick x={SEAT.ivey.x + 145} y={672} t={t} /> : null}
+      {burstK > 0 ? (
+        <text
+          x={SEAT.ivey.x}
+          y={150}
+          textAnchor="middle"
+          fontSize={92}
+          fontWeight={900}
+          fill="#ff3b4e"
+          stroke={INK}
+          strokeWidth={10}
+          paintOrder="stroke"
+          fontFamily='"Arial Black", Arial'
+          transform={`rotate(-6 ${SEAT.ivey.x} 150) translate(${SEAT.ivey.x} 150) scale(${0.6 + 0.4 * burstK}) translate(${-SEAT.ivey.x} -150)`}
+        >
+          CHECK-RAISE!
+        </text>
+      ) : null}
+      {bubble ? (
+        <Thought
+          x={bubble.who === "hero" ? SEAT.hero.x + 250 : SEAT.ivey.x - 250}
+          y={150}
+          t0={bubble.k ? decide.start : (TL.beats.find((x) => (x.step as { id?: string }).id === bubble.b)?.start ?? t) + 0.3}
+          t={t}
+          emoji={bubble.emoji}
+          text={bubble.text}
+          flip={bubble.who === "ivey"}
+        />
+      ) : null}
+      <Ghost x={SEAT.hero.x} y={300} k={ghostK} t={t} />
       {/* decision spotlight dims the room a bit */}
       {t >= decide.start && t < decide.end ? <rect x={0} y={0} width={1920} height={1080} fill="black" opacity={0.25} /> : null}
     </g>

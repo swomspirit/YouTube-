@@ -207,6 +207,46 @@
       "id": "whoosh",
       "prompt": "cinematic whoosh transition",
       "duration": 1.2
+    },
+    {
+      "id": "crickets",
+      "prompt": "crickets chirping in awkward silence, comedic",
+      "duration": 2.2
+    },
+    {
+      "id": "dundun",
+      "prompt": "dramatic comedic dun dun dun sting, orchestral",
+      "duration": 2.0
+    },
+    {
+      "id": "gulp",
+      "prompt": "cartoon nervous gulp swallow sound",
+      "duration": 0.8
+    },
+    {
+      "id": "register",
+      "prompt": "cash register cha-ching",
+      "duration": 1.0
+    },
+    {
+      "id": "trombone",
+      "prompt": "sad trombone wah wah wah waaah, comedic fail",
+      "duration": 2.5
+    },
+    {
+      "id": "ghost",
+      "prompt": "cartoon ghost spirit floating away, airy whoosh with soft wail",
+      "duration": 2.0
+    },
+    {
+      "id": "pop",
+      "prompt": "short cartoon pop bubble sound",
+      "duration": 0.5
+    },
+    {
+      "id": "chiptoss",
+      "prompt": "poker chips tossed and landing on felt with a little bounce",
+      "duration": 0.8
     }
   ],
   "music": [

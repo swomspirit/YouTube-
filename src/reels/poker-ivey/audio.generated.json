@@ -2823,6 +2823,46 @@
       "file": "reels/poker-ivey/sfx-whoosh.mp3",
       "durationMs": 1203,
       "hash": "ad879b0ae164"
+    },
+    "crickets": {
+      "file": "reels/poker-ivey/sfx-crickets.mp3",
+      "durationMs": 2221,
+      "hash": "7228da0335ae"
+    },
+    "dundun": {
+      "file": "reels/poker-ivey/sfx-dundun.mp3",
+      "durationMs": 2012,
+      "hash": "f92f9b9ccdf7"
+    },
+    "gulp": {
+      "file": "reels/poker-ivey/sfx-gulp.mp3",
+      "durationMs": 811,
+      "hash": "a354dc54f353"
+    },
+    "register": {
+      "file": "reels/poker-ivey/sfx-register.mp3",
+      "durationMs": 1020,
+      "hash": "b23b93528a52"
+    },
+    "trombone": {
+      "file": "reels/poker-ivey/sfx-trombone.mp3",
+      "durationMs": 2483,
+      "hash": "b3e9ba93adc7"
+    },
+    "ghost": {
+      "file": "reels/poker-ivey/sfx-ghost.mp3",
+      "durationMs": 2012,
+      "hash": "7848ec9a82ef"
+    },
+    "pop": {
+      "file": "reels/poker-ivey/sfx-pop.mp3",
+      "durationMs": 497,
+      "hash": "5552855ef10d"
+    },
+    "chiptoss": {
+      "file": "reels/poker-ivey/sfx-chiptoss.mp3",
+      "durationMs": 811,
+      "hash": "7f3a08f1ff07"
     }
   },
   "music": {
