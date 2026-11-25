@@ -8,6 +8,7 @@ import { PokerIvey2D } from "./poker-ivey/PokerIvey2D";
 import { Astatine, ASTATINE_DURATION, ASTATINE_FPS } from "./astatine/Astatine";
 import { SquadEp1, SQUAD_EP1_DURATION, SQUAD_FPS } from "./squad/Episode1";
 import { Einstein, EINSTEIN_DURATION, EINSTEIN_FPS } from "./einstein/Einstein";
+import { EinsteinThumbnail } from "./einstein/Thumbnail";
 import { PokerIveyFunny, IVEY_FUNNY_DURATION, IVEY_FUNNY_FPS } from "./poker-ivey-funny/PokerIveyFunny";
 import { TwistDemo, DEMO_DURATION } from "./demo-twist/Demo";
 import { IveyShort, SHORT_DURATION } from "./ivey-short/Short";
@@ -75,6 +76,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="TwistDemo" component={TwistDemo} durationInFrames={DEMO_DURATION} fps={30} width={1080} height={1920} />
       <Composition id="PokerIvey2D" component={PokerIvey2D} durationInFrames={IVEY_DURATION} fps={IVEY_FPS} width={1920} height={1080} />
       <Composition id="PokerIvey2DFun" component={PokerIvey2D} durationInFrames={IVEY_DURATION} fps={IVEY_FPS} width={1920} height={1080} defaultProps={{ fun: true }} />
+      <Still id="EinsteinThumbnail" component={EinsteinThumbnail} width={1280} height={720} />
       <Composition id="Einstein" component={Einstein} durationInFrames={EINSTEIN_DURATION} fps={EINSTEIN_FPS} width={1920} height={1080} />
       <Composition id="SquadEp1" component={SquadEp1} durationInFrames={SQUAD_EP1_DURATION} fps={SQUAD_FPS} width={1080} height={1920} />
       <Composition id="Astatine" component={Astatine} durationInFrames={ASTATINE_DURATION} fps={ASTATINE_FPS} width={1920} height={1080} />
