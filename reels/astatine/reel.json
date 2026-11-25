@@ -1,47 +1,488 @@
 {
   "title": "Astatine: The Rarest Element on Earth",
   "model": "eleven_v3",
-  "voices": { "nar": "JBFqnCBsd6RMkjVDRZzb" },
+  "voices": {
+    "nar": "rSLmFOTRq9g87aTxSUr6",
+    "trailer": "JJCR1UICgHnHljtvu5uF"
+  },
   "lines": [
-    { "id": "s01", "speaker": "nar", "text": "[curious] There is an element so rare... that if you searched the entire crust of planet Earth right now, you would find less than one gram of it." },
-    { "id": "s02", "speaker": "nar", "text": "One gram. That's about the weight of a paperclip. Spread across the whole planet." },
-    { "id": "s03", "speaker": "nar", "text": "Its name is astatine. Element eighty-five. Today we're finding out why it's so rare... and whether you could ever get your hands on some. [whispers] Spoiler: probably not." },
-    { "id": "s04", "speaker": "nar", "text": "Astatine sits right here on the periodic table, at the bottom of the halogens. Same family as fluorine, chlorine, bromine and iodine." },
-    { "id": "s05", "speaker": "nar", "text": "Its cousins are everywhere. Chlorine is in your table salt. Iodine is in your multivitamin. So why is astatine basically... missing?" },
-    { "id": "s06", "speaker": "nar", "text": "It comes down to the nucleus. An astatine atom crams eighty-five protons into an incredibly tiny space. Protons are all positively charged, and they really don't like each other." },
-    { "id": "s07", "speaker": "nar", "text": "Past a certain size, the strong force holding the nucleus together just can't keep up. Every single isotope of astatine is radioactive. There is no stable version. At all." },
-    { "id": "s08", "speaker": "nar", "text": "And it doesn't hang around. The longest-lived kind, astatine two-ten, has a half-life of about eight hours. The kinds found in nature last a minute at most. Some, a tiny fraction of a second." },
-    { "id": "s09", "speaker": "nar", "text": "So where does natural astatine even come from? Deep underground, uranium and thorium are slowly decaying, step by step, into lead." },
-    { "id": "s10", "speaker": "nar", "text": "Very occasionally, one of those decays takes a rare side path... and for a brief moment, an atom of astatine exists. Then it decays again. And it's gone." },
-    { "id": "s11", "speaker": "nar", "text": "That's why there's only around a gram on Earth at any moment. Some estimates say up to an ounce. Either way, it's being made and destroyed constantly, at the same time." },
-    { "id": "s12", "speaker": "nar", "text": "And here's the wild part. No one has ever seen a piece of astatine. If you somehow gathered a visible chunk, the heat from its own radioactivity would vaporize it almost instantly." },
-    { "id": "s13", "speaker": "nar", "text": "[amused] So we don't actually know what it looks like. Scientists predict a dark, shiny, metal-like solid. But nobody has ever laid eyes on it." },
-    { "id": "s14", "speaker": "nar", "text": "Even the name fits. Astatine comes from the Greek word astatos, which means unstable." },
-    { "id": "s15", "speaker": "nar", "text": "When Mendeleev built the periodic table in eighteen sixty-nine, the spot below iodine was empty. Chemists called the missing element eka-iodine. For decades, nobody could find it." },
-    { "id": "s16", "speaker": "nar", "text": "Then, in nineteen forty, scientists at Berkeley stopped looking for it... and made it instead." },
-    { "id": "s17", "speaker": "nar", "text": "And that's still how you get astatine today. You make it. In a cyclotron." },
-    { "id": "s18", "speaker": "nar", "text": "A cyclotron whips alpha particles, which are helium nuclei, around and around until they're moving incredibly fast. Then they slam into a target made of bismuth." },
-    { "id": "s19", "speaker": "nar", "text": "Bismuth has eighty-three protons. An alpha particle brings two more. Eighty-three plus two... eighty-five. Astatine." },
-    { "id": "s20", "speaker": "nar", "text": "The result is astatine two-eleven, with a half-life of about seven hours. So chemists have to pull it out of the target and use it fast. The clock is literally ticking." },
-    { "id": "s21", "speaker": "nar", "text": "And it's worth the rush. Astatine two-eleven is being tested as a cancer treatment. Attached to a molecule that seeks out tumor cells, it fires alpha particles that only travel a few cell widths. Enough to destroy the cancer cell, while mostly sparing the healthy ones around it." },
-    { "id": "s22", "speaker": "nar", "text": "So, can you get some? Not really. You can't buy astatine. It's made in billionths of a gram, at a handful of research cyclotrons around the world, for scientists and clinical trials." },
-    { "id": "s23", "speaker": "nar", "text": "If you ever do come into contact with astatine, it will most likely be as a patient in one of those trials. And even then, you'll never see it." },
-    { "id": "s24", "speaker": "nar", "text": "[warm] The rarest naturally occurring element on Earth. Made in a flash, gone in hours, and never once seen by human eyes." },
-    { "id": "s25", "speaker": "nar", "text": "If this blew your mind even a little, subscribe. And tell me in the comments: which element should we cover next?" }
+    {
+      "id": "x01",
+      "speaker": "nar",
+      "text": "[hushed, awe] Long before Earth existed... colliding neutron stars and exploding stars scattered heavy elements across our galaxy."
+    },
+    {
+      "id": "x02",
+      "speaker": "nar",
+      "text": "About four and a half billion years ago, some of that stardust came together to form the planets. Saturn... Jupiter... Mars... and a small blue world we call home."
+    },
+    {
+      "id": "s01",
+      "speaker": "nar",
+      "text": "And somewhere in Earth's crust, there is an element so rare... that at any given moment, the entire planet holds less than one gram of it."
+    },
+    {
+      "id": "s02",
+      "speaker": "nar",
+      "text": "One gram. That's about the weight of a paperclip. Spread across the whole planet."
+    },
+    {
+      "id": "s03",
+      "speaker": "nar",
+      "text": "Its name is astatine. Element eighty-five. Today we'll find out why it's so rare... and whether you could ever get your hands on some. [whispers] Spoiler: probably not."
+    },
+    {
+      "id": "tv1",
+      "speaker": "trailer",
+      "text": "[deep, dramatic] Astatine. The rarest element on Earth."
+    },
+    {
+      "id": "s04",
+      "speaker": "nar",
+      "text": "Astatine sits right here on the periodic table, at the bottom of the halogens. Same family as fluorine, chlorine, bromine and iodine."
+    },
+    {
+      "id": "s05",
+      "speaker": "nar",
+      "text": "Its cousins are everywhere. Chlorine is in your table salt. Iodine is in your multivitamin. So why is astatine basically... missing?"
+    },
+    {
+      "id": "s06",
+      "speaker": "nar",
+      "text": "It comes down to the nucleus. An astatine atom crams eighty-five protons into an incredibly tiny space. Protons are all positively charged, and they really don't like each other."
+    },
+    {
+      "id": "s07",
+      "speaker": "nar",
+      "text": "Past a certain size, the strong force holding the nucleus together just can't keep up. Every single isotope of astatine is radioactive. There is no stable version. At all."
+    },
+    {
+      "id": "s08",
+      "speaker": "nar",
+      "text": "And it doesn't hang around. The longest-lived kind, astatine two-ten, has a half-life of about eight hours. The kinds found in nature last a minute at most. Some, a tiny fraction of a second."
+    },
+    {
+      "id": "s09",
+      "speaker": "nar",
+      "text": "So where does natural astatine come from? Remember those ancient cosmic explosions? They forged the uranium and thorium in Earth's crust. And deep underground, it's still slowly decaying, step by step, into lead."
+    },
+    {
+      "id": "s10",
+      "speaker": "nar",
+      "text": "Very occasionally, one of those decays takes a rare side path... and for a brief moment, an atom of astatine exists. Then it decays again. And it's gone."
+    },
+    {
+      "id": "s11",
+      "speaker": "nar",
+      "text": "That's why there's only around a gram on Earth at any moment. Some estimates say up to an ounce. Either way, it's being made and destroyed constantly, at the same time."
+    },
+    {
+      "id": "s12",
+      "speaker": "nar",
+      "text": "And here's the wild part. No one has ever seen a piece of astatine. If you somehow gathered a visible chunk, the heat from its own radioactivity would vaporize it almost instantly."
+    },
+    {
+      "id": "s13",
+      "speaker": "nar",
+      "text": "[amused] So we don't actually know what it looks like. Scientists predict a dark, shiny, metal-like solid. But nobody has ever laid eyes on it."
+    },
+    {
+      "id": "s14",
+      "speaker": "nar",
+      "text": "Even the name fits. Astatine comes from the Greek word astatos, which means unstable."
+    },
+    {
+      "id": "s15",
+      "speaker": "nar",
+      "text": "When Mendeleev built the periodic table in eighteen sixty-nine, the spot below iodine was empty. Chemists called the missing element eka-iodine. For decades, nobody could find it."
+    },
+    {
+      "id": "s16",
+      "speaker": "nar",
+      "text": "Then, in nineteen forty, scientists at Berkeley stopped looking for it... and made it instead."
+    },
+    {
+      "id": "s17",
+      "speaker": "nar",
+      "text": "And that's still how you get astatine today. You make it. In a cyclotron."
+    },
+    {
+      "id": "s18",
+      "speaker": "nar",
+      "text": "A cyclotron whips alpha particles, which are helium nuclei, around and around until they're moving incredibly fast. Then they slam into a target made of bismuth."
+    },
+    {
+      "id": "s19",
+      "speaker": "nar",
+      "text": "Bismuth has eighty-three protons. An alpha particle brings two more. Eighty-three plus two... eighty-five. Astatine."
+    },
+    {
+      "id": "s20",
+      "speaker": "nar",
+      "text": "The result is astatine two-eleven, with a half-life of about seven hours. So chemists have to pull it out of the target and use it fast. The clock is literally ticking."
+    },
+    {
+      "id": "s21",
+      "speaker": "nar",
+      "text": "And it's worth the rush. Astatine two-eleven is being tested as a cancer treatment. Attached to a molecule that seeks out tumor cells, it fires alpha particles that only travel a few cell widths. Enough to destroy the cancer cell, while mostly sparing the healthy ones around it."
+    },
+    {
+      "id": "s22",
+      "speaker": "nar",
+      "text": "So, can you get some? Not really. You can't buy astatine. It's made in billionths of a gram, at a handful of research cyclotrons around the world, for scientists and clinical trials."
+    },
+    {
+      "id": "s23",
+      "speaker": "nar",
+      "text": "If you ever do come into contact with astatine, it will most likely be as a patient in one of those trials. And even then, you'll never see it."
+    },
+    {
+      "id": "s24",
+      "speaker": "nar",
+      "text": "[warm, awe] Forged in the death of stars. Born for a moment, deep inside our planet. Gone within hours. The rarest naturally occurring element on Earth... and no human has ever seen it."
+    },
+    {
+      "id": "s25",
+      "speaker": "nar",
+      "text": "If this blew your mind even a little, subscribe. And tell me in the comments: which element should we cover next?"
+    }
   ],
   "sfx": [
-    { "id": "whoosh", "prompt": "soft cinematic whoosh transition", "duration": 1.0 },
-    { "id": "pop", "prompt": "short soft UI pop, clean", "duration": 0.5 },
-    { "id": "ding", "prompt": "bright clean notification ding", "duration": 0.8 },
-    { "id": "geiger", "prompt": "geiger counter clicking, irregular, medium rate", "duration": 3 },
-    { "id": "sizzle", "prompt": "hot metal vaporizing, quick fizz and hiss with airy burst", "duration": 2 },
-    { "id": "hum", "prompt": "particle accelerator electrical hum rising in pitch, sci-fi lab", "duration": 4 },
-    { "id": "zap", "prompt": "high energy particle impact, sharp electric zap with thud", "duration": 1 },
-    { "id": "tick", "prompt": "clock ticking, four ticks", "duration": 2 },
-    { "id": "stamp", "prompt": "rubber stamp thud on paper", "duration": 0.6 },
-    { "id": "boom", "prompt": "deep cinematic low boom hit for a title card", "duration": 2 }
+    {
+      "id": "whoosh",
+      "prompt": "soft cinematic whoosh transition",
+      "duration": 1
+    },
+    {
+      "id": "pop",
+      "prompt": "short soft UI pop, clean",
+      "duration": 0.5
+    },
+    {
+      "id": "ding",
+      "prompt": "bright clean notification ding",
+      "duration": 0.8
+    },
+    {
+      "id": "geiger",
+      "prompt": "geiger counter clicking, irregular, medium rate",
+      "duration": 3
+    },
+    {
+      "id": "sizzle",
+      "prompt": "hot metal vaporizing, quick fizz and hiss with airy burst",
+      "duration": 2
+    },
+    {
+      "id": "hum",
+      "prompt": "particle accelerator electrical hum rising in pitch, sci-fi lab",
+      "duration": 4
+    },
+    {
+      "id": "zap",
+      "prompt": "high energy particle impact, sharp electric zap with thud",
+      "duration": 1
+    },
+    {
+      "id": "tick",
+      "prompt": "clock ticking, four ticks",
+      "duration": 2
+    },
+    {
+      "id": "stamp",
+      "prompt": "rubber stamp thud on paper",
+      "duration": 0.6
+    },
+    {
+      "id": "boom",
+      "prompt": "deep cinematic low boom hit for a title card",
+      "duration": 2
+    },
+    {
+      "id": "space",
+      "prompt": "vast deep space ambience, low cosmic drone with subtle shimmering high tones, seamless",
+      "duration": 22,
+      "loop": true
+    },
+    {
+      "id": "merger",
+      "prompt": "two neutron stars colliding, colossal deep cosmic explosion with rumbling sub bass and a long shimmering tail",
+      "duration": 6
+    },
+    {
+      "id": "flyby",
+      "prompt": "massive planet passing by the camera in space, deep cinematic whoosh with low rumble",
+      "duration": 3
+    },
+    {
+      "id": "riser",
+      "prompt": "cinematic riser building tension, orchestral and synth swell into a hit",
+      "duration": 4
+    },
+    {
+      "id": "shimmer",
+      "prompt": "magical sparkling shimmer, glittering particles forming, airy and bright",
+      "duration": 3
+    },
+    {
+      "id": "energy",
+      "prompt": "glowing atom energy hum, warm resonant sci-fi tone with soft crackle",
+      "duration": 6
+    },
+    {
+      "id": "subdrop",
+      "prompt": "deep cinematic sub drop impact, trailer style",
+      "duration": 2.5
+    },
+    {
+      "id": "crackle",
+      "prompt": "high voltage electrical crackle and arcs in a lab",
+      "duration": 2.5
+    }
   ],
   "music": [
-    { "id": "bed", "prompt": "curious, light science documentary underscore, soft plucked synths and gentle pulses, wonder and discovery, modern, unobtrusive under narration, no vocals", "lengthMs": 120000 }
+    {
+      "id": "score",
+      "plan": {
+        "positive_global_styles": [
+          "cinematic orchestral documentary score",
+          "hybrid orchestra with subtle synths",
+          "space and science",
+          "high production value",
+          "instrumental"
+        ],
+        "negative_global_styles": [
+          "vocals",
+          "lyrics",
+          "spoken word",
+          "EDM drop",
+          "lo-fi"
+        ],
+        "sections": [
+          {
+            "section_name": "Cosmic Dawn",
+            "positive_local_styles": [
+              "vast and ethereal",
+              "deep sustained drones",
+              "airy wordless choir pads",
+              "sparse celesta",
+              "slow build into a huge swell"
+            ],
+            "negative_local_styles": [
+              "drums",
+              "upbeat"
+            ],
+            "duration_ms": 12631,
+            "lines": []
+          },
+          {
+            "section_name": "Planetary Voyage",
+            "positive_local_styles": [
+              "majestic full orchestra",
+              "soaring strings and french horns",
+              "timpani rolls",
+              "awe and wonder",
+              "cinematic space voyage"
+            ],
+            "negative_local_styles": [
+              "electronic beats"
+            ],
+            "duration_ms": 16749,
+            "lines": []
+          },
+          {
+            "section_name": "A Small Blue World",
+            "positive_local_styles": [
+              "gentle and intimate",
+              "soft piano with warm strings",
+              "sense of wonder",
+              "calm"
+            ],
+            "negative_local_styles": [
+              "drums",
+              "brass"
+            ],
+            "duration_ms": 13632,
+            "lines": []
+          },
+          {
+            "section_name": "The Name",
+            "positive_local_styles": [
+              "mysterious and rising",
+              "pulsing low strings",
+              "building tension",
+              "crescendo toward a big hit"
+            ],
+            "negative_local_styles": [
+              "resolution"
+            ],
+            "duration_ms": 12311,
+            "lines": []
+          },
+          {
+            "section_name": "Title Impact",
+            "positive_local_styles": [
+              "massive orchestral hit with choir and taiko on the downbeat",
+              "then a long resonant sustain that fades"
+            ],
+            "negative_local_styles": [
+              "melody",
+              "busy rhythm"
+            ],
+            "duration_ms": 7691,
+            "lines": []
+          },
+          {
+            "section_name": "Curious Discovery",
+            "positive_local_styles": [
+              "curious and light",
+              "plucked strings and marimba",
+              "soft modern pulses",
+              "documentary feel"
+            ],
+            "negative_local_styles": [
+              "heavy drums",
+              "dark"
+            ],
+            "duration_ms": 18195,
+            "lines": []
+          },
+          {
+            "section_name": "Unstable Heart",
+            "positive_local_styles": [
+              "tense and pulsing",
+              "ticking percussion",
+              "nervous staccato low strings",
+              "growing instability",
+              "scientific suspense"
+            ],
+            "negative_local_styles": [
+              "happy",
+              "major key"
+            ],
+            "duration_ms": 37141,
+            "lines": []
+          },
+          {
+            "section_name": "Deep Time",
+            "positive_local_styles": [
+              "mysterious and deep",
+              "slow evolving textures",
+              "subterranean rumble",
+              "patient and ancient"
+            ],
+            "negative_local_styles": [
+              "fast rhythm"
+            ],
+            "duration_ms": 34763,
+            "lines": []
+          },
+          {
+            "section_name": "The Unseen",
+            "positive_local_styles": [
+              "eerie and sparse",
+              "glassy shimmering textures",
+              "suspense",
+              "a brief bright bloom then emptiness"
+            ],
+            "negative_local_styles": [
+              "drums",
+              "triumphant"
+            ],
+            "duration_ms": 26117,
+            "lines": []
+          },
+          {
+            "section_name": "Lost Century",
+            "positive_local_styles": [
+              "warm and nostalgic",
+              "solo piano with soft strings",
+              "old-world discovery",
+              "hopeful turn at the end"
+            ],
+            "negative_local_styles": [
+              "synths",
+              "drums"
+            ],
+            "duration_ms": 18692,
+            "lines": []
+          },
+          {
+            "section_name": "The Cyclotron",
+            "positive_local_styles": [
+              "driving and energetic",
+              "pulsing synth arpeggios with staccato strings and percussion",
+              "accelerating",
+              "building to a powerful climax"
+            ],
+            "negative_local_styles": [
+              "calm",
+              "sparse"
+            ],
+            "duration_ms": 38253,
+            "lines": []
+          },
+          {
+            "section_name": "Hope",
+            "positive_local_styles": [
+              "emotional and hopeful",
+              "warm swelling strings and piano",
+              "human and tender"
+            ],
+            "negative_local_styles": [
+              "dark",
+              "aggressive"
+            ],
+            "duration_ms": 15733,
+            "lines": []
+          },
+          {
+            "section_name": "Reality Check",
+            "positive_local_styles": [
+              "light and playful",
+              "pizzicato strings with gentle woodwinds",
+              "a touch of humor",
+              "softening at the end"
+            ],
+            "negative_local_styles": [
+              "epic",
+              "heavy drums"
+            ],
+            "duration_ms": 20207,
+            "lines": []
+          },
+          {
+            "section_name": "Grand Finale",
+            "positive_local_styles": [
+              "epic and majestic",
+              "full orchestra with choir",
+              "soaring brass and timpani",
+              "cosmic awe",
+              "biggest moment of the score"
+            ],
+            "negative_local_styles": [
+              "small",
+              "quiet"
+            ],
+            "duration_ms": 14736,
+            "lines": []
+          },
+          {
+            "section_name": "Starlight Outro",
+            "positive_local_styles": [
+              "soft resolution",
+              "shimmering pads and gentle strings",
+              "peaceful fade out to silence"
+            ],
+            "negative_local_styles": [
+              "drums",
+              "build"
+            ],
+            "duration_ms": 10616,
+            "lines": []
+          }
+        ]
+      }
+    }
   ]
 }

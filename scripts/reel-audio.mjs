@@ -70,7 +70,7 @@ for (const s of def.sfx ?? []) {
     continue;
   }
   console.log(`→ sfx ${s.id}: ${s.prompt}`);
-  const audio = await soundEffect({ prompt: s.prompt, durationSeconds: s.duration, promptInfluence: s.influence });
+  const audio = await soundEffect({ prompt: s.prompt, durationSeconds: s.duration, promptInfluence: s.influence, loop: s.loop });
   const file = `reels/${name}/sfx-${s.id}.mp3`;
   fs.writeFileSync(path.join("public", file), audio);
   manifest.sfx[s.id] = { file, durationMs: await audioDurationMs(audio), hash: h };
@@ -84,8 +84,8 @@ for (const m of def.music ?? []) {
     console.log(`= music ${m.id} (cached)`);
     continue;
   }
-  console.log(`→ music ${m.id}: ${m.prompt}`);
-  const audio = await musicTrack({ prompt: m.prompt, lengthMs: m.lengthMs });
+  console.log(`→ music ${m.id}: ${m.prompt ?? m.plan.sections.map((x) => x.section_name).join(" / ")}`);
+  const audio = await musicTrack({ prompt: m.prompt, lengthMs: m.lengthMs, plan: m.plan });
   const file = `reels/${name}/music-${m.id}.mp3`;
   fs.writeFileSync(path.join("public", file), audio);
   manifest.music[m.id] = { file, durationMs: await audioDurationMs(audio), hash: h };

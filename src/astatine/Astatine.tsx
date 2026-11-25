@@ -2,7 +2,18 @@ import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, useCurrentFrame
 import { ThreeCanvas } from "@remotion/three";
 import { AstatineScene3D } from "./Scene3D";
 import { Overlays } from "./Overlays";
-import { DURATION, FPS, MUSIC, TL } from "./timeline";
+import { FPS, LINES, MUSIC, SFX, TL, vis } from "./timeline";
+
+/** Score level: fuller in the gaps between lines, ducked (smoothly) under the voice. */
+const VOICE = TL.beats.filter((b) => b.id).map((b) => [b.voiceAt, b.voiceAt + LINES[b.id!].durationMs / 1000] as const);
+const scoreVolume = (t: number) => {
+  let duck = 0;
+  for (const [a, b] of VOICE) {
+    const k = Math.min(1, Math.max(0, Math.min((t - a + 0.35) / 0.35, (b + 0.6 - t) / 0.6)));
+    duck = Math.max(duck, k);
+  }
+  return 0.42 - 0.24 * duck;
+};
 
 export { DURATION as ASTATINE_DURATION, FPS as ASTATINE_FPS } from "./timeline";
 
@@ -10,29 +21,17 @@ export const Astatine: React.FC = () => {
   const frame = useCurrentFrame();
   const { width, height, durationInFrames } = useVideoConfig();
   const t = frame / FPS;
-  const musicLen = Math.round((MUSIC.bed.durationMs / 1000) * FPS);
   return (
     <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 40%, #160a2a 0%, #05010f 70%)" }}>
       <ThreeCanvas width={width} height={height} camera={{ fov: 45, position: [0, 0, 9] }}>
         <AstatineScene3D t={t} />
       </ThreeCanvas>
       <Overlays t={t} fps={FPS} />
-      {/* music bed, looped with a short crossfade, ducked under the narration */}
-      {[0, 1, 2].map((i) => {
-        const from = i * (musicLen - 60);
-        if (from >= durationInFrames) return null;
-        return (
-          <Sequence key={i} from={from} durationInFrames={musicLen} layout="none">
-            <Audio
-              src={staticFile(MUSIC.bed.file)}
-              volume={(f) =>
-                interpolate(f, [0, 60, musicLen - 60, musicLen], [i === 0 ? 0.12 : 0, 0.12, 0.12, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) *
-                interpolate(from + f, [durationInFrames - 75, durationInFrames - 5], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })
-              }
-            />
-          </Sequence>
-        );
-      })}
+      {/* the score: one ElevenLabs Music composition, scored section by section to this timeline.
+          It swells between lines and dips under the narration. */}
+      <Audio src={staticFile(MUSIC.score.file)} volume={(f) => scoreVolume(f / FPS) * interpolate(f, [durationInFrames - 60, durationInFrames - 2], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />
+      {/* deep-space ambience (seamless ElevenLabs loop) under the space scenes */}
+      <Audio src={staticFile(SFX.space.file)} loop volume={(f) => 0.5 * Math.max(vis(["cosmos", "planets"], f / FPS, 1.5, 2), vis(["finale", "outro"], f / FPS, 2, 1.5))} />
       {TL.cues.map((c, i) => (
         <Sequence key={i} from={Math.round(c.t * FPS)} layout="none">
           <Audio src={staticFile(c.file)} volume={c.vol ?? 1} />

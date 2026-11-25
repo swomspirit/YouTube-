@@ -13,6 +13,9 @@ export const SFX = audio.sfx as Record<string, { file: string; durationMs: numbe
 export const MUSIC = (audio as unknown as { music: Record<string, { file: string; durationMs: number }> }).music;
 
 export type Scene =
+  | "cosmos"
+  | "planets"
+  | "finale"
   | "earth"
   | "tile"
   | "title"
@@ -29,19 +32,21 @@ export type Scene =
   | "access"
   | "outro";
 
-type Seg = { id: string | null; scene: Scene; len?: number; sfx?: { file: keyof typeof audio.sfx; at?: number | string; vol?: number }[] };
+type Seg = { id: string | null; scene: Scene; len?: number; pre?: number; post?: number; sfx?: { file: keyof typeof audio.sfx; at?: number | string; vol?: number }[] };
 
 const SEGS: Seg[] = [
-  { id: "s01", scene: "earth" },
+  { id: "x01", scene: "cosmos", pre: 3.0, post: 1.2, sfx: [{ file: "merger", at: "colliding", vol: 0.8 }, { file: "shimmer", at: "scattered", vol: 0.5 }] },
+  { id: "x02", scene: "planets", pre: 0.4, post: 1.4, sfx: [{ file: "flyby", at: "Saturn", vol: 0.7 }, { file: "flyby", at: "Jupiter", vol: 0.7 }, { file: "flyby", at: "Mars", vol: 0.6 }, { file: "whoosh", at: "small", vol: 0.5 }] },
+  { id: "s01", scene: "earth", post: 0.4 },
   { id: "s02", scene: "earth", sfx: [{ file: "pop", at: "paperclip", vol: 0.6 }] },
-  { id: "s03", scene: "tile", sfx: [{ file: "pop", at: 0.1, vol: 0.6 }] },
-  { id: null, scene: "title", len: 3.4, sfx: [{ file: "boom", at: 0, vol: 0.7 }] },
+  { id: "s03", scene: "tile", sfx: [{ file: "shimmer", at: 0.05, vol: 0.5 }] },
+  { id: "tv1", scene: "title", pre: 1.4, post: 2.0, sfx: [{ file: "riser", at: -2.6, vol: 0.6 }, { file: "boom", at: 0, vol: 0.8 }, { file: "subdrop", at: 0, vol: 0.6 }] },
   { id: "s04", scene: "table", sfx: [{ file: "whoosh", at: 0, vol: 0.5 }] },
   { id: "s05", scene: "table" },
-  { id: "s06", scene: "nucleus", sfx: [{ file: "whoosh", at: 0, vol: 0.5 }] },
+  { id: "s06", scene: "nucleus", sfx: [{ file: "energy", at: 0, vol: 0.45 }] },
   { id: "s07", scene: "nucleus", sfx: [{ file: "geiger", at: "radioactive", vol: 0.45 }, { file: "stamp", at: "stable", vol: 0.7 }] },
   { id: "s08", scene: "halflife" },
-  { id: "s09", scene: "chain", sfx: [{ file: "whoosh", at: 0, vol: 0.4 }] },
+  { id: "s09", scene: "chain", sfx: [{ file: "shimmer", at: "cosmic", vol: 0.4 }] },
   { id: "s10", scene: "chain", sfx: [{ file: "ding", at: "astatine", vol: 0.5 }] },
   { id: "s11", scene: "earth" },
   { id: "s12", scene: "vapor", sfx: [{ file: "sizzle", at: "vaporize", vol: 0.7 }] },
@@ -49,15 +54,15 @@ const SEGS: Seg[] = [
   { id: "s14", scene: "greek", sfx: [{ file: "pop", at: "astatos", vol: 0.6 }] },
   { id: "s15", scene: "history" },
   { id: "s16", scene: "history", sfx: [{ file: "stamp", at: "made", vol: 0.6 }] },
-  { id: "s17", scene: "cyclotron", sfx: [{ file: "hum", at: "cyclotron", vol: 0.5 }] },
+  { id: "s17", scene: "cyclotron", pre: 0.4, sfx: [{ file: "hum", at: "cyclotron", vol: 0.5 }, { file: "crackle", at: "cyclotron", vol: 0.35 }] },
   { id: "s18", scene: "cyclotron", sfx: [{ file: "hum", at: 0, vol: 0.4 }, { file: "zap", at: "slam", vol: 0.8 }] },
   { id: "s19", scene: "cyclotron", sfx: [{ file: "ding", at: "Astatine", vol: 0.6 }] },
   { id: "s20", scene: "cyclotron", sfx: [{ file: "tick", at: "clock", vol: 0.6 }] },
   { id: "s21", scene: "cells", sfx: [{ file: "whoosh", at: 0, vol: 0.4 }] },
   { id: "s22", scene: "access", sfx: [{ file: "stamp", at: "buy", vol: 0.6 }] },
   { id: "s23", scene: "access" },
-  { id: "s24", scene: "outro", sfx: [{ file: "whoosh", at: 0, vol: 0.4 }] },
-  { id: "s25", scene: "outro" },
+  { id: "s24", scene: "finale", pre: 0.8, post: 2.2, sfx: [{ file: "whoosh", at: 0, vol: 0.5 }, { file: "shimmer", at: "stars", vol: 0.5 }] },
+  { id: "s25", scene: "outro", post: 2.4 },
 ];
 
 const GAP = 0.45;
@@ -74,14 +79,16 @@ export type Cue = { t: number; file: string; vol?: number };
 const build = () => {
   const beats: Beat[] = [];
   const cues: Cue[] = [];
-  let t = 0.6;
+  let t = 0.3;
   for (const s of SEGS) {
-    const len = s.id ? LINES[s.id].durationMs / 1000 : s.len ?? 2;
-    const voiceAt = t;
-    if (s.id) cues.push({ t, file: LINES[s.id].file });
+    const pre = s.pre ?? 0;
+    const len = pre + (s.id ? LINES[s.id].durationMs / 1000 : s.len ?? 2) + (s.post ?? 0);
+    const voiceAt = t + pre;
+    if (s.id) cues.push({ t: voiceAt, file: LINES[s.id].file });
     for (const fx of s.sfx ?? []) {
-      const at = typeof fx.at === "string" ? wordIn(s.id!, t, fx.at) : t + (fx.at ?? 0);
+      const at = typeof fx.at === "string" ? wordIn(s.id!, voiceAt, fx.at) : voiceAt + (fx.at ?? 0);
       if (Number.isFinite(at)) cues.push({ t: at, file: SFX[fx.file].file, vol: fx.vol });
+      else throw new Error(`word "${fx.at}" not found in ${s.id}`);
     }
     beats.push({ id: s.id, scene: s.scene, start: t, end: t + len + GAP, voiceAt });
     t += len + GAP;

@@ -82,18 +82,24 @@ export async function tts({ text, voiceId, modelId = "eleven_multilingual_v2", v
 }
 
 /** Sound effect from a text prompt. Returns Buffer (mp3). */
-export async function soundEffect({ prompt, durationSeconds, promptInfluence = 0.5 }) {
+export async function soundEffect({ prompt, durationSeconds, promptInfluence = 0.5, loop = false }) {
   const res = await post("https://api.elevenlabs.io/v1/sound-generation?output_format=mp3_44100_128", {
     text: prompt,
     ...(durationSeconds ? { duration_seconds: durationSeconds } : {}),
     prompt_influence: promptInfluence,
+    ...(loop ? { loop: true } : {}),
   });
   return Buffer.from(await res.arrayBuffer());
 }
 
-/** Music track from a text prompt (ElevenLabs Music). Returns Buffer (mp3). */
-export async function musicTrack({ prompt, lengthMs }) {
-  const res = await post("https://api.elevenlabs.io/v1/music?output_format=mp3_44100_128", { prompt, music_length_ms: lengthMs });
+/**
+ * Music track (ElevenLabs Music). Returns Buffer (mp3).
+ * Pass either a text `prompt` (+ lengthMs) or a `plan` (composition plan: global styles + timed sections),
+ * which lets the score follow the video section by section.
+ */
+export async function musicTrack({ prompt, lengthMs, plan }) {
+  const body = plan ? { composition_plan: plan } : { prompt, music_length_ms: lengthMs };
+  const res = await post("https://api.elevenlabs.io/v1/music?output_format=mp3_44100_128", body);
   return Buffer.from(await res.arrayBuffer());
 }
 

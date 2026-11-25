@@ -165,7 +165,7 @@ const HalfLives: React.FC<{ c: Ctx; k: number }> = ({ c, k }) => {
 const DecayChain: React.FC<{ c: Ctx; k: number }> = ({ c, k }) => {
   const s09 = beatOf("s09");
   const nodes = [
-    { n: "U-238", at: W("s09", "uranium") },
+    { n: "U-238", at: W("s09", "forged") },
     { n: "Th-234", at: W("s09", "decaying") },
     { n: "…", at: W("s09", "step") },
     { n: "Rn-222", at: W("s09", "step", 1) },
@@ -185,6 +185,7 @@ const DecayChain: React.FC<{ c: Ctx; k: number }> = ({ c, k }) => {
   return (
     <div style={{ position: "absolute", inset: 0, opacity: k }}>
       <div style={{ position: "absolute", left: 0, right: 0, top: 120, textAlign: "center", ...big(30, GOLD), letterSpacing: 6, opacity: c.on(s09.start + 0.3) }}>URANIUM DECAY CHAIN</div>
+      <div style={{ position: "absolute", left: x0 - 20, top: 420, fontSize: 24, color: GOLD, fontFamily: FONT, fontWeight: 800, opacity: c.on(W("s09", "forged") + 0.3) }}>✨ forged in ancient star collisions</div>
       <div style={{ position: "absolute", left: x0, top: 280, display: "flex", gap }}>
         {nodes.map((nd, i) => (
           <div key={i} style={{ width: nodeW, opacity: c.on(nd.at), transform: `scale(${0.7 + 0.3 * c.sp(nd.at, 12)})` }}>
@@ -305,7 +306,7 @@ const Cells: React.FC<{ c: Ctx; k: number }> = ({ c, k }) => {
 type Word = { text: string; s: number; e: number };
 const CHUNKS: Word[][] = [];
 for (const b of TL.beats) {
-  if (!b.id) continue;
+  if (!b.id || b.id === "tv1") continue; // the title card already shows the trailer line
   let cur: Word[] = [];
   for (const cap of LINES[b.id].captions) {
     const w = { text: cap.text.trim(), s: b.voiceAt + cap.startMs / 1000, e: b.voiceAt + cap.endMs / 1000 };
@@ -344,6 +345,40 @@ export const Overlays: React.FC<{ t: number; fps: number }> = ({ t, fps }) => {
 
   return (
     <AbsoluteFill style={{ fontFamily: FONT, color: "white" }}>
+      {/* ---- cosmos ---- */}
+      {V("cosmos") > 0 ? (
+        <div style={{ position: "absolute", inset: 0, opacity: V("cosmos") }}>
+          <In c={c} at={W("x01", "colliding") + 0.6} style={{ position: "absolute", left: 90, top: 90 }}>
+            <div style={{ fontSize: 24, letterSpacing: 8, color: CYAN, fontWeight: 800 }}>NEUTRON STAR COLLISION</div>
+          </In>
+          <In c={c} at={W("x01", "heavy")} style={{ position: "absolute", left: 90, top: 130 }}>
+            <div style={{ fontSize: 34, fontWeight: 800 }}>
+              forging heavy elements: <span style={{ color: GOLD }}>gold · platinum · uranium</span>
+            </div>
+          </In>
+        </div>
+      ) : null}
+      {V("planets") > 0 ? (
+        <div style={{ position: "absolute", inset: 0, opacity: V("planets") }}>
+          {[
+            { w: "Saturn", x: 120, y: 120, a: "left" as const },
+            { w: "Jupiter", x: 1450, y: 160, a: "left" as const },
+            { w: "Mars", x: 200, y: 560, a: "left" as const },
+          ].map((p) => {
+            const at = W("x02", p.w);
+            const k = interpolate(t, [at + 0.1, at + 0.4, at + 1.6, at + 2.1], [0, 1, 1, 0], clamp);
+            return k > 0 ? (
+              <div key={p.w} style={{ position: "absolute", left: p.x, top: p.y, opacity: k, fontSize: 40, letterSpacing: 16, fontWeight: 900, color: "white", textShadow: "0 0 20px rgba(0,0,0,0.8)" }}>
+                {p.w.toUpperCase()}
+              </div>
+            ) : null;
+          })}
+          <In c={c} at={W("x02", "home")} style={{ position: "absolute", left: 0, right: 0, top: 120, textAlign: "center" }}>
+            <div style={{ fontSize: 40, letterSpacing: 18, fontWeight: 900, color: "#bfe3ff" }}>EARTH</div>
+          </In>
+        </div>
+      ) : null}
+
       {/* ---- Earth ---- */}
       {V("earth") > 0 && t < beatOf("s11").start ? (
         <div style={{ position: "absolute", inset: 0, opacity: V("earth") }}>
@@ -407,12 +442,16 @@ export const Overlays: React.FC<{ t: number; fps: number }> = ({ t, fps }) => {
         </AbsoluteFill>
       ) : null}
 
-      {/* ---- title ---- */}
+      {/* ---- title (synced to the trailer voice) ---- */}
       {V("title") > 0 ? (
-        <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: V("title"), background: "radial-gradient(ellipse at center, rgba(5,1,15,0.15), rgba(5,1,15,0.7))" }}>
-          <div style={{ fontSize: 30, letterSpacing: 14, color: CYAN, fontWeight: 800 }}>ELEMENT 85</div>
-          <div style={{ ...big(190, "white"), letterSpacing: 6, transform: `scale(${0.8 + 0.2 * sp(beatAt(t).start, 11)})`, textShadow: `0 0 60px ${AT}` }}>ASTATINE</div>
-          <div style={{ fontSize: 44, fontWeight: 800, color: "#ffd2f1" }}>the rarest element on Earth</div>
+        <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: V("title"), background: "radial-gradient(ellipse at center, rgba(5,1,15,0.05), rgba(5,1,15,0.6))" }}>
+          <div style={{ fontSize: 30, letterSpacing: 14, color: CYAN, fontWeight: 800, opacity: c.on(beatOf("tv1").start + 0.3, 0.8) }}>ELEMENT 85</div>
+          {t >= W("tv1", "Astatine") ? (
+            <div style={{ ...big(200, "white"), letterSpacing: 10, transform: `scale(${1.25 - 0.25 * sp(W("tv1", "Astatine"), 14)})`, opacity: c.on(W("tv1", "Astatine"), 0.12), textShadow: `0 0 40px ${AT}, 0 0 90px ${AT}` }}>ASTATINE</div>
+          ) : (
+            <div style={{ height: 240 }} />
+          )}
+          <div style={{ fontSize: 46, fontWeight: 800, color: "#ffd2f1", letterSpacing: 2, opacity: c.on(W("tv1", "rarest"), 0.5) }}>the rarest element on Earth</div>
         </AbsoluteFill>
       ) : null}
 
@@ -632,19 +671,32 @@ export const Overlays: React.FC<{ t: number; fps: number }> = ({ t, fps }) => {
         </div>
       ) : null}
 
+      {/* ---- finale ---- */}
+      {V("finale") > 0 ? (
+        <div style={{ position: "absolute", inset: 0, opacity: V("finale") }}>
+          <div style={{ position: "absolute", left: 110, top: 170, display: "flex", flexDirection: "column", gap: 22 }}>
+            <In c={c} at={W("s24", "Forged")}>
+              <div style={big(58, GOLD)}>✨ forged in the death of stars</div>
+            </In>
+            <In c={c} at={W("s24", "Born")}>
+              <div style={big(58, CYAN)}>🌍 born for a moment inside Earth</div>
+            </In>
+            <In c={c} at={W("s24", "Gone")}>
+              <div style={big(58, AT)}>⏳ gone within hours</div>
+            </In>
+            <In c={c} at={W("s24", "seen")}>
+              <div style={{ ...big(72, "white"), marginTop: 18, textShadow: `0 0 30px ${AT}` }}>never seen by human eyes</div>
+            </In>
+          </div>
+        </div>
+      ) : null}
+
       {/* ---- outro ---- */}
       {V("outro") > 0 ? (
         <div style={{ position: "absolute", inset: 0, opacity: V("outro") }}>
-          <div style={{ position: "absolute", left: 100, top: 200, display: "flex", flexDirection: "column", gap: 20 }}>
-            <In c={c} at={W("s24", "flash")}>
-              <div style={big(60, GOLD)}>⚡ made in a flash</div>
-            </In>
-            <In c={c} at={W("s24", "hours")}>
-              <div style={big(60, AT)}>⏳ gone in hours</div>
-            </In>
-            <In c={c} at={W("s24", "never")}>
-              <div style={big(60, CYAN)}>👁️ never seen</div>
-            </In>
+          <div style={{ position: "absolute", left: 110, top: 220 }}>
+            <div style={{ fontSize: 28, letterSpacing: 10, color: CYAN, fontWeight: 800 }}>ELEMENT 85</div>
+            <div style={{ ...big(110, "white"), textShadow: `0 0 40px ${AT}` }}>ASTATINE</div>
           </div>
           <In c={c} at={W("s25", "subscribe")} style={{ position: "absolute", right: 120, top: 260 }}>
             <div style={{ background: "#ff2d3d", borderRadius: 16, padding: "18px 40px", ...big(56), transform: `scale(${1 + 0.04 * Math.sin(t * 5)})` }}>SUBSCRIBE</div>
