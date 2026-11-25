@@ -1,0 +1,4687 @@
+{
+  "lines": {
+    "s01": {
+      "speaker": "nar",
+      "file": "reels/astatine/s01.mp3",
+      "durationMs": 8177,
+      "captions": [
+        {
+          "text": "There",
+          "startMs": 196,
+          "endMs": 240,
+          "timestampMs": 218,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 293,
+          "endMs": 400,
+          "timestampMs": 347,
+          "confidence": 1
+        },
+        {
+          "text": " an",
+          "startMs": 427,
+          "endMs": 480,
+          "timestampMs": 454,
+          "confidence": 1
+        },
+        {
+          "text": " element",
+          "startMs": 540,
+          "endMs": 960,
+          "timestampMs": 750,
+          "confidence": 1
+        },
+        {
+          "text": " so",
+          "startMs": 1067,
+          "endMs": 1280,
+          "timestampMs": 1174,
+          "confidence": 1
+        },
+        {
+          "text": " rare...",
+          "startMs": 1376,
+          "endMs": 2560,
+          "timestampMs": 1968,
+          "confidence": 1
+        },
+        {
+          "text": " that",
+          "startMs": 2592,
+          "endMs": 2720,
+          "timestampMs": 2656,
+          "confidence": 1
+        },
+        {
+          "text": " if",
+          "startMs": 2747,
+          "endMs": 2800,
+          "timestampMs": 2774,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 2860,
+          "endMs": 3040,
+          "timestampMs": 2950,
+          "confidence": 1
+        },
+        {
+          "text": " searched",
+          "startMs": 3076,
+          "endMs": 3360,
+          "timestampMs": 3218,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 3400,
+          "endMs": 3520,
+          "timestampMs": 3460,
+          "confidence": 1
+        },
+        {
+          "text": " entire",
+          "startMs": 3589,
+          "endMs": 4000,
+          "timestampMs": 3795,
+          "confidence": 1
+        },
+        {
+          "text": " crust",
+          "startMs": 4067,
+          "endMs": 4400,
+          "timestampMs": 4234,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 4427,
+          "endMs": 4480,
+          "timestampMs": 4454,
+          "confidence": 1
+        },
+        {
+          "text": " planet",
+          "startMs": 4537,
+          "endMs": 4880,
+          "timestampMs": 4709,
+          "confidence": 1
+        },
+        {
+          "text": " Earth",
+          "startMs": 4933,
+          "endMs": 5200,
+          "timestampMs": 5067,
+          "confidence": 1
+        },
+        {
+          "text": " right",
+          "startMs": 5240,
+          "endMs": 5440,
+          "timestampMs": 5340,
+          "confidence": 1
+        },
+        {
+          "text": " now,",
+          "startMs": 5520,
+          "endMs": 6160,
+          "timestampMs": 5840,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 6200,
+          "endMs": 6320,
+          "timestampMs": 6260,
+          "confidence": 1
+        },
+        {
+          "text": " would",
+          "startMs": 6347,
+          "endMs": 6480,
+          "timestampMs": 6414,
+          "confidence": 1
+        },
+        {
+          "text": " find",
+          "startMs": 6528,
+          "endMs": 6720,
+          "timestampMs": 6624,
+          "confidence": 1
+        },
+        {
+          "text": " less",
+          "startMs": 6784,
+          "endMs": 7040,
+          "timestampMs": 6912,
+          "confidence": 1
+        },
+        {
+          "text": " than",
+          "startMs": 7072,
+          "endMs": 7200,
+          "timestampMs": 7136,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 7260,
+          "endMs": 7440,
+          "timestampMs": 7350,
+          "confidence": 1
+        },
+        {
+          "text": " gram",
+          "startMs": 7520,
+          "endMs": 7840,
+          "timestampMs": 7680,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 7867,
+          "endMs": 7920,
+          "timestampMs": 7893,
+          "confidence": 1
+        },
+        {
+          "text": " it.",
+          "startMs": 8000,
+          "endMs": 8160,
+          "timestampMs": 8080,
+          "confidence": 1
+        }
+      ],
+      "hash": "aeb9a216cdd9"
+    },
+    "s02": {
+      "speaker": "nar",
+      "file": "reels/astatine/s02.mp3",
+      "durationMs": 5852,
+      "captions": [
+        {
+          "text": "One",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " gram.",
+          "startMs": 272,
+          "endMs": 1120,
+          "timestampMs": 696,
+          "confidence": 1
+        },
+        {
+          "text": " That's",
+          "startMs": 1200,
+          "endMs": 1600,
+          "timestampMs": 1400,
+          "confidence": 1
+        },
+        {
+          "text": " about",
+          "startMs": 1640,
+          "endMs": 1840,
+          "timestampMs": 1740,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 1860,
+          "endMs": 1920,
+          "timestampMs": 1890,
+          "confidence": 1
+        },
+        {
+          "text": " weight",
+          "startMs": 1954,
+          "endMs": 2160,
+          "timestampMs": 2057,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 2213,
+          "endMs": 2320,
+          "timestampMs": 2266,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2420,
+          "endMs": 2520,
+          "timestampMs": 2470,
+          "confidence": 1
+        },
+        {
+          "text": " paperclip.",
+          "startMs": 2553,
+          "endMs": 3040,
+          "timestampMs": 2797,
+          "confidence": 1
+        },
+        {
+          "text": " Spread",
+          "startMs": 3154,
+          "endMs": 3840,
+          "timestampMs": 3497,
+          "confidence": 1
+        },
+        {
+          "text": " across",
+          "startMs": 3886,
+          "endMs": 4160,
+          "timestampMs": 4023,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 4200,
+          "endMs": 4320,
+          "timestampMs": 4260,
+          "confidence": 1
+        },
+        {
+          "text": " whole",
+          "startMs": 4347,
+          "endMs": 4480,
+          "timestampMs": 4414,
+          "confidence": 1
+        },
+        {
+          "text": " planet.",
+          "startMs": 4560,
+          "endMs": 5840,
+          "timestampMs": 5200,
+          "confidence": 1
+        }
+      ],
+      "hash": "7e70af87b8db"
+    },
+    "s03": {
+      "speaker": "nar",
+      "file": "reels/astatine/s03.mp3",
+      "durationMs": 12488,
+      "captions": [
+        {
+          "text": "Its",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " name",
+          "startMs": 224,
+          "endMs": 480,
+          "timestampMs": 352,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 587,
+          "endMs": 800,
+          "timestampMs": 694,
+          "confidence": 1
+        },
+        {
+          "text": " astatine.",
+          "startMs": 880,
+          "endMs": 1680,
+          "timestampMs": 1280,
+          "confidence": 1
+        },
+        {
+          "text": " Element",
+          "startMs": 1820,
+          "endMs": 2800,
+          "timestampMs": 2310,
+          "confidence": 1
+        },
+        {
+          "text": " eighty-five.",
+          "startMs": 2846,
+          "endMs": 3760,
+          "timestampMs": 3303,
+          "confidence": 1
+        },
+        {
+          "text": " Today",
+          "startMs": 3947,
+          "endMs": 4880,
+          "timestampMs": 4414,
+          "confidence": 1
+        },
+        {
+          "text": " we're",
+          "startMs": 4933,
+          "endMs": 5120,
+          "timestampMs": 5027,
+          "confidence": 1
+        },
+        {
+          "text": " finding",
+          "startMs": 5160,
+          "endMs": 5440,
+          "timestampMs": 5300,
+          "confidence": 1
+        },
+        {
+          "text": " out",
+          "startMs": 5500,
+          "endMs": 5680,
+          "timestampMs": 5590,
+          "confidence": 1
+        },
+        {
+          "text": " why",
+          "startMs": 5740,
+          "endMs": 5920,
+          "timestampMs": 5830,
+          "confidence": 1
+        },
+        {
+          "text": " it's",
+          "startMs": 5973,
+          "endMs": 6160,
+          "timestampMs": 6067,
+          "confidence": 1
+        },
+        {
+          "text": " so",
+          "startMs": 6213,
+          "endMs": 6320,
+          "timestampMs": 6267,
+          "confidence": 1
+        },
+        {
+          "text": " rare...",
+          "startMs": 6400,
+          "endMs": 7280,
+          "timestampMs": 6840,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 7320,
+          "endMs": 7440,
+          "timestampMs": 7380,
+          "confidence": 1
+        },
+        {
+          "text": " whether",
+          "startMs": 7470,
+          "endMs": 7680,
+          "timestampMs": 7575,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 7720,
+          "endMs": 7840,
+          "timestampMs": 7780,
+          "confidence": 1
+        },
+        {
+          "text": " could",
+          "startMs": 7853,
+          "endMs": 7920,
+          "timestampMs": 7887,
+          "confidence": 1
+        },
+        {
+          "text": " ever",
+          "startMs": 7968,
+          "endMs": 8160,
+          "timestampMs": 8064,
+          "confidence": 1
+        },
+        {
+          "text": " get",
+          "startMs": 8220,
+          "endMs": 8400,
+          "timestampMs": 8310,
+          "confidence": 1
+        },
+        {
+          "text": " your",
+          "startMs": 8416,
+          "endMs": 8480,
+          "timestampMs": 8448,
+          "confidence": 1
+        },
+        {
+          "text": " hands",
+          "startMs": 8547,
+          "endMs": 8880,
+          "timestampMs": 8714,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 8933,
+          "endMs": 9040,
+          "timestampMs": 8987,
+          "confidence": 1
+        },
+        {
+          "text": " some.",
+          "startMs": 9104,
+          "endMs": 9520,
+          "timestampMs": 9312,
+          "confidence": 1
+        },
+        {
+          "text": " Spoiler:",
+          "startMs": 10755,
+          "endMs": 11120,
+          "timestampMs": 10938,
+          "confidence": 1
+        },
+        {
+          "text": " probably",
+          "startMs": 11209,
+          "endMs": 11920,
+          "timestampMs": 11564,
+          "confidence": 1
+        },
+        {
+          "text": " not.",
+          "startMs": 12020,
+          "endMs": 12480,
+          "timestampMs": 12250,
+          "confidence": 1
+        }
+      ],
+      "hash": "9c309c0ef150"
+    },
+    "s04": {
+      "speaker": "nar",
+      "file": "reels/astatine/s04.mp3",
+      "durationMs": 9222,
+      "captions": [
+        {
+          "text": "Astatine",
+          "startMs": 0,
+          "endMs": 560,
+          "timestampMs": 280,
+          "confidence": 1
+        },
+        {
+          "text": " sits",
+          "startMs": 608,
+          "endMs": 800,
+          "timestampMs": 704,
+          "confidence": 1
+        },
+        {
+          "text": " right",
+          "startMs": 853,
+          "endMs": 1120,
+          "timestampMs": 987,
+          "confidence": 1
+        },
+        {
+          "text": " here",
+          "startMs": 1184,
+          "endMs": 1440,
+          "timestampMs": 1312,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 1467,
+          "endMs": 1520,
+          "timestampMs": 1494,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 1540,
+          "endMs": 1600,
+          "timestampMs": 1570,
+          "confidence": 1
+        },
+        {
+          "text": " periodic",
+          "startMs": 1662,
+          "endMs": 2160,
+          "timestampMs": 1911,
+          "confidence": 1
+        },
+        {
+          "text": " table,",
+          "startMs": 2227,
+          "endMs": 2880,
+          "timestampMs": 2553,
+          "confidence": 1
+        },
+        {
+          "text": " at",
+          "startMs": 2933,
+          "endMs": 3040,
+          "timestampMs": 2987,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 3060,
+          "endMs": 3120,
+          "timestampMs": 3090,
+          "confidence": 1
+        },
+        {
+          "text": " bottom",
+          "startMs": 3166,
+          "endMs": 3440,
+          "timestampMs": 3303,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 3467,
+          "endMs": 3520,
+          "timestampMs": 3494,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 3540,
+          "endMs": 3600,
+          "timestampMs": 3570,
+          "confidence": 1
+        },
+        {
+          "text": " halogens.",
+          "startMs": 3660,
+          "endMs": 4400,
+          "timestampMs": 4030,
+          "confidence": 1
+        },
+        {
+          "text": " Same",
+          "startMs": 4576,
+          "endMs": 5280,
+          "timestampMs": 4928,
+          "confidence": 1
+        },
+        {
+          "text": " family",
+          "startMs": 5349,
+          "endMs": 5760,
+          "timestampMs": 5555,
+          "confidence": 1
+        },
+        {
+          "text": " as",
+          "startMs": 5813,
+          "endMs": 5920,
+          "timestampMs": 5867,
+          "confidence": 1
+        },
+        {
+          "text": " fluorine,",
+          "startMs": 5987,
+          "endMs": 6800,
+          "timestampMs": 6393,
+          "confidence": 1
+        },
+        {
+          "text": " chlorine,",
+          "startMs": 6862,
+          "endMs": 7600,
+          "timestampMs": 7231,
+          "confidence": 1
+        },
+        {
+          "text": " bromine",
+          "startMs": 7680,
+          "endMs": 8160,
+          "timestampMs": 7920,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 8220,
+          "endMs": 8400,
+          "timestampMs": 8310,
+          "confidence": 1
+        },
+        {
+          "text": " iodine.",
+          "startMs": 8500,
+          "endMs": 9200,
+          "timestampMs": 8850,
+          "confidence": 1
+        }
+      ],
+      "hash": "54fd206c2af4"
+    },
+    "s05": {
+      "speaker": "nar",
+      "file": "reels/astatine/s05.mp3",
+      "durationMs": 10424,
+      "captions": [
+        {
+          "text": "Its",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " cousins",
+          "startMs": 210,
+          "endMs": 560,
+          "timestampMs": 385,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 580,
+          "endMs": 640,
+          "timestampMs": 610,
+          "confidence": 1
+        },
+        {
+          "text": " everywhere.",
+          "startMs": 691,
+          "endMs": 1760,
+          "timestampMs": 1226,
+          "confidence": 1
+        },
+        {
+          "text": " Chlorine",
+          "startMs": 1853,
+          "endMs": 2560,
+          "timestampMs": 2207,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 2613,
+          "endMs": 2720,
+          "timestampMs": 2667,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 2747,
+          "endMs": 2800,
+          "timestampMs": 2774,
+          "confidence": 1
+        },
+        {
+          "text": " your",
+          "startMs": 2832,
+          "endMs": 2960,
+          "timestampMs": 2896,
+          "confidence": 1
+        },
+        {
+          "text": " table",
+          "startMs": 3027,
+          "endMs": 3360,
+          "timestampMs": 3194,
+          "confidence": 1
+        },
+        {
+          "text": " salt.",
+          "startMs": 3440,
+          "endMs": 3840,
+          "timestampMs": 3640,
+          "confidence": 1
+        },
+        {
+          "text": " Iodine",
+          "startMs": 4240,
+          "endMs": 5040,
+          "timestampMs": 4640,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 5067,
+          "endMs": 5120,
+          "timestampMs": 5094,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 5147,
+          "endMs": 5200,
+          "timestampMs": 5174,
+          "confidence": 1
+        },
+        {
+          "text": " your",
+          "startMs": 5232,
+          "endMs": 5360,
+          "timestampMs": 5296,
+          "confidence": 1
+        },
+        {
+          "text": " multivitamin.",
+          "startMs": 5424,
+          "endMs": 6760,
+          "timestampMs": 6092,
+          "confidence": 1
+        },
+        {
+          "text": " So",
+          "startMs": 6933,
+          "endMs": 7280,
+          "timestampMs": 7107,
+          "confidence": 1
+        },
+        {
+          "text": " why",
+          "startMs": 7340,
+          "endMs": 7520,
+          "timestampMs": 7430,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 7573,
+          "endMs": 7680,
+          "timestampMs": 7627,
+          "confidence": 1
+        },
+        {
+          "text": " astatine",
+          "startMs": 7760,
+          "endMs": 8400,
+          "timestampMs": 8080,
+          "confidence": 1
+        },
+        {
+          "text": " basically...",
+          "startMs": 8464,
+          "endMs": 9760,
+          "timestampMs": 9112,
+          "confidence": 1
+        },
+        {
+          "text": " missing?",
+          "startMs": 9820,
+          "endMs": 10400,
+          "timestampMs": 10110,
+          "confidence": 1
+        }
+      ],
+      "hash": "e796d22ccfec"
+    },
+    "s06": {
+      "speaker": "nar",
+      "file": "reels/astatine/s06.mp3",
+      "durationMs": 12644,
+      "captions": [
+        {
+          "text": "It",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " comes",
+          "startMs": 133,
+          "endMs": 400,
+          "timestampMs": 267,
+          "confidence": 1
+        },
+        {
+          "text": " down",
+          "startMs": 448,
+          "endMs": 640,
+          "timestampMs": 544,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 667,
+          "endMs": 720,
+          "timestampMs": 694,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 740,
+          "endMs": 800,
+          "timestampMs": 770,
+          "confidence": 1
+        },
+        {
+          "text": " nucleus.",
+          "startMs": 880,
+          "endMs": 1520,
+          "timestampMs": 1200,
+          "confidence": 1
+        },
+        {
+          "text": " An",
+          "startMs": 1813,
+          "endMs": 2400,
+          "timestampMs": 2107,
+          "confidence": 1
+        },
+        {
+          "text": " astatine",
+          "startMs": 2480,
+          "endMs": 3040,
+          "timestampMs": 2760,
+          "confidence": 1
+        },
+        {
+          "text": " atom",
+          "startMs": 3120,
+          "endMs": 3440,
+          "timestampMs": 3280,
+          "confidence": 1
+        },
+        {
+          "text": " crams",
+          "startMs": 3520,
+          "endMs": 4000,
+          "timestampMs": 3760,
+          "confidence": 1
+        },
+        {
+          "text": " eighty-five",
+          "startMs": 4046,
+          "endMs": 4640,
+          "timestampMs": 4343,
+          "confidence": 1
+        },
+        {
+          "text": " protons",
+          "startMs": 4720,
+          "endMs": 5440,
+          "timestampMs": 5080,
+          "confidence": 1
+        },
+        {
+          "text": " into",
+          "startMs": 5536,
+          "endMs": 5920,
+          "timestampMs": 5728,
+          "confidence": 1
+        },
+        {
+          "text": " an",
+          "startMs": 5947,
+          "endMs": 6000,
+          "timestampMs": 5974,
+          "confidence": 1
+        },
+        {
+          "text": " incredibly",
+          "startMs": 6051,
+          "endMs": 6560,
+          "timestampMs": 6306,
+          "confidence": 1
+        },
+        {
+          "text": " tiny",
+          "startMs": 6656,
+          "endMs": 7040,
+          "timestampMs": 6848,
+          "confidence": 1
+        },
+        {
+          "text": " space.",
+          "startMs": 7133,
+          "endMs": 8160,
+          "timestampMs": 7647,
+          "confidence": 1
+        },
+        {
+          "text": " Protons",
+          "startMs": 8300,
+          "endMs": 9040,
+          "timestampMs": 8670,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 9080,
+          "endMs": 9200,
+          "timestampMs": 9140,
+          "confidence": 1
+        },
+        {
+          "text": " all",
+          "startMs": 9240,
+          "endMs": 9360,
+          "timestampMs": 9300,
+          "confidence": 1
+        },
+        {
+          "text": " positively",
+          "startMs": 9418,
+          "endMs": 10000,
+          "timestampMs": 9709,
+          "confidence": 1
+        },
+        {
+          "text": " charged,",
+          "startMs": 10070,
+          "endMs": 10960,
+          "timestampMs": 10515,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 11000,
+          "endMs": 11120,
+          "timestampMs": 11060,
+          "confidence": 1
+        },
+        {
+          "text": " they",
+          "startMs": 11152,
+          "endMs": 11280,
+          "timestampMs": 11216,
+          "confidence": 1
+        },
+        {
+          "text": " really",
+          "startMs": 11314,
+          "endMs": 11520,
+          "timestampMs": 11417,
+          "confidence": 1
+        },
+        {
+          "text": " don't",
+          "startMs": 11560,
+          "endMs": 11760,
+          "timestampMs": 11660,
+          "confidence": 1
+        },
+        {
+          "text": " like",
+          "startMs": 11808,
+          "endMs": 12000,
+          "timestampMs": 11904,
+          "confidence": 1
+        },
+        {
+          "text": " each",
+          "startMs": 12048,
+          "endMs": 12240,
+          "timestampMs": 12144,
+          "confidence": 1
+        },
+        {
+          "text": " other.",
+          "startMs": 12280,
+          "endMs": 12640,
+          "timestampMs": 12460,
+          "confidence": 1
+        }
+      ],
+      "hash": "75e46927b97d"
+    },
+    "s07": {
+      "speaker": "nar",
+      "file": "reels/astatine/s07.mp3",
+      "durationMs": 11939,
+      "captions": [
+        {
+          "text": "Past",
+          "startMs": 0,
+          "endMs": 240,
+          "timestampMs": 120,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 280,
+          "endMs": 320,
+          "timestampMs": 300,
+          "confidence": 1
+        },
+        {
+          "text": " certain",
+          "startMs": 360,
+          "endMs": 640,
+          "timestampMs": 500,
+          "confidence": 1
+        },
+        {
+          "text": " size,",
+          "startMs": 752,
+          "endMs": 1440,
+          "timestampMs": 1096,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 1460,
+          "endMs": 1520,
+          "timestampMs": 1490,
+          "confidence": 1
+        },
+        {
+          "text": " strong",
+          "startMs": 1577,
+          "endMs": 1920,
+          "timestampMs": 1749,
+          "confidence": 1
+        },
+        {
+          "text": " force",
+          "startMs": 1987,
+          "endMs": 2320,
+          "timestampMs": 2154,
+          "confidence": 1
+        },
+        {
+          "text": " holding",
+          "startMs": 2370,
+          "endMs": 2720,
+          "timestampMs": 2545,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 2740,
+          "endMs": 2800,
+          "timestampMs": 2770,
+          "confidence": 1
+        },
+        {
+          "text": " nucleus",
+          "startMs": 2860,
+          "endMs": 3280,
+          "timestampMs": 3070,
+          "confidence": 1
+        },
+        {
+          "text": " together",
+          "startMs": 3342,
+          "endMs": 3840,
+          "timestampMs": 3591,
+          "confidence": 1
+        },
+        {
+          "text": " just",
+          "startMs": 3920,
+          "endMs": 4240,
+          "timestampMs": 4080,
+          "confidence": 1
+        },
+        {
+          "text": " can't",
+          "startMs": 4280,
+          "endMs": 4480,
+          "timestampMs": 4380,
+          "confidence": 1
+        },
+        {
+          "text": " keep",
+          "startMs": 4528,
+          "endMs": 4720,
+          "timestampMs": 4624,
+          "confidence": 1
+        },
+        {
+          "text": " up.",
+          "startMs": 4827,
+          "endMs": 5041,
+          "timestampMs": 4934,
+          "confidence": 1
+        },
+        {
+          "text": " Every",
+          "startMs": 5227,
+          "endMs": 6160,
+          "timestampMs": 5694,
+          "confidence": 1
+        },
+        {
+          "text": " single",
+          "startMs": 6206,
+          "endMs": 6480,
+          "timestampMs": 6343,
+          "confidence": 1
+        },
+        {
+          "text": " isotope",
+          "startMs": 6587,
+          "endMs": 7120,
+          "timestampMs": 6854,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 7147,
+          "endMs": 7200,
+          "timestampMs": 7174,
+          "confidence": 1
+        },
+        {
+          "text": " astatine",
+          "startMs": 7280,
+          "endMs": 7840,
+          "timestampMs": 7560,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 7920,
+          "endMs": 8080,
+          "timestampMs": 8000,
+          "confidence": 1
+        },
+        {
+          "text": " radioactive.",
+          "startMs": 8147,
+          "endMs": 9040,
+          "timestampMs": 8593,
+          "confidence": 1
+        },
+        {
+          "text": " There",
+          "startMs": 9147,
+          "endMs": 9680,
+          "timestampMs": 9414,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 9707,
+          "endMs": 9760,
+          "timestampMs": 9734,
+          "confidence": 1
+        },
+        {
+          "text": " no",
+          "startMs": 9813,
+          "endMs": 9920,
+          "timestampMs": 9867,
+          "confidence": 1
+        },
+        {
+          "text": " stable",
+          "startMs": 9989,
+          "endMs": 10400,
+          "timestampMs": 10195,
+          "confidence": 1
+        },
+        {
+          "text": " version.",
+          "startMs": 10460,
+          "endMs": 10960,
+          "timestampMs": 10710,
+          "confidence": 1
+        },
+        {
+          "text": " At",
+          "startMs": 11120,
+          "endMs": 11440,
+          "timestampMs": 11280,
+          "confidence": 1
+        },
+        {
+          "text": " all.",
+          "startMs": 11540,
+          "endMs": 11920,
+          "timestampMs": 11730,
+          "confidence": 1
+        }
+      ],
+      "hash": "02648c9cfdde"
+    },
+    "s08": {
+      "speaker": "nar",
+      "file": "reels/astatine/s08.mp3",
+      "durationMs": 13846,
+      "captions": [
+        {
+          "text": "And",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 107,
+          "endMs": 160,
+          "timestampMs": 134,
+          "confidence": 1
+        },
+        {
+          "text": " doesn't",
+          "startMs": 200,
+          "endMs": 480,
+          "timestampMs": 340,
+          "confidence": 1
+        },
+        {
+          "text": " hang",
+          "startMs": 512,
+          "endMs": 640,
+          "timestampMs": 576,
+          "confidence": 1
+        },
+        {
+          "text": " around.",
+          "startMs": 720,
+          "endMs": 1640,
+          "timestampMs": 1180,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 1750,
+          "endMs": 2080,
+          "timestampMs": 1915,
+          "confidence": 1
+        },
+        {
+          "text": " longest-lived",
+          "startMs": 2140,
+          "endMs": 2800,
+          "timestampMs": 2470,
+          "confidence": 1
+        },
+        {
+          "text": " kind,",
+          "startMs": 2880,
+          "endMs": 3600,
+          "timestampMs": 3240,
+          "confidence": 1
+        },
+        {
+          "text": " astatine",
+          "startMs": 3680,
+          "endMs": 4240,
+          "timestampMs": 3960,
+          "confidence": 1
+        },
+        {
+          "text": " two-ten,",
+          "startMs": 4320,
+          "endMs": 5200,
+          "timestampMs": 4760,
+          "confidence": 1
+        },
+        {
+          "text": " has",
+          "startMs": 5240,
+          "endMs": 5360,
+          "timestampMs": 5300,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 5400,
+          "endMs": 5440,
+          "timestampMs": 5420,
+          "confidence": 1
+        },
+        {
+          "text": " half-life",
+          "startMs": 5504,
+          "endMs": 6080,
+          "timestampMs": 5792,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 6107,
+          "endMs": 6160,
+          "timestampMs": 6134,
+          "confidence": 1
+        },
+        {
+          "text": " about",
+          "startMs": 6213,
+          "endMs": 6480,
+          "timestampMs": 6347,
+          "confidence": 1
+        },
+        {
+          "text": " eight",
+          "startMs": 6533,
+          "endMs": 6800,
+          "timestampMs": 6667,
+          "confidence": 1
+        },
+        {
+          "text": " hours.",
+          "startMs": 6880,
+          "endMs": 7440,
+          "timestampMs": 7160,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 7620,
+          "endMs": 8160,
+          "timestampMs": 7890,
+          "confidence": 1
+        },
+        {
+          "text": " kinds",
+          "startMs": 8227,
+          "endMs": 8560,
+          "timestampMs": 8394,
+          "confidence": 1
+        },
+        {
+          "text": " found",
+          "startMs": 8613,
+          "endMs": 8880,
+          "timestampMs": 8747,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 8907,
+          "endMs": 8960,
+          "timestampMs": 8934,
+          "confidence": 1
+        },
+        {
+          "text": " nature",
+          "startMs": 9029,
+          "endMs": 9440,
+          "timestampMs": 9235,
+          "confidence": 1
+        },
+        {
+          "text": " last",
+          "startMs": 9536,
+          "endMs": 9920,
+          "timestampMs": 9728,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 9960,
+          "endMs": 10000,
+          "timestampMs": 9980,
+          "confidence": 1
+        },
+        {
+          "text": " minute",
+          "startMs": 10046,
+          "endMs": 10320,
+          "timestampMs": 10183,
+          "confidence": 1
+        },
+        {
+          "text": " at",
+          "startMs": 10347,
+          "endMs": 10400,
+          "timestampMs": 10374,
+          "confidence": 1
+        },
+        {
+          "text": " most.",
+          "startMs": 10496,
+          "endMs": 11040,
+          "timestampMs": 10768,
+          "confidence": 1
+        },
+        {
+          "text": " Some,",
+          "startMs": 11216,
+          "endMs": 12000,
+          "timestampMs": 11608,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 12120,
+          "endMs": 12240,
+          "timestampMs": 12180,
+          "confidence": 1
+        },
+        {
+          "text": " tiny",
+          "startMs": 12320,
+          "endMs": 12640,
+          "timestampMs": 12480,
+          "confidence": 1
+        },
+        {
+          "text": " fraction",
+          "startMs": 12684,
+          "endMs": 13040,
+          "timestampMs": 12862,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 13093,
+          "endMs": 13200,
+          "timestampMs": 13147,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 13340,
+          "endMs": 13480,
+          "timestampMs": 13410,
+          "confidence": 1
+        },
+        {
+          "text": " second.",
+          "startMs": 13520,
+          "endMs": 13840,
+          "timestampMs": 13680,
+          "confidence": 1
+        }
+      ],
+      "hash": "3d18df4f9de0"
+    },
+    "s09": {
+      "speaker": "nar",
+      "file": "reels/astatine/s09.mp3",
+      "durationMs": 9614,
+      "captions": [
+        {
+          "text": "So",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " where",
+          "startMs": 120,
+          "endMs": 320,
+          "timestampMs": 220,
+          "confidence": 1
+        },
+        {
+          "text": " does",
+          "startMs": 352,
+          "endMs": 480,
+          "timestampMs": 416,
+          "confidence": 1
+        },
+        {
+          "text": " natural",
+          "startMs": 530,
+          "endMs": 880,
+          "timestampMs": 705,
+          "confidence": 1
+        },
+        {
+          "text": " astatine",
+          "startMs": 1000,
+          "endMs": 1600,
+          "timestampMs": 1300,
+          "confidence": 1
+        },
+        {
+          "text": " even",
+          "startMs": 1648,
+          "endMs": 1840,
+          "timestampMs": 1744,
+          "confidence": 1
+        },
+        {
+          "text": " come",
+          "startMs": 1888,
+          "endMs": 2080,
+          "timestampMs": 1984,
+          "confidence": 1
+        },
+        {
+          "text": " from?",
+          "startMs": 2160,
+          "endMs": 2560,
+          "timestampMs": 2360,
+          "confidence": 1
+        },
+        {
+          "text": " Deep",
+          "startMs": 2800,
+          "endMs": 3760,
+          "timestampMs": 3280,
+          "confidence": 1
+        },
+        {
+          "text": " underground,",
+          "startMs": 3820,
+          "endMs": 4640,
+          "timestampMs": 4230,
+          "confidence": 1
+        },
+        {
+          "text": " uranium",
+          "startMs": 4710,
+          "endMs": 5200,
+          "timestampMs": 4955,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 5240,
+          "endMs": 5360,
+          "timestampMs": 5300,
+          "confidence": 1
+        },
+        {
+          "text": " thorium",
+          "startMs": 5424,
+          "endMs": 5920,
+          "timestampMs": 5672,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 6020,
+          "endMs": 6320,
+          "timestampMs": 6170,
+          "confidence": 1
+        },
+        {
+          "text": " slowly",
+          "startMs": 6377,
+          "endMs": 6720,
+          "timestampMs": 6549,
+          "confidence": 1
+        },
+        {
+          "text": " decaying,",
+          "startMs": 6760,
+          "endMs": 7600,
+          "timestampMs": 7180,
+          "confidence": 1
+        },
+        {
+          "text": " step",
+          "startMs": 7664,
+          "endMs": 7920,
+          "timestampMs": 7792,
+          "confidence": 1
+        },
+        {
+          "text": " by",
+          "startMs": 7973,
+          "endMs": 8080,
+          "timestampMs": 8027,
+          "confidence": 1
+        },
+        {
+          "text": " step,",
+          "startMs": 8160,
+          "endMs": 8800,
+          "timestampMs": 8480,
+          "confidence": 1
+        },
+        {
+          "text": " into",
+          "startMs": 8864,
+          "endMs": 9120,
+          "timestampMs": 8992,
+          "confidence": 1
+        },
+        {
+          "text": " lead.",
+          "startMs": 9200,
+          "endMs": 9600,
+          "timestampMs": 9400,
+          "confidence": 1
+        }
+      ],
+      "hash": "689c3779edeb"
+    },
+    "s10": {
+      "speaker": "nar",
+      "file": "reels/astatine/s10.mp3",
+      "durationMs": 11051,
+      "captions": [
+        {
+          "text": "Very",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " occasionally,",
+          "startMs": 209,
+          "endMs": 1200,
+          "timestampMs": 705,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 1240,
+          "endMs": 1360,
+          "timestampMs": 1300,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 1387,
+          "endMs": 1440,
+          "timestampMs": 1414,
+          "confidence": 1
+        },
+        {
+          "text": " those",
+          "startMs": 1480,
+          "endMs": 1680,
+          "timestampMs": 1580,
+          "confidence": 1
+        },
+        {
+          "text": " decays",
+          "startMs": 1740,
+          "endMs": 2240,
+          "timestampMs": 1990,
+          "confidence": 1
+        },
+        {
+          "text": " takes",
+          "startMs": 2280,
+          "endMs": 2480,
+          "timestampMs": 2380,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2520,
+          "endMs": 2560,
+          "timestampMs": 2540,
+          "confidence": 1
+        },
+        {
+          "text": " rare",
+          "startMs": 2624,
+          "endMs": 2880,
+          "timestampMs": 2752,
+          "confidence": 1
+        },
+        {
+          "text": " side",
+          "startMs": 2960,
+          "endMs": 3280,
+          "timestampMs": 3120,
+          "confidence": 1
+        },
+        {
+          "text": " path...",
+          "startMs": 3376,
+          "endMs": 4320,
+          "timestampMs": 3848,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 4340,
+          "endMs": 4400,
+          "timestampMs": 4370,
+          "confidence": 1
+        },
+        {
+          "text": " for",
+          "startMs": 4440,
+          "endMs": 4560,
+          "timestampMs": 4500,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 4600,
+          "endMs": 4640,
+          "timestampMs": 4620,
+          "confidence": 1
+        },
+        {
+          "text": " brief",
+          "startMs": 4693,
+          "endMs": 4960,
+          "timestampMs": 4826,
+          "confidence": 1
+        },
+        {
+          "text": " moment,",
+          "startMs": 5017,
+          "endMs": 5680,
+          "timestampMs": 5349,
+          "confidence": 1
+        },
+        {
+          "text": " an",
+          "startMs": 5733,
+          "endMs": 5840,
+          "timestampMs": 5787,
+          "confidence": 1
+        },
+        {
+          "text": " atom",
+          "startMs": 5904,
+          "endMs": 6160,
+          "timestampMs": 6032,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 6213,
+          "endMs": 6320,
+          "timestampMs": 6267,
+          "confidence": 1
+        },
+        {
+          "text": " astatine",
+          "startMs": 6400,
+          "endMs": 6960,
+          "timestampMs": 6680,
+          "confidence": 1
+        },
+        {
+          "text": " exists.",
+          "startMs": 7051,
+          "endMs": 7760,
+          "timestampMs": 7406,
+          "confidence": 1
+        },
+        {
+          "text": " Then",
+          "startMs": 7936,
+          "endMs": 8640,
+          "timestampMs": 8288,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 8667,
+          "endMs": 8720,
+          "timestampMs": 8694,
+          "confidence": 1
+        },
+        {
+          "text": " decays",
+          "startMs": 8780,
+          "endMs": 9200,
+          "timestampMs": 8990,
+          "confidence": 1
+        },
+        {
+          "text": " again.",
+          "startMs": 9267,
+          "endMs": 9960,
+          "timestampMs": 9614,
+          "confidence": 1
+        },
+        {
+          "text": " And",
+          "startMs": 10050,
+          "endMs": 10320,
+          "timestampMs": 10185,
+          "confidence": 1
+        },
+        {
+          "text": " it's",
+          "startMs": 10373,
+          "endMs": 10560,
+          "timestampMs": 10467,
+          "confidence": 1
+        },
+        {
+          "text": " gone.",
+          "startMs": 10640,
+          "endMs": 11040,
+          "timestampMs": 10840,
+          "confidence": 1
+        }
+      ],
+      "hash": "c182fabe97f6"
+    },
+    "s11": {
+      "speaker": "nar",
+      "file": "reels/astatine/s11.mp3",
+      "durationMs": 11286,
+      "captions": [
+        {
+          "text": "That's",
+          "startMs": 0,
+          "endMs": 240,
+          "timestampMs": 120,
+          "confidence": 1
+        },
+        {
+          "text": " why",
+          "startMs": 280,
+          "endMs": 400,
+          "timestampMs": 340,
+          "confidence": 1
+        },
+        {
+          "text": " there's",
+          "startMs": 427,
+          "endMs": 640,
+          "timestampMs": 534,
+          "confidence": 1
+        },
+        {
+          "text": " only",
+          "startMs": 688,
+          "endMs": 880,
+          "timestampMs": 784,
+          "confidence": 1
+        },
+        {
+          "text": " around",
+          "startMs": 926,
+          "endMs": 1200,
+          "timestampMs": 1063,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 1240,
+          "endMs": 1280,
+          "timestampMs": 1260,
+          "confidence": 1
+        },
+        {
+          "text": " gram",
+          "startMs": 1344,
+          "endMs": 1600,
+          "timestampMs": 1472,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 1653,
+          "endMs": 1760,
+          "timestampMs": 1707,
+          "confidence": 1
+        },
+        {
+          "text": " Earth",
+          "startMs": 1827,
+          "endMs": 2160,
+          "timestampMs": 1994,
+          "confidence": 1
+        },
+        {
+          "text": " at",
+          "startMs": 2187,
+          "endMs": 2240,
+          "timestampMs": 2214,
+          "confidence": 1
+        },
+        {
+          "text": " any",
+          "startMs": 2300,
+          "endMs": 2480,
+          "timestampMs": 2390,
+          "confidence": 1
+        },
+        {
+          "text": " moment.",
+          "startMs": 2549,
+          "endMs": 3040,
+          "timestampMs": 2795,
+          "confidence": 1
+        },
+        {
+          "text": " Some",
+          "startMs": 3248,
+          "endMs": 4080,
+          "timestampMs": 3664,
+          "confidence": 1
+        },
+        {
+          "text": " estimates",
+          "startMs": 4136,
+          "endMs": 4640,
+          "timestampMs": 4388,
+          "confidence": 1
+        },
+        {
+          "text": " say",
+          "startMs": 4680,
+          "endMs": 4800,
+          "timestampMs": 4740,
+          "confidence": 1
+        },
+        {
+          "text": " up",
+          "startMs": 4853,
+          "endMs": 4960,
+          "timestampMs": 4906,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 5013,
+          "endMs": 5120,
+          "timestampMs": 5067,
+          "confidence": 1
+        },
+        {
+          "text": " an",
+          "startMs": 5173,
+          "endMs": 5280,
+          "timestampMs": 5227,
+          "confidence": 1
+        },
+        {
+          "text": " ounce.",
+          "startMs": 5347,
+          "endMs": 5760,
+          "timestampMs": 5554,
+          "confidence": 1
+        },
+        {
+          "text": " Either",
+          "startMs": 5920,
+          "endMs": 6880,
+          "timestampMs": 6400,
+          "confidence": 1
+        },
+        {
+          "text": " way,",
+          "startMs": 6960,
+          "endMs": 7520,
+          "timestampMs": 7240,
+          "confidence": 1
+        },
+        {
+          "text": " it's",
+          "startMs": 7547,
+          "endMs": 7760,
+          "timestampMs": 7653,
+          "confidence": 1
+        },
+        {
+          "text": " being",
+          "startMs": 7800,
+          "endMs": 8000,
+          "timestampMs": 7900,
+          "confidence": 1
+        },
+        {
+          "text": " made",
+          "startMs": 8080,
+          "endMs": 8400,
+          "timestampMs": 8240,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 8420,
+          "endMs": 8480,
+          "timestampMs": 8450,
+          "confidence": 1
+        },
+        {
+          "text": " destroyed",
+          "startMs": 8552,
+          "endMs": 9200,
+          "timestampMs": 8876,
+          "confidence": 1
+        },
+        {
+          "text": " constantly,",
+          "startMs": 9258,
+          "endMs": 10160,
+          "timestampMs": 9709,
+          "confidence": 1
+        },
+        {
+          "text": " at",
+          "startMs": 10213,
+          "endMs": 10320,
+          "timestampMs": 10267,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 10340,
+          "endMs": 10400,
+          "timestampMs": 10370,
+          "confidence": 1
+        },
+        {
+          "text": " same",
+          "startMs": 10464,
+          "endMs": 10720,
+          "timestampMs": 10592,
+          "confidence": 1
+        },
+        {
+          "text": " time.",
+          "startMs": 10800,
+          "endMs": 11280,
+          "timestampMs": 11040,
+          "confidence": 1
+        }
+      ],
+      "hash": "397111f52c86"
+    },
+    "s12": {
+      "speaker": "nar",
+      "file": "reels/astatine/s12.mp3",
+      "durationMs": 11782,
+      "captions": [
+        {
+          "text": "And",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " here's",
+          "startMs": 112,
+          "endMs": 320,
+          "timestampMs": 216,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 340,
+          "endMs": 400,
+          "timestampMs": 370,
+          "confidence": 1
+        },
+        {
+          "text": " wild",
+          "startMs": 480,
+          "endMs": 800,
+          "timestampMs": 640,
+          "confidence": 1
+        },
+        {
+          "text": " part.",
+          "startMs": 864,
+          "endMs": 1200,
+          "timestampMs": 1032,
+          "confidence": 1
+        },
+        {
+          "text": " No",
+          "startMs": 1440,
+          "endMs": 1920,
+          "timestampMs": 1680,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 1980,
+          "endMs": 2160,
+          "timestampMs": 2070,
+          "confidence": 1
+        },
+        {
+          "text": " has",
+          "startMs": 2180,
+          "endMs": 2240,
+          "timestampMs": 2210,
+          "confidence": 1
+        },
+        {
+          "text": " ever",
+          "startMs": 2304,
+          "endMs": 2560,
+          "timestampMs": 2432,
+          "confidence": 1
+        },
+        {
+          "text": " seen",
+          "startMs": 2624,
+          "endMs": 2880,
+          "timestampMs": 2752,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2920,
+          "endMs": 2960,
+          "timestampMs": 2940,
+          "confidence": 1
+        },
+        {
+          "text": " piece",
+          "startMs": 3000,
+          "endMs": 3200,
+          "timestampMs": 3100,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 3227,
+          "endMs": 3280,
+          "timestampMs": 3254,
+          "confidence": 1
+        },
+        {
+          "text": " astatine.",
+          "startMs": 3360,
+          "endMs": 4160,
+          "timestampMs": 3760,
+          "confidence": 1
+        },
+        {
+          "text": " If",
+          "startMs": 4480,
+          "endMs": 5120,
+          "timestampMs": 4800,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 5160,
+          "endMs": 5280,
+          "timestampMs": 5220,
+          "confidence": 1
+        },
+        {
+          "text": " somehow",
+          "startMs": 5330,
+          "endMs": 5680,
+          "timestampMs": 5505,
+          "confidence": 1
+        },
+        {
+          "text": " gathered",
+          "startMs": 5724,
+          "endMs": 6080,
+          "timestampMs": 5902,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 6120,
+          "endMs": 6160,
+          "timestampMs": 6140,
+          "confidence": 1
+        },
+        {
+          "text": " visible",
+          "startMs": 6210,
+          "endMs": 6560,
+          "timestampMs": 6385,
+          "confidence": 1
+        },
+        {
+          "text": " chunk,",
+          "startMs": 6627,
+          "endMs": 7360,
+          "timestampMs": 6994,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 7400,
+          "endMs": 7520,
+          "timestampMs": 7460,
+          "confidence": 1
+        },
+        {
+          "text": " heat",
+          "startMs": 7568,
+          "endMs": 7760,
+          "timestampMs": 7664,
+          "confidence": 1
+        },
+        {
+          "text": " from",
+          "startMs": 7792,
+          "endMs": 7920,
+          "timestampMs": 7856,
+          "confidence": 1
+        },
+        {
+          "text": " its",
+          "startMs": 7980,
+          "endMs": 8160,
+          "timestampMs": 8070,
+          "confidence": 1
+        },
+        {
+          "text": " own",
+          "startMs": 8220,
+          "endMs": 8400,
+          "timestampMs": 8310,
+          "confidence": 1
+        },
+        {
+          "text": " radioactivity",
+          "startMs": 8467,
+          "endMs": 9360,
+          "timestampMs": 8914,
+          "confidence": 1
+        },
+        {
+          "text": " would",
+          "startMs": 9427,
+          "endMs": 9760,
+          "timestampMs": 9593,
+          "confidence": 1
+        },
+        {
+          "text": " vaporize",
+          "startMs": 9827,
+          "endMs": 10400,
+          "timestampMs": 10114,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 10453,
+          "endMs": 10560,
+          "timestampMs": 10506,
+          "confidence": 1
+        },
+        {
+          "text": " almost",
+          "startMs": 10617,
+          "endMs": 10960,
+          "timestampMs": 10789,
+          "confidence": 1
+        },
+        {
+          "text": " instantly.",
+          "startMs": 11024,
+          "endMs": 11760,
+          "timestampMs": 11392,
+          "confidence": 1
+        }
+      ],
+      "hash": "f1b9b249fffc"
+    },
+    "s13": {
+      "speaker": "nar",
+      "file": "reels/astatine/s13.mp3",
+      "durationMs": 8491,
+      "captions": [
+        {
+          "text": "So",
+          "startMs": 69,
+          "endMs": 80,
+          "timestampMs": 75,
+          "confidence": 1
+        },
+        {
+          "text": " we",
+          "startMs": 133,
+          "endMs": 240,
+          "timestampMs": 187,
+          "confidence": 1
+        },
+        {
+          "text": " don't",
+          "startMs": 280,
+          "endMs": 480,
+          "timestampMs": 380,
+          "confidence": 1
+        },
+        {
+          "text": " actually",
+          "startMs": 516,
+          "endMs": 800,
+          "timestampMs": 658,
+          "confidence": 1
+        },
+        {
+          "text": " know",
+          "startMs": 848,
+          "endMs": 1040,
+          "timestampMs": 944,
+          "confidence": 1
+        },
+        {
+          "text": " what",
+          "startMs": 1072,
+          "endMs": 1200,
+          "timestampMs": 1136,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 1253,
+          "endMs": 1360,
+          "timestampMs": 1307,
+          "confidence": 1
+        },
+        {
+          "text": " looks",
+          "startMs": 1400,
+          "endMs": 1600,
+          "timestampMs": 1500,
+          "confidence": 1
+        },
+        {
+          "text": " like.",
+          "startMs": 1664,
+          "endMs": 2000,
+          "timestampMs": 1832,
+          "confidence": 1
+        },
+        {
+          "text": " Scientists",
+          "startMs": 2124,
+          "endMs": 3360,
+          "timestampMs": 2742,
+          "confidence": 1
+        },
+        {
+          "text": " predict",
+          "startMs": 3410,
+          "endMs": 3760,
+          "timestampMs": 3585,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 3840,
+          "endMs": 3920,
+          "timestampMs": 3880,
+          "confidence": 1
+        },
+        {
+          "text": " dark,",
+          "startMs": 4000,
+          "endMs": 4480,
+          "timestampMs": 4240,
+          "confidence": 1
+        },
+        {
+          "text": " shiny,",
+          "startMs": 4560,
+          "endMs": 5040,
+          "timestampMs": 4800,
+          "confidence": 1
+        },
+        {
+          "text": " metal-like",
+          "startMs": 5093,
+          "endMs": 5600,
+          "timestampMs": 5347,
+          "confidence": 1
+        },
+        {
+          "text": " solid.",
+          "startMs": 5680,
+          "endMs": 6440,
+          "timestampMs": 6060,
+          "confidence": 1
+        },
+        {
+          "text": " But",
+          "startMs": 6530,
+          "endMs": 6800,
+          "timestampMs": 6665,
+          "confidence": 1
+        },
+        {
+          "text": " nobody",
+          "startMs": 6857,
+          "endMs": 7200,
+          "timestampMs": 7029,
+          "confidence": 1
+        },
+        {
+          "text": " has",
+          "startMs": 7220,
+          "endMs": 7280,
+          "timestampMs": 7250,
+          "confidence": 1
+        },
+        {
+          "text": " ever",
+          "startMs": 7328,
+          "endMs": 7520,
+          "timestampMs": 7424,
+          "confidence": 1
+        },
+        {
+          "text": " laid",
+          "startMs": 7568,
+          "endMs": 7760,
+          "timestampMs": 7664,
+          "confidence": 1
+        },
+        {
+          "text": " eyes",
+          "startMs": 7824,
+          "endMs": 8080,
+          "timestampMs": 7952,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 8107,
+          "endMs": 8160,
+          "timestampMs": 8134,
+          "confidence": 1
+        },
+        {
+          "text": " it.",
+          "startMs": 8240,
+          "endMs": 8480,
+          "timestampMs": 8360,
+          "confidence": 1
+        }
+      ],
+      "hash": "fe713a15da38"
+    },
+    "s14": {
+      "speaker": "nar",
+      "file": "reels/astatine/s14.mp3",
+      "durationMs": 7864,
+      "captions": [
+        {
+          "text": "Even",
+          "startMs": 0,
+          "endMs": 240,
+          "timestampMs": 120,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 260,
+          "endMs": 320,
+          "timestampMs": 290,
+          "confidence": 1
+        },
+        {
+          "text": " name",
+          "startMs": 368,
+          "endMs": 560,
+          "timestampMs": 464,
+          "confidence": 1
+        },
+        {
+          "text": " fits.",
+          "startMs": 656,
+          "endMs": 1120,
+          "timestampMs": 888,
+          "confidence": 1
+        },
+        {
+          "text": " Astatine",
+          "startMs": 1640,
+          "endMs": 2720,
+          "timestampMs": 2180,
+          "confidence": 1
+        },
+        {
+          "text": " comes",
+          "startMs": 2773,
+          "endMs": 3040,
+          "timestampMs": 2907,
+          "confidence": 1
+        },
+        {
+          "text": " from",
+          "startMs": 3072,
+          "endMs": 3200,
+          "timestampMs": 3136,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 3220,
+          "endMs": 3280,
+          "timestampMs": 3250,
+          "confidence": 1
+        },
+        {
+          "text": " Greek",
+          "startMs": 3333,
+          "endMs": 3600,
+          "timestampMs": 3467,
+          "confidence": 1
+        },
+        {
+          "text": " word",
+          "startMs": 3680,
+          "endMs": 4000,
+          "timestampMs": 3840,
+          "confidence": 1
+        },
+        {
+          "text": " astatos,",
+          "startMs": 4200,
+          "endMs": 5040,
+          "timestampMs": 4620,
+          "confidence": 1
+        },
+        {
+          "text": " which",
+          "startMs": 5133,
+          "endMs": 5600,
+          "timestampMs": 5367,
+          "confidence": 1
+        },
+        {
+          "text": " means",
+          "startMs": 5653,
+          "endMs": 5920,
+          "timestampMs": 5787,
+          "confidence": 1
+        },
+        {
+          "text": " unstable.",
+          "startMs": 6018,
+          "endMs": 6880,
+          "timestampMs": 6449,
+          "confidence": 1
+        }
+      ],
+      "hash": "79cbdb33e6f0"
+    },
+    "s15": {
+      "speaker": "nar",
+      "file": "reels/astatine/s15.mp3",
+      "durationMs": 13532,
+      "captions": [
+        {
+          "text": "When",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " Mendeleev",
+          "startMs": 208,
+          "endMs": 880,
+          "timestampMs": 544,
+          "confidence": 1
+        },
+        {
+          "text": " built",
+          "startMs": 933,
+          "endMs": 1200,
+          "timestampMs": 1067,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 1220,
+          "endMs": 1280,
+          "timestampMs": 1250,
+          "confidence": 1
+        },
+        {
+          "text": " periodic",
+          "startMs": 1342,
+          "endMs": 1840,
+          "timestampMs": 1591,
+          "confidence": 1
+        },
+        {
+          "text": " table",
+          "startMs": 1920,
+          "endMs": 2320,
+          "timestampMs": 2120,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 2427,
+          "endMs": 2640,
+          "timestampMs": 2534,
+          "confidence": 1
+        },
+        {
+          "text": " eighteen",
+          "startMs": 2684,
+          "endMs": 3040,
+          "timestampMs": 2862,
+          "confidence": 1
+        },
+        {
+          "text": " sixty-nine,",
+          "startMs": 3133,
+          "endMs": 4480,
+          "timestampMs": 3807,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 4520,
+          "endMs": 4640,
+          "timestampMs": 4580,
+          "confidence": 1
+        },
+        {
+          "text": " spot",
+          "startMs": 4688,
+          "endMs": 4880,
+          "timestampMs": 4784,
+          "confidence": 1
+        },
+        {
+          "text": " below",
+          "startMs": 4947,
+          "endMs": 5280,
+          "timestampMs": 5114,
+          "confidence": 1
+        },
+        {
+          "text": " iodine",
+          "startMs": 5380,
+          "endMs": 5840,
+          "timestampMs": 5610,
+          "confidence": 1
+        },
+        {
+          "text": " was",
+          "startMs": 5880,
+          "endMs": 6000,
+          "timestampMs": 5940,
+          "confidence": 1
+        },
+        {
+          "text": " empty.",
+          "startMs": 6093,
+          "endMs": 6640,
+          "timestampMs": 6367,
+          "confidence": 1
+        },
+        {
+          "text": " Chemists",
+          "startMs": 6848,
+          "endMs": 8000,
+          "timestampMs": 7424,
+          "confidence": 1
+        },
+        {
+          "text": " called",
+          "startMs": 8046,
+          "endMs": 8320,
+          "timestampMs": 8183,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 8340,
+          "endMs": 8400,
+          "timestampMs": 8370,
+          "confidence": 1
+        },
+        {
+          "text": " missing",
+          "startMs": 8450,
+          "endMs": 8800,
+          "timestampMs": 8625,
+          "confidence": 1
+        },
+        {
+          "text": " element",
+          "startMs": 8850,
+          "endMs": 9200,
+          "timestampMs": 9025,
+          "confidence": 1
+        },
+        {
+          "text": " eka-iodine.",
+          "startMs": 9480,
+          "endMs": 10720,
+          "timestampMs": 10100,
+          "confidence": 1
+        },
+        {
+          "text": " For",
+          "startMs": 10920,
+          "endMs": 11520,
+          "timestampMs": 11220,
+          "confidence": 1
+        },
+        {
+          "text": " decades,",
+          "startMs": 11600,
+          "endMs": 12320,
+          "timestampMs": 11960,
+          "confidence": 1
+        },
+        {
+          "text": " nobody",
+          "startMs": 12377,
+          "endMs": 12720,
+          "timestampMs": 12549,
+          "confidence": 1
+        },
+        {
+          "text": " could",
+          "startMs": 12760,
+          "endMs": 12960,
+          "timestampMs": 12860,
+          "confidence": 1
+        },
+        {
+          "text": " find",
+          "startMs": 13008,
+          "endMs": 13200,
+          "timestampMs": 13104,
+          "confidence": 1
+        },
+        {
+          "text": " it.",
+          "startMs": 13280,
+          "endMs": 13520,
+          "timestampMs": 13400,
+          "confidence": 1
+        }
+      ],
+      "hash": "e07e1c61112e"
+    },
+    "s16": {
+      "speaker": "nar",
+      "file": "reels/astatine/s16.mp3",
+      "durationMs": 5931,
+      "captions": [
+        {
+          "text": "Then,",
+          "startMs": 0,
+          "endMs": 400,
+          "timestampMs": 200,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 453,
+          "endMs": 560,
+          "timestampMs": 507,
+          "confidence": 1
+        },
+        {
+          "text": " nineteen",
+          "startMs": 596,
+          "endMs": 880,
+          "timestampMs": 738,
+          "confidence": 1
+        },
+        {
+          "text": " forty,",
+          "startMs": 973,
+          "endMs": 1760,
+          "timestampMs": 1367,
+          "confidence": 1
+        },
+        {
+          "text": " scientists",
+          "startMs": 1811,
+          "endMs": 2320,
+          "timestampMs": 2066,
+          "confidence": 1
+        },
+        {
+          "text": " at",
+          "startMs": 2373,
+          "endMs": 2480,
+          "timestampMs": 2427,
+          "confidence": 1
+        },
+        {
+          "text": " Berkeley",
+          "startMs": 2542,
+          "endMs": 3040,
+          "timestampMs": 2791,
+          "confidence": 1
+        },
+        {
+          "text": " stopped",
+          "startMs": 3080,
+          "endMs": 3360,
+          "timestampMs": 3220,
+          "confidence": 1
+        },
+        {
+          "text": " looking",
+          "startMs": 3400,
+          "endMs": 3680,
+          "timestampMs": 3540,
+          "confidence": 1
+        },
+        {
+          "text": " for",
+          "startMs": 3740,
+          "endMs": 3920,
+          "timestampMs": 3830,
+          "confidence": 1
+        },
+        {
+          "text": " it...",
+          "startMs": 3973,
+          "endMs": 4640,
+          "timestampMs": 4307,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 4680,
+          "endMs": 4800,
+          "timestampMs": 4740,
+          "confidence": 1
+        },
+        {
+          "text": " made",
+          "startMs": 4848,
+          "endMs": 5040,
+          "timestampMs": 4944,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 5093,
+          "endMs": 5200,
+          "timestampMs": 5147,
+          "confidence": 1
+        },
+        {
+          "text": " instead.",
+          "startMs": 5270,
+          "endMs": 5920,
+          "timestampMs": 5595,
+          "confidence": 1
+        }
+      ],
+      "hash": "1da786459eb6"
+    },
+    "s17": {
+      "speaker": "nar",
+      "file": "reels/astatine/s17.mp3",
+      "durationMs": 5226,
+      "captions": [
+        {
+          "text": "And",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " that's",
+          "startMs": 112,
+          "endMs": 320,
+          "timestampMs": 216,
+          "confidence": 1
+        },
+        {
+          "text": " still",
+          "startMs": 360,
+          "endMs": 560,
+          "timestampMs": 460,
+          "confidence": 1
+        },
+        {
+          "text": " how",
+          "startMs": 600,
+          "endMs": 720,
+          "timestampMs": 660,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 760,
+          "endMs": 880,
+          "timestampMs": 820,
+          "confidence": 1
+        },
+        {
+          "text": " get",
+          "startMs": 920,
+          "endMs": 1040,
+          "timestampMs": 980,
+          "confidence": 1
+        },
+        {
+          "text": " astatine",
+          "startMs": 1120,
+          "endMs": 1680,
+          "timestampMs": 1400,
+          "confidence": 1
+        },
+        {
+          "text": " today.",
+          "startMs": 1760,
+          "endMs": 2240,
+          "timestampMs": 2000,
+          "confidence": 1
+        },
+        {
+          "text": " You",
+          "startMs": 2400,
+          "endMs": 2880,
+          "timestampMs": 2640,
+          "confidence": 1
+        },
+        {
+          "text": " make",
+          "startMs": 2944,
+          "endMs": 3200,
+          "timestampMs": 3072,
+          "confidence": 1
+        },
+        {
+          "text": " it.",
+          "startMs": 3253,
+          "endMs": 3760,
+          "timestampMs": 3507,
+          "confidence": 1
+        },
+        {
+          "text": " In",
+          "startMs": 3893,
+          "endMs": 4160,
+          "timestampMs": 4027,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 4240,
+          "endMs": 4320,
+          "timestampMs": 4280,
+          "confidence": 1
+        },
+        {
+          "text": " cyclotron.",
+          "startMs": 4384,
+          "endMs": 5200,
+          "timestampMs": 4792,
+          "confidence": 1
+        }
+      ],
+      "hash": "5225c90b4b95"
+    },
+    "s18": {
+      "speaker": "nar",
+      "file": "reels/astatine/s18.mp3",
+      "durationMs": 10816,
+      "captions": [
+        {
+          "text": "A",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " cyclotron",
+          "startMs": 144,
+          "endMs": 720,
+          "timestampMs": 432,
+          "confidence": 1
+        },
+        {
+          "text": " whips",
+          "startMs": 800,
+          "endMs": 1120,
+          "timestampMs": 960,
+          "confidence": 1
+        },
+        {
+          "text": " alpha",
+          "startMs": 1187,
+          "endMs": 1520,
+          "timestampMs": 1354,
+          "confidence": 1
+        },
+        {
+          "text": " particles,",
+          "startMs": 1584,
+          "endMs": 2160,
+          "timestampMs": 1872,
+          "confidence": 1
+        },
+        {
+          "text": " which",
+          "startMs": 2240,
+          "endMs": 2640,
+          "timestampMs": 2440,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 2660,
+          "endMs": 2720,
+          "timestampMs": 2690,
+          "confidence": 1
+        },
+        {
+          "text": " helium",
+          "startMs": 2777,
+          "endMs": 3120,
+          "timestampMs": 2949,
+          "confidence": 1
+        },
+        {
+          "text": " nuclei,",
+          "startMs": 3223,
+          "endMs": 4280,
+          "timestampMs": 3752,
+          "confidence": 1
+        },
+        {
+          "text": " around",
+          "startMs": 4343,
+          "endMs": 4720,
+          "timestampMs": 4531,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 4740,
+          "endMs": 4800,
+          "timestampMs": 4770,
+          "confidence": 1
+        },
+        {
+          "text": " around",
+          "startMs": 4869,
+          "endMs": 5280,
+          "timestampMs": 5075,
+          "confidence": 1
+        },
+        {
+          "text": " until",
+          "startMs": 5360,
+          "endMs": 5760,
+          "timestampMs": 5560,
+          "confidence": 1
+        },
+        {
+          "text": " they're",
+          "startMs": 5776,
+          "endMs": 6000,
+          "timestampMs": 5888,
+          "confidence": 1
+        },
+        {
+          "text": " moving",
+          "startMs": 6046,
+          "endMs": 6320,
+          "timestampMs": 6183,
+          "confidence": 1
+        },
+        {
+          "text": " incredibly",
+          "startMs": 6371,
+          "endMs": 6880,
+          "timestampMs": 6626,
+          "confidence": 1
+        },
+        {
+          "text": " fast.",
+          "startMs": 6992,
+          "endMs": 7520,
+          "timestampMs": 7256,
+          "confidence": 1
+        },
+        {
+          "text": " Then",
+          "startMs": 7712,
+          "endMs": 8480,
+          "timestampMs": 8096,
+          "confidence": 1
+        },
+        {
+          "text": " they",
+          "startMs": 8512,
+          "endMs": 8640,
+          "timestampMs": 8576,
+          "confidence": 1
+        },
+        {
+          "text": " slam",
+          "startMs": 8736,
+          "endMs": 9120,
+          "timestampMs": 8928,
+          "confidence": 1
+        },
+        {
+          "text": " into",
+          "startMs": 9152,
+          "endMs": 9280,
+          "timestampMs": 9216,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 9360,
+          "endMs": 9440,
+          "timestampMs": 9400,
+          "confidence": 1
+        },
+        {
+          "text": " target",
+          "startMs": 9509,
+          "endMs": 9920,
+          "timestampMs": 9715,
+          "confidence": 1
+        },
+        {
+          "text": " made",
+          "startMs": 9952,
+          "endMs": 10080,
+          "timestampMs": 10016,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 10107,
+          "endMs": 10160,
+          "timestampMs": 10134,
+          "confidence": 1
+        },
+        {
+          "text": " bismuth.",
+          "startMs": 10240,
+          "endMs": 10800,
+          "timestampMs": 10520,
+          "confidence": 1
+        }
+      ],
+      "hash": "7887a87562b4"
+    },
+    "s19": {
+      "speaker": "nar",
+      "file": "reels/astatine/s19.mp3",
+      "durationMs": 10346,
+      "captions": [
+        {
+          "text": "Bismuth",
+          "startMs": 0,
+          "endMs": 400,
+          "timestampMs": 200,
+          "confidence": 1
+        },
+        {
+          "text": " has",
+          "startMs": 480,
+          "endMs": 720,
+          "timestampMs": 600,
+          "confidence": 1
+        },
+        {
+          "text": " eighty-three",
+          "startMs": 754,
+          "endMs": 1200,
+          "timestampMs": 977,
+          "confidence": 1
+        },
+        {
+          "text": " protons.",
+          "startMs": 1300,
+          "endMs": 2080,
+          "timestampMs": 1690,
+          "confidence": 1
+        },
+        {
+          "text": " An",
+          "startMs": 2267,
+          "endMs": 2640,
+          "timestampMs": 2454,
+          "confidence": 1
+        },
+        {
+          "text": " alpha",
+          "startMs": 2707,
+          "endMs": 3040,
+          "timestampMs": 2874,
+          "confidence": 1
+        },
+        {
+          "text": " particle",
+          "startMs": 3093,
+          "endMs": 3520,
+          "timestampMs": 3307,
+          "confidence": 1
+        },
+        {
+          "text": " brings",
+          "startMs": 3566,
+          "endMs": 3840,
+          "timestampMs": 3703,
+          "confidence": 1
+        },
+        {
+          "text": " two",
+          "startMs": 3900,
+          "endMs": 4080,
+          "timestampMs": 3990,
+          "confidence": 1
+        },
+        {
+          "text": " more.",
+          "startMs": 4160,
+          "endMs": 4560,
+          "timestampMs": 4360,
+          "confidence": 1
+        },
+        {
+          "text": " Eighty-three",
+          "startMs": 4747,
+          "endMs": 6000,
+          "timestampMs": 5374,
+          "confidence": 1
+        },
+        {
+          "text": " plus",
+          "startMs": 6080,
+          "endMs": 6400,
+          "timestampMs": 6240,
+          "confidence": 1
+        },
+        {
+          "text": " two...",
+          "startMs": 6500,
+          "endMs": 7520,
+          "timestampMs": 7010,
+          "confidence": 1
+        },
+        {
+          "text": " eighty-five.",
+          "startMs": 7554,
+          "endMs": 8400,
+          "timestampMs": 7977,
+          "confidence": 1
+        },
+        {
+          "text": " Astatine.",
+          "startMs": 8880,
+          "endMs": 10320,
+          "timestampMs": 9600,
+          "confidence": 1
+        }
+      ],
+      "hash": "a01fc2674d18"
+    },
+    "s20": {
+      "speaker": "nar",
+      "file": "reels/astatine/s20.mp3",
+      "durationMs": 11208,
+      "captions": [
+        {
+          "text": "The",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " result",
+          "startMs": 137,
+          "endMs": 480,
+          "timestampMs": 309,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 560,
+          "endMs": 720,
+          "timestampMs": 640,
+          "confidence": 1
+        },
+        {
+          "text": " astatine",
+          "startMs": 840,
+          "endMs": 1440,
+          "timestampMs": 1140,
+          "confidence": 1
+        },
+        {
+          "text": " two-eleven,",
+          "startMs": 1480,
+          "endMs": 2480,
+          "timestampMs": 1980,
+          "confidence": 1
+        },
+        {
+          "text": " with",
+          "startMs": 2512,
+          "endMs": 2640,
+          "timestampMs": 2576,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 2680,
+          "endMs": 2720,
+          "timestampMs": 2700,
+          "confidence": 1
+        },
+        {
+          "text": " half-life",
+          "startMs": 2784,
+          "endMs": 3280,
+          "timestampMs": 3032,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 3307,
+          "endMs": 3360,
+          "timestampMs": 3334,
+          "confidence": 1
+        },
+        {
+          "text": " about",
+          "startMs": 3413,
+          "endMs": 3680,
+          "timestampMs": 3547,
+          "confidence": 1
+        },
+        {
+          "text": " seven",
+          "startMs": 3747,
+          "endMs": 4080,
+          "timestampMs": 3914,
+          "confidence": 1
+        },
+        {
+          "text": " hours.",
+          "startMs": 4173,
+          "endMs": 4720,
+          "timestampMs": 4447,
+          "confidence": 1
+        },
+        {
+          "text": " So",
+          "startMs": 4987,
+          "endMs": 5520,
+          "timestampMs": 5254,
+          "confidence": 1
+        },
+        {
+          "text": " chemists",
+          "startMs": 5568,
+          "endMs": 6080,
+          "timestampMs": 5824,
+          "confidence": 1
+        },
+        {
+          "text": " have",
+          "startMs": 6112,
+          "endMs": 6240,
+          "timestampMs": 6176,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 6293,
+          "endMs": 6400,
+          "timestampMs": 6347,
+          "confidence": 1
+        },
+        {
+          "text": " pull",
+          "startMs": 6432,
+          "endMs": 6560,
+          "timestampMs": 6496,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 6587,
+          "endMs": 6640,
+          "timestampMs": 6614,
+          "confidence": 1
+        },
+        {
+          "text": " out",
+          "startMs": 6700,
+          "endMs": 6880,
+          "timestampMs": 6790,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 6907,
+          "endMs": 6960,
+          "timestampMs": 6934,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 6980,
+          "endMs": 7040,
+          "timestampMs": 7010,
+          "confidence": 1
+        },
+        {
+          "text": " target",
+          "startMs": 7109,
+          "endMs": 7520,
+          "timestampMs": 7315,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 7560,
+          "endMs": 7680,
+          "timestampMs": 7620,
+          "confidence": 1
+        },
+        {
+          "text": " use",
+          "startMs": 7740,
+          "endMs": 7920,
+          "timestampMs": 7830,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 7947,
+          "endMs": 8000,
+          "timestampMs": 7974,
+          "confidence": 1
+        },
+        {
+          "text": " fast.",
+          "startMs": 8112,
+          "endMs": 8720,
+          "timestampMs": 8416,
+          "confidence": 1
+        },
+        {
+          "text": " The",
+          "startMs": 8920,
+          "endMs": 9520,
+          "timestampMs": 9220,
+          "confidence": 1
+        },
+        {
+          "text": " clock",
+          "startMs": 9587,
+          "endMs": 9920,
+          "timestampMs": 9753,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 10000,
+          "endMs": 10160,
+          "timestampMs": 10080,
+          "confidence": 1
+        },
+        {
+          "text": " literally",
+          "startMs": 10208,
+          "endMs": 10640,
+          "timestampMs": 10424,
+          "confidence": 1
+        },
+        {
+          "text": " ticking.",
+          "startMs": 10700,
+          "endMs": 11200,
+          "timestampMs": 10950,
+          "confidence": 1
+        }
+      ],
+      "hash": "73111b6a2187"
+    },
+    "s21": {
+      "speaker": "nar",
+      "file": "reels/astatine/s21.mp3",
+      "durationMs": 18261,
+      "captions": [
+        {
+          "text": "And",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " it's",
+          "startMs": 133,
+          "endMs": 400,
+          "timestampMs": 267,
+          "confidence": 1
+        },
+        {
+          "text": " worth",
+          "startMs": 427,
+          "endMs": 560,
+          "timestampMs": 494,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 580,
+          "endMs": 640,
+          "timestampMs": 610,
+          "confidence": 1
+        },
+        {
+          "text": " rush.",
+          "startMs": 720,
+          "endMs": 1120,
+          "timestampMs": 920,
+          "confidence": 1
+        },
+        {
+          "text": " Astatine",
+          "startMs": 1560,
+          "endMs": 2560,
+          "timestampMs": 2060,
+          "confidence": 1
+        },
+        {
+          "text": " two-eleven",
+          "startMs": 2640,
+          "endMs": 3200,
+          "timestampMs": 2920,
+          "confidence": 1
+        },
+        {
+          "text": " is",
+          "startMs": 3307,
+          "endMs": 3520,
+          "timestampMs": 3414,
+          "confidence": 1
+        },
+        {
+          "text": " being",
+          "startMs": 3560,
+          "endMs": 3760,
+          "timestampMs": 3660,
+          "confidence": 1
+        },
+        {
+          "text": " tested",
+          "startMs": 3829,
+          "endMs": 4240,
+          "timestampMs": 4035,
+          "confidence": 1
+        },
+        {
+          "text": " as",
+          "startMs": 4293,
+          "endMs": 4400,
+          "timestampMs": 4347,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 4440,
+          "endMs": 4480,
+          "timestampMs": 4460,
+          "confidence": 1
+        },
+        {
+          "text": " cancer",
+          "startMs": 4526,
+          "endMs": 4800,
+          "timestampMs": 4663,
+          "confidence": 1
+        },
+        {
+          "text": " treatment.",
+          "startMs": 4856,
+          "endMs": 5440,
+          "timestampMs": 5148,
+          "confidence": 1
+        },
+        {
+          "text": " Attached",
+          "startMs": 5573,
+          "endMs": 6640,
+          "timestampMs": 6107,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 6667,
+          "endMs": 6720,
+          "timestampMs": 6694,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 6760,
+          "endMs": 6800,
+          "timestampMs": 6780,
+          "confidence": 1
+        },
+        {
+          "text": " molecule",
+          "startMs": 6862,
+          "endMs": 7360,
+          "timestampMs": 7111,
+          "confidence": 1
+        },
+        {
+          "text": " that",
+          "startMs": 7392,
+          "endMs": 7520,
+          "timestampMs": 7456,
+          "confidence": 1
+        },
+        {
+          "text": " seeks",
+          "startMs": 7573,
+          "endMs": 7840,
+          "timestampMs": 7707,
+          "confidence": 1
+        },
+        {
+          "text": " out",
+          "startMs": 7880,
+          "endMs": 8000,
+          "timestampMs": 7940,
+          "confidence": 1
+        },
+        {
+          "text": " tumor",
+          "startMs": 8067,
+          "endMs": 8400,
+          "timestampMs": 8234,
+          "confidence": 1
+        },
+        {
+          "text": " cells,",
+          "startMs": 8480,
+          "endMs": 9280,
+          "timestampMs": 8880,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 9333,
+          "endMs": 9440,
+          "timestampMs": 9387,
+          "confidence": 1
+        },
+        {
+          "text": " fires",
+          "startMs": 9520,
+          "endMs": 9920,
+          "timestampMs": 9720,
+          "confidence": 1
+        },
+        {
+          "text": " alpha",
+          "startMs": 9973,
+          "endMs": 10240,
+          "timestampMs": 10107,
+          "confidence": 1
+        },
+        {
+          "text": " particles",
+          "startMs": 10312,
+          "endMs": 10960,
+          "timestampMs": 10636,
+          "confidence": 1
+        },
+        {
+          "text": " that",
+          "startMs": 11008,
+          "endMs": 11200,
+          "timestampMs": 11104,
+          "confidence": 1
+        },
+        {
+          "text": " only",
+          "startMs": 11248,
+          "endMs": 11440,
+          "timestampMs": 11344,
+          "confidence": 1
+        },
+        {
+          "text": " travel",
+          "startMs": 11497,
+          "endMs": 11840,
+          "timestampMs": 11669,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 11880,
+          "endMs": 11920,
+          "timestampMs": 11900,
+          "confidence": 1
+        },
+        {
+          "text": " few",
+          "startMs": 11980,
+          "endMs": 12160,
+          "timestampMs": 12070,
+          "confidence": 1
+        },
+        {
+          "text": " cell",
+          "startMs": 12224,
+          "endMs": 12480,
+          "timestampMs": 12352,
+          "confidence": 1
+        },
+        {
+          "text": " widths.",
+          "startMs": 12549,
+          "endMs": 13040,
+          "timestampMs": 12795,
+          "confidence": 1
+        },
+        {
+          "text": " Enough",
+          "startMs": 13177,
+          "endMs": 14000,
+          "timestampMs": 13589,
+          "confidence": 1
+        },
+        {
+          "text": " to",
+          "startMs": 14027,
+          "endMs": 14080,
+          "timestampMs": 14054,
+          "confidence": 1
+        },
+        {
+          "text": " destroy",
+          "startMs": 14140,
+          "endMs": 14560,
+          "timestampMs": 14350,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 14580,
+          "endMs": 14640,
+          "timestampMs": 14610,
+          "confidence": 1
+        },
+        {
+          "text": " cancer",
+          "startMs": 14697,
+          "endMs": 15040,
+          "timestampMs": 14869,
+          "confidence": 1
+        },
+        {
+          "text": " cell,",
+          "startMs": 15120,
+          "endMs": 15680,
+          "timestampMs": 15400,
+          "confidence": 1
+        },
+        {
+          "text": " while",
+          "startMs": 15720,
+          "endMs": 15920,
+          "timestampMs": 15820,
+          "confidence": 1
+        },
+        {
+          "text": " mostly",
+          "startMs": 15977,
+          "endMs": 16320,
+          "timestampMs": 16148,
+          "confidence": 1
+        },
+        {
+          "text": " sparing",
+          "startMs": 16380,
+          "endMs": 16800,
+          "timestampMs": 16590,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 16840,
+          "endMs": 16960,
+          "timestampMs": 16900,
+          "confidence": 1
+        },
+        {
+          "text": " healthy",
+          "startMs": 17000,
+          "endMs": 17280,
+          "timestampMs": 17140,
+          "confidence": 1
+        },
+        {
+          "text": " ones",
+          "startMs": 17328,
+          "endMs": 17520,
+          "timestampMs": 17424,
+          "confidence": 1
+        },
+        {
+          "text": " around",
+          "startMs": 17577,
+          "endMs": 17920,
+          "timestampMs": 17749,
+          "confidence": 1
+        },
+        {
+          "text": " it.",
+          "startMs": 17973,
+          "endMs": 18240,
+          "timestampMs": 18106,
+          "confidence": 1
+        }
+      ],
+      "hash": "4ba466bb19c2"
+    },
+    "s22": {
+      "speaker": "nar",
+      "file": "reels/astatine/s22.mp3",
+      "durationMs": 12801,
+      "captions": [
+        {
+          "text": "So,",
+          "startMs": 0,
+          "endMs": 280,
+          "timestampMs": 140,
+          "confidence": 1
+        },
+        {
+          "text": " can",
+          "startMs": 310,
+          "endMs": 400,
+          "timestampMs": 355,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 440,
+          "endMs": 560,
+          "timestampMs": 500,
+          "confidence": 1
+        },
+        {
+          "text": " get",
+          "startMs": 600,
+          "endMs": 720,
+          "timestampMs": 660,
+          "confidence": 1
+        },
+        {
+          "text": " some?",
+          "startMs": 784,
+          "endMs": 1120,
+          "timestampMs": 952,
+          "confidence": 1
+        },
+        {
+          "text": " Not",
+          "startMs": 1400,
+          "endMs": 2240,
+          "timestampMs": 1820,
+          "confidence": 1
+        },
+        {
+          "text": " really.",
+          "startMs": 2297,
+          "endMs": 2720,
+          "timestampMs": 2509,
+          "confidence": 1
+        },
+        {
+          "text": " You",
+          "startMs": 2880,
+          "endMs": 3360,
+          "timestampMs": 3120,
+          "confidence": 1
+        },
+        {
+          "text": " can't",
+          "startMs": 3420,
+          "endMs": 3680,
+          "timestampMs": 3550,
+          "confidence": 1
+        },
+        {
+          "text": " buy",
+          "startMs": 3760,
+          "endMs": 4000,
+          "timestampMs": 3880,
+          "confidence": 1
+        },
+        {
+          "text": " astatine.",
+          "startMs": 4080,
+          "endMs": 5080,
+          "timestampMs": 4580,
+          "confidence": 1
+        },
+        {
+          "text": " It's",
+          "startMs": 5200,
+          "endMs": 5520,
+          "timestampMs": 5360,
+          "confidence": 1
+        },
+        {
+          "text": " made",
+          "startMs": 5584,
+          "endMs": 5840,
+          "timestampMs": 5712,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 5893,
+          "endMs": 6000,
+          "timestampMs": 5947,
+          "confidence": 1
+        },
+        {
+          "text": " billionths",
+          "startMs": 6050,
+          "endMs": 6480,
+          "timestampMs": 6265,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 6533,
+          "endMs": 6640,
+          "timestampMs": 6587,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 6760,
+          "endMs": 6880,
+          "timestampMs": 6820,
+          "confidence": 1
+        },
+        {
+          "text": " gram,",
+          "startMs": 6928,
+          "endMs": 7440,
+          "timestampMs": 7184,
+          "confidence": 1
+        },
+        {
+          "text": " at",
+          "startMs": 7493,
+          "endMs": 7600,
+          "timestampMs": 7547,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 7640,
+          "endMs": 7680,
+          "timestampMs": 7660,
+          "confidence": 1
+        },
+        {
+          "text": " handful",
+          "startMs": 7740,
+          "endMs": 8160,
+          "timestampMs": 7950,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 8187,
+          "endMs": 8240,
+          "timestampMs": 8214,
+          "confidence": 1
+        },
+        {
+          "text": " research",
+          "startMs": 8293,
+          "endMs": 8720,
+          "timestampMs": 8506,
+          "confidence": 1
+        },
+        {
+          "text": " cyclotrons",
+          "startMs": 8800,
+          "endMs": 9520,
+          "timestampMs": 9160,
+          "confidence": 1
+        },
+        {
+          "text": " around",
+          "startMs": 9554,
+          "endMs": 9760,
+          "timestampMs": 9657,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 9780,
+          "endMs": 9840,
+          "timestampMs": 9810,
+          "confidence": 1
+        },
+        {
+          "text": " world,",
+          "startMs": 9920,
+          "endMs": 10720,
+          "timestampMs": 10320,
+          "confidence": 1
+        },
+        {
+          "text": " for",
+          "startMs": 10760,
+          "endMs": 10880,
+          "timestampMs": 10820,
+          "confidence": 1
+        },
+        {
+          "text": " scientists",
+          "startMs": 10938,
+          "endMs": 11520,
+          "timestampMs": 11229,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 11560,
+          "endMs": 11680,
+          "timestampMs": 11620,
+          "confidence": 1
+        },
+        {
+          "text": " clinical",
+          "startMs": 11724,
+          "endMs": 12080,
+          "timestampMs": 11902,
+          "confidence": 1
+        },
+        {
+          "text": " trials.",
+          "startMs": 12171,
+          "endMs": 12800,
+          "timestampMs": 12486,
+          "confidence": 1
+        }
+      ],
+      "hash": "47d0456b4690"
+    },
+    "s23": {
+      "speaker": "nar",
+      "file": "reels/astatine/s23.mp3",
+      "durationMs": 8491,
+      "captions": [
+        {
+          "text": "If",
+          "startMs": 0,
+          "endMs": 80,
+          "timestampMs": 40,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 100,
+          "endMs": 160,
+          "timestampMs": 130,
+          "confidence": 1
+        },
+        {
+          "text": " ever",
+          "startMs": 208,
+          "endMs": 400,
+          "timestampMs": 304,
+          "confidence": 1
+        },
+        {
+          "text": " do",
+          "startMs": 480,
+          "endMs": 640,
+          "timestampMs": 560,
+          "confidence": 1
+        },
+        {
+          "text": " come",
+          "startMs": 688,
+          "endMs": 880,
+          "timestampMs": 784,
+          "confidence": 1
+        },
+        {
+          "text": " into",
+          "startMs": 928,
+          "endMs": 1120,
+          "timestampMs": 1024,
+          "confidence": 1
+        },
+        {
+          "text": " contact",
+          "startMs": 1180,
+          "endMs": 1600,
+          "timestampMs": 1390,
+          "confidence": 1
+        },
+        {
+          "text": " with",
+          "startMs": 1632,
+          "endMs": 1760,
+          "timestampMs": 1696,
+          "confidence": 1
+        },
+        {
+          "text": " astatine,",
+          "startMs": 1840,
+          "endMs": 2880,
+          "timestampMs": 2360,
+          "confidence": 1
+        },
+        {
+          "text": " it",
+          "startMs": 2933,
+          "endMs": 3040,
+          "timestampMs": 2987,
+          "confidence": 1
+        },
+        {
+          "text": " will",
+          "startMs": 3056,
+          "endMs": 3120,
+          "timestampMs": 3088,
+          "confidence": 1
+        },
+        {
+          "text": " most",
+          "startMs": 3184,
+          "endMs": 3440,
+          "timestampMs": 3312,
+          "confidence": 1
+        },
+        {
+          "text": " likely",
+          "startMs": 3497,
+          "endMs": 3840,
+          "timestampMs": 3669,
+          "confidence": 1
+        },
+        {
+          "text": " be",
+          "startMs": 3893,
+          "endMs": 4000,
+          "timestampMs": 3947,
+          "confidence": 1
+        },
+        {
+          "text": " as",
+          "startMs": 4027,
+          "endMs": 4080,
+          "timestampMs": 4053,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 4160,
+          "endMs": 4240,
+          "timestampMs": 4200,
+          "confidence": 1
+        },
+        {
+          "text": " patient",
+          "startMs": 4290,
+          "endMs": 4640,
+          "timestampMs": 4465,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 4693,
+          "endMs": 4800,
+          "timestampMs": 4746,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 4820,
+          "endMs": 4880,
+          "timestampMs": 4850,
+          "confidence": 1
+        },
+        {
+          "text": " of",
+          "startMs": 4933,
+          "endMs": 5040,
+          "timestampMs": 4986,
+          "confidence": 1
+        },
+        {
+          "text": " those",
+          "startMs": 5080,
+          "endMs": 5280,
+          "timestampMs": 5180,
+          "confidence": 1
+        },
+        {
+          "text": " trials.",
+          "startMs": 5360,
+          "endMs": 5920,
+          "timestampMs": 5640,
+          "confidence": 1
+        },
+        {
+          "text": " And",
+          "startMs": 6080,
+          "endMs": 6560,
+          "timestampMs": 6320,
+          "confidence": 1
+        },
+        {
+          "text": " even",
+          "startMs": 6608,
+          "endMs": 6800,
+          "timestampMs": 6704,
+          "confidence": 1
+        },
+        {
+          "text": " then,",
+          "startMs": 6864,
+          "endMs": 7520,
+          "timestampMs": 7192,
+          "confidence": 1
+        },
+        {
+          "text": " you'll",
+          "startMs": 7560,
+          "endMs": 7840,
+          "timestampMs": 7700,
+          "confidence": 1
+        },
+        {
+          "text": " never",
+          "startMs": 7867,
+          "endMs": 8000,
+          "timestampMs": 7934,
+          "confidence": 1
+        },
+        {
+          "text": " see",
+          "startMs": 8060,
+          "endMs": 8240,
+          "timestampMs": 8150,
+          "confidence": 1
+        },
+        {
+          "text": " it.",
+          "startMs": 8293,
+          "endMs": 8480,
+          "timestampMs": 8387,
+          "confidence": 1
+        }
+      ],
+      "hash": "46cedbb88b3c"
+    },
+    "s24": {
+      "speaker": "nar",
+      "file": "reels/astatine/s24.mp3",
+      "durationMs": 8569,
+      "captions": [
+        {
+          "text": "The",
+          "startMs": 65,
+          "endMs": 80,
+          "timestampMs": 73,
+          "confidence": 1
+        },
+        {
+          "text": " rarest",
+          "startMs": 160,
+          "endMs": 640,
+          "timestampMs": 400,
+          "confidence": 1
+        },
+        {
+          "text": " naturally",
+          "startMs": 696,
+          "endMs": 1200,
+          "timestampMs": 948,
+          "confidence": 1
+        },
+        {
+          "text": " occurring",
+          "startMs": 1256,
+          "endMs": 1760,
+          "timestampMs": 1508,
+          "confidence": 1
+        },
+        {
+          "text": " element",
+          "startMs": 1820,
+          "endMs": 2240,
+          "timestampMs": 2030,
+          "confidence": 1
+        },
+        {
+          "text": " on",
+          "startMs": 2293,
+          "endMs": 2400,
+          "timestampMs": 2347,
+          "confidence": 1
+        },
+        {
+          "text": " Earth.",
+          "startMs": 2480,
+          "endMs": 3440,
+          "timestampMs": 2960,
+          "confidence": 1
+        },
+        {
+          "text": " Made",
+          "startMs": 3552,
+          "endMs": 4000,
+          "timestampMs": 3776,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 4053,
+          "endMs": 4160,
+          "timestampMs": 4107,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 4200,
+          "endMs": 4240,
+          "timestampMs": 4220,
+          "confidence": 1
+        },
+        {
+          "text": " flash,",
+          "startMs": 4307,
+          "endMs": 5120,
+          "timestampMs": 4714,
+          "confidence": 1
+        },
+        {
+          "text": " gone",
+          "startMs": 5152,
+          "endMs": 5280,
+          "timestampMs": 5216,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 5333,
+          "endMs": 5440,
+          "timestampMs": 5387,
+          "confidence": 1
+        },
+        {
+          "text": " hours,",
+          "startMs": 5520,
+          "endMs": 6320,
+          "timestampMs": 5920,
+          "confidence": 1
+        },
+        {
+          "text": " and",
+          "startMs": 6340,
+          "endMs": 6400,
+          "timestampMs": 6370,
+          "confidence": 1
+        },
+        {
+          "text": " never",
+          "startMs": 6440,
+          "endMs": 6640,
+          "timestampMs": 6540,
+          "confidence": 1
+        },
+        {
+          "text": " once",
+          "startMs": 6704,
+          "endMs": 6960,
+          "timestampMs": 6832,
+          "confidence": 1
+        },
+        {
+          "text": " seen",
+          "startMs": 7024,
+          "endMs": 7280,
+          "timestampMs": 7152,
+          "confidence": 1
+        },
+        {
+          "text": " by",
+          "startMs": 7333,
+          "endMs": 7440,
+          "timestampMs": 7387,
+          "confidence": 1
+        },
+        {
+          "text": " human",
+          "startMs": 7507,
+          "endMs": 7840,
+          "timestampMs": 7674,
+          "confidence": 1
+        },
+        {
+          "text": " eyes.",
+          "startMs": 7952,
+          "endMs": 8560,
+          "timestampMs": 8256,
+          "confidence": 1
+        }
+      ],
+      "hash": "f3bd56e06788"
+    },
+    "s25": {
+      "speaker": "nar",
+      "file": "reels/astatine/s25.mp3",
+      "durationMs": 6897,
+      "captions": [
+        {
+          "text": "If",
+          "startMs": 0,
+          "endMs": 160,
+          "timestampMs": 80,
+          "confidence": 1
+        },
+        {
+          "text": " this",
+          "startMs": 192,
+          "endMs": 320,
+          "timestampMs": 256,
+          "confidence": 1
+        },
+        {
+          "text": " blew",
+          "startMs": 384,
+          "endMs": 640,
+          "timestampMs": 512,
+          "confidence": 1
+        },
+        {
+          "text": " your",
+          "startMs": 672,
+          "endMs": 800,
+          "timestampMs": 736,
+          "confidence": 1
+        },
+        {
+          "text": " mind",
+          "startMs": 880,
+          "endMs": 1200,
+          "timestampMs": 1040,
+          "confidence": 1
+        },
+        {
+          "text": " even",
+          "startMs": 1248,
+          "endMs": 1440,
+          "timestampMs": 1344,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 1480,
+          "endMs": 1520,
+          "timestampMs": 1500,
+          "confidence": 1
+        },
+        {
+          "text": " little,",
+          "startMs": 1577,
+          "endMs": 2080,
+          "timestampMs": 1829,
+          "confidence": 1
+        },
+        {
+          "text": " subscribe.",
+          "startMs": 2152,
+          "endMs": 2880,
+          "timestampMs": 2516,
+          "confidence": 1
+        },
+        {
+          "text": " And",
+          "startMs": 3020,
+          "endMs": 3440,
+          "timestampMs": 3230,
+          "confidence": 1
+        },
+        {
+          "text": " tell",
+          "startMs": 3472,
+          "endMs": 3600,
+          "timestampMs": 3536,
+          "confidence": 1
+        },
+        {
+          "text": " me",
+          "startMs": 3653,
+          "endMs": 3760,
+          "timestampMs": 3707,
+          "confidence": 1
+        },
+        {
+          "text": " in",
+          "startMs": 3787,
+          "endMs": 3840,
+          "timestampMs": 3814,
+          "confidence": 1
+        },
+        {
+          "text": " the",
+          "startMs": 3880,
+          "endMs": 4000,
+          "timestampMs": 3940,
+          "confidence": 1
+        },
+        {
+          "text": " comments:",
+          "startMs": 4053,
+          "endMs": 4481,
+          "timestampMs": 4267,
+          "confidence": 1
+        },
+        {
+          "text": " which",
+          "startMs": 4587,
+          "endMs": 5120,
+          "timestampMs": 4854,
+          "confidence": 1
+        },
+        {
+          "text": " element",
+          "startMs": 5180,
+          "endMs": 5600,
+          "timestampMs": 5390,
+          "confidence": 1
+        },
+        {
+          "text": " should",
+          "startMs": 5623,
+          "endMs": 5760,
+          "timestampMs": 5692,
+          "confidence": 1
+        },
+        {
+          "text": " we",
+          "startMs": 5813,
+          "endMs": 5920,
+          "timestampMs": 5867,
+          "confidence": 1
+        },
+        {
+          "text": " cover",
+          "startMs": 5960,
+          "endMs": 6160,
+          "timestampMs": 6060,
+          "confidence": 1
+        },
+        {
+          "text": " next?",
+          "startMs": 6256,
+          "endMs": 6880,
+          "timestampMs": 6568,
+          "confidence": 1
+        }
+      ],
+      "hash": "ef99cf88c6a8"
+    }
+  },
+  "sfx": {
+    "whoosh": {
+      "file": "reels/astatine/sfx-whoosh.mp3",
+      "durationMs": 1020,
+      "hash": "0fe3a72f2cc9"
+    },
+    "pop": {
+      "file": "reels/astatine/sfx-pop.mp3",
+      "durationMs": 497,
+      "hash": "ae8bf38e9421"
+    },
+    "ding": {
+      "file": "reels/astatine/sfx-ding.mp3",
+      "durationMs": 811,
+      "hash": "39e4d6061937"
+    },
+    "geiger": {
+      "file": "reels/astatine/sfx-geiger.mp3",
+      "durationMs": 3005,
+      "hash": "480cd848a959"
+    },
+    "sizzle": {
+      "file": "reels/astatine/sfx-sizzle.mp3",
+      "durationMs": 2012,
+      "hash": "f525cfcff0a0"
+    },
+    "hum": {
+      "file": "reels/astatine/sfx-hum.mp3",
+      "durationMs": 4024,
+      "hash": "f5966855976d"
+    },
+    "zap": {
+      "file": "reels/astatine/sfx-zap.mp3",
+      "durationMs": 1020,
+      "hash": "dc61089b7b8f"
+    },
+    "tick": {
+      "file": "reels/astatine/sfx-tick.mp3",
+      "durationMs": 2012,
+      "hash": "41802a667d56"
+    },
+    "stamp": {
+      "file": "reels/astatine/sfx-stamp.mp3",
+      "durationMs": 602,
+      "hash": "e504498a3848"
+    },
+    "boom": {
+      "file": "reels/astatine/sfx-boom.mp3",
+      "durationMs": 2012,
+      "hash": "404844a786bc"
+    }
+  },
+  "music": {
+    "bed": {
+      "file": "reels/astatine/music-bed.mp3",
+      "durationMs": 120033,
+      "hash": "cca8ce01ef43"
+    }
+  }
+}
