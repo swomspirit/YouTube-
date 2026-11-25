@@ -1,0 +1,36 @@
+{
+  "title": "Squad Ep 1: Never Ask the Healer for a Buy",
+  "model": "eleven_v3",
+  "voices": {
+    "volt": "TX3LPaxmHKxFdv7VOQHJ",
+    "mender": "pFZP5JQG7iQjIQuC4Bku",
+    "ann": "onwK4e9ZLuTAKqWW03F9"
+  },
+  "lines": [
+    { "id": "a1", "speaker": "ann", "text": "[flat, robotic announcer] Buy phase." },
+    { "id": "v1", "speaker": "volt", "text": "[excited, pleading] Guys! Can someone buy me a Peashooter? Please? I have... four credits." },
+    { "id": "m1", "speaker": "mender", "text": "[calm, sweet] Anyone need anything?" },
+    { "id": "v2", "speaker": "volt", "text": "[loud] Me! [frustrated] I literally just said. Me." },
+    { "id": "m2", "speaker": "mender", "text": "[looks around, calm] ...Anyone?" },
+    { "id": "v3", "speaker": "volt", "text": "[deadpan] I'm standing right here." },
+    { "id": "m3", "speaker": "mender", "text": "[delighted whisper] Ooh. Shiny." },
+    { "id": "a2", "speaker": "ann", "text": "[flat, robotic announcer] Round start." },
+    { "id": "v4", "speaker": "volt", "text": "[deadpan] ...Thanks, I guess." },
+    { "id": "v5", "speaker": "volt", "text": "[muffled, from the floor, proud] Worth it." }
+  ],
+  "sfx": [
+    { "id": "buy", "prompt": "video game buy menu purchase click, satisfying UI confirm", "duration": 0.6 },
+    { "id": "cash", "prompt": "fanning a thick stack of paper money, riffle", "duration": 1.0 },
+    { "id": "shot", "prompt": "single distant sniper rifle shot crack in a video game", "duration": 1.2 },
+    { "id": "thud", "prompt": "cartoon body falling over onto the ground, comedic thud", "duration": 0.8 },
+    { "id": "beep", "prompt": "round start countdown beep, video game, three short beeps then a long one", "duration": 2.0 },
+    { "id": "defeat", "prompt": "video game defeat sting, short low brass and synth", "duration": 2.5 },
+    { "id": "pop", "prompt": "short cartoon pop", "duration": 0.5 },
+    { "id": "whoosh", "prompt": "quick cartoon whoosh", "duration": 0.6 },
+    { "id": "pickup", "prompt": "picking up a heavy rifle off the ground, metallic clack", "duration": 0.8 },
+    { "id": "crickets", "prompt": "crickets in awkward silence, comedic", "duration": 2.0 }
+  ],
+  "music": [
+    { "id": "loop", "prompt": "playful bouncy cartoon underscore, pizzicato strings, light marimba and soft drums, cheeky and comedic, video game lobby vibe, no vocals", "lengthMs": 40000 }
+  ]
+}

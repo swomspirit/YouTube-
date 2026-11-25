@@ -1,0 +1,402 @@
+{
+  "lines": {
+    "a1": {
+      "speaker": "ann",
+      "file": "reels/squad-ep1/a1.mp3",
+      "durationMs": 1464,
+      "captions": [
+        {
+          "text": "Buy",
+          "startMs": 420,
+          "endMs": 480,
+          "timestampMs": 450,
+          "confidence": 1
+        },
+        {
+          "text": " phase.",
+          "startMs": 600,
+          "endMs": 1440,
+          "timestampMs": 1020,
+          "confidence": 1
+        }
+      ],
+      "hash": "c1f0bf63fbf0"
+    },
+    "v1": {
+      "speaker": "volt",
+      "file": "reels/squad-ep1/v1.mp3",
+      "durationMs": 6166,
+      "captions": [
+        {
+          "text": "Guys!",
+          "startMs": 427,
+          "endMs": 560,
+          "timestampMs": 494,
+          "confidence": 1
+        },
+        {
+          "text": " Can",
+          "startMs": 620,
+          "endMs": 800,
+          "timestampMs": 710,
+          "confidence": 1
+        },
+        {
+          "text": " someone",
+          "startMs": 840,
+          "endMs": 1120,
+          "timestampMs": 980,
+          "confidence": 1
+        },
+        {
+          "text": " buy",
+          "startMs": 1160,
+          "endMs": 1280,
+          "timestampMs": 1220,
+          "confidence": 1
+        },
+        {
+          "text": " me",
+          "startMs": 1360,
+          "endMs": 1520,
+          "timestampMs": 1440,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 1580,
+          "endMs": 1640,
+          "timestampMs": 1610,
+          "confidence": 1
+        },
+        {
+          "text": " Peashooter?",
+          "startMs": 1680,
+          "endMs": 2320,
+          "timestampMs": 2000,
+          "confidence": 1
+        },
+        {
+          "text": " Please?",
+          "startMs": 2423,
+          "endMs": 3120,
+          "timestampMs": 2772,
+          "confidence": 1
+        },
+        {
+          "text": " I",
+          "startMs": 3320,
+          "endMs": 3520,
+          "timestampMs": 3420,
+          "confidence": 1
+        },
+        {
+          "text": " have...",
+          "startMs": 3616,
+          "endMs": 4800,
+          "timestampMs": 4208,
+          "confidence": 1
+        },
+        {
+          "text": " four",
+          "startMs": 4880,
+          "endMs": 5200,
+          "timestampMs": 5040,
+          "confidence": 1
+        },
+        {
+          "text": " credits.",
+          "startMs": 5280,
+          "endMs": 6160,
+          "timestampMs": 5720,
+          "confidence": 1
+        }
+      ],
+      "hash": "3ff86c1dac4e"
+    },
+    "m1": {
+      "speaker": "mender",
+      "file": "reels/squad-ep1/m1.mp3",
+      "durationMs": 1699,
+      "captions": [
+        {
+          "text": "Anyone",
+          "startMs": 281,
+          "endMs": 320,
+          "timestampMs": 301,
+          "confidence": 1
+        },
+        {
+          "text": " need",
+          "startMs": 368,
+          "endMs": 560,
+          "timestampMs": 464,
+          "confidence": 1
+        },
+        {
+          "text": " anything?",
+          "startMs": 613,
+          "endMs": 1680,
+          "timestampMs": 1147,
+          "confidence": 1
+        }
+      ],
+      "hash": "fd8dfe5d600c"
+    },
+    "v2": {
+      "speaker": "volt",
+      "file": "reels/squad-ep1/v2.mp3",
+      "durationMs": 3449,
+      "captions": [
+        {
+          "text": "Me!",
+          "startMs": 329,
+          "endMs": 560,
+          "timestampMs": 445,
+          "confidence": 1
+        },
+        {
+          "text": " I",
+          "startMs": 1192,
+          "endMs": 1200,
+          "timestampMs": 1196,
+          "confidence": 1
+        },
+        {
+          "text": " literally",
+          "startMs": 1248,
+          "endMs": 1680,
+          "timestampMs": 1464,
+          "confidence": 1
+        },
+        {
+          "text": " just",
+          "startMs": 1744,
+          "endMs": 2000,
+          "timestampMs": 1872,
+          "confidence": 1
+        },
+        {
+          "text": " said.",
+          "startMs": 2080,
+          "endMs": 2480,
+          "timestampMs": 2280,
+          "confidence": 1
+        },
+        {
+          "text": " Me.",
+          "startMs": 2747,
+          "endMs": 3440,
+          "timestampMs": 3093,
+          "confidence": 1
+        }
+      ],
+      "hash": "afb1deafe274"
+    },
+    "m2": {
+      "speaker": "mender",
+      "file": "reels/squad-ep1/m2.mp3",
+      "durationMs": 1046,
+      "captions": [
+        {
+          "text": "...Anyone?",
+          "startMs": 71,
+          "endMs": 1040,
+          "timestampMs": 556,
+          "confidence": 1
+        }
+      ],
+      "hash": "6770a4062fce"
+    },
+    "v3": {
+      "speaker": "volt",
+      "file": "reels/squad-ep1/v3.mp3",
+      "durationMs": 1621,
+      "captions": [
+        {
+          "text": "I'm",
+          "startMs": 120,
+          "endMs": 240,
+          "timestampMs": 180,
+          "confidence": 1
+        },
+        {
+          "text": " standing",
+          "startMs": 302,
+          "endMs": 800,
+          "timestampMs": 551,
+          "confidence": 1
+        },
+        {
+          "text": " right",
+          "startMs": 840,
+          "endMs": 1040,
+          "timestampMs": 940,
+          "confidence": 1
+        },
+        {
+          "text": " here.",
+          "startMs": 1120,
+          "endMs": 1600,
+          "timestampMs": 1360,
+          "confidence": 1
+        }
+      ],
+      "hash": "c426435d0082"
+    },
+    "m3": {
+      "speaker": "mender",
+      "file": "reels/squad-ep1/m3.mp3",
+      "durationMs": 2091,
+      "captions": [
+        {
+          "text": "Ooh.",
+          "startMs": 224,
+          "endMs": 1120,
+          "timestampMs": 672,
+          "confidence": 1
+        },
+        {
+          "text": " Shiny.",
+          "startMs": 1253,
+          "endMs": 2080,
+          "timestampMs": 1667,
+          "confidence": 1
+        }
+      ],
+      "hash": "e08abc1e4af0"
+    },
+    "a2": {
+      "speaker": "ann",
+      "file": "reels/squad-ep1/a2.mp3",
+      "durationMs": 1699,
+      "captions": [
+        {
+          "text": "Round",
+          "startMs": 358,
+          "endMs": 400,
+          "timestampMs": 379,
+          "confidence": 1
+        },
+        {
+          "text": " start.",
+          "startMs": 493,
+          "endMs": 1600,
+          "timestampMs": 1047,
+          "confidence": 1
+        }
+      ],
+      "hash": "bb62692b06d0"
+    },
+    "v4": {
+      "speaker": "volt",
+      "file": "reels/squad-ep1/v4.mp3",
+      "durationMs": 1203,
+      "captions": [
+        {
+          "text": "...Thanks,",
+          "startMs": 68,
+          "endMs": 560,
+          "timestampMs": 314,
+          "confidence": 1
+        },
+        {
+          "text": " I",
+          "startMs": 600,
+          "endMs": 640,
+          "timestampMs": 620,
+          "confidence": 1
+        },
+        {
+          "text": " guess.",
+          "startMs": 720,
+          "endMs": 1200,
+          "timestampMs": 960,
+          "confidence": 1
+        }
+      ],
+      "hash": "4c30b8c30c51"
+    },
+    "v5": {
+      "speaker": "volt",
+      "file": "reels/squad-ep1/v5.mp3",
+      "durationMs": 1046,
+      "captions": [
+        {
+          "text": "Worth",
+          "startMs": 367,
+          "endMs": 400,
+          "timestampMs": 384,
+          "confidence": 1
+        },
+        {
+          "text": " it.",
+          "startMs": 533,
+          "endMs": 1040,
+          "timestampMs": 787,
+          "confidence": 1
+        }
+      ],
+      "hash": "91e4edcfdf36"
+    }
+  },
+  "sfx": {
+    "buy": {
+      "file": "reels/squad-ep1/sfx-buy.mp3",
+      "durationMs": 602,
+      "hash": "aaa605aaf561"
+    },
+    "cash": {
+      "file": "reels/squad-ep1/sfx-cash.mp3",
+      "durationMs": 1020,
+      "hash": "fd150a6bc189"
+    },
+    "shot": {
+      "file": "reels/squad-ep1/sfx-shot.mp3",
+      "durationMs": 1203,
+      "hash": "fa95325973fb"
+    },
+    "thud": {
+      "file": "reels/squad-ep1/sfx-thud.mp3",
+      "durationMs": 811,
+      "hash": "6520dbfc180b"
+    },
+    "beep": {
+      "file": "reels/squad-ep1/sfx-beep.mp3",
+      "durationMs": 2012,
+      "hash": "c13032a9eeac"
+    },
+    "defeat": {
+      "file": "reels/squad-ep1/sfx-defeat.mp3",
+      "durationMs": 2483,
+      "hash": "390c420d94fb"
+    },
+    "pop": {
+      "file": "reels/squad-ep1/sfx-pop.mp3",
+      "durationMs": 497,
+      "hash": "6e1183050cca"
+    },
+    "whoosh": {
+      "file": "reels/squad-ep1/sfx-whoosh.mp3",
+      "durationMs": 602,
+      "hash": "89bb29bfc358"
+    },
+    "pickup": {
+      "file": "reels/squad-ep1/sfx-pickup.mp3",
+      "durationMs": 811,
+      "hash": "ded4fa2aad11"
+    },
+    "crickets": {
+      "file": "reels/squad-ep1/sfx-crickets.mp3",
+      "durationMs": 2012,
+      "hash": "0377710d2dd2"
+    }
+  },
+  "music": {
+    "loop": {
+      "file": "reels/squad-ep1/music-loop.mp3",
+      "durationMs": 40072,
+      "hash": "f94125e89d14"
+    }
+  }
+}
