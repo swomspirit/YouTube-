@@ -184,8 +184,8 @@ export const Overlays: React.FC<{ t: number; fps: number }> = ({ t, fps }) => {
                 <In c={c} at={x.at}>
                   <div style={{ ...card, width: 560, height: 260, display: "flex", alignItems: "center", justifyContent: "center", ...big(80, x.txt === "E = mc²" ? GOLD : CYAN) }}>{x.txt}</div>
                 </In>
-                <div style={{ position: "absolute", left: 0, right: 0, top: 86, display: "flex", justifyContent: "center" }}>
-                  <Stamp c={c} at={W("e01", "either")} text="✗ NOT IT" color={RED} />
+                <div style={{ position: "absolute", left: 0, right: 0, top: 196, display: "flex", justifyContent: "center" }}>
+                  <Stamp c={c} at={W("e01", "either")} text="✗ NOT IT" color={RED} style={{ fontSize: 40 }} />
                 </div>
               </div>
             ))}

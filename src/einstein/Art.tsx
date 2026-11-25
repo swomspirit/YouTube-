@@ -3,7 +3,7 @@ import { RUNS, TL, W, beatAt, beatOf, vis, type Scene } from "./timeline";
 
 /*
  * Generated artwork layer (fal.ai FLUX Pro, upscaled with Clarity): one background per scene,
- * plus "Lumi", the channel's original robot host, who reacts to the story.
+ * plus an illustrated Albert Einstein who reacts to his own story.
  */
 const BG: Record<Scene, { file: string; bright: number; blur?: number } | null> = {
   hook: { file: "hook", bright: 0.62 },
@@ -40,7 +40,7 @@ export const Backdrops: React.FC<{ t: number }> = ({ t }) => (
   </>
 );
 
-/* ---------------- Lumi, the host ---------------- */
+/* ---------------- Einstein, the host ---------------- */
 type Pose = "wave" | "point" | "shock" | "think" | "thumbs" | "present";
 type Cue = { id: string; pose: Pose; word?: string; side?: "left" | "right" };
 const CUES: Cue[] = [
@@ -90,15 +90,15 @@ export const Host: React.FC<{ t: number; fps: number }> = ({ t, fps }) => {
     <div
       style={{
         position: "absolute",
-        bottom: 118 + bob,
+        bottom: 104 + bob,
         [side]: 40,
-        height: 330,
-        transform: `translateY(${(1 - enter) * 380 + (1 - leave) * 380}px) scaleX(${(side === "left" ? -1 : 1) * flip / sq}) scaleY(${sq})`,
+        height: 410,
+        transform: `translateY(${(1 - enter) * 470 + (1 - leave) * 470}px) scaleX(${(side === "left" ? -1 : 1) * flip / sq}) scaleY(${sq})`,
         transformOrigin: "bottom center",
         filter: "drop-shadow(0 12px 24px rgba(0,0,0,0.55))",
       }}
     >
-      <Img src={staticFile(`einstein-art/host/${cue.pose}.png`)} style={{ height: 330 }} />
+      <Img src={staticFile(`einstein-art/host/${cue.pose}.png`)} style={{ height: 410 }} />
     </div>
   );
 };
