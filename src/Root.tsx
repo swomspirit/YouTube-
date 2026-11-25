@@ -71,6 +71,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="IveyShort" component={IveyShort} durationInFrames={SHORT_DURATION} fps={30} width={1080} height={1920} />
       <Composition id="TwistDemo" component={TwistDemo} durationInFrames={DEMO_DURATION} fps={30} width={1080} height={1920} />
       <Composition id="PokerIvey2D" component={PokerIvey2D} durationInFrames={IVEY_DURATION} fps={IVEY_FPS} width={1920} height={1080} />
+      <Composition id="PokerIvey2DFun" component={PokerIvey2D} durationInFrames={IVEY_DURATION} fps={IVEY_FPS} width={1920} height={1080} defaultProps={{ fun: true }} />
       <Composition id="PokerIveyFunny" component={PokerIveyFunny} durationInFrames={IVEY_FUNNY_DURATION} fps={IVEY_FUNNY_FPS} width={1920} height={1080} />
       <Composition id="PokerIvey" component={PokerIvey} durationInFrames={IVEY_DURATION} fps={IVEY_FPS} width={1920} height={1080} />
       <Still id="PianoThumbnail" component={PianoThumbnail} width={1280} height={720} />

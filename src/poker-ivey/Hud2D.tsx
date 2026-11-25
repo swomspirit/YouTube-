@@ -1,5 +1,5 @@
 import { AbsoluteFill, interpolate, spring } from "remotion";
-import { beatAt, findBeat, stateAt, TL } from "./timeline";
+import { LINES, beatAt, findBeat, stateAt, TL } from "./timeline";
 
 const FONT = "Inter, Helvetica, Arial, sans-serif";
 const GOLD = "#f2c95b";
@@ -49,9 +49,46 @@ const COACH: Record<string, Coach> = {
   t_odds: { title: "POT ODDS", lines: [], extra: "odds" },
 };
 
+/* ---------- fun cut: word-by-word subtitles (skips lines the panels already show) ---------- */
+type Word = { text: string; s: number; e: number };
+const FILE_TO_LINE = Object.fromEntries(Object.entries(LINES).map(([id, l]) => [l.file, id]));
+const CHUNKS: { id: string; words: Word[] }[] = [];
+for (const c of [...TL.cues].sort((a, b) => a.t - b.t)) {
+  const id = FILE_TO_LINE[c.file];
+  if (!id || id.startsWith("t_") || id === "c_lesson" || id === "wyc") continue;
+  let cur: Word[] = [];
+  for (const cap of LINES[id].captions) {
+    const w = { text: cap.text.trim(), s: c.t + cap.startMs / 1000, e: c.t + cap.endMs / 1000 };
+    if (!w.text) continue;
+    cur.push(w);
+    if (cur.length >= 5 || (/[.!?…,:]$/.test(w.text) && cur.length >= 2)) {
+      CHUNKS.push({ id, words: cur });
+      cur = [];
+    }
+  }
+  if (cur.length) CHUNKS.push({ id, words: cur });
+}
+const Subtitles: React.FC<{ t: number }> = ({ t }) => {
+  const i = CHUNKS.findIndex((c, k) => t >= c.words[0].s - 0.05 && t < Math.min(c.words[c.words.length - 1].e + 0.35, CHUNKS[k + 1]?.words[0].s ?? Infinity));
+  if (i < 0) return null;
+  const c = CHUNKS[i];
+  const base = c.id.startsWith("m_") ? "#7ff5e6" : "#ffffff";
+  return (
+    <div style={{ position: "absolute", left: 0, right: 0, bottom: 40, display: "flex", justifyContent: "center" }}>
+      <div style={{ maxWidth: 1500, textAlign: "center" }}>
+        {c.words.map((w, k) => (
+          <span key={k} style={{ display: "inline-block", margin: "0 9px", fontSize: 52, fontWeight: 900, color: t >= w.s ? (t < w.e + 0.05 ? GOLD : base) : "rgba(255,255,255,0.55)", WebkitTextStroke: "8px #120c10", paintOrder: "stroke" }}>
+            {w.text.replace(/[,.…]+$/, "")}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+};
+
 const BEATS = ["A-A", "A-8", "Any 8", "9-9", "7-7", "A-K", "J-10", "10-6"];
 
-export const IveyHud2D: React.FC<{ t: number; fps: number }> = ({ t, fps }) => {
+export const IveyHud2D: React.FC<{ t: number; fps: number; fun?: boolean }> = ({ t, fps, fun = false }) => {
   const s = stateAt(t);
   const b = beatAt(t);
   const sp = (start: number, damping = 13) => spring({ frame: Math.round((t - start) * fps), fps, config: { damping } });
@@ -62,6 +99,10 @@ export const IveyHud2D: React.FC<{ t: number; fps: number }> = ({ t, fps }) => {
   const showTable = b.step.k !== "title" && b.step.k !== "lesson" && b.step.k !== "outro";
   const coach = b.step.k === "coach" ? COACH[id] : null;
   const revealed = s.revealAt !== null && t >= s.revealAt + 0.3;
+  // fun cut: running count of Ivey's checks
+  const checks = TL.acts.filter((a) => a.t + 0.35 <= t && a.act.a === "check" && a.act.who === "ivey");
+  const lastCheckT = checks.length ? checks[checks.length - 1].t + 0.35 : 0;
+  const tallyOn = fun && checks.length > 0 && showTable && t < reveal.end + 3;
 
   return (
     <AbsoluteFill style={{ fontFamily: FONT }}>
@@ -112,6 +153,16 @@ export const IveyHud2D: React.FC<{ t: number; fps: number }> = ({ t, fps }) => {
             </div>
           ) : null}
         </>
+      ) : null}
+
+      {tallyOn ? (
+        <div style={{ ...panel, position: "absolute", right: 40, top: 40, padding: "10px 20px", border: `2px solid ${checks.length >= 3 ? RED : "rgba(255,255,255,0.25)"}`, transform: `scale(${1 + 0.22 * (1 - sp(lastCheckT, 8))})` }}>
+          <div style={{ fontSize: 17, letterSpacing: 4, opacity: 0.75, fontWeight: 800 }}>IVEY CHECKS</div>
+          <div style={{ fontSize: 58, fontWeight: 900, color: checks.length >= 3 ? RED : GOLD, lineHeight: 1.05 }}>
+            {checks.length}
+            {checks.length >= 3 ? <span style={{ fontSize: 22, color: "white", opacity: 0.85, marginLeft: 12, fontWeight: 700 }}>nothing suspicious 🙂</span> : null}
+          </div>
+        </div>
       ) : null}
 
       {/* coach panel */}
@@ -191,9 +242,9 @@ export const IveyHud2D: React.FC<{ t: number; fps: number }> = ({ t, fps }) => {
                 <div style={{ fontSize: 22, letterSpacing: 6, opacity: 0.8 }}>325K TO CALL · POT 775K · YOU NEED 30%</div>
                 <div style={{ fontSize: 84, fontWeight: 900, transform: `scale(${sp(decide.start, 11)})` }}>WOULD YOU CALL?</div>
                 <div style={{ display: "flex", gap: 28, justifyContent: "center", marginTop: 8 }}>
-                  <div style={{ padding: "12px 46px", borderRadius: 14, fontSize: 40, fontWeight: 900, background: "#3a1218", border: `3px solid ${RED}` }}>FOLD</div>
+                  <div style={{ padding: "12px 46px", borderRadius: 14, fontSize: 40, fontWeight: 900, background: "#3a1218", border: `3px solid ${RED}` }}>{fun ? "FOLD 🐔" : "FOLD"}</div>
                   <div style={{ fontSize: 70, fontWeight: 900, color: GOLD, width: 80 }}>{dt > 1.4 && dt < 4.4 ? count : "?"}</div>
-                  <div style={{ padding: "12px 46px", borderRadius: 14, fontSize: 40, fontWeight: 900, background: "#0f3a22", border: `3px solid ${GREEN}` }}>CALL</div>
+                  <div style={{ padding: "12px 46px", borderRadius: 14, fontSize: 40, fontWeight: 900, background: "#0f3a22", border: `3px solid ${GREEN}` }}>{fun ? "CALL 🦸" : "CALL"}</div>
                 </div>
                 <div style={{ fontSize: 24, marginTop: 10, opacity: 0.85 }}>Comment your answer 👇</div>
               </div>
@@ -239,6 +290,7 @@ export const IveyHud2D: React.FC<{ t: number; fps: number }> = ({ t, fps }) => {
           <div style={{ fontSize: 40, opacity: 0.85, marginTop: 24 }}>Tell me in the comments 👇 · Subscribe for more hand breakdowns</div>
         </AbsoluteFill>
       ) : null}
+      {fun ? <Subtitles t={t} /> : null}
     </AbsoluteFill>
   );
 };

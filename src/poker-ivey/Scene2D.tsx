@@ -484,7 +484,6 @@ export const PokerScene2D: React.FC<{ t: number }> = ({ t }) => {
     { b: "m_panic", emoji: "🌀", text: "?!?!?!", who: "hero" },
     { b: "t_beats", emoji: "🥪", text: "lunch?", who: "ivey" },
     { b: "t_odds", emoji: "🧮", text: "30%...?", who: "hero" },
-    { b: "", k: "decide", emoji: "⚖️", text: "FOLD / CALL", who: "hero" },
   ];
   const bubble = BUBBLES.find((x) => (x.k ? b.step.k === x.k : id === x.b));
 
