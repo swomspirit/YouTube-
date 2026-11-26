@@ -15,6 +15,7 @@ import { IveyShort, SHORT_DURATION } from "./ivey-short/Short";
 import { DrumLevels, DRUM_LEVELS_DURATION, FPS as DRUM_FPS } from "./drums/DrumLevels";
 import { DrumShort, DRUM_SHORT_DURATION } from "./drums/DrumShort";
 import { PianoLevels, PIANO_LEVELS_DURATION, FPS as PIANO_FPS } from "./piano/PianoLevels";
+import { GuitarHookFrame } from "./guitar/HookFrame";
 import { GuitarShort, GUITAR_SHORT_DURATION, FPS as GUITAR_FPS } from "./guitar/GuitarShort";
 import { TeleportUlt, TELEPORT_ULT_DURATION, FPS as REEL_FPS } from "./reels/teleport-ult/TeleportUlt";
 
@@ -87,6 +88,7 @@ export const RemotionRoot: React.FC = () => {
       {/* ---- Reels (9:16) ---- */}
       <Composition id="Short-RobotDrummer" component={DrumShort} durationInFrames={DRUM_SHORT_DURATION} fps={DRUM_FPS} width={1080} height={1920} />
       <Composition id="Short-CartoonDrummer" component={DrumShort} durationInFrames={DRUM_SHORT_DURATION} fps={DRUM_FPS} width={1080} height={1920} defaultProps={{ look: "2d" as const }} />
+      <Still id="GuitarHookFrame" component={GuitarHookFrame} width={1080} height={1920} />
       <Composition id="Short-Guitar100Days" component={GuitarShort} durationInFrames={GUITAR_SHORT_DURATION} fps={GUITAR_FPS} width={1080} height={1920} />
       <Composition
         id="Reel-TeleportUlt"
