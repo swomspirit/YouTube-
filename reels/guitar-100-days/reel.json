@@ -1,0 +1,19 @@
+{
+  "title": "I Learned Guitar From Zero (100 Days)",
+  "model": "eleven_multilingual_v2",
+  "voices": {
+    "narrator": "nPczCjzI2devNBz1zQrb"
+  },
+  "lines": [
+    { "id": "day1", "speaker": "narrator", "text": "Day one. He has never touched a guitar." },
+    { "id": "day7", "speaker": "narrator", "text": "Day seven. One note at a time." },
+    { "id": "day30", "speaker": "narrator", "text": "Day thirty. Now with a band." },
+    { "id": "day100", "speaker": "narrator", "text": "Day one hundred. Full speed." },
+    { "id": "outro", "speaker": "narrator", "text": "Which day are you on?" }
+  ],
+  "sfx": [
+    { "id": "cheer", "prompt": "big rock concert crowd cheering and screaming after a guitar solo", "duration": 4 },
+    { "id": "whoosh", "prompt": "short punchy whoosh transition", "duration": 0.6 },
+    { "id": "oops", "prompt": "comedic cartoon fail sound, short sad trombone wah wah", "duration": 1.5 }
+  ]
+}

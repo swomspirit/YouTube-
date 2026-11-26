@@ -1,0 +1,279 @@
+{
+  "lines": {
+    "day1": {
+      "speaker": "narrator",
+      "file": "reels/guitar-100-days/day1.mp3",
+      "durationMs": 2430,
+      "captions": [
+        {
+          "text": "Day",
+          "startMs": 0,
+          "endMs": 290,
+          "timestampMs": 145,
+          "confidence": 1
+        },
+        {
+          "text": " one.",
+          "startMs": 383,
+          "endMs": 673,
+          "timestampMs": 528,
+          "confidence": 1
+        },
+        {
+          "text": " He",
+          "startMs": 697,
+          "endMs": 766,
+          "timestampMs": 732,
+          "confidence": 1
+        },
+        {
+          "text": " has",
+          "startMs": 813,
+          "endMs": 917,
+          "timestampMs": 865,
+          "confidence": 1
+        },
+        {
+          "text": " never",
+          "startMs": 1068,
+          "endMs": 1347,
+          "timestampMs": 1208,
+          "confidence": 1
+        },
+        {
+          "text": " touched",
+          "startMs": 1393,
+          "endMs": 1637,
+          "timestampMs": 1515,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 1660,
+          "endMs": 1683,
+          "timestampMs": 1672,
+          "confidence": 1
+        },
+        {
+          "text": " guitar.",
+          "startMs": 1730,
+          "endMs": 2415,
+          "timestampMs": 2073,
+          "confidence": 1
+        }
+      ],
+      "hash": "31cd06f9987d"
+    },
+    "day7": {
+      "speaker": "narrator",
+      "file": "reels/guitar-100-days/day7.mp3",
+      "durationMs": 2012,
+      "captions": [
+        {
+          "text": "Day",
+          "startMs": 0,
+          "endMs": 244,
+          "timestampMs": 122,
+          "confidence": 1
+        },
+        {
+          "text": " seven.",
+          "startMs": 360,
+          "endMs": 743,
+          "timestampMs": 552,
+          "confidence": 1
+        },
+        {
+          "text": " One",
+          "startMs": 789,
+          "endMs": 964,
+          "timestampMs": 877,
+          "confidence": 1
+        },
+        {
+          "text": " note",
+          "startMs": 998,
+          "endMs": 1161,
+          "timestampMs": 1080,
+          "confidence": 1
+        },
+        {
+          "text": " at",
+          "startMs": 1196,
+          "endMs": 1265,
+          "timestampMs": 1231,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 1312,
+          "endMs": 1347,
+          "timestampMs": 1330,
+          "confidence": 1
+        },
+        {
+          "text": " time.",
+          "startMs": 1393,
+          "endMs": 1997,
+          "timestampMs": 1695,
+          "confidence": 1
+        }
+      ],
+      "hash": "f9eae0e65fb2"
+    },
+    "day30": {
+      "speaker": "narrator",
+      "file": "reels/guitar-100-days/day30.mp3",
+      "durationMs": 1673,
+      "captions": [
+        {
+          "text": "Day",
+          "startMs": 0,
+          "endMs": 244,
+          "timestampMs": 122,
+          "confidence": 1
+        },
+        {
+          "text": " thirty.",
+          "startMs": 325,
+          "endMs": 697,
+          "timestampMs": 511,
+          "confidence": 1
+        },
+        {
+          "text": " Now",
+          "startMs": 731,
+          "endMs": 848,
+          "timestampMs": 790,
+          "confidence": 1
+        },
+        {
+          "text": " with",
+          "startMs": 871,
+          "endMs": 975,
+          "timestampMs": 923,
+          "confidence": 1
+        },
+        {
+          "text": " a",
+          "startMs": 1010,
+          "endMs": 1033,
+          "timestampMs": 1022,
+          "confidence": 1
+        },
+        {
+          "text": " band.",
+          "startMs": 1068,
+          "endMs": 1672,
+          "timestampMs": 1370,
+          "confidence": 1
+        }
+      ],
+      "hash": "663b85abb8b8"
+    },
+    "day100": {
+      "speaker": "narrator",
+      "file": "reels/guitar-100-days/day100.mp3",
+      "durationMs": 1882,
+      "captions": [
+        {
+          "text": "Day",
+          "startMs": 0,
+          "endMs": 221,
+          "timestampMs": 111,
+          "confidence": 1
+        },
+        {
+          "text": " one",
+          "startMs": 290,
+          "endMs": 406,
+          "timestampMs": 348,
+          "confidence": 1
+        },
+        {
+          "text": " hundred.",
+          "startMs": 453,
+          "endMs": 755,
+          "timestampMs": 604,
+          "confidence": 1
+        },
+        {
+          "text": " Full",
+          "startMs": 801,
+          "endMs": 1057,
+          "timestampMs": 929,
+          "confidence": 1
+        },
+        {
+          "text": " speed.",
+          "startMs": 1126,
+          "endMs": 1858,
+          "timestampMs": 1492,
+          "confidence": 1
+        }
+      ],
+      "hash": "9a34c029c251"
+    },
+    "outro": {
+      "speaker": "narrator",
+      "file": "reels/guitar-100-days/outro.mp3",
+      "durationMs": 1177,
+      "captions": [
+        {
+          "text": "Which",
+          "startMs": 0,
+          "endMs": 244,
+          "timestampMs": 122,
+          "confidence": 1
+        },
+        {
+          "text": " day",
+          "startMs": 290,
+          "endMs": 406,
+          "timestampMs": 348,
+          "confidence": 1
+        },
+        {
+          "text": " are",
+          "startMs": 430,
+          "endMs": 511,
+          "timestampMs": 471,
+          "confidence": 1
+        },
+        {
+          "text": " you",
+          "startMs": 534,
+          "endMs": 615,
+          "timestampMs": 575,
+          "confidence": 1
+        },
+        {
+          "text": " on?",
+          "startMs": 685,
+          "endMs": 1161,
+          "timestampMs": 923,
+          "confidence": 1
+        }
+      ],
+      "hash": "c4f7a06458d1"
+    }
+  },
+  "sfx": {
+    "cheer": {
+      "file": "reels/guitar-100-days/sfx-cheer.mp3",
+      "durationMs": 4024,
+      "hash": "80836d886c4b"
+    },
+    "whoosh": {
+      "file": "reels/guitar-100-days/sfx-whoosh.mp3",
+      "durationMs": 602,
+      "hash": "999e430420ae"
+    },
+    "oops": {
+      "file": "reels/guitar-100-days/sfx-oops.mp3",
+      "durationMs": 1490,
+      "hash": "14ec3fb8fade"
+    }
+  },
+  "music": {}
+}

@@ -81,6 +81,21 @@ npx remotion render PianoLevels out/3-levels-of-piano.mp4
 The piano audio is rendered from the notes, so the falling notes and the sound always line up,
 and there are no copyrighted recordings.
 
+## Short: I Learned Guitar From Zero, Day 1 to Day 100 (9:16, ~65s)
+
+An original cartoon guitarist ("Riff") learns "In the Hall of the Mountain King" (Grieg,
+public domain): Day 1 fumbling, Day 7 with a metronome, Day 30 with a band, Day 100 at
+full speed with an accelerando, a pentatonic shred run and a dive bomb. Every note has a real
+string + fret (a small Viterbi fingering solver), so the animated fretting hand, the close-up
+fretboard and the scrolling tab all show exactly what you hear.
+
+```bash
+sudo apt-get install -y fluidsynth fluid-soundfont-gm && pip install mido
+python3 scripts/guitar/build_guitar.py        # notes + string/fret JSON + audio (FluidSynth)
+npm run reel:audio -- guitar-100-days         # narration + SFX (ElevenLabs)
+npx remotion render Short-Guitar100Days out/guitar-100-days.mp4 --concurrency=4
+```
+
 ## 2D cartoon reels (9:16)
 
 Short, joke-per-reel cartoons in a flat chibi style. Each reel has:
